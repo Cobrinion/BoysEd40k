@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="468e-a917-4877-c31a" name="Adeptus Astartes - Firstborn" revision="8" battleScribeVersion="2.03" authorName="Cobrinion" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="468e-a917-4877-c31a" name="Adeptus Astartes - Firstborn" revision="12" battleScribeVersion="2.03" authorName="Cobrinion" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <publications>
     <publication id="cfcf-7aa1-fe59-68ec" name="Book 1 The Council on Terra"/>
   </publications>
@@ -106,7 +106,7 @@
         <categoryLink id="519e-7200-799c-c2fa" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="443b-f700-04c3-e1be" name="Legion Attack Bike Squad (WIP)" hidden="false" collective="false" import="true" targetId="4a76-a270-884f-521c" type="selectionEntry">
+    <entryLink id="443b-f700-04c3-e1be" name="Legion Attack Bike Squadron" hidden="false" collective="false" import="true" targetId="4a76-a270-884f-521c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="52ac-83fa-c1b4-7895" name="Fast Attack" hidden="false" targetId="3aa2-0f2d-c4eb-172c" primary="true"/>
       </categoryLinks>
@@ -291,7 +291,7 @@
         <categoryLink id="2b03-c55a-67fa-4667" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3239-0258-6a4f-62e7" name="Sky-Hunter Squadron" hidden="false" collective="false" import="true" targetId="f749-c92e-a3f7-0bbe" type="selectionEntry">
+    <entryLink id="3239-0258-6a4f-62e7" name="Legion Jetbike Squadron" hidden="false" collective="false" import="true" targetId="f749-c92e-a3f7-0bbe" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="912b-2961-1f7d-74f2" name="Fast Attack" hidden="false" targetId="3aa2-0f2d-c4eb-172c" primary="true"/>
       </categoryLinks>
@@ -404,11 +404,6 @@ In additon, each Legion confers special abilities unique to them, defined by the
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4930-2ea7-e797-1095" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="5632-4e0f-dd1f-5853" name="Melta Bombs" hidden="false" targetId="25d1-1c7b-1b74-1cb8" type="profile"/>
-                <infoLink id="f74d-79a9-2cc8-7fe2" name="Armourbane" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
-                <infoLink id="0106-07fc-54d0-0457" name="Unwieldy" hidden="false" targetId="69cd-1f57-1f07-a602" type="rule"/>
-              </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
@@ -1511,7 +1506,7 @@ In additon, each Legion confers special abilities unique to them, defined by the
                   </constraints>
                   <infoLinks>
                     <infoLink id="7d2e-090b-50a2-04c6" name="Combi-Bolter" hidden="false" targetId="cfb1-8542-6a8c-a2ca" type="profile"/>
-                    <infoLink id="4bd0-c4b9-b96a-dce0" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="4bd0-c4b9-b96a-dce0" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -1668,7 +1663,7 @@ In additon, each Legion confers special abilities unique to them, defined by the
               </constraints>
               <infoLinks>
                 <infoLink id="dd6f-0aa8-2ad2-2570" name="Assault Cannon" hidden="false" targetId="64c8-fb7b-b876-b5d6" type="profile"/>
-                <infoLink id="479a-a24f-9554-5fbd" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                <infoLink id="479a-a24f-9554-5fbd" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -1740,7 +1735,7 @@ In additon, each Legion confers special abilities unique to them, defined by the
               </constraints>
               <infoLinks>
                 <infoLink id="9d37-1392-f0c2-41b5" name="Reaper Autocannon" hidden="false" targetId="5098-7bea-5b37-74a3" type="profile"/>
-                <infoLink id="a3e9-2986-9f15-80fe" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="a3e9-2986-9f15-80fe" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
@@ -2226,7 +2221,11 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="01e4-7833-3767-6db6" name="Melta Bombs" hidden="false" collective="false" import="true" targetId="cc53-32e7-9807-02cd" type="selectionEntry"/>
+            <entryLink id="01e4-7833-3767-6db6" name="Melta Bombs" hidden="false" collective="false" import="true" targetId="cc53-32e7-9807-02cd" type="selectionEntry">
+              <infoLinks>
+                <infoLink name="Melta Bomb" id="b97a-fc55-f01b-76ba" hidden="false" type="profile" targetId="4342-3fe8-c254-63ce"/>
+              </infoLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -2291,8 +2290,6 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
               <infoLinks>
                 <infoLink id="b1c9-03fd-06e7-ddb9" name="Grav-cannon" hidden="false" targetId="8f19-3c41-6d48-1c55" type="profile"/>
                 <infoLink id="f7dd-0045-3a6d-cdd0" name="Grav-amp" hidden="false" targetId="bf23-ea5b-efd5-70b5" type="profile"/>
-                <infoLink id="ae7a-3815-f317-ffee" name="Concussive" hidden="false" targetId="f3f1-f153-dabd-995f" type="rule"/>
-                <infoLink id="520c-6fa0-2e1d-82f8" name="Graviton" hidden="false" targetId="6b21-d56b-404f-7c28" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="35"/>
@@ -2360,7 +2357,6 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
               </constraints>
               <infoLinks>
                 <infoLink id="ba0e-015a-e815-a5fb" name="Plasma Cannon" hidden="false" targetId="625b-a2bf-eff1-e29a" type="profile"/>
-                <infoLink id="374a-f341-f5e5-39eb" name="Gets Hot" hidden="false" targetId="5d2d-493d-a032-fc88" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="75"/>
@@ -2380,7 +2376,7 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
       <profiles>
         <profile id="9a3b-32d5-eb27-1536" name="Legion Rhino (Transport)" hidden="false" typeId="e117-4193-8756-1465" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="0d1f-94e8-8176-5482">10</characteristic>
+            <characteristic name="Capacity" typeId="0d1f-94e8-8176-5482">12</characteristic>
             <characteristic name="Fire Points" typeId="80f0-dbea-cb89-3528">Two- Top Hatch</characteristic>
             <characteristic name="Access Points" typeId="65ec-159a-b517-6f9e">Three. One on each side of the Hull and one at the rear.</characteristic>
           </characteristics>
@@ -2392,16 +2388,11 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
             <characteristic name="Side" typeId="678c-ae54-8f51-b1df">11</characteristic>
             <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
             <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
-            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Transport</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle, Infantry Transport</characteristic>
             <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">14&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="3e34-aa4f-e299-4a53" name="Repair" hidden="false">
-          <description>In the Shooting phase instead of firing a weapon, the Rhino may attempt to repair an Immobilised result on a D6 roll of a 6.</description>
-        </rule>
-      </rules>
       <selectionEntryGroups>
         <selectionEntryGroup id="37fd-b2c2-094b-9f99" name="May take a Pintle-Mounted Weapon:" hidden="false" collective="false" import="true">
           <constraints>
@@ -2432,43 +2423,46 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
             <entryLink id="8d4f-4204-1558-4855" name="Heavy Flamers" hidden="false" collective="false" import="true" targetId="ddab-85aa-4ac3-b5d9" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="Heavy Flamer"/>
-                <modifier type="set" field="e7de-8dcf-403a-b76a" value="10"/>
+                <modifier type="set" field="e7de-8dcf-403a-b76a" value="5"/>
               </modifiers>
             </entryLink>
             <entryLink id="e6c8-c03a-cd10-a103" name="Multi-meltas" hidden="false" collective="false" import="true" targetId="c96d-769d-acfc-7060" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="e7de-8dcf-403a-b76a" value="15"/>
+                <modifier type="set" field="e7de-8dcf-403a-b76a" value="30"/>
                 <modifier type="set" field="name" value="Multi-Melta"/>
               </modifiers>
             </entryLink>
             <entryLink id="747a-857f-4d6a-6036" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="d9c9-1c70-4b7c-a579" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="e7de-8dcf-403a-b76a" value="0"/>
+                <modifier type="set" field="e7de-8dcf-403a-b76a" value="5"/>
               </modifiers>
             </entryLink>
           </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Combi-Bolter" hidden="false" id="f1a2-9b11-d8c1-f388">
+              <infoLinks>
+                <infoLink name="Combi-Bolter" id="1614-6ef8-3a77-466e" hidden="false" type="profile" targetId="cfb1-8542-6a8c-a2ca"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e55-0726-9eeb-0133" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="8654-a823-b336-6dc3" name="May choose between:" hidden="false" collective="false" import="true" defaultSelectionEntryId="107b-2f8a-6a5e-a5d4">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="00c7-c698-b62f-7455" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a944-19ec-d158-d146" name="Twin-linked Bolter" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a944-19ec-d158-d146" name="Combi-Bolter" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63c-49b9-a5b0-4aa0" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="89f0-0c7a-49e3-932e" name="Twin-linked Bolter" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Twin-Linked</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <infoLinks>
-                <infoLink id="0cc0-a4f2-ff2d-5571" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink name="Combi-Bolter" id="ae08-31f6-f536-85f5" hidden="false" type="profile" targetId="cfb1-8542-6a8c-a2ca"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -2479,7 +2473,6 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f5a-5d89-7d29-edd6" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="8307-f16d-4763-9d6b" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                 <infoLink id="e31d-5db4-9ef8-9681" name="Lascannon" hidden="false" targetId="6789-a19c-72d5-41b3" type="profile"/>
               </infoLinks>
               <costs>
@@ -2497,65 +2490,46 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
         </selectionEntryGroup>
         <selectionEntryGroup id="f96b-9bfd-69c5-f1bb" name="May take any of the following:" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="bb60-3072-810a-7ac6" name="Auxiliary Drive" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d229-1136-901e-604f" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="de56-b039-062f-3110" name="Auxiliary Drive" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
-                  <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A vehicle with an auxiliary drive may repair Immobilised results it suffers on a D6 roll of 4+ at the start of the controlling player&apos;s Movement phase.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="7333-cc08-fcf7-22c2" name="Dozer Blade" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2977-9e62-034e-6e6c" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="cd87-241f-a21a-d430" name="Dozer Blade" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
-                  <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Vehicles equipped with dozer blades treat their front armour as one higher than normal when ramming. The vehicle can re-roll failed Dangerous Terrain tests.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Dozer Blade" id="3d95-18b0-9f43-0722" hidden="false" type="profile" targetId="adc5-51c4-322b-39d1"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="45e3-d2ca-187e-f8d3" name="Extra Armour" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61da-3cbb-7d75-55f4" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="8093-0f1c-95d3-90b8" name="Extra Armour" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
-                  <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Vehicles equipped with extra armour count Crew Stunned results from the Vehicle Damage table as Crew Shaken results instead.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Extra Armour" id="f738-5865-cb66-caa9" hidden="false" type="profile" targetId="712f-db62-39f7-584f"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="4774-170d-89aa-2b7f" name="Hunter-killer Missle" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5b6-c0a9-0119-bd6e" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="918c-b642-b281-43f3" name="Hunter-killer Missle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Infinite</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, One Use Only</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Hunter-Killer Missile" id="f4b4-b9c2-8d8c-4632" hidden="false" type="profile" targetId="f5aa-454d-e0cd-863e"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Searchlights" hidden="false" id="e51b-764f-1ae0-b578">
+              <infoLinks>
+                <infoLink name="Searchlights" id="590f-9965-e9b4-2dba" hidden="false" type="profile" targetId="c50c-3005-7846-a79e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c72-f246-edeb-903e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
@@ -2569,6 +2543,10 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="35"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Repair" id="93f4-f938-e8a2-5d0f" hidden="false" type="rule" targetId="d8d5-0da7-b5d3-960d"/>
+        <infoLink name="Smoke Launchers" id="d70a-3875-8624-b900" hidden="false" type="profile" targetId="7ff5-cd30-5c53-c8aa"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="d2e0-218b-0072-2ed5" name="Sanguinary Guard" hidden="true" collective="false" import="true" type="unit">
       <profiles>
@@ -2927,7 +2905,7 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdbc-1de2-c3e0-e417" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="b256-cd39-51b3-f479" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="b256-cd39-51b3-f479" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                     <infoLink id="f362-eec2-0816-0f6b" name="Combi-Bolter" hidden="false" targetId="cfb1-8542-6a8c-a2ca" type="profile"/>
                   </infoLinks>
                   <costs>
@@ -3089,7 +3067,7 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
                 <selectionEntry id="5482-22e1-902b-7ddf" name="Combi-Bolter" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="6ca2-1ba6-2c3d-e509" name="Combi-Bolter" hidden="false" targetId="cfb1-8542-6a8c-a2ca" type="profile"/>
-                    <infoLink id="e05b-eb00-7429-ba9b" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="e05b-eb00-7429-ba9b" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -3181,7 +3159,7 @@ A Space Wolves detachment may not take Tactical or Assault Squads.</description>
               </constraints>
               <infoLinks>
                 <infoLink id="ead1-c664-8da9-8021" name="Assault Cannon" hidden="false" targetId="64c8-fb7b-b876-b5d6" type="profile"/>
-                <infoLink id="bedf-6a16-1ffc-5bd6" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                <infoLink id="bedf-6a16-1ffc-5bd6" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -3657,7 +3635,7 @@ In addition, units containing one or more models with the Zealot special rule re
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="14df-0d06-315e-35e5" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
+                <infoLink id="14df-0d06-315e-35e5" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Rending (6)"/>
                   </modifiers>
@@ -3940,21 +3918,17 @@ In addition, units containing one or more models with the Zealot special rule re
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="b21d-a481-7cdc-2a42" name="Searchlight and Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b21d-a481-7cdc-2a42" name="Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3705-4227-5f9b-2723" type="max"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d44e-5a13-64d8-2dcb" type="min"/>
               </constraints>
-              <profiles>
-                <profile id="a3ed-9c5e-5a1f-0138" name="Searchlight" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
-                  <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Night fighting only. After firing all of it&apos;s weapons, this model can choose to illuminate its target with the searchlight. If it does, it also illuminates itself.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Smoke Launchers" id="ad0c-a422-c0af-4568" hidden="false" type="profile" targetId="7ff5-cd30-5c53-c8aa"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -4004,18 +3978,8 @@ In addition, units containing one or more models with the Zealot special rule re
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="267f-29cc-f9bb-3d6a" type="max"/>
                   </constraints>
-                  <profiles>
-                    <profile id="9655-766c-1b46-3e4f" name="Twin-Linked Lascannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
-                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
-                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Twin-Linked</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
                   <infoLinks>
-                    <infoLink id="0dd6-7695-b69a-f8d8" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink name="Twin-linked Lascannon" id="2a5d-6445-b542-29a2" hidden="false" type="profile" targetId="0d66-2d65-80f6-5f42"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30"/>
@@ -4036,24 +4000,16 @@ In addition, units containing one or more models with the Zealot special rule re
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="324d-5e56-8730-6b94" type="max"/>
                   </constraints>
-                  <profiles>
-                    <profile id="cc38-6aff-02ba-c5e5" name="Predator Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
-                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
-                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 4</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
                   </costs>
+                  <infoLinks>
+                    <infoLink name="Predator Cannon" id="98a1-7ae0-132d-6919" hidden="false" type="profile" targetId="9dd7-e106-3cc9-abed"/>
+                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry id="a134-3e87-8d3d-2192" name="Flamestorm Cannon" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="ef0b-5af5-f319-925c" name="Flamestorm Cannon" hidden="false" targetId="4438-4124-330b-8328" type="profile"/>
-                    <infoLink id="936a-cc19-27cf-50e3" name="Torrent" hidden="false" targetId="8772-5a45-ef05-eb00" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -4070,6 +4026,9 @@ In addition, units containing one or more models with the Zealot special rule re
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
                   </costs>
+                  <infoLinks>
+                    <infoLink name="Dozer Blade" id="f482-e8ea-0316-d085" hidden="false" type="profile" targetId="adc5-51c4-322b-39d1"/>
+                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry id="673d-0773-f0a4-8662" name="Extra Armour" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -4078,6 +4037,9 @@ In addition, units containing one or more models with the Zealot special rule re
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
                   </costs>
+                  <infoLinks>
+                    <infoLink name="Extra Armour" id="26fa-eb2e-e243-080e" hidden="false" type="profile" targetId="712f-db62-39f7-584f"/>
+                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry id="3058-1a35-dcf9-5da5" name="Hunter-killer Missle" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -4086,6 +4048,9 @@ In addition, units containing one or more models with the Zealot special rule re
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
                   </costs>
+                  <infoLinks>
+                    <infoLink name="Hunter-Killer Missile" id="9c6c-74f2-1107-f411" hidden="false" type="profile" targetId="f5aa-454d-e0cd-863e"/>
+                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry id="c3e5-95bb-55f1-b09a" name="Pintle-Mounted Storm Bolter" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -4094,6 +4059,9 @@ In addition, units containing one or more models with the Zealot special rule re
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
                   </costs>
+                  <infoLinks>
+                    <infoLink name="Storm Bolter" id="f939-81b4-d943-e1ea" hidden="false" type="profile" targetId="a144-5691-6fd0-a068"/>
+                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry id="a6ea-b5f3-043a-c06d" name="Power of the Machine Spirit" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -4106,31 +4074,19 @@ In addition, units containing one or more models with the Zealot special rule re
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="e7d2-b8e1-afc5-9ec6" name="Armoured Ceramite" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d5-7cb2-9730-4b3e" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="b5e1-8168-134f-83f6" name="Searchlight" hidden="false" collective="false" import="true" type="upgrade">
-                  <profiles>
-                    <profile id="cdf7-c484-3105-5ce5" name="Searchlight" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
-                      <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Night fighting only. After firing all of it&apos;s weapons, this model can choose to illuminate its target with the searchlight. If it does, it also illuminates itself.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
                   </costs>
+                  <infoLinks>
+                    <infoLink name="Searchlights" id="c604-fecc-b00d-5d69" hidden="false" type="profile" targetId="c50c-3005-7846-a79e"/>
+                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="85"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="105"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4244,7 +4200,7 @@ In addition, units containing one or more models with the Zealot special rule re
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="1449-056a-5605-713f" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                    <infoLink id="1449-056a-5605-713f" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -4307,7 +4263,7 @@ In addition, units containing one or more models with the Zealot special rule re
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="0fb4-bc2d-8efa-cb76" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="0fb4-bc2d-8efa-cb76" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
@@ -4328,7 +4284,7 @@ In addition, units containing one or more models with the Zealot special rule re
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="460c-f304-228c-2bdf" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="460c-f304-228c-2bdf" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
@@ -4394,7 +4350,7 @@ In addition, units containing one or more models with the Zealot special rule re
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="e28b-97bf-c6b4-639c" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="e28b-97bf-c6b4-639c" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -4457,7 +4413,7 @@ In addition, units containing one or more models with the Zealot special rule re
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="59a2-37c3-ae8e-b8ed" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                    <infoLink id="59a2-37c3-ae8e-b8ed" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -4520,7 +4476,7 @@ In addition, units containing one or more models with the Zealot special rule re
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="498f-743e-9335-33b7" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="498f-743e-9335-33b7" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
@@ -4541,7 +4497,7 @@ In addition, units containing one or more models with the Zealot special rule re
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="a950-e785-46b8-3b7e" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="a950-e785-46b8-3b7e" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
@@ -4607,7 +4563,7 @@ In addition, units containing one or more models with the Zealot special rule re
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="fec5-48d5-2b27-9ffa" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="fec5-48d5-2b27-9ffa" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -4895,7 +4851,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="f990-df2a-accf-41b6" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                    <infoLink id="f990-df2a-accf-41b6" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -4958,7 +4914,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="c682-567e-7598-78e1" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="c682-567e-7598-78e1" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
@@ -4979,7 +4935,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="7d36-9bb4-0ceb-0920" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="7d36-9bb4-0ceb-0920" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
@@ -5045,7 +5001,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="63c3-2919-95b1-547f" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="63c3-2919-95b1-547f" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -5164,7 +5120,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="efc6-ae5d-3598-70ca" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                    <infoLink id="efc6-ae5d-3598-70ca" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -5227,7 +5183,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="46b9-f2e6-6caf-7e17" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="46b9-f2e6-6caf-7e17" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
@@ -5248,7 +5204,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="542b-098d-f239-1352" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="542b-098d-f239-1352" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
@@ -5314,7 +5270,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="0024-d72e-fa3a-162f" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="0024-d72e-fa3a-162f" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -5944,16 +5900,6 @@ Explodes results add D3&quot; to radius.</description>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fee-a271-ebb4-a291" type="max"/>
                   </constraints>
-                  <profiles>
-                    <profile id="70ae-34ab-1fa7-685d" name="Hunter-killer Missle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Infinite</characteristic>
-                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
-                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, One Use Only</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
                   </costs>
@@ -6096,7 +6042,7 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
           <selectionEntries>
             <selectionEntry id="5645-5b7f-a7b8-2e2c" name="Twin-linked Bolter" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="8f7e-0260-18bc-2ff7" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="8f7e-0260-18bc-2ff7" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                 <infoLink id="a5f2-b2e6-c385-cad6" name="Boltgun" hidden="false" targetId="9420-4cc8-cd07-bc52" type="profile"/>
               </infoLinks>
               <costs>
@@ -6155,6 +6101,9 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Smoke Launchers" id="5d37-3aa0-d186-f352" hidden="false" type="profile" targetId="7ff5-cd30-5c53-c8aa"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="b7c2-9360-17d0-8f3f" name="May take any of the following:" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6167,16 +6116,12 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ac-f3bf-f70d-e68b" type="max"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb21-1b27-bd74-3272" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="6107-bc2e-7ac5-5614" name="Searchlight" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
-                  <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Night fighting only. After firing all of it&apos;s weapons, this model can choose to illuminate its target with the searchlight. If it does, it also illuminates itself.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Searchlights" id="d3ee-108a-2081-a8b9" hidden="false" type="profile" targetId="c50c-3005-7846-a79e"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="8730-e37f-b0f9-88f5" name="Flare Shield" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -6196,6 +6141,9 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8d5-cd44-090c-9c56" type="max"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="113b-debf-578e-cd33" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink name="Hunter-Killer Missile" id="e0e9-00b1-10d8-d9ac" hidden="false" type="profile" targetId="f5aa-454d-e0cd-863e"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
           <costs>
@@ -6212,7 +6160,7 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
           <selectionEntries>
             <selectionEntry id="b3f4-ac37-6dc4-93d8" name="Twin-linked Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="8909-cffa-c93e-5a60" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="8909-cffa-c93e-5a60" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                 <infoLink id="7963-1986-173c-c456" name="Heavy Bolter" hidden="false" targetId="ca4f-7c64-abdd-819d" type="profile"/>
               </infoLinks>
               <costs>
@@ -6221,7 +6169,7 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
             </selectionEntry>
             <selectionEntry id="ca5a-89f0-eaee-fe5a" name="Twin-linked Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="26a1-341f-c470-2e7e" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="26a1-341f-c470-2e7e" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                 <infoLink id="3d94-61ae-560b-3c6f" name="Heavy Flamer" hidden="false" targetId="4a87-2884-7397-fd84" type="profile"/>
               </infoLinks>
               <costs>
@@ -6230,9 +6178,7 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
             </selectionEntry>
             <selectionEntry id="451d-e7a4-0ca3-1926" name="Twin-linked Lascannon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="0350-9d27-a886-7005" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                 <infoLink id="adfc-bf3f-46be-94f8" name="Lascannon" hidden="false" targetId="6789-a19c-72d5-41b3" type="profile"/>
-                <infoLink id="fce1-bade-91ce-3fc7" name="Sunder" hidden="false" targetId="69cb-9416-7d88-15db" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
@@ -6251,8 +6197,6 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a92b-6a50-1f9e-cd7f" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="8807-801e-0e06-b48d" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
-                <infoLink id="6ede-f485-4a07-f9af" name="Sunder" hidden="false" targetId="69cb-9416-7d88-15db" type="rule"/>
                 <infoLink id="bfc8-e6db-8287-6346" name="Lascannon Array" hidden="false" targetId="69a0-595b-8e14-7aeb" type="profile"/>
               </infoLinks>
               <costs>
@@ -6265,12 +6209,6 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
               </constraints>
               <infoLinks>
                 <infoLink id="cd89-04b2-7a11-ef13" name="Laser Destroyer" hidden="false" targetId="b929-0989-96ce-131b" type="profile"/>
-                <infoLink id="8777-9a12-54e7-06c5" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
-                <infoLink id="cbfd-4333-2fb6-a220" name="Exoshock" hidden="false" targetId="08ab-5cd6-ec65-a094" type="rule">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Exoshock (6+)"/>
-                  </modifiers>
-                </infoLink>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -6286,7 +6224,7 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
             <selectionEntry id="d552-08b3-f7f9-1be8" name="Havoc Launcher" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="ce55-f943-0be7-a26a" name="Havoc Launcher" hidden="false" targetId="f75f-4879-62c9-0247" type="profile"/>
-                <infoLink id="216e-9c5b-81ab-6755" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="216e-9c5b-81ab-6755" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -6311,7 +6249,7 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
             <selectionEntry id="46c7-b93a-6d10-1057" name="Multi-Melta" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="caaf-77fe-6578-f327" name="Multi-melta" hidden="false" targetId="c031-bf66-238d-35b6" type="profile"/>
-                <infoLink id="a154-9d16-8c21-642e" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="a154-9d16-8c21-642e" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                 <infoLink id="c717-6186-7b07-2495" name="Melta" hidden="false" targetId="25dd-f53c-779e-cefb" type="rule"/>
               </infoLinks>
               <costs>
@@ -6532,7 +6470,7 @@ Ragnar must always issue and accept challenges when possible.</description>
         </infoLink>
         <infoLink id="e3f7-584d-cc9e-6bc4" name="Melta Bomb" hidden="false" targetId="4342-3fe8-c254-63ce" type="profile"/>
         <infoLink id="9998-26d7-8cff-cb7f" name="Bolt Pistol" hidden="false" targetId="2cb8-e71e-1b53-17fc" type="profile"/>
-        <infoLink id="17cf-b47c-7a1f-7e56" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+        <infoLink id="17cf-b47c-7a1f-7e56" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
         <infoLink id="dd64-fb91-fb16-a99d" name="Furious Charge" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Furious Charge (1)"/>
@@ -6944,7 +6882,7 @@ Ragnar must always issue and accept challenges when possible.</description>
               </constraints>
               <infoLinks>
                 <infoLink id="53a3-413c-d474-f744" name="Power Sword" hidden="false" targetId="a559-1dfb-6cf5-65c7" type="profile"/>
-                <infoLink id="33e8-e32c-99d6-611a" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                <infoLink id="33e8-e32c-99d6-611a" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -7140,7 +7078,7 @@ Ragnar must always issue and accept challenges when possible.</description>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="5a78-4d7c-fe91-e2f0" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
+                    <infoLink id="5a78-4d7c-fe91-e2f0" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
                       <modifiers>
                         <modifier type="set" field="name" value="Rending (6)"/>
                       </modifiers>
@@ -7466,21 +7404,6 @@ Ragnar must always issue and accept challenges when possible.</description>
               <description>All close combat attacks made by a model with a Thunderwolf mount have the Rending (6+) special rule. In addition, a model upgraded to have a Thunderwolf mount increases their Strength, Attacks and Wounds characteristics by 1 and gains the Hammer of Wrath (1), Relentless, Hit and Run and Cavalry special rules (these bonuses are already included in the profiles of models that have a Thunderwolf mount as part of their standard wargear).</description>
             </rule>
           </rules>
-          <infoLinks>
-            <infoLink id="02d5-1cfd-54d4-3e26" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Rending (6)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="c671-426a-6cbc-01f9" name="Cavalry" hidden="false" targetId="4748-71d0-ebeb-241a" type="rule"/>
-            <infoLink id="8be5-ff0d-ff7d-d6d8" name="Hammer of Wrath" hidden="false" targetId="a4d3-4e19-13d9-508e" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="efae-3482-d40b-3584" name="Relentless" hidden="false" targetId="37e2-a92b-40b4-d7cc" type="rule"/>
-            <infoLink id="3c13-3bbe-93d6-4b1b" name="Hit and Run" hidden="false" targetId="9360-66c3-05ca-9d88" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
@@ -7673,7 +7596,7 @@ Ragnar must always issue and accept challenges when possible.</description>
             <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
             <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+1</characteristic>
             <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Master-Crafted, Two-Handed,</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Master-Crafted, Two-Handed, Duelist&apos;s Edge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7695,11 +7618,6 @@ If this unit is slain in the combat phase, it may fight again at Initiative 1 be
       <infoLinks>
         <infoLink id="cf29-070b-dd43-5653" name="Eternal Warrior" hidden="false" targetId="97ca-2c34-0ff9-9809" type="rule"/>
         <infoLink id="88cb-4b9b-bfe4-e094" name="It Will Not Die" hidden="false" targetId="42b6-2a61-9a88-0c0f" type="rule"/>
-        <infoLink id="ce43-2a94-f1f3-43a6" name="Duelist&apos;s Edge" hidden="false" targetId="5ea7-cc60-0984-3cc0" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Duelist&apos;s Edge (1)"/>
-          </modifiers>
-        </infoLink>
         <infoLink id="8227-da26-cfa9-5246" name="Furious Charge" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Furious Charge (2)"/>
@@ -7740,7 +7658,7 @@ If this unit is slain in the combat phase, it may fight again at Initiative 1 be
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b86c-a0f9-6d2c-051f" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="78e3-8d48-3353-d345" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+            <infoLink id="78e3-8d48-3353-d345" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
             <infoLink id="1588-5539-99af-66b9" name="Lascannon" hidden="false" targetId="6789-a19c-72d5-41b3" type="profile"/>
           </infoLinks>
           <costs>
@@ -7772,7 +7690,7 @@ If this unit is slain in the combat phase, it may fight again at Initiative 1 be
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="abb3-edc4-610d-f6e0" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+            <infoLink id="abb3-edc4-610d-f6e0" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -7791,7 +7709,7 @@ If this unit is slain in the combat phase, it may fight again at Initiative 1 be
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58fe-e273-9fee-eec5" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="df5d-6e3b-7e3b-c51d" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="df5d-6e3b-7e3b-c51d" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                 <infoLink id="d791-d4f3-a8a8-6a85" name="Heavy Bolter" hidden="false" targetId="ca4f-7c64-abdd-819d" type="profile"/>
               </infoLinks>
               <costs>
@@ -7803,7 +7721,7 @@ If this unit is slain in the combat phase, it may fight again at Initiative 1 be
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f582-7032-b4cc-4e8a" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="f9e1-3ddb-6b25-d2b4" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="f9e1-3ddb-6b25-d2b4" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                 <infoLink id="3005-1e5f-457d-d3e2" name="Multi-melta" hidden="false" targetId="c031-bf66-238d-35b6" type="profile"/>
                 <infoLink id="a885-24c3-1ce1-b8ba" name="Melta" hidden="false" targetId="25dd-f53c-779e-cefb" type="rule"/>
               </infoLinks>
@@ -8466,7 +8384,7 @@ Models in affected units that are slain in the Fight sub-phase can, at the end o
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="fe60-ccc4-7bd8-785c" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
+                    <infoLink id="fe60-ccc4-7bd8-785c" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
                       <modifiers>
                         <modifier type="set" field="name" value="Rending 6+"/>
                       </modifiers>
@@ -8556,7 +8474,7 @@ Models in affected units that are slain in the Fight sub-phase can, at the end o
                   </constraints>
                   <infoLinks>
                     <infoLink id="8361-887b-fa1a-fbc3" name="Combi-Bolter" hidden="false" targetId="cfb1-8542-6a8c-a2ca" type="profile"/>
-                    <infoLink id="6697-a99d-b5f4-5951" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink id="6697-a99d-b5f4-5951" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -8642,7 +8560,7 @@ Models in affected units that are slain in the Fight sub-phase can, at the end o
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="0a2f-f0aa-ed67-9c9c" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
+                    <infoLink id="0a2f-f0aa-ed67-9c9c" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
                       <modifiers>
                         <modifier type="set" field="name" value="Rending 6+"/>
                       </modifiers>
@@ -8739,7 +8657,7 @@ Models in affected units that are slain in the Fight sub-phase can, at the end o
               </constraints>
               <infoLinks>
                 <infoLink id="f0b4-36cd-ceb1-c7c2" name="Assault Cannon" hidden="false" targetId="64c8-fb7b-b876-b5d6" type="profile"/>
-                <infoLink id="f6d4-fd2b-96ea-62b5" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                <infoLink id="f6d4-fd2b-96ea-62b5" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -9043,7 +8961,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="cf1c-a036-6c08-d692" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+            <infoLink id="cf1c-a036-6c08-d692" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -9180,7 +9098,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="efc5-109e-a3c4-63ee" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                <infoLink id="efc5-109e-a3c4-63ee" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -9243,7 +9161,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="82ff-00da-51d5-e3f1" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="82ff-00da-51d5-e3f1" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
@@ -9264,7 +9182,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="3342-e338-0505-43ed" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="3342-e338-0505-43ed" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
@@ -9330,7 +9248,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="adf4-1e5c-aeb7-ba7e" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="adf4-1e5c-aeb7-ba7e" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -9376,7 +9294,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="177e-e4ae-800c-3dde" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                <infoLink id="177e-e4ae-800c-3dde" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
@@ -9439,7 +9357,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="5d98-e442-7ff7-dd13" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="5d98-e442-7ff7-dd13" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
@@ -9460,7 +9378,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="5336-7076-017c-9079" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="5336-7076-017c-9079" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
@@ -9526,7 +9444,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="ca36-9eae-159d-5c92" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                <infoLink id="ca36-9eae-159d-5c92" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -9672,7 +9590,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="364e-d82b-31ff-f059" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                <infoLink id="364e-d82b-31ff-f059" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -9786,7 +9704,7 @@ Aurion and any units with the Knights Of Valyria special rule within 12&quot; of
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="4349-121a-1f28-bb0a" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+        <infoLink id="4349-121a-1f28-bb0a" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
         <infoLink id="f960-a053-e069-b729" name="Iron Halo" hidden="false" targetId="9604-cc84-8bc0-8118" type="profile"/>
         <infoLink id="f660-4afb-ce9e-e629" name="Armourbane" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
         <infoLink id="fd37-4ecd-5481-3067" name="Master-Crafted" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
@@ -10700,7 +10618,7 @@ This warlord gains the Preternatural Skill and Precision Strikes special rules.<
           </constraints>
           <infoLinks>
             <infoLink id="e3a5-fa64-de6f-b8bf" name="Force Sword" hidden="false" targetId="e889-c397-968a-4705" type="profile"/>
-            <infoLink id="e5e9-250e-cc30-52c1" name="Rending (X)" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
+            <infoLink id="e5e9-250e-cc30-52c1" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Rending (6+)"/>
               </modifiers>
@@ -10731,7 +10649,7 @@ This warlord gains the Preternatural Skill and Precision Strikes special rules.<
           <infoLinks>
             <infoLink id="5b51-ea47-254e-fe3d" name="Multi-melta" hidden="false" targetId="c031-bf66-238d-35b6" type="profile"/>
             <infoLink id="fe84-574a-1f04-21be" name="Melta" hidden="false" targetId="25dd-f53c-779e-cefb" type="rule"/>
-            <infoLink id="bcae-2ab1-1247-fa51" name="Twin Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+            <infoLink id="bcae-2ab1-1247-fa51" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>

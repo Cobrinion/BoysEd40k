@@ -7505,7 +7505,7 @@ In Search of Redemption: Models with this rule have +1ld and Hatred (Chaos Space
       <profiles>
         <profile id="c03c-1b73-c811-591c" name="Fulgrim, Daemon Primarch of Slaanesh" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
           <characteristics>
-            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Primarch, Flying Monsterous Creature, Deamon</characteristic>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Demon Primarch, Flying Monsterous Creature</characteristic>
             <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">9&quot;</characteristic>
             <characteristic name="WS" typeId="9660-0df5-9c5d-3604">9</characteristic>
             <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">6</characteristic>
@@ -7566,16 +7566,6 @@ If, at the start of any of their player turns, Fulgrim has two or fewer Wounds a
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="157c-315d-bd38-7ad7" name="Brutal" hidden="false" targetId="ff5f-10a3-5b90-d3b6" type="rule"/>
-            <infoLink id="e20d-bcfb-17f0-bee1" name="Murderous Strike" hidden="false" targetId="3868-1cb3-eb8e-88f4" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Murderous Strike (4+)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="f7da-a3ac-fd10-0a2c" name="Master-Crafted" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
-            <infoLink id="52bb-de40-f997-9660" name="Fleshbane" hidden="false" targetId="baa6-0397-f31a-1db7" type="rule"/>
-          </infoLinks>
         </selectionEntry>
         <selectionEntry id="fb0b-f72a-fe40-772c" name="Show Resplendent Wings rules:" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>

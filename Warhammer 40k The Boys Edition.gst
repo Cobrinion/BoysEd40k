@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="10" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="14" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="3ff9-2058-b559-545b" name="Emperor Edition Core Rules"/>
   </publications>
@@ -1138,7 +1138,7 @@ In either case, against vehicles, each armour penetration roll of 6 allows a fur
     <rule id="37e2-a92b-40b4-d7cc" name="Relentless" hidden="false">
       <description>Relentless models can shoot with Heavy, Salvo or Ordnance weapons, counting as stationary, even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
     </rule>
-    <rule id="753c-39ae-57f2-56db" name="Twin Linked" hidden="false">
+    <rule id="753c-39ae-57f2-56db" name="Twin-Linked" hidden="false">
       <description>Twin-linked weapons re-roll all failed Hit Rolls. 
 Twin-linked Blast Weapons may re-roll a missed scatter dice. To do so, they must re-roll both the 2D6 and the scatter dice. 
 Twin-linked template weapons just fire like a single weapon, but must re-roll failed wound and armour penetration rolls.</description>
@@ -1265,7 +1265,7 @@ For example, a unit with the special rule Feel No Pain (5+) would need to score 
 This is a Damage Mitigation roll - any model may make only a single Damage Mitigation roll of any type for any given Wound</description>
     </rule>
     <rule id="8772-5a45-ef05-eb00" name="Torrent" hidden="false">
-      <description> weapon with this special rule is treated like any other Template weapon, but when firing it in the Shooting phase, place the template so that the narrow end is placed within a number of inches equal to the value in brackets listed as part of this special rule. The wide end must then be aligned so that it is no closer to the firing model than the narrow end. If no value is listed, treat it as Torrent (12)
+      <description>weapon with this special rule is treated like any other Template weapon, but when firing it in the Shooting phase, place the template so that the narrow end is placed within a number of inches equal to the value in brackets listed as part of this special rule. The wide end must then be aligned so that it is no closer to the firing model than the narrow end. If no value is listed, treat it as Torrent (12)
 
 
 For example, a weapon with the Torrent (18) special rule must place the narrow end of the template at a point within 18&quot; and the wide end no closer to the firing model than the narrow end.</description>
@@ -1927,6 +1927,14 @@ Saves and does not grant one when in terrain that does
 not normally grant a Cover Save. This rule cannot
 increase a Cover Save to better than 2+.</description>
     </rule>
+    <rule name="Infantry Transport" id="ef6e-ad8f-cf18-384e" hidden="false">
+      <description>No model with any version of the Bulky (X) special rule may Embark on a model that has this special rule</description>
+    </rule>
+    <rule name="Reinforced" id="83ba-f9c6-564d-ff75" hidden="false">
+      <description>The following rules apply to all models with the Reinforced Sub-type:
+A model with the Reinforced Sub-type ignores the effects of any Crew Shaken result on the Vehicle Damage table.
+A model with the Reinforced Sub-type does not have to make Snap Shots due to the effects of the Crew Stunned result on the Vehicle Damage table (but still cannot move or pivot until the end of its next turn).</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="9af7-7731-8e0e-4d1b" name="Jump Pack" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -2154,7 +2162,7 @@ A Cataphractii Terminator with an Iron Halo also re-rolls invulnerable saving th
         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Twin Linked, Master-Crafted</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Twin Linked</characteristic>
       </characteristics>
     </profile>
     <profile id="d7df-f933-dd72-4998" name="Chainfist" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -2667,6 +2675,115 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
       <characteristics>
         <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Legion Spatha Attack Bike has one Twin-Linked Bolter, and one Heavy Bolter. In addition, a model with a Legion Spatha Attack Bike that chooses to Run gains the Shrouded (5+) Special Rule until the start of the Controlling Player’s next turn.
 A model equipped with a Legion Spatha Attack Bike must change its Unit Type to Cavalry, keeping any Unit Sub-types it previously had, and may choose to gain the Skirmish Unit Sub type. In addition, the model must change its Movement Characteristic to 14 and gains the Firing Protocols (2), Battle-Hardened (1), Skilled Rider, and Hammer of Wrath (1) Special Rules.”</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Lascannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="0d66-2d65-80f6-5f42">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sunder, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Predator Cannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="9dd7-e106-3cc9-abed">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 4, Rending (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Smoke Launchers" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="7ff5-cd30-5c53-c8aa">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The controlling player may choose to trigger smoke launchers once a model with them has completed its movement in the Movement phase, and may only choose to trigger them if the model has moved no faster than Combat Speed that turn. Once triggered, the model with smoke launchers counts as being more than 25% obscured, regardless of terrain, until the start of the controlling player’s next turn and gains a 6+ Cover Save. A model whose smoke launchers have been triggered may not make any Shooting Attacks, except as part of a Reaction, in the same turn. Smoke launchers may only be used once per battle, and once triggered may not be further used – in addition, they do not count as a weapon and may not be targeted by Weapon Destroyed results on the Vehicle Damage table.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dozer Blade" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="41a6-b451-c647-13a6">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16"/>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd"/>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9"/>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3"/>
+      </characteristics>
+    </profile>
+    <profile name="Searchlights" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="c50c-3005-7846-a79e">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A model with searchlights ignores the 24&quot; limit to line of sight imposed by the Night Fighting rules when making Shooting Attacks, however enemy units also ignore that same restriction when making Shooting Attacks that target a model with searchlights.
+
+
+In addition, any unit that has been the target of a Shooting Attack made by a unit with searchlights (regardless of whether any Hits were inflicted or not) may be freely targeted for Shooting Attacks by any other unit in the same Shooting phase, ignoring the 24&quot; restriction to line of sight imposed by the Night Fighting rules.
+
+
+Searchlights do not count as weapons and may not be targeted by the Weapon Destroyed result on the Vehicle Damage table.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dozer Blade" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="adc5-51c4-322b-39d1">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A model with a dozer blade may re-roll all failed Dangerous Terrain tests made for it.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hunter-Killer Missile" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="f5aa-454d-e0cd-863e">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Longlas" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="7174-7db4-b3da-e936">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sunder, Pinning, Sniper</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sniper Rifle" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="1425-9cc6-6275-3f09">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Rending (5+), Sniper, Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Autorifle" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="3db1-b155-b1dd-a03f">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lascarbine" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="228f-f683-9b47-8e08">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Laslock" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="77d3-bb8e-ae07-5f3b">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bayonet" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="a481-0f78-fa02-a3b9">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+1</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Two-Handed</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stubcarbine" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="db62-9416-1bf1-44bd">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 3</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
