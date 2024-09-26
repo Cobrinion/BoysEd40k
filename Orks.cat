@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="932e-9347-ef61-1539" name="Orks" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="6" revision="13" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="932e-9347-ef61-1539" name="Orks" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="6" revision="15" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Boyz Mob" hidden="false" id="7399-b01e-2e13-6602">
       <selectionEntries>
@@ -623,7 +623,21 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not been�
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Runts and Squigs" hidden="false" id="2cc7-b1e9-adf2-4c87" type="selectionEntryGroup" targetId="72bb-903d-aa65-a34e"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="9ec8-2cf4-8ff9-d6df" type="selectionEntryGroup" targetId="b038-630c-2f77-8267"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="9ec8-2cf4-8ff9-d6df" type="selectionEntryGroup" targetId="b038-630c-2f77-8267">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Prophet of Gork and Mork" hidden="false" id="ef81-fa83-1117-0fa6">
+              <rules>
+                <rule name="Prophet of Gork and Mork" id="ea4a-a9ba-c44c-ba86" hidden="false">
+                  <description>If Ghazghkull is your Warlord, he gains a 2+ Invulnerable save on any turn the Advanced Reaction Waaagh! is used. This invulnerable save lasts until the end of his next turn. In addition, Ghazghkull and all other models in his unit can Run on a turn he calls a Waaagh! despite having the Slow and Purposeful special rule.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3420-0771-584b-2cec"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6724-d44f-629b-0dec"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Cybork body" hidden="false" id="8dec-9659-c000-0f71">
@@ -2232,6 +2246,161 @@ Limitations
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7a74-8097-6971-3b41"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flash Gitz Mob" hidden="false" id="1eca-f247-b6e7-000c">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Flash Gitz" hidden="false" id="105f-7b5e-5b88-1599">
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="24"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7afb-caac-4e23-a40f"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="bfa4-2652-81cd-1e3e"/>
+          </constraints>
+          <profiles>
+            <profile name="Flash Gitz" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit" hidden="false" id="252c-bdef-5a2b-110c">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Heavy)</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">7&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">2</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Snazzgun" id="491e-8045-4b36-90f8" hidden="false" type="profile" targetId="4521-9166-ee84-efec"/>
+            <infoLink name="&apos;Eavy armour" id="f98e-b155-0442-a9bb" hidden="false" type="profile" targetId="b4bf-d9d5-c49c-71cc"/>
+            <infoLink name="Bosspole" id="3a91-72f7-807e-b31b" hidden="false" type="profile" targetId="31ed-e6e8-fce6-269c"/>
+            <infoLink name="Stikkbombs" id="0385-867a-a0a5-3a37" hidden="false" type="profile" targetId="7289-3773-2508-4e31"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Kaptin" hidden="false" id="e5b4-c24d-2911-815b">
+          <infoLinks>
+            <infoLink name="Gitfinda" id="97cc-fa9d-1403-4bae" hidden="false" type="profile" targetId="14b6-b518-eddb-6101"/>
+            <infoLink name="Bosspole" id="529d-ab5d-c114-3c39" hidden="false" type="profile" targetId="31ed-e6e8-fce6-269c"/>
+            <infoLink name="Stikkbombs" id="14d1-4bd5-1dc1-bcb9" hidden="false" type="profile" targetId="7289-3773-2508-4e31"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Kaptin" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit" hidden="false" id="00a4-f7b7-20ba-f78d">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry, Character (Heavy)</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">2</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="May take any of the following:" hidden="false" id="c0a8-2b7a-bea9-8a29">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Cybork Body" hidden="false" id="2867-de94-5e9e-d6d2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17d9-0129-27f2-5f7c"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Cyborg Body" id="067c-81b6-9224-59e2" hidden="false" type="profile" targetId="2f45-bca1-2dcf-8a6e"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Deflektor" hidden="false" id="ecf2-df41-547d-4f51">
+                  <infoLinks>
+                    <infoLink name="Deflektor" id="9a1f-65a7-2f9f-24a9" hidden="false" type="profile" targetId="4c7f-2e3e-5fcd-696c"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78a0-b5a1-2e5e-5dd2"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="May take a Power Weapon" id="1be0-6adc-3fde-4529" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="a828-14b6-e521-fd9e">
+                  <infoLinks>
+                    <infoLink name="Power Sword" id="1ca0-c4a6-a5bd-cf7a" hidden="false" type="profile" targetId="a559-1dfb-6cf5-65c7"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Axe" hidden="false" id="a06b-93de-be6f-eea9">
+                  <infoLinks>
+                    <infoLink name="Power Axe" id="7fa8-c0b8-dadd-89a9" hidden="false" type="profile" targetId="48e9-7858-e556-9d95"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Maul" hidden="false" id="983b-affe-8366-ee24">
+                  <infoLinks>
+                    <infoLink name="Power Maul" id="b1a7-e1b3-1a20-6e79" hidden="false" type="profile" targetId="bbe8-21fa-9cbe-ae7e"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8d0-0630-fe0b-cfa7"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63ea-ba36-974e-1227"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b78-9705-1d4c-32ff"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Any model may take an Ammo Runt" hidden="false" id="3f43-9287-dbc6-4db8">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7020-1853-3ca5-6b06"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="17c4-bd90-627a-db37"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="7020-1853-3ca5-6b06">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="1eca-f247-b6e7-000c" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="17c4-bd90-627a-db37">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="1eca-f247-b6e7-000c" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="3" field="e7de-8dcf-403a-b76a">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="1eca-f247-b6e7-000c" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Ammo Runt" id="1d73-db71-170a-5821" hidden="false" type="profile" targetId="ab64-0b72-5f0b-ee8a"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Battle-Hardened" id="bf15-b6f2-96c5-9020" hidden="false" type="rule" targetId="1d2e-c29f-edbb-e8c5">
+          <modifiers>
+            <modifier type="set" value="Battle-Hardened (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Bulky" id="b608-f814-1820-e0c9" hidden="false" type="rule" targetId="65d1-8086-fb69-9579">
+          <modifiers>
+            <modifier type="set" value="Bulky (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="&apos;Ere We Go!" id="7c13-5812-56da-90ae" hidden="false" type="rule" targetId="696e-ad7e-dc4b-ebbc"/>
+        <infoLink name="Furious Charge" id="8390-06a2-606f-3aaf" hidden="false" type="rule" targetId="7ddc-eea7-3935-d6d4">
+          <modifiers>
+            <modifier type="set" value="Furious Charge (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Mob Rule" id="0eef-2966-69fd-18f5" hidden="false" type="rule" targetId="4ee0-7679-ff6d-cf96"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <rules>
     <rule name="&apos;Ere We Go!" id="696e-ad7e-dc4b-ebbc" hidden="false">
@@ -2248,6 +2417,11 @@ single Mekaniak Kult to apply to the detachment, chosen from the following:
 •Kult of Speed
 •Great Dread Mob
 •Tellyporta Assault</description>
+    </rule>
+    <rule name="Waaagh!" id="1eb1-db1c-dccb-e22f" hidden="false">
+      <description>This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase whenany enemy unit declares a Shooting Attack targeting a friendly unit under the Reactive player’s control. The Reacting unit must be from the Orks Detachment and must contain one or more models with the Warboss Unit Sub-type. The Reacting unit gains the Crusader, Fear (1) and Fearless special rules for the remainder of the phase. Once the Shooting Attack has been completely resolved, the Reacting unit may make a Charge targeting the enemy unit that made the Shooting Attack. The Charge must follow all the normal rules for Charging, except that the enemy unit may be further away than the Reacting unit’s Maximum Charge Distance. The enemy unit may not make a Reaction to this Charge, and if the Charge fails the Reacting unit may make a Surge Move as normal.
+
+In addition, after the Charge Move (or Surge Move) is made, friendly units within 12&quot; of models with the Warboss Unit Sub-type in the Reacting unit may also move. Units must be made up entirely of models with the ‘Ere We Go! special rule and eligible to make a Reaction to perform this move. Each unit’s move distance may be a number of inches up to its unmodified Initiative Characteristic, moving each model in the unit directly towards the enemy unit that made the Shooting Attack by the shortest available path. In a unit with mixed Initiative Characteristics, use the highest unmodified Characteristic. Any unit that makes a move as part of this Reaction counts as having made a Reaction in this Phase.</description>
     </rule>
   </rules>
   <sharedProfiles>
@@ -3717,6 +3891,11 @@ wielded by a Warlord with this Trait gain the Brutal (2) special rule. If the W
     <entryLink import="true" name="Kommandos Mob" hidden="false" id="55e4-a920-5a96-7c32" type="selectionEntry" targetId="50e3-6e06-ccd2-aee3">
       <categoryLinks>
         <categoryLink targetId="ebc5-5615-35fb-bc91" id="5a68-0001-d4aa-8faa" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Flash Gitz Mob" hidden="false" id="1f6b-5aef-51ef-05e2" type="selectionEntry" targetId="1eca-f247-b6e7-000c">
+      <categoryLinks>
+        <categoryLink targetId="ebc5-5615-35fb-bc91" id="29e6-92a2-ba6b-24c5" primary="true" name="Elites"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

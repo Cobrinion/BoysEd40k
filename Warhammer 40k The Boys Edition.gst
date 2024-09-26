@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="14" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="15" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="3ff9-2058-b559-545b" name="Emperor Edition Core Rules"/>
   </publications>
@@ -1934,6 +1934,9 @@ increase a Cover Save to better than 2+.</description>
       <description>The following rules apply to all models with the Reinforced Sub-type:
 A model with the Reinforced Sub-type ignores the effects of any Crew Shaken result on the Vehicle Damage table.
 A model with the Reinforced Sub-type does not have to make Snap Shots due to the effects of the Crew Stunned result on the Vehicle Damage table (but still cannot move or pivot until the end of its next turn).</description>
+    </rule>
+    <rule name="Sanctic Force" id="aacb-1d6a-511a-72e8" hidden="false">
+      <description>Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the Check is successful then that weapon gains the Insant Death special rule. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check. If the Psyker survives Perils of the Warp then it may attack as normal.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

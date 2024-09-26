@@ -1,57 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8835-2049-fe6c-2642" name="Sol Alliance - Grey Knights " revision="2" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8835-2049-fe6c-2642" name="Sol Alliance - Grey Knights " revision="4" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="48c8-31f9-ff3a-af17" name="Castellan Crowe" hidden="false" collective="false" import="true" targetId="6a2f-09e0-8270-3764" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9ea3-f279-b531-eabc" name="New CategoryLink" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
+        <categoryLink id="9ea3-f279-b531-eabc" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="320c-1654-4430-ab72" name="Strike Squad" hidden="false" collective="false" import="true" targetId="3440-939d-10d9-6284" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f9be-293a-7337-8540" name="New CategoryLink" hidden="false" targetId="644a-f3d4-2643-0e0b" primary="true"/>
+        <categoryLink id="f9be-293a-7337-8540" name="Troops" hidden="false" targetId="644a-f3d4-2643-0e0b" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="91c4-6dda-315f-4b4b" name="Paladin Squad" hidden="false" collective="false" import="true" targetId="322e-c8e4-062a-950d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f05b-599c-a3a4-9489" name="New CategoryLink" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/>
+        <categoryLink id="f05b-599c-a3a4-9489" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b60d-85d4-1f28-8b44" name="Brother-Captain" hidden="false" collective="false" import="true" targetId="58dc-f1cf-e043-a651" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cd09-e474-b009-c11c" name="New CategoryLink" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
+        <categoryLink id="cd09-e474-b009-c11c" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cf83-d522-cb31-e4aa" name="Nemesis Dreadknight" hidden="false" collective="false" import="true" targetId="ed0e-4110-a9a1-fa4e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="dea7-bfd7-5f8a-6e05" name="New CategoryLink" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
+        <categoryLink id="dea7-bfd7-5f8a-6e05" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="215e-fcd1-2d8f-ca1d" name="Land Raider Redeemer Vortimer Pattern " hidden="false" collective="false" import="true" targetId="25d8-1073-46a1-734c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ef59-2044-3941-f880" name="New CategoryLink" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
+        <categoryLink id="ef59-2044-3941-f880" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e00b-ed3d-3eb3-4949" name="Doomglaive Pattern Dreadnought" hidden="false" collective="false" import="true" targetId="9b61-41b9-9048-642f" type="selectionEntry"/>
+    <entryLink id="e00b-ed3d-3eb3-4949" name="Doomglaive Pattern Dreadnought" hidden="false" collective="false" import="true" targetId="9b61-41b9-9048-642f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="ebc5-5615-35fb-bc91" id="dd2c-6087-57b4-d4dc" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="6b04-c6d8-3dc1-5ff2" name="Preferred Enemy: Daemons " hidden="false">
       <description>A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to Shooting Attacks and close combat attacks.
 
-If a model with this rule makes an attack against a mixed unit which has one or more models to which their Preferred Enemy rule pertains, but is not entirely composed of such models, it may still benefit from the effects of Preferred Enemy for all attacks made against that unit. </description>
+If a model with this rule makes an attack against a mixed unit which has one or more models to which their Preferred Enemy rule pertains, but is not entirely composed of such models, it may still benefit from the effects of Preferred Enemy for all attacks made against that unit.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
     <selectionEntry id="6a2f-09e0-8270-3764" name="Castellan Crowe" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87d1-72e3-f0e5-721f" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6688-dd0f-08a4-b94d" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87d1-72e3-f0e5-721f" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6688-dd0f-08a4-b94d" type="max"/>
       </constraints>
       <profiles>
         <profile id="941f-0c59-4175-f079" name="Castellan Crowe" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
             <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">7&quot;</characteristic>
-            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">8</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">7</characteristic>
             <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
             <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
             <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
@@ -65,12 +69,11 @@ If a model with this rule makes an attack against a mixed unit which has one or 
       </profiles>
       <rules>
         <rule id="d1db-191d-cee2-2f95" name="Master Swordsman" publicationId="3ff9-2058-b559-545b" page="63" hidden="false">
-          <description>Whenever Castellan Crow fights in a challenge, he uses both the Sword Strike and Shield Stance.</description>
+          <description>Whenever Castellan Crow fights in a challenge, he uses both the Sword Strike and Blade Shield Stance.</description>
         </rule>
         <rule id="57c7-3558-4816-5ea5" name="The Perfect Warrior" hidden="false">
-          <description>Castellan Crowe must always issue and accept challenges when able. When in an assault, Castallan must pick a stance to fight in that lasts until the end of the Assault phase. 
-Sword Strike: Castellan Crowe gains the &quot;Smash&quot; rule. 
-Blade Shield: Castallen Crowe may re-roll all failed saving throws. </description>
+          <description>Castellan Crowe must always issue and accept challenges when able. When in an assault, Castallan must pick either the Sword Strike or Blade Shield stance to fight in until the end of the Assault phase.
+</description>
         </rule>
         <rule id="f88e-9010-8e3e-b967" name="Rite of Titan" hidden="false">
           <description>Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties.</description>
@@ -81,15 +84,14 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
         <infoLink id="caaa-4dc6-baff-5087" name="Heroic Sacrifice" hidden="false" targetId="d2c4-96ef-0d18-5edc" type="rule"/>
         <infoLink id="8dcc-1ed2-e3f6-dfcf" name="The Aegis" hidden="false" targetId="ec14-3ec0-ef54-4901" type="rule"/>
         <infoLink id="287b-697b-fb35-3c99" name="Purity of Spirit" hidden="false" targetId="463b-fdc7-1835-58ea" type="rule"/>
-        <infoLink id="8afe-9483-e1a8-e792" name="Smash" hidden="false" targetId="5f6f-bb49-354d-b1cd" type="rule"/>
         <infoLink id="d448-2aeb-e5f5-f271" name="Firstborn Astartes" hidden="false" targetId="8ea7-5bf6-33c6-0b41" type="rule"/>
         <infoLink id="421e-a6c9-180a-6892" name="Preferred Enemy: Daemons " hidden="false" targetId="6b04-c6d8-3dc1-5ff2" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="40af-d05f-2bbe-19fc" name="The Black Blade of Antwyr" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3fd-e681-ed0a-4459" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0865-eaff-c579-dc68" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3fd-e681-ed0a-4459" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0865-eaff-c579-dc68" type="min"/>
           </constraints>
           <profiles>
             <profile id="3355-8447-f190-e54f" name="The Black Blade of Antwyr" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -101,41 +103,28 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="ed2e-4dca-a8c7-5e42" name="Murderous Strike (X)" hidden="false" targetId="3868-1cb3-eb8e-88f4" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Murderous Strike (5+)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="9673-f798-496a-c52f" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Rending (5+)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8b3f-55e5-64f0-e37a" name="Frag, Krak and Psyk-Out Grenades" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60af-4380-7c68-213a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a47a-aed3-7c04-a311" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60af-4380-7c68-213a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a47a-aed3-7c04-a311" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="bb98-871d-8c7a-5e42" name="Frag Grenades " hidden="false" targetId="3b31-8ac4-2152-876b" type="profile"/>
-            <infoLink id="145d-e7b4-8b6b-200b" name="Krak Grenade (Assault)" hidden="false" targetId="9af1-f354-beeb-0bfd" type="profile"/>
+            <infoLink id="bb98-871d-8c7a-5e42" name="Frag Grenades" hidden="false" targetId="3b31-8ac4-2152-876b" type="profile"/>
+            <infoLink id="145d-e7b4-8b6b-200b" name="Krak Grenades" hidden="false" targetId="9af1-f354-beeb-0bfd" type="profile"/>
             <infoLink id="d240-20c5-3012-7b86" name="Psyk-Out Grenade" hidden="false" targetId="752f-7fe3-165d-f833" type="profile"/>
-            <infoLink id="aa0e-8509-aa00-40d9" name="Psi-Shock" hidden="false" targetId="94a8-7699-383a-8f93" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8781-e1aa-7f51-2bc3" name="Iron Halo" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b010-b703-d752-8b83" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ba8-79f1-8c1d-85c0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b010-b703-d752-8b83" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ba8-79f1-8c1d-85c0" type="max"/>
           </constraints>
           <rules>
             <rule id="9b52-285f-1ff4-895d" name="Iron Halo" hidden="false">
@@ -143,63 +132,56 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3c0e-b92c-6b07-5e64" name="Storm Bolter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7952-a606-1934-939b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b13d-f005-2a9b-cd12" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7952-a606-1934-939b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b13d-f005-2a9b-cd12" type="min"/>
           </constraints>
           <infoLinks>
             <infoLink id="cbcc-e087-5304-6d59" name="Storm Bolter" hidden="false" targetId="a144-5691-6fd0-a068" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c716-060c-8780-5f15" name="Warlord Trait: Hammer of Righteousness" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63fb-bbde-6243-90af" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2727-e0d0-0162-35dd" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63fb-bbde-6243-90af" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2727-e0d0-0162-35dd" type="min"/>
           </constraints>
           <rules>
             <rule id="94a8-6981-11a7-8494" name="Warlord Trait: Hammer of Righteousness" hidden="false">
-              <description>Castellan Crowe and any unit he is attached to have the Hammer of Wrath (1) rule. </description>
+              <description>Castellan Crowe and any unit he is attached to have the Hammer of Wrath (1) rule.</description>
             </rule>
           </rules>
-          <infoLinks>
-            <infoLink id="e461-0590-be30-5b4a" name="Hammer of Wrath (X)" hidden="false" targetId="a4d3-4e19-13d9-508e" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="80a9-5f32-802f-ffdd" name="Psyker" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab26-5557-8396-6a2f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69b0-94d1-d2c4-cc2c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab26-5557-8396-6a2f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69b0-94d1-d2c4-cc2c" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="7364-6264-46a0-a71c" name="Sanctus" hidden="false" collective="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ebbd-dc2a-662a-27c4" name="Show Deepstrike rules" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6211-3052-6422-8df1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6211-3052-6422-8df1" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="8448-25b6-bea0-073a" name="Deep Strike" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -207,7 +189,7 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
         <entryLink id="8efc-344e-030f-3335" name="Psybolt Ammunition" hidden="false" collective="false" import="true" targetId="b8ea-e3f0-6781-37f8" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="195.0"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="205"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3440-939d-10d9-6284" name="Strike Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -242,8 +224,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
       <selectionEntries>
         <selectionEntry id="25a2-3ec4-5d72-8340" name="Justicar" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="670d-cfd9-adf3-1ad6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="795d-890c-6abc-cfcf" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="670d-cfd9-adf3-1ad6" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="795d-890c-6abc-cfcf" type="min"/>
           </constraints>
           <profiles>
             <profile id="32db-abb1-1949-7e95" name="Justicar" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
@@ -265,27 +247,27 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
           <selectionEntries>
             <selectionEntry id="1e2f-8803-0caa-2e44" name="Storm Bolter" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feba-e1cd-a4e7-bdec" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6104-3c66-00d9-7e62" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feba-e1cd-a4e7-bdec" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6104-3c66-00d9-7e62" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="bf40-639c-ee40-ef9b" name="Storm Bolter" hidden="false" targetId="a144-5691-6fd0-a068" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="1a4c-b480-780d-b39b" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="fe96-a2de-70c0-1f38">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6bc-a2b1-cb9c-7c16" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c7c-fa22-df53-bcc5" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6bc-a2b1-cb9c-7c16" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c7c-fa22-df53-bcc5" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="c80d-9540-dca1-4ea1" name="Daemon Hammer" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4820-d3bc-bb4b-9779" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4820-d3bc-bb4b-9779" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="f2aa-5056-eadf-d300" name="Daemon Hammer" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -293,33 +275,17 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
                         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
                         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Force, Concussive, Daemonbane, Unwieldy, Specialist Weapon, Brutal (2)</characteristic>
+                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Sanctic Force, Concussive, Daemonbane, Unwieldy, Specialist Weapon, Brutal (2)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink id="4202-1f5f-c187-a9bc" name="Concussive (X)" hidden="false" targetId="f3f1-f153-dabd-995f" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="name" value="Concussive (1)"/>
-                      </modifiers>
-                    </infoLink>
-                    <infoLink id="5a99-17e6-4509-9f18" name="Unwieldy" hidden="false" targetId="69cd-1f57-1f07-a602" type="rule"/>
-                    <infoLink id="2959-1036-867e-b1be" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
-                    <infoLink id="7650-ce80-09ec-f2ad" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                    <infoLink id="dfca-57ab-4db9-e8d5" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                    <infoLink id="34fa-5fbd-de3b-e33c" name="Brutal (X)" hidden="false" targetId="ff5f-10a3-5b90-d3b6" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="name" value="Brutal (2)"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e886-b3be-11ac-da5a" name="Aegis Force Halberd" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="949f-d5e3-33b8-7e8d" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="949f-d5e3-33b8-7e8d" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="34b8-cbae-6968-cea7" name="Force Halberd" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -331,26 +297,13 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink id="703e-0939-2b74-e506" name="Sanctic Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                    <infoLink id="d5ad-3418-e1dc-2b7d" name="Two-Handed" hidden="false" targetId="422f-f396-30e8-3bbb" type="rule"/>
-                    <infoLink id="cee7-20b6-845d-533f" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                    <infoLink id="0bdb-5457-d05d-510f" name="Reach (X)" hidden="false" targetId="ca2d-8422-ab7d-b899" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="name" value="Reach (1)"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5.0"/>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fe96-a2de-70c0-1f38" name="Aegis Force Sword" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Rending (6)"/>
-                  </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8bb-0151-99a6-3012" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8bb-0151-99a6-3012" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="0a6a-9f35-fd9f-2015" name="Saturnine-Pattern Force Sword" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -358,22 +311,17 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
                         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
                         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Rending (6+), Force, Daemonbane</characteristic>
+                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Rending (6+), Sanctic Force, Daemonbane</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink id="3588-4fa1-9a7d-89a6" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                    <infoLink id="b59c-231d-4049-3b63" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                    <infoLink id="0cf5-6ad2-517c-f4cb" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
-                  </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b88c-2faf-30f2-094b" name="Warding Stave" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e86-6a00-d91b-aebd" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e86-6a00-d91b-aebd" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="2134-c417-9b89-a1ee" name="Warding Stave" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -381,28 +329,17 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
                         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+2</characteristic>
                         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Sanctic Force, Concussive, Daemonbane, Ward </characteristic>
+                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Sanctic Force, Concussive, Daemonbane, Ward</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink id="062b-ac8c-7a04-cc79" name="Sanctic Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                    <infoLink id="2a46-0a5e-61f4-bed5" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                    <infoLink id="db7f-7efa-d52b-940c" name="Concussive (X)" hidden="false" targetId="f3f1-f153-dabd-995f" type="rule"/>
-                    <infoLink id="9d16-e3bd-dd6f-ee5e" name="Ward" hidden="false" targetId="7d39-cbcb-467a-77ab" type="rule"/>
-                    <infoLink id="b11b-908d-d997-0be3" name="Reach (X)" hidden="false" targetId="ca2d-8422-ab7d-b899" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="name" value="Reach (1)"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="3.0"/>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="3"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d062-a668-359a-7f05" name="Aegis Twin Falchions" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5134-b1e5-e281-690d" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5134-b1e5-e281-690d" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="3ae9-85a7-d15d-32a5" name="Twin Falchions" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -410,17 +347,12 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
                         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
                         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Force, Daemonbane, Specialist Weapon</characteristic>
+                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Sanctic Force, Daemonbane, Specialist Weapon</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink id="07f1-d4bc-2a93-2483" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                    <infoLink id="cdbc-491d-6f12-7c6b" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                    <infoLink id="dbd0-b560-67b6-62eb" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
-                  </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5.0"/>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -430,13 +362,13 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
             <entryLink id="1117-fc7b-16be-c67a" name="Special Issue Wargear" hidden="false" collective="false" import="true" targetId="7dbc-0901-7e42-c7d5" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9653-12da-a737-dec2" name="Brotherhood of Psykers" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e49-6ddb-d9b2-0d2b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3610-3af9-4307-6aae" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e49-6ddb-d9b2-0d2b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3610-3af9-4307-6aae" type="min"/>
           </constraints>
           <rules>
             <rule id="a5e6-9951-735d-2ce7" name="Brotherhood of Psykers" hidden="false">
@@ -447,15 +379,15 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
             <entryLink id="a353-c20e-5901-f11a" name="Sanctus" hidden="false" collective="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3600-cd0e-0b67-430d" name="Grey Knights with: " hidden="false" collective="false" import="true" defaultSelectionEntryId="f3f0-8082-89fa-f023">
           <constraints>
-            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a8e9-ae8a-3b72-0fde" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e30b-6342-7902-ee85" type="min"/>
+            <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a8e9-ae8a-3b72-0fde" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e30b-6342-7902-ee85" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e41a-1461-0bd2-0323" name="Nemesis Daemon Hammer" hidden="false" collective="false" import="true" type="model">
@@ -469,20 +401,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="d2ad-5d56-5a01-87aa" name="Concussive" hidden="false" targetId="f3f1-f153-dabd-995f" type="rule"/>
-                <infoLink id="8fda-cbc0-6830-512b" name="Unwieldy" hidden="false" targetId="69cd-1f57-1f07-a602" type="rule"/>
-                <infoLink id="9b6d-9df6-4a58-84d7" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
-                <infoLink id="b9b3-f380-6591-b4e3" name="Sanctic Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                <infoLink id="696a-b828-1ccd-f4cd" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                <infoLink id="f226-3707-5a62-64d8" name="Brutal (X)" hidden="false" targetId="ff5f-10a3-5b90-d3b6" type="rule">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Brutal (2)"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="987c-0276-b141-5856" name="Nemesis Force Halberd" hidden="false" collective="false" import="true" type="model">
@@ -496,18 +416,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="f814-8f97-8b16-15d4" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                <infoLink id="be29-f4b2-5bfe-41c6" name="Two-Handed" hidden="false" targetId="422f-f396-30e8-3bbb" type="rule"/>
-                <infoLink id="8118-74f6-7edd-cbab" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                <infoLink id="f67e-dd13-2c20-a00d" name="Reach (X)" hidden="false" targetId="ca2d-8422-ab7d-b899" type="rule">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Reach (1)"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dd17-2d3f-a391-db57" name="Nemesis Twin Falchions" hidden="false" collective="false" import="true" type="model">
@@ -521,13 +431,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="3fd1-302e-b942-927b" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                <infoLink id="a613-00dd-7460-aa0e" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                <infoLink id="0bf0-97a8-36ae-69bc" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="23.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="23"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b608-f299-92e1-4c52" name="Warding Stave" hidden="false" collective="false" import="true" type="model">
@@ -537,26 +442,12 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                     <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
                     <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+2</characteristic>
                     <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Force, Concussive, Daemonbane, Ward</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Sanctic Force, Concussive, Daemonbane, Ward</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <rules>
-                <rule id="7d39-cbcb-467a-77ab" name="Ward" hidden="false">
-                  <description>A unit that contains at least one model with this special rule receives a 1+ bonus to their invulnarable save against Psychic attacks. </description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="c1d4-ce94-6eae-4450" name="Sanctic Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                <infoLink id="da43-9ff1-77f5-cdbd" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                <infoLink id="8157-877c-dcaa-ea01" name="Reach (X)" hidden="false" targetId="ca2d-8422-ab7d-b899" type="rule">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Reach (1)"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="23.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="23"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f3f0-8082-89fa-f023" name="Nemesis Force Sword" hidden="false" collective="false" import="true" type="model">
@@ -570,31 +461,22 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="3355-0033-1e26-6eca" name="Sanctic Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                <infoLink id="f0a1-7f68-c738-b366" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                <infoLink id="2292-2ea2-f36e-f6ab" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Rending (6)"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="77d3-ee1b-811e-70a4" name="One in five may take: " hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="increment" field="0795-84fb-d131-8822" value="1.0">
+            <modifier type="increment" field="0795-84fb-d131-8822" value="1">
               <repeats>
-                <repeat field="selections" scope="3440-939d-10d9-6284" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="3440-939d-10d9-6284" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0795-84fb-d131-8822" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0795-84fb-d131-8822" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="80fa-38e8-5c41-b918" name="Incinerator" hidden="false" collective="false" import="true" type="upgrade">
@@ -608,11 +490,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="5e83-bfdb-511b-6987" name="Soul Blaze " hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="81ea-ed05-8495-d79d" name="Psilencer" hidden="false" collective="false" import="true" type="upgrade">
@@ -626,11 +505,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="d039-579b-6d14-8470" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7b03-df55-ea20-046f" name="Psycannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -640,15 +516,12 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                     <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
                     <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
                     <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Salvo 2/4, Rending</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Salvo 2/4, Rending (6+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="debf-be03-7074-7346" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -659,7 +532,7 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
         <entryLink id="02f2-5800-d4a6-1e4a" name="Psybolt Ammunition" hidden="false" collective="false" import="true" targetId="b8ea-e3f0-6781-37f8" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="322e-c8e4-062a-950d" name="Paladin Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -676,53 +549,44 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
       <selectionEntries>
         <selectionEntry id="2917-2d26-2081-fd11" name="Aegis Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5b8-f67b-9f10-e866" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cd9-3158-37cf-b374" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5b8-f67b-9f10-e866" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cd9-3158-37cf-b374" type="min"/>
           </constraints>
           <profiles>
             <profile id="73e0-a51b-696c-5f6d" name="Aegis Terminator Armour" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Aegis pattern Terminator confers the Aegis, Relentless and Bulky (2) keywords and may not make Sweeping Advances. In addition, Aegis Terminator armour confers a 5+ Invulnurable save. </characteristic>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Aegis pattern Terminator confers the Aegis, Relentless and Bulky (2) keywords and may not make Sweeping Advances. In addition, Aegis Terminator armour confers a 5+ Invulnurable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="4569-bee8-6130-c510" name="The Aegis" hidden="false" targetId="ec14-3ec0-ef54-4901" type="rule"/>
-            <infoLink id="6321-72a8-ead6-9734" name="Relentless" hidden="false" targetId="37e2-a92b-40b4-d7cc" type="rule"/>
-            <infoLink id="52ce-4a9a-56bf-5190" name="Bulky (X)" hidden="false" targetId="65d1-8086-fb69-9579" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Bulky (2)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8e02-a20b-0d63-df39" name="Show Deep Strike rules" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-1f76-31cc-0cae" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eac9-a899-b05b-5098" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-1f76-31cc-0cae" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eac9-a899-b05b-5098" type="min"/>
           </constraints>
           <infoLinks>
             <infoLink id="99e7-0c8e-0360-b268" name="Deep Strike" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2f4f-b78d-506d-462b" name="Paladins" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db82-f95b-b858-a8a9" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="93ae-be3e-8663-c0d7" type="min"/>
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db82-f95b-b858-a8a9" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="93ae-be3e-8663-c0d7" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="6a9b-e232-ad78-b930" name="Paladin" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0419-9394-a5cc-fdcc" type="max"/>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c83-cdb9-4c3e-2429" type="min"/>
+                <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0419-9394-a5cc-fdcc" type="max"/>
+                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c83-cdb9-4c3e-2429" type="min"/>
               </constraints>
               <profiles>
                 <profile id="6a0d-b726-6bf1-ff99" name="Paladin" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
@@ -744,7 +608,7 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
               <selectionEntryGroups>
                 <selectionEntryGroup id="f14b-62d3-3256-8671" name="Melee Weapon: " hidden="false" collective="false" import="true" defaultSelectionEntryId="7ed9-ffbd-b677-f717">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1559-2e00-51a6-9b4d" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1559-2e00-51a6-9b4d" type="max"/>
                   </constraints>
                   <selectionEntries>
                     <selectionEntry id="a7f9-a3d9-8807-c95d" name="Nemesis Daemon Hammer" hidden="false" collective="false" import="true" type="upgrade">
@@ -758,24 +622,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink id="d6c6-4958-a6d4-6dc4" name="Concussive (X)" hidden="false" targetId="f3f1-f153-dabd-995f" type="rule">
-                          <modifiers>
-                            <modifier type="set" field="name" value="Concussive (1)"/>
-                          </modifiers>
-                        </infoLink>
-                        <infoLink id="e8b8-3467-3698-5fe2" name="Unwieldy" hidden="false" targetId="69cd-1f57-1f07-a602" type="rule"/>
-                        <infoLink id="826a-7da9-60d9-0e5e" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
-                        <infoLink id="b992-733b-4aac-9dde" name="Sanctic Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                        <infoLink id="225d-a188-a756-c8a7" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                        <infoLink id="687b-bd30-770b-70f1" name="Brutal (X)" hidden="false" targetId="ff5f-10a3-5b90-d3b6" type="rule">
-                          <modifiers>
-                            <modifier type="set" field="name" value="Brutal (2)"/>
-                          </modifiers>
-                        </infoLink>
-                      </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0970-1194-39a4-03f3" name="Nemesis Force Halberd" hidden="false" collective="false" import="true" type="upgrade">
@@ -789,18 +637,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink id="1e4d-610e-1834-bf33" name="Sanctic Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                        <infoLink id="d27e-5b6b-753f-91a1" name="Two-Handed" hidden="false" targetId="422f-f396-30e8-3bbb" type="rule"/>
-                        <infoLink id="1ba0-6a75-7600-ff74" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                        <infoLink id="fd54-2ebd-8239-d645" name="Reach (X)" hidden="false" targetId="ca2d-8422-ab7d-b899" type="rule">
-                          <modifiers>
-                            <modifier type="set" field="name" value="Reach (1)"/>
-                          </modifiers>
-                        </infoLink>
-                      </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5.0"/>
+                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7ed9-ffbd-b677-f717" name="Nemesis Force Sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -814,17 +652,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink id="2892-0ea0-14f1-d22c" name="Sanctic Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                        <infoLink id="b734-b78c-a7c4-3f13" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                        <infoLink id="a75b-1908-6566-0166" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
-                          <modifiers>
-                            <modifier type="set" field="name" value="Rending (6+)"/>
-                          </modifiers>
-                        </infoLink>
-                      </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cd49-2a54-7f32-1fe7" name="Nemesis Twin Falchions" hidden="false" collective="false" import="true" type="upgrade">
@@ -838,13 +667,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink id="fa8c-7c84-240a-9d90" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                        <infoLink id="cdf8-ced1-1ba8-ad99" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                        <infoLink id="e010-2c1d-2f47-c8de" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
-                      </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="3.0"/>
+                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="3"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e485-5704-0091-0023" name="Warding Stave" hidden="false" collective="false" import="true" type="upgrade">
@@ -858,18 +682,8 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink id="ba7e-a82e-df47-c081" name="Sanctic Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-                        <infoLink id="96fa-99e0-a8cc-1f08" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                        <infoLink id="90c0-c437-dc02-4da8" name="Ward" hidden="false" targetId="7d39-cbcb-467a-77ab" type="rule"/>
-                        <infoLink id="6cc1-4723-2661-bc29" name="Reach (X)" hidden="false" targetId="ca2d-8422-ab7d-b899" type="rule">
-                          <modifiers>
-                            <modifier type="set" field="name" value="Reach (1)"/>
-                          </modifiers>
-                        </infoLink>
-                      </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="3.0"/>
+                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="3"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -880,16 +694,16 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                 <entryLink id="e401-a970-6859-2d49" name="Special Issue Wargear" hidden="false" collective="false" import="true" targetId="7dbc-0901-7e42-c7d5" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6a04-ffcc-d6f2-8fc2" name="Paladin Apothecary" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e4-2807-7faa-1648" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e4-2807-7faa-1648" type="max"/>
               </constraints>
               <rules>
                 <rule id="72df-fad9-9aa0-e813" name="Narthecium" hidden="false">
-                  <description>Apothecary&apos;s give any unit they are attached to a 5+ Feel No Pain. </description>
+                  <description>Apothecary&apos;s give any unit they are attached to a 5+ Feel No Pain.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -901,12 +715,12 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                 <entryLink id="da6f-840d-53d6-0ca0" name="Special Issue Wargear" hidden="false" collective="false" import="true" targetId="7dbc-0901-7e42-c7d5" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="70.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="70"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fcc3-2d7c-592d-80c0" name="Paladin with Banner" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c0-4d2e-3af6-55a6" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c0-4d2e-3af6-55a6" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="f566-0e72-ffec-8053" name="Paladin" hidden="false" targetId="6a0d-b726-6bf1-ff99" type="profile"/>
@@ -914,12 +728,12 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
               <selectionEntryGroups>
                 <selectionEntryGroup id="6633-af79-cff0-9cf9" name="Banner choice: " hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e870-2a92-1ff6-bf30" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e870-2a92-1ff6-bf30" type="max"/>
                   </constraints>
                   <selectionEntries>
                     <selectionEntry id="7e2d-e3b6-d850-5997" name="Brotherhood banner" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c3-6d51-aec9-b520" type="max"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c3-6d51-aec9-b520" type="max"/>
                       </constraints>
                       <profiles>
                         <profile id="9843-ed72-4520-a08d" name="Brotherhood banner" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -929,13 +743,13 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25.0"/>
+                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4806-d5cf-759d-03a9" name="The Nemesis Banner" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97df-27cf-31b1-1647" type="max"/>
-                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="21b3-97ac-39ff-d59c" type="max"/>
+                        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97df-27cf-31b1-1647" type="max"/>
+                        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="21b3-97ac-39ff-d59c" type="max"/>
                       </constraints>
                       <profiles>
                         <profile id="a394-d03b-dbd7-e450" name="The Nemesis Banner" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -945,7 +759,7 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="35.0"/>
+                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="35"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -956,19 +770,19 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                 <entryLink id="0712-3db6-4ab7-c94a" name="Special Issue Wargear" hidden="false" collective="false" import="true" targetId="7dbc-0901-7e42-c7d5" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="656d-ec4b-a1fb-46c9" name="Paladin with Special Weapon" hidden="false" collective="false" import="true" type="model">
               <modifiers>
-                <modifier type="increment" field="e4b2-429a-9b45-b68d" value="1.0">
+                <modifier type="increment" field="e4b2-429a-9b45-b68d" value="1">
                   <repeats>
-                    <repeat field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b2-429a-9b45-b68d" type="max"/>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b2-429a-9b45-b68d" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="6ba4-4d63-e9e9-77bf" name="Paladin" hidden="false" targetId="6a0d-b726-6bf1-ff99" type="profile"/>
@@ -979,19 +793,19 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                 <entryLink id="3b2b-6e0d-84e2-9d5c" name="Special Weapons: " hidden="false" collective="false" import="true" targetId="cf3a-5911-8190-70a6" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b900-0e58-b2c9-c656" name="Paladin with Banner and Special Weapon" hidden="false" collective="false" import="true" type="model">
               <modifiers>
-                <modifier type="set" field="7b22-4f6d-1b4b-6d78" value="0.0">
+                <modifier type="set" field="7b22-4f6d-1b4b-6d78" value="0">
                   <conditions>
-                    <condition field="selections" scope="322e-c8e4-062a-950d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fcc3-2d7c-592d-80c0" type="equalTo"/>
+                    <condition field="selections" scope="322e-c8e4-062a-950d" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fcc3-2d7c-592d-80c0" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b22-4f6d-1b4b-6d78" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b22-4f6d-1b4b-6d78" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="3b5a-5cad-988e-c1b8" name="Paladin" hidden="false" targetId="6a0d-b726-6bf1-ff99" type="profile"/>
@@ -1003,7 +817,7 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
                 <entryLink id="791d-3384-7dba-b534" name="Banner choice: " hidden="false" collective="false" import="true" targetId="6633-af79-cff0-9cf9" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1014,7 +828,7 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
         <entryLink id="3204-5232-922c-5de6" name="Psybolt Ammunition" hidden="false" collective="false" import="true" targetId="b8ea-e3f0-6781-37f8" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed0e-4110-a9a1-fa4e" name="Nemesis Dreadknight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1051,83 +865,69 @@ Blade Shield: Castallen Crowe may re-roll all failed saving throws. </descriptio
       <selectionEntries>
         <selectionEntry id="0ea1-a365-f4f6-35fb" name="Personal Teleporter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff6d-02f4-f4f0-1f51" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff6d-02f4-f4f0-1f51" type="max"/>
           </constraints>
           <rules>
             <rule id="58f5-d6a7-68ef-16eb" name="Personal Teleporter" hidden="false">
               <description>Once per game a unit equipt with a Personal Teleporter may make a teleport shunt moves up to 30&quot; in the Movement phase. This move cannot end up on another unit or impassable terrain, but ignores intervening units, terrain etc. A unit cannot charge in the same turn that it makes a teleport shunt. 
 
-In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monsterous Creature) rule. </description>
+In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monsterous Creature) rule.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9f3a-a3e2-7dd1-23f8" name="Psyker" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="efe4-699d-c5dc-4e4e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2aa9-3e08-db4b-9998" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="efe4-699d-c5dc-4e4e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2aa9-3e08-db4b-9998" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ff2a-33ff-aa23-7217" name="Psychic Discipline: Sanctus" hidden="false" collective="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
+            <entryLink id="ff2a-33ff-aa23-7217" name="Sanctus" hidden="false" collective="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9ef3-aa7b-72b0-d965" name="Show Deep Strike rules" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7200-f314-7e98-77e3" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4910-c6a9-cc9b-1a7e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7200-f314-7e98-77e3" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4910-c6a9-cc9b-1a7e" type="min"/>
           </constraints>
           <infoLinks>
             <infoLink id="7f9c-bc71-77d2-be0e" name="Deep Strike" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="d327-f845-e536-4b8d" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9c72-cdce-7167-e65e">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f780-bec4-065f-3d60" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eec1-0683-f128-1bdc" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f780-bec4-065f-3d60" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eec1-0683-f128-1bdc" type="min"/>
           </constraints>
-          <profiles>
-            <profile id="0ddd-07c7-b16f-c4f9" name="Power Fist" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
-                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
-                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Unwieldy, Specialist Weapon</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <infoLinks>
-            <infoLink id="2de2-dec5-2349-ab74" name="Unwieldy" hidden="false" targetId="69cd-1f57-1f07-a602" type="rule"/>
-            <infoLink id="b1a5-2146-4312-110a" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
+            <infoLink name="Power Fist" id="7e72-1d4b-efe7-b602" hidden="false" type="profile" targetId="aa52-17f9-7ced-00e0">
+              <modifiers>
+                <modifier type="set" value="Melee, Specialist Weapon, Unwieldy, Sanctic Force" field="79ff-eaa1-5809-53f3"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="9c72-cdce-7167-e65e" name="Duel Power Fists" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f54b-3db4-0834-0b00" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f54b-3db4-0834-0b00" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="d3a6-eeea-c22d-154c" name="Sanctic Force" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-                  <characteristics>
-                    <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the Check is successful then that weapon gains the Insant Death special rule. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check. If the Psyker survives Perils of the Warp then it may attack as normal.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="682a-f724-642e-8159" name="Nemesis Daemon Hammer and Power Fist" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4bd0-b8d0-dbeb-bdd6" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4bd0-b8d0-dbeb-bdd6" type="max"/>
               </constraints>
               <profiles>
                 <profile id="025e-88a9-941c-2b8c" name="Nemesis Daemon Hammer" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1135,28 +935,17 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
                     <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
                     <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
                     <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Force, Concussive, Daemonbane, Unwieldy, Specialist Weapon</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="210d-0bfc-d71d-d01f" name="Sanctic Force" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-                  <characteristics>
-                    <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the Check is successful then that weapon gains the Insant Death special rule. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check. If the Psyker survives Perils of the Warp then it may attack as normal.</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Sanctic Force, Concussive, Daemonbane, Unwieldy, Specialist Weapon</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="c4f6-9aca-5514-9f9a" name="Concussive (X)" hidden="false" targetId="f3f1-f153-dabd-995f" type="rule"/>
-                <infoLink id="62e5-844d-e618-be3b" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                <infoLink id="56d2-e35d-3dbb-cae9" name="Unwieldy" hidden="false" targetId="69cd-1f57-1f07-a602" type="rule"/>
-                <infoLink id="5ca6-c175-5dc1-7427" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="960b-621e-7e8f-9450" name="Nemesis Greatsword and Powerfist" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0cc8-0eca-b36c-f282" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0cc8-0eca-b36c-f282" type="max"/>
               </constraints>
               <profiles>
                 <profile id="d6ac-4d49-28d3-8446" name="Nemesis Greatsword and Powerfist" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1164,39 +953,24 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
                     <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
                     <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
                     <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Force, Daemonbane, Master-crafted, Specialist Weapon</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="91a4-254c-d120-fb82" name="Force" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-                  <characteristics>
-                    <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Force is a blessing psychic power that targets the Psyker and his unit. All of the targets’ weapons that have the Force special rule gain the Instant Death special rule until the start of your next Psychic phase.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="c607-07c8-095e-688a" name="Sanctic Force" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-                  <characteristics>
-                    <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the Check is successful then that weapon gains the Insant Death special rule. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check. If the Psyker survives Perils of the Warp then it may attack as normal.</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Sanctic Force, Daemonbane, Master-crafted, Specialist Weapon</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="07e2-6aff-a49a-d1e9" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-                <infoLink id="74f4-0ce7-fcfa-4efb" name="Master-Crafted " hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
-                <infoLink id="f248-457c-274e-49f2" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="e027-0a43-34a4-9212" name="Ranged Weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="725f-041c-da2f-bc14" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="725f-041c-da2f-bc14" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="6f69-c9de-0236-64d4" name="Gatling Psilencer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="47bc-5834-b0e9-7090" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="47bc-5834-b0e9-7090" type="max"/>
               </constraints>
               <profiles>
                 <profile id="c4de-8d35-98ed-4f0a" name="Gatling Psilencer" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1208,16 +982,13 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="cdaa-01dd-1650-5552" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="53cf-aee3-6259-0eab" name="Heavy Incinerator" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc8f-f356-d43c-598b" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc8f-f356-d43c-598b" type="max"/>
               </constraints>
               <profiles>
                 <profile id="9084-483e-0076-c4da" name="Heavy Incinerator" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1229,17 +1000,13 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="1d7d-8333-1299-dca5" name="Soul Blaze " hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
-                <infoLink id="587e-bdf1-7ee9-14bc" name="Torrent" hidden="false" targetId="8772-5a45-ef05-eb00" type="rule"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8d41-af76-c5e3-1739" name="Heavy Psycannon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="040a-89c7-585a-e0dd" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="040a-89c7-585a-e0dd" type="max"/>
               </constraints>
               <profiles>
                 <profile id="7ab4-569b-91b8-87d9" name="Heavy Psycannon (Area)" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1259,18 +1026,15 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="e55c-4679-ee11-787a" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="35.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="35"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="210.0"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="210"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="58dc-f1cf-e043-a651" name="Brother-Captain" hidden="false" collective="false" import="true" type="upgrade">
@@ -1305,40 +1069,34 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
       <selectionEntries>
         <selectionEntry id="986b-293b-f0e2-c7a1" name="Psyker" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efe0-f4ed-ea11-4666" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9f79-ea58-e6c1-9a76" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efe0-f4ed-ea11-4666" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9f79-ea58-e6c1-9a76" type="max"/>
           </constraints>
-          <rules>
-            <rule id="4fd4-6618-b585-14e9" name="Psyker (ML 1)" hidden="false">
-              <description>May take one Psychic ability from the following disciplines. Daemonology (Sanctic), Divination, Pyromancy, Telekinesis or Telepathy. </description>
-            </rule>
-          </rules>
           <entryLinks>
             <entryLink id="975e-f116-daa5-a8bd" name="Sanctus" hidden="false" collective="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ce07-795d-8ef7-c601" name="Frag, Krak and Psyk-Out Grenades" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="162b-2c61-1e3e-64dc" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ce-c6e5-4fe8-c3fe" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="162b-2c61-1e3e-64dc" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ce-c6e5-4fe8-c3fe" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="9923-5ca3-eb07-021f" name="Frag Grenades " hidden="false" targetId="3b31-8ac4-2152-876b" type="profile"/>
-            <infoLink id="3a77-7c46-1161-d24a" name="Krak Grenade (Assault)" hidden="false" targetId="9af1-f354-beeb-0bfd" type="profile"/>
+            <infoLink id="9923-5ca3-eb07-021f" name="Frag Grenades" hidden="false" targetId="3b31-8ac4-2152-876b" type="profile"/>
+            <infoLink id="3a77-7c46-1161-d24a" name="Krak Grenades" hidden="false" targetId="9af1-f354-beeb-0bfd" type="profile"/>
             <infoLink id="393e-2a43-e4ba-c3aa" name="Psyk-Out Grenade" hidden="false" targetId="752f-7fe3-165d-f833" type="profile"/>
-            <infoLink id="ecac-2947-3325-aab5" name="Psi-Shock" hidden="false" targetId="94a8-7699-383a-8f93" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4405-b9c3-aca8-0e24" name="Iron Halo" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="705f-0b95-4274-afbf" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64bc-4a78-b86a-de44" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="705f-0b95-4274-afbf" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64bc-4a78-b86a-de44" type="max"/>
           </constraints>
           <rules>
             <rule id="59d5-ec31-0cc2-9f36" name="Iron Halo" hidden="false">
@@ -1346,54 +1104,45 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b8a1-fe53-21c1-1e3c" name="Aegis Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02be-37dd-627e-8962" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7597-ac3a-6302-4441" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02be-37dd-627e-8962" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7597-ac3a-6302-4441" type="min"/>
           </constraints>
           <profiles>
             <profile id="983c-ada1-7589-84df" name="Aegis Terminator Armour" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Aegis pattern Terminator confers the Aegis, Relentless and Bulky keywords and may not make Sweeping Advances. In addition, Aegis Terminator armour confers a 5+ Invulnurable save. </characteristic>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Aegis pattern Terminator confers the Aegis, Relentless and Bulky keywords and may not make Sweeping Advances. In addition, Aegis Terminator armour confers a 5+ Invulnurable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="c324-82d3-2bdf-13a5" name="The Aegis" hidden="false" targetId="ec14-3ec0-ef54-4901" type="rule"/>
-            <infoLink id="d065-8186-e1b0-68bb" name="Relentless" hidden="false" targetId="37e2-a92b-40b4-d7cc" type="rule"/>
-            <infoLink id="48de-3a5b-f4cb-9c96" name="Bulky (X)" hidden="false" targetId="65d1-8086-fb69-9579" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Bulky (2)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8b3a-26b9-c799-3bad" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="034e-92ca-3207-ae7d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6ec-d07b-92e9-7b9a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="034e-92ca-3207-ae7d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6ec-d07b-92e9-7b9a" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3dfb-342f-4fcf-eb73" name="Ranged Weapon: " hidden="false" collective="false" import="true" defaultSelectionEntryId="f05a-6505-5b24-3e19">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d770-e084-88c5-d0b3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee7a-df64-4377-ddc5" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d770-e084-88c5-d0b3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee7a-df64-4377-ddc5" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="8baa-21a4-7364-85f0" name="Incinerator" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd5-802a-bea2-1fa9" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd5-802a-bea2-1fa9" type="max"/>
               </constraints>
               <profiles>
                 <profile id="2a7a-b74a-57a6-930f" name="Incinerator" publicationId="3ff9-2058-b559-545b" page="89" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1405,16 +1154,13 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="fcff-c0dd-2b65-1257" name="Soul Blaze " hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d575-09d4-a333-1746" name="Psilencer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17e3-2bf7-a60e-81c3" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17e3-2bf7-a60e-81c3" type="max"/>
               </constraints>
               <profiles>
                 <profile id="1a2b-9f56-79a5-76f4" name="Psilencer" publicationId="3ff9-2058-b559-545b" page="89" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1426,16 +1172,13 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="9a6a-4edc-9e82-0630" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d03b-e030-921e-5375" name="Psycannon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f14-2628-5b89-f7c6" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f14-2628-5b89-f7c6" type="max"/>
               </constraints>
               <profiles>
                 <profile id="cca8-19ba-c6d2-a9b1" name="Psycannon" publicationId="3ff9-2058-b559-545b" page="89" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1443,22 +1186,19 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
                     <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
                     <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
                     <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Salvo 2/4, Rending</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Salvo 2/4, Rending (6+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="9da5-1843-db6d-1a57" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="f05a-6505-5b24-3e19" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="3c0e-b92c-6b07-5e64" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d21a-6bfc-24b6-adb6" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d21a-6bfc-24b6-adb6" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1469,31 +1209,19 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
         <entryLink id="f24b-1ca6-c358-edb3" name="Relics of Titan" hidden="false" collective="false" import="true" targetId="3d76-7534-500a-5165" type="selectionEntryGroup"/>
         <entryLink id="96f6-dba6-c193-5ed2" name="Melee Weapon: " hidden="false" collective="false" import="true" targetId="f14b-62d3-3256-8671" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2e2-5a0d-3880-7433" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cf9-2494-a992-2c2a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2e2-5a0d-3880-7433" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cf9-2494-a992-2c2a" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="e116-2170-9c1a-5d74" name="Psybolt Ammunition" hidden="false" collective="false" import="true" targetId="b8ea-e3f0-6781-37f8" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="155.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="04c1-b718-54d5-6d61" name="Sanctic Force" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="328c-4a6b-4eeb-97b2" name="Sanctic Force" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-          <characteristics>
-            <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the Check is successful then that weapon gains the Insant Death special rule. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check. If the Psyker survives Perils of the Warp then it may attack as normal.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="155"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25d8-1073-46a1-734c" name="Land Raider Redeemer Vortimer Pattern " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0459-22fa-afce-73f5" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0459-22fa-afce-73f5" type="max"/>
       </constraints>
       <profiles>
         <profile id="6cf9-9b6a-3dca-e743" name="Land Raider Redeemer" publicationId="3ff9-2058-b559-545b" page="80" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
@@ -1511,7 +1239,7 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
           <characteristics>
             <characteristic name="Capacity" typeId="0d1f-94e8-8176-5482">12</characteristic>
             <characteristic name="Fire Points" typeId="80f0-dbea-cb89-3528">None</characteristic>
-            <characteristic name="Access Points" typeId="65ec-159a-b517-6f9e">One access point on each side of the hull and one at the front. </characteristic>
+            <characteristic name="Access Points" typeId="65ec-159a-b517-6f9e">One access point on each side of the hull and one at the front.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1532,24 +1260,24 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
       <selectionEntries>
         <selectionEntry id="96b8-2308-437b-1030" name="Fortitude" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af59-d202-9872-172c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a345-45ea-3540-73c5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af59-d202-9872-172c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a345-45ea-3540-73c5" type="max"/>
           </constraints>
           <profiles>
             <profile id="e38b-bbcd-2603-ec3d" name="Psychic: Fortitude" page="0" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">This unit may perform a psychic test to ignore shaken/stunned rolls. </characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">This unit may perform a psychic test to ignore shaken/stunned rolls.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2ff1-65ab-9d0d-3005" name="Psyflame Ammunition" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d401-294c-5bb6-9b1a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d54e-6276-7424-36c1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d401-294c-5bb6-9b1a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d54e-6276-7424-36c1" type="max"/>
           </constraints>
           <profiles>
             <profile id="e5ae-d2b6-0c0e-ec81" name="Psyflame Ammunition" publicationId="3ff9-2058-b559-545b" page="209" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -1557,20 +1285,15 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
                 <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Grants +1 Str and Sanctic Force to flamestorm cannons</characteristic>
               </characteristics>
             </profile>
-            <profile id="7312-50db-a696-3ce9" name="Sanctic Force" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-              <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the Check is successful then that weapon gains the Insant Death special rule. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check. If the Psyker survives Perils of the Warp then it may attack as normal.</characteristic>
-              </characteristics>
-            </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9779-928d-f96a-e9e1" name="Psyk-out Assault Launchers" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6639-2373-d651-254a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8cc6-13b4-65e7-67c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6639-2373-d651-254a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8cc6-13b4-65e7-67c9" type="max"/>
           </constraints>
           <profiles>
             <profile id="aa45-747d-6d8b-1d4c" name="Psyk-out Assault Launchers" publicationId="3ff9-2058-b559-545b" page="209" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -1580,13 +1303,13 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9ace-b53e-62dd-0e15" name="Twin-linked Psycannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af93-2d8a-ba81-de71" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d87f-426c-b0e6-339b" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af93-2d8a-ba81-de71" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d87f-426c-b0e6-339b" type="max"/>
           </constraints>
           <profiles>
             <profile id="d400-a3b3-e44d-b99d" name="Psycannon " publicationId="3ff9-2058-b559-545b" page="248" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1598,18 +1321,14 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="82c2-654f-e0bd-cbed" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
-            <infoLink id="33a4-1d19-ad8e-25e9" name="Twin Linked " hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="120f-ae29-6084-ffac" name="Twin-Linked Flamestorm Cannons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eba4-5bfb-abac-f386" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f5f-f7f6-44ed-93bf" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eba4-5bfb-abac-f386" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f5f-f7f6-44ed-93bf" type="max"/>
           </constraints>
           <profiles>
             <profile id="619d-2568-f24e-8368" name="Flamestorm Cannon" page="0" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1621,47 +1340,45 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="6c72-4346-7575-358a" name="Twin Linked " hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b5e3-7d14-9228-7940" name="Searchlight and Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f12-3daa-b53f-7430" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d1-a768-058d-a673" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f12-3daa-b53f-7430" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d1-a768-058d-a673" type="min"/>
           </constraints>
           <profiles>
             <profile id="9e30-1508-6c6c-9a87" name="Searchlight" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Night fighting only. After firing all of it&apos;s weapons, this model can choose to illuminate its target with the searchlight. If it does, it also illuminates itself. </characteristic>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Night fighting only. After firing all of it&apos;s weapons, this model can choose to illuminate its target with the searchlight. If it does, it also illuminates itself.</characteristic>
               </characteristics>
             </profile>
             <profile id="09ac-2ba6-52ab-5041" name="Smoke Launchers" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Once per game, instead of shooting or flat out movements/running, this vehicle can activate smoke launchers. It may not fire its weapons that turn but it recieves a 5+ cover save until the next player turn. This is unaffected by weapon destroyed, crew shaken and crew stunned results. </characteristic>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Once per game, instead of shooting or flat out movements/running, this vehicle can activate smoke launchers. It may not fire its weapons that turn but it recieves a 5+ cover save until the next player turn. This is unaffected by weapon destroyed, crew shaken and crew stunned results.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="8db8-86dc-3668-b50e" name="May take a Pintle-Mounted Weapon: " hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f0d2-5f6b-19f0-84fd" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f0d2-5f6b-19f0-84fd" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="af0b-ecbe-fea5-24ce" name="Storm-Bolter" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="4269-8a0e-19eb-4018" name="Storm Bolter" hidden="false" targetId="a144-5691-6fd0-a068" type="profile"/>
+                <infoLink name="Storm Bolter" id="625e-3221-8b48-3de9" hidden="false" type="profile" targetId="a144-5691-6fd0-a068"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1670,85 +1387,66 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
           <selectionEntries>
             <selectionEntry id="d5e5-5e94-1c95-7261" name="Auxiliary Drive" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="435b-e687-7c01-a0ae" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="435b-e687-7c01-a0ae" type="max"/>
               </constraints>
               <profiles>
                 <profile id="5348-3b6e-552c-d694" name="Auxiliary Drive" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A vehicle with an auxiliary drive may repair Immobilised results it suffers on a D6 roll of 4+ at the start of the controlling player&apos;s Movement phase. </characteristic>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A vehicle with an auxiliary drive may repair Immobilised results it suffers on a D6 roll of 4+ at the start of the controlling player&apos;s Movement phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5526-0a84-246a-bab1" name="Dozer Blade " hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3569-4f30-6455-4da1" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3569-4f30-6455-4da1" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="be9a-c339-b2e2-9dc1" name="Dozer Blade " hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
-                  <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Vehicles equipped with dozer blades treat their front armour as one higher than normal when ramming. The vehicle can re-roll failed Dangerous Terrain tests. </characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Dozer Blade" id="cdea-a4cc-6215-5509" hidden="false" type="profile" targetId="adc5-51c4-322b-39d1"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="79f8-19e3-f820-7917" name="Extra Armour" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="114d-d082-5748-5f39" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="114d-d082-5748-5f39" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="1eeb-fb4a-27f0-1995" name="Extra Armour" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
-                  <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Vehicles equipped with extra armour count Crew Stunned results from the Vehicle Damage table as Crew Shaken results instead. </characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Extra Armour" id="40c5-82bf-d3b7-46d0" hidden="false" type="profile" targetId="712f-db62-39f7-584f"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="b5ed-c9d7-6966-738e" name="Hunter-killer Missle" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b9b-69bd-3755-363a" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b9b-69bd-3755-363a" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="ae5a-f108-b17d-b8fe" name="Hunter-killer Missle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Infinite</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, One Use Only</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Hunter-Killer Missile" id="ef96-7ae6-33e7-f999" hidden="false" type="profile" targetId="f5aa-454d-e0cd-863e"/>
+              </infoLinks>
             </selectionEntry>
-            <selectionEntry id="3076-674b-f678-3177" name="Ceramite Plating" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3076-674b-f678-3177" name="Armoured Ceramite" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea9-f02c-cdab-eea5" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea9-f02c-cdab-eea5" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="a96e-a90c-81de-8a92" name="Ceramite Plating" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
-                  <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Weapons with the Melta special rule do not roll an extra D6 armour penetration at half range or less when shooting at a vehicle with ceramite plating.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Armoured Ceramite" id="af96-abe0-e8fa-f0c3" hidden="false" type="profile" targetId="b05f-6e67-b4b4-ded1"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="df56-5931-f2e7-804b" name="Locator Beacon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bca1-ad40-714c-c3cc" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bca1-ad40-714c-c3cc" type="max"/>
               </constraints>
               <profiles>
                 <profile id="a336-7d0c-c823-011c" name="Locator Beacon" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -1758,34 +1456,34 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="45c6-750d-5605-8530" name="Rear Grapples" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1beb-ef8f-6f06-cb9e" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1beb-ef8f-6f06-cb9e" type="max"/>
               </constraints>
               <profiles>
                 <profile id="4821-6877-fb11-9364" name="Rear Grapples" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Vortimer Pattern Landraider may choose to Transport another vehicle or Dreadnought with its rear grapples. Dreadnoughts are transported and may disembark as normal and cost no additional transport capacity. 
-If a vehicle is transported in this way, it must remain in base to base contact with the rear armour of the Vortimer Pattern Landraider for the duration of transportation. 
-If the Vortimer Pattern Landraider is destroyed, the transported vehicle suffers a Strength 10 hit, for vehicles, this is assumed to hit the front armour. </characteristic>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Vortimer Pattern Landraider may choose to Transport another vehicle or Dreadnought with its rear grapples. Dreadnoughts are transported and may disembark as normal and cost no additional transport capacity.
+If a vehicle is transported in this way, it must remain in base to base contact with the rear armour of the Vortimer Pattern Landraider for the duration of transportation.
+If the Vortimer Pattern Landraider is destroyed, the transported vehicle or Dreadnought suffers a Strength 10 hit, for vehicles, this is assumed to hit the front armour.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e534-2e41-824e-8dec" name="Psychic Discipline: Sanctus" hidden="false" collective="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
+        <entryLink id="e534-2e41-824e-8dec" name="Sanctus" hidden="false" collective="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="305.0"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="305"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b61-41b9-9048-642f" name="Doomglaive Pattern Dreadnought" hidden="false" collective="false" import="true" type="upgrade">
@@ -1816,29 +1514,29 @@ If the Vortimer Pattern Landraider is destroyed, the transported vehicle suffers
       <selectionEntries>
         <selectionEntry id="9a6b-809b-2d3a-353c" name="Searchlight and Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa25-e658-8f9c-9abd" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f8-35b2-6d92-565c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa25-e658-8f9c-9abd" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f8-35b2-6d92-565c" type="min"/>
           </constraints>
           <profiles>
             <profile id="9658-6eeb-dec5-331b" name="Searchlight" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Night fighting only. After firing all of it&apos;s weapons, this model can choose to illuminate its target with the searchlight. If it does, it also illuminates itself. </characteristic>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Night fighting only. After firing all of it&apos;s weapons, this model can choose to illuminate its target with the searchlight. If it does, it also illuminates itself.</characteristic>
               </characteristics>
             </profile>
             <profile id="4368-84eb-b72d-0f7a" name="Smoke Launchers" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Once per game, instead of shooting or flat out movements/running, this vehicle can activate smoke launchers. It may not fire its weapons that turn but it recieves a 5+ cover save until the next player turn. This is unaffected by weapon destroyed, crew shaken and crew stunned results. </characteristic>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Once per game, instead of shooting or flat out movements/running, this vehicle can activate smoke launchers. It may not fire its weapons that turn but it recieves a 5+ cover save until the next player turn. This is unaffected by weapon destroyed, crew shaken and crew stunned results.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="40ea-6daf-fb77-25c3" name="Doomglaive with Incinerator" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ed4-75c2-ab07-6be0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2eea-4ae2-d9fc-0625" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ed4-75c2-ab07-6be0" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2eea-4ae2-d9fc-0625" type="max"/>
           </constraints>
           <profiles>
             <profile id="f41b-d88b-7907-0590" name="Incinerator" publicationId="3ff9-2058-b559-545b" page="89" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1858,18 +1556,14 @@ If the Vortimer Pattern Landraider is destroyed, the transported vehicle suffers
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="d100-d4ee-acb4-312c" name="Soul Blaze " hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
-            <infoLink id="c345-e217-a75f-d87b" name="Sanctic Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7aa1-45a5-1d66-ceeb" name="Psycannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d537-6a7f-17f7-b6a0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b11-b3eb-b8d0-a7f1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d537-6a7f-17f7-b6a0" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b11-b3eb-b8d0-a7f1" type="max"/>
           </constraints>
           <profiles>
             <profile id="d52e-a5ce-2754-3da7" name="Psycannon" page="0" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1885,27 +1579,27 @@ If the Vortimer Pattern Landraider is destroyed, the transported vehicle suffers
             <infoLink id="5db9-c865-4f48-2c1a" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="66e7-b8d2-c444-5035" name="Psychic Discipline: Sanctus" hidden="false" collective="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
+        <entryLink id="66e7-b8d2-c444-5035" name="Sanctus" hidden="false" collective="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="170.0"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="170"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8ea-e3f0-6781-37f8" name="Psybolt Ammunition" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="increment" field="e7de-8dcf-403a-b76a" value="3.0">
+        <modifier type="increment" field="e7de-8dcf-403a-b76a" value="3">
           <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff31-031a-8765-1b3a" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff31-031a-8765-1b3a" type="max"/>
       </constraints>
       <rules>
         <rule id="14b7-2435-6789-74c6" name="Psybolt Ammunition" hidden="false">
@@ -1915,7 +1609,7 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
         </rule>
       </rules>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1924,53 +1618,53 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
       <selectionEntries>
         <selectionEntry id="2f49-2a06-669e-a1f0" name="Digital Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ed-f4f7-791f-b899" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ed-f4f7-791f-b899" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="36e5-653d-cbfd-dbca" name="Digital Weapons" hidden="false" targetId="d77f-7c72-6661-6bfa" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6836-9500-0bbd-4dd3" name="Melta Bombs" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d6-6a2b-d37d-e941" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d6-6a2b-d37d-e941" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="5a65-6dc5-3feb-284a" name="Melta Bomb" hidden="false" targetId="4342-3fe8-c254-63ce" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="36c9-830b-0f55-5868" name="Teleport Homer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f18c-2708-0575-3a89" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f18c-2708-0575-3a89" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="4147-cce9-5eb8-41a2" name="Teleport Homer" hidden="false" targetId="de1f-3fe5-b948-b108" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fa44-46f1-155c-d2c5" name="Mastercraft one weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="876e-c88c-37ef-0783" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="876e-c88c-37ef-0783" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="6410-2a57-7200-3c1c" name="Master-Crafted " hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
+            <infoLink id="6410-2a57-7200-3c1c" name="Master-Crafted" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="cf3a-5911-8190-70a6" name="Special Weapons: " hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="55d3-470f-f3e8-9d77" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="55d3-470f-f3e8-9d77" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="5652-8439-4a2d-3cd9" name="Incinerator" hidden="false" collective="false" import="true" type="upgrade">
@@ -1985,10 +1679,10 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="fdab-9ca0-5052-a64b" name="Soul Blaze " hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
+            <infoLink id="fdab-9ca0-5052-a64b" name="Soul Blaze" hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="58a8-3a1c-3626-90fa" name="Psilencer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1998,15 +1692,12 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
                 <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
-                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 6, Force</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 6, Sanctic Force</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="8ed9-cf77-5a6c-32ee" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8761-cb61-127b-d6d6" name="Psycannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2024,21 +1715,21 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
             <infoLink id="835e-2897-46e3-b447" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="3d76-7534-500a-5165" name="Relics of Titan" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a3d-3bc8-ccdd-001d" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a3d-3bc8-ccdd-001d" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="d7fe-2504-8346-7a39" name="Bone Shard of Solor" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7b6f-d725-e989-afd0" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d25-8094-a3d2-5915" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ada-0c73-50fa-ecd8" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7b6f-d725-e989-afd0" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d25-8094-a3d2-5915" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ada-0c73-50fa-ecd8" type="max"/>
           </constraints>
           <profiles>
             <profile id="6916-ef92-4702-49c4" name="Bone Shard of Solor" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -2050,7 +1741,7 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
           <selectionEntries>
             <selectionEntry id="50d0-4b20-46d2-43cb" name="Read Lore entry:" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="701d-e2d0-e343-1d04" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="701d-e2d0-e343-1d04" type="max"/>
               </constraints>
               <rules>
                 <rule id="7805-ae2b-cd98-3588" name="Bone Shard of Solor" hidden="false">
@@ -2058,19 +1749,19 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
                 </rule>
               </rules>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1a49-af5d-10fd-9f7d" name="Cuirass of Sacrifice" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="742d-79a2-6c96-44dc" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5fd4-2c75-5151-17ed" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87da-3b46-8424-de23" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="742d-79a2-6c96-44dc" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5fd4-2c75-5151-17ed" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87da-3b46-8424-de23" type="max"/>
           </constraints>
           <profiles>
             <profile id="00a6-bc68-31f3-227f" name="Cuirass of Sacrifice" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -2081,7 +1772,7 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
           </profiles>
           <infoLinks>
             <infoLink id="612c-c732-d080-0af7" name="It Will Not Die" hidden="false" targetId="42b6-2a61-9a88-0c0f" type="rule"/>
-            <infoLink id="6ebc-c5a8-3512-5f6c" name="Feel No Pain (X)" hidden="false" targetId="f3a2-c2b0-6b0e-1653" type="rule">
+            <infoLink id="6ebc-c5a8-3512-5f6c" name="Feel No Pain" hidden="false" targetId="f3a2-c2b0-6b0e-1653" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Feel No Pain (5+)"/>
               </modifiers>
@@ -2090,7 +1781,7 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
           <selectionEntries>
             <selectionEntry id="a8ea-ae55-81be-bfcb" name="Read Lore entry:" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce9e-16bf-9cc7-e44b" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce9e-16bf-9cc7-e44b" type="max"/>
               </constraints>
               <rules>
                 <rule id="d3bf-0502-76cc-5dd7" name="Cuirass of Sacrifice" hidden="false">
@@ -2098,19 +1789,19 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
                 </rule>
               </rules>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c562-5e8a-134c-e58e" name="Domina Liber Daemonica" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d729-43be-f9ff-28e6" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b48a-4971-81d3-a266" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6dcb-e89f-4db5-034f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d729-43be-f9ff-28e6" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b48a-4971-81d3-a266" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6dcb-e89f-4db5-034f" type="max"/>
           </constraints>
           <profiles>
             <profile id="b586-727e-9ccc-9f17" name="Domina Liber Daemonica" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -2120,14 +1811,14 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c4ca-9dc0-be4b-ae81" name="The Fury of Deimos (Replace Stormbolter)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d861-de29-b2d0-4ee2" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8276-3774-edc2-7541" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a0e6-0e4c-4332-0520" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d861-de29-b2d0-4ee2" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8276-3774-edc2-7541" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a0e6-0e4c-4332-0520" type="max"/>
           </constraints>
           <profiles>
             <profile id="bd9b-6997-c585-d44e" name="The Fury of Deimos" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -2140,17 +1831,17 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="c9c1-2741-1a32-7086" name="Master-Crafted " hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
+            <infoLink id="c9c1-2741-1a32-7086" name="Master-Crafted" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6dfa-5e7c-70e2-94f4" name="The Soul Glaive (Replace Melee Weapon)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="670d-cb2a-eaa2-116a" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c660-18cc-182f-02be" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ce6-e193-217c-9961" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="670d-cb2a-eaa2-116a" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c660-18cc-182f-02be" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ce6-e193-217c-9961" type="max"/>
           </constraints>
           <profiles>
             <profile id="84c7-9d70-1fc5-9b07" name="The Soul Glaive" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -2158,7 +1849,7 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
                 <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+1</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Force, Daemonbane, Soul Imprint, Two-handed</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Sanctic Force, Daemonbane, Soul Imprint, Two-handed</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2168,16 +1859,19 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
 If this attempt is succesfully manifested on this character, or his unit, then the Soul Glaive rerolls all failed to hit, to wound and armour penetration-rolls while the Blessing is in effect.</description>
             </rule>
           </rules>
-          <infoLinks>
-            <infoLink id="dd5c-1a9f-4e01-b2c9" name="Force" hidden="false" targetId="328c-4a6b-4eeb-97b2" type="profile"/>
-            <infoLink id="72e7-a56b-b8cd-cc2d" name="Daemonbane" hidden="false" targetId="8306-7657-c95a-63cf" type="rule"/>
-            <infoLink id="8889-e412-9434-15b9" name="Two-Handed" hidden="false" targetId="422f-f396-30e8-3bbb" type="rule"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20.0"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule name="Sword Strike" id="75b0-031d-75c7-05ce" hidden="false">
+      <description>Castellan Crowe gains the &quot;Smash&quot; rule.</description>
+    </rule>
+    <rule name="Blade Shield" id="bc8e-cea1-4de6-fc85" hidden="false">
+      <description>Castallen Crowe may re-roll all failed saving throws.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
