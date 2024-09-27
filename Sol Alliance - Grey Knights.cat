@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8835-2049-fe6c-2642" name="Sol Alliance - Grey Knights " revision="4" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="8835-2049-fe6c-2642" name="Sol Alliance - Grey Knights " revision="5" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="48c8-31f9-ff3a-af17" name="Castellan Crowe" hidden="false" collective="false" import="true" targetId="6a2f-09e0-8270-3764" type="selectionEntry">
       <categoryLinks>
@@ -72,20 +72,13 @@ If a model with this rule makes an attack against a mixed unit which has one or 
           <description>Whenever Castellan Crow fights in a challenge, he uses both the Sword Strike and Blade Shield Stance.</description>
         </rule>
         <rule id="57c7-3558-4816-5ea5" name="The Perfect Warrior" hidden="false">
-          <description>Castellan Crowe must always issue and accept challenges when able. When in an assault, Castallan must pick either the Sword Strike or Blade Shield stance to fight in until the end of the Assault phase.
-</description>
-        </rule>
-        <rule id="f88e-9010-8e3e-b967" name="Rite of Titan" hidden="false">
-          <description>Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties.</description>
+          <description>Castellan Crowe must always issue and accept challenges when able. When in an assault, Castallan must pick either the Sword Strike or Blade Shield stance to fight in until the end of the Assault phase.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="d106-8cc9-d3be-01c0" name="Fearless" hidden="false" targetId="8220-efb5-2199-6d3d" type="rule"/>
         <infoLink id="caaa-4dc6-baff-5087" name="Heroic Sacrifice" hidden="false" targetId="d2c4-96ef-0d18-5edc" type="rule"/>
-        <infoLink id="8dcc-1ed2-e3f6-dfcf" name="The Aegis" hidden="false" targetId="ec14-3ec0-ef54-4901" type="rule"/>
-        <infoLink id="287b-697b-fb35-3c99" name="Purity of Spirit" hidden="false" targetId="463b-fdc7-1835-58ea" type="rule"/>
-        <infoLink id="d448-2aeb-e5f5-f271" name="Firstborn Astartes" hidden="false" targetId="8ea7-5bf6-33c6-0b41" type="rule"/>
-        <infoLink id="421e-a6c9-180a-6892" name="Preferred Enemy: Daemons " hidden="false" targetId="6b04-c6d8-3dc1-5ff2" type="rule"/>
+        <infoLink name="GREY KNIGHTS" id="7807-878e-1303-d0b0" hidden="false" type="rule" targetId="6158-067d-3fd1-b234"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="40af-d05f-2bbe-19fc" name="The Black Blade of Antwyr" hidden="false" collective="false" import="true" type="upgrade">
@@ -210,16 +203,8 @@ If a model with this rule makes an attack against a mixed unit which has one or 
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="7a4b-0d81-f349-e8aa" name="Rite of Titan" hidden="false">
-          <description>Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties.</description>
-        </rule>
-      </rules>
       <infoLinks>
-        <infoLink id="9d31-8955-3741-c682" name="The Aegis" hidden="false" targetId="ec14-3ec0-ef54-4901" type="rule"/>
-        <infoLink id="2791-5cac-0c8a-78db" name="Purity of Spirit" hidden="false" targetId="463b-fdc7-1835-58ea" type="rule"/>
-        <infoLink id="317e-d975-f9e9-d506" name="Deep Strike" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
-        <infoLink id="7aec-fefb-f6bf-b0dd" name="Preferred Enemy: Daemons " hidden="false" targetId="6b04-c6d8-3dc1-5ff2" type="rule"/>
+        <infoLink name="GREY KNIGHTS" id="ba07-3206-090c-d87a" hidden="false" type="rule" targetId="6158-067d-3fd1-b234"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="25a2-3ec4-5d72-8340" name="Justicar" hidden="false" collective="false" import="true" type="model">
@@ -382,6 +367,14 @@ If a model with this rule makes an attack against a mixed unit which has one or 
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Show Deepstrike Rules" hidden="false" id="811f-af77-9a6b-c923">
+          <infoLinks>
+            <infoLink name="Deep Strike" id="075b-a993-3b35-f723" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59cf-204c-c722-0c34"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3600-cd0e-0b67-430d" name="Grey Knights with: " hidden="false" collective="false" import="true" defaultSelectionEntryId="f3f0-8082-89fa-f023">
@@ -536,15 +529,12 @@ If a model with this rule makes an attack against a mixed unit which has one or 
       </costs>
     </selectionEntry>
     <selectionEntry id="322e-c8e4-062a-950d" name="Paladin Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <rules>
-        <rule id="d38e-ea46-d1bc-5461" name="Rite of Titan" hidden="false">
-          <description>Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties.</description>
-        </rule>
-      </rules>
       <infoLinks>
-        <infoLink id="34bb-4661-c716-0312" name="Purity of Spirit" hidden="false" targetId="463b-fdc7-1835-58ea" type="rule"/>
-        <infoLink id="d42c-f5a9-7621-7924" name="Preferred Enemy: Daemons " hidden="false" targetId="6b04-c6d8-3dc1-5ff2" type="rule"/>
         <infoLink id="5aad-309f-0144-9554" name="Inexorable" hidden="false" targetId="36fe-0ccf-9c80-7e80" type="rule"/>
+        <infoLink name="GREY KNIGHTS" id="c4ec-291f-23dc-2e9c" hidden="false" type="rule" targetId="6158-067d-3fd1-b234"/>
+        <infoLink name="Frag Grenades" id="9cee-c9bf-250f-7896" hidden="false" type="profile" targetId="3b31-8ac4-2152-876b"/>
+        <infoLink name="Krak Grenades" id="7a67-28ab-2490-2c71" hidden="false" type="profile" targetId="9af1-f354-beeb-0bfd"/>
+        <infoLink name="Psyk-Out Grenade" id="08a5-ef29-5f7c-8e9d" hidden="false" type="profile" targetId="752f-7fe3-165d-f833"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="2917-2d26-2081-fd11" name="Aegis Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -850,17 +840,12 @@ If a model with this rule makes an attack against a mixed unit which has one or 
         </profile>
       </profiles>
       <rules>
-        <rule id="1d26-6ef9-4bbb-d0ad" name="Rite of Titan" hidden="false">
-          <description>Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties.</description>
-        </rule>
         <rule id="28dc-df98-fa23-eb19" name="Force Shielding" hidden="false">
           <description>Models with Force Shielding have an Invulnurable Save of 5+</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="50b3-074c-42bc-beae" name="Purity of Spirit" hidden="false" targetId="463b-fdc7-1835-58ea" type="rule"/>
-        <infoLink id="9e90-d504-092e-ee5a" name="The Aegis" hidden="false" targetId="ec14-3ec0-ef54-4901" type="rule"/>
-        <infoLink id="80da-67d5-c83d-7e59" name="Preferred Enemy: Daemons " hidden="false" targetId="6b04-c6d8-3dc1-5ff2" type="rule"/>
+        <infoLink name="GREY KNIGHTS" id="4fe9-434f-b9f7-67cc" hidden="false" type="rule" targetId="6158-067d-3fd1-b234"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="0ea1-a365-f4f6-35fb" name="Personal Teleporter" hidden="false" collective="false" import="true" type="upgrade">
@@ -1055,16 +1040,9 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="dee5-8df5-7e84-f8e1" name="Rite of Titan" hidden="false">
-          <description>Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties.</description>
-        </rule>
-      </rules>
       <infoLinks>
-        <infoLink id="270a-b518-57e5-4792" name="Purity of Spirit" hidden="false" targetId="463b-fdc7-1835-58ea" type="rule"/>
-        <infoLink id="8b2d-536d-334a-7b4e" name="Firstborn Astartes" hidden="false" targetId="8ea7-5bf6-33c6-0b41" type="rule"/>
-        <infoLink id="0e69-0848-a393-9b62" name="Preferred Enemy: Daemons " hidden="false" targetId="6b04-c6d8-3dc1-5ff2" type="rule"/>
         <infoLink id="e3fb-ff63-40e9-2522" name="Inexorable" hidden="false" targetId="36fe-0ccf-9c80-7e80" type="rule"/>
+        <infoLink name="GREY KNIGHTS" id="5623-1f32-67c5-0210" hidden="false" type="rule" targetId="6158-067d-3fd1-b234"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="986b-293b-f0e2-c7a1" name="Psyker" hidden="false" collective="false" import="true" type="upgrade">
@@ -1247,15 +1225,13 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
         <rule id="d7a4-cc5a-c782-8d3b" name="Psychic Pilot" page="0" hidden="false">
           <description>A vehicle with this special rule is a Psyker. The vehicle is considered to have a Leadership characteristic of 10, should this be needed in order to resolve any psychic power.</description>
         </rule>
-        <rule id="99b6-4e94-45d1-b5cb" name="The Aegis" hidden="false">
-          <description>This model&apos;s unit reduces the leadership value for the purpose of enemy psychic tests within 8&quot; by 2</description>
-        </rule>
         <rule id="876b-9284-0162-9a3d" name="Power of the Machine-Spirit" hidden="false">
           <description>A Vehicle with this special rule may attack different targets with each Ranged weapon it is permitted to fire during any Shooting Attack.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="84c1-a386-b52a-b53f" name="Assault Vehicle" hidden="false" targetId="9ad7-6964-df60-92b6" type="rule"/>
+        <infoLink name="GREY KNIGHTS" id="3050-0ef3-a9ef-4f2d" hidden="false" type="rule" targetId="6158-067d-3fd1-b234"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="96b8-2308-437b-1030" name="Fortitude" hidden="false" collective="false" import="true" type="upgrade">
@@ -1503,13 +1479,8 @@ If the Vortimer Pattern Landraider is destroyed, the transported vehicle or Drea
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="81e9-0cf4-7af4-5b12" name="The Aegis" hidden="false">
-          <description>This model&apos;s unit reduces the leadership value for the purpose of enemy psychic tests within 8&quot; by 2</description>
-        </rule>
-      </rules>
       <infoLinks>
-        <infoLink id="0b05-652f-3a8a-8c59" name="Preferred Enemy: Daemons " hidden="false" targetId="6b04-c6d8-3dc1-5ff2" type="rule"/>
+        <infoLink name="GREY KNIGHTS" id="75d1-6cab-a09f-0b7f" hidden="false" type="rule" targetId="6158-067d-3fd1-b234"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="9a6b-809b-2d3a-353c" name="Searchlight and Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
@@ -1873,5 +1844,15 @@ If this attempt is succesfully manifested on this character, or his unit, then t
     <rule name="Blade Shield" id="bc8e-cea1-4de6-fc85" hidden="false">
       <description>Castallen Crowe may re-roll all failed saving throws.</description>
     </rule>
+    <rule name="GREY KNIGHTS" id="6158-067d-3fd1-b234" hidden="false">
+      <description>The Grey Knights Gene-seed comes from the Emperor himself and confers the following benefits to all models with Firstborn Astartes (Grey Knights)
+Purity of Spirit
+The Aegis
+Preferred Enemy: Daemons</description>
+    </rule>
   </sharedRules>
+  <infoLinks>
+    <infoLink name="Purity of Spirit" id="702f-dacb-426d-c749" hidden="false" targetId="463b-fdc7-1835-58ea" type="rule"/>
+    <infoLink name="Purity of Spirit" id="55e4-9217-c65f-7d22" hidden="false" targetId="463b-fdc7-1835-58ea" type="rule"/>
+  </infoLinks>
 </catalogue>

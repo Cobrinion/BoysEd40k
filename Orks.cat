@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="932e-9347-ef61-1539" name="Orks" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="6" revision="15" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="932e-9347-ef61-1539" name="Orks" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="6" revision="16" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Boyz Mob" hidden="false" id="7399-b01e-2e13-6602">
       <selectionEntries>
@@ -628,7 +628,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not been�
             <selectionEntry type="upgrade" import="true" name="Prophet of Gork and Mork" hidden="false" id="ef81-fa83-1117-0fa6">
               <rules>
                 <rule name="Prophet of Gork and Mork" id="ea4a-a9ba-c44c-ba86" hidden="false">
-                  <description>If Ghazghkull is your Warlord, he gains a 2+ Invulnerable save on any turn the Advanced Reaction Waaagh! is used. This invulnerable save lasts until the end of his next turn. In addition, Ghazghkull and all other models in his unit can Run on a turn he calls a Waaagh! despite having the Slow and Purposeful special rule.</description>
+                  <description>If Ghazghkull is your Warlord, he gains a 2+ Invulnerable save on any turn a Waaagh! is called. This invulnerable save lasts until the end of his next turn. In addition, Ghazghkull and all other models in his unit can Run on a turn he calls a Waaagh! despite having the Slow and Purposeful special rule.</description>
                 </rule>
               </rules>
               <constraints>
@@ -2419,9 +2419,7 @@ single Mekaniak Kult to apply to the detachment, chosen from the following:
 •Tellyporta Assault</description>
     </rule>
     <rule name="Waaagh!" id="1eb1-db1c-dccb-e22f" hidden="false">
-      <description>This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase whenany enemy unit declares a Shooting Attack targeting a friendly unit under the Reactive player’s control. The Reacting unit must be from the Orks Detachment and must contain one or more models with the Warboss Unit Sub-type. The Reacting unit gains the Crusader, Fear (1) and Fearless special rules for the remainder of the phase. Once the Shooting Attack has been completely resolved, the Reacting unit may make a Charge targeting the enemy unit that made the Shooting Attack. The Charge must follow all the normal rules for Charging, except that the enemy unit may be further away than the Reacting unit’s Maximum Charge Distance. The enemy unit may not make a Reaction to this Charge, and if the Charge fails the Reacting unit may make a Surge Move as normal.
-
-In addition, after the Charge Move (or Surge Move) is made, friendly units within 12&quot; of models with the Warboss Unit Sub-type in the Reacting unit may also move. Units must be made up entirely of models with the ‘Ere We Go! special rule and eligible to make a Reaction to perform this move. Each unit’s move distance may be a number of inches up to its unmodified Initiative Characteristic, moving each model in the unit directly towards the enemy unit that made the Shooting Attack by the shortest available path. In a unit with mixed Initiative Characteristics, use the highest unmodified Characteristic. Any unit that makes a move as part of this Reaction counts as having made a Reaction in this Phase.</description>
+      <description>Once per game, at the start of any of your turns after the first, a model with this special rule can, if he is your Warlord, call a Waaagh! On the turn he does so, all friendly units made up entirely of models with the ’Ere We Go! special rule may charge in the Assault phase even if they made a Run move in the same turn.</description>
     </rule>
   </rules>
   <sharedProfiles>
@@ -3797,7 +3795,7 @@ Warp</characteristic>
           <rules>
             <rule name="Prophet of the Waaagh!" id="95b4-6a20-ff10-66bc" hidden="false">
               <description>A Warlord with this Trait and any unit they have joined gain the Crusader and Stubborn
-special rules. The Warlord also gains the Fear (1) special rule. If the Warlord already has the Fear (X) special rule or gains it by any other means, the value in brackets is increased by +1 instead. In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent’s Movement phase as long as the Warlord has not been removed as a casualty</description>
+special rules. The Warlord also gains the Fear (1) special rule. If the Warlord already has the Fear (X) special rule or gains it by any other means, the value in brackets is increased by +1 instead. In addition, an army whose Warlord has this Trait may call a Waaagh! as long as the Warlord has not been removed as a casualty</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3805,14 +3803,14 @@ special rules. The Warlord also gains the Fear (1) special rule. If the Warlor
           <rules>
             <rule name="Brutal but Kunnin&apos;" id="eb43-6be8-e7ef-4ee1" hidden="false">
               <description>A Warlord with this Trait and any unit they have joined gain the Hatred special rule, and any Melee weapons
-wielded by a Warlord with this Trait gain the Brutal (2) special rule. If the Warlord’s Melee weapons already have the Brutal (X) special rule (or otherwise gain it), the number in brackets is increased by +1 instead. In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent’s Assault phase as long as the Warlord has not been removed as a casualty.</description>
+wielded by a Warlord with this Trait gain the Brutal (2) special rule. If the Warlord’s Melee weapons already have the Brutal (X) special rule (or otherwise gain it), the number in brackets is increased by +1 instead. In addition, an army whose Warlord has this Trait may call a Waaagh! as long as the Warlord has not been removed as a casualty</description>
             </rule>
           </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Kunnin&apos; but Brutal" hidden="false" id="8a46-ba98-cfec-67bf">
           <rules>
             <rule name="Kunnin&apos; but Brutal" id="1e3f-9935-e7cb-4320" hidden="false">
-              <description>A Warlord with this Trait gains the It Will Not Die (5+) special rule, and the ranged weapons of the Warlord and any unit they have joined gain the More Dakka (1) special rule. If the Warlord’s or the unit’s ranged weapons already have the More Dakka (X) special rule (or otherwise gain it), the number in brackets is increased by +1 for that weapon instead. In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent’s Shooting phase as long as the Warlord has not been removed as a casualty</description>
+              <description>A Warlord with this Trait gains the It Will Not Die (5+) special rule, and the ranged weapons of the Warlord and any unit they have joined gain the More Dakka (1) special rule. If the Warlord’s or the unit’s ranged weapons already have the More Dakka (X) special rule (or otherwise gain it), the number in brackets is increased by +1 for that weapon instead. In addition, an army whose Warlord has this Trait may call a Waaagh! as long as the Warlord has not been removed as a casualty</description>
             </rule>
           </rules>
         </selectionEntry>

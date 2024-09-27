@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="15" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="17" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="3ff9-2058-b559-545b" name="Emperor Edition Core Rules"/>
   </publications>
@@ -237,16 +237,7 @@
                 <characteristic name="Effect" typeId="0ab5-732c-2c6c-c62a">At the start of the shooting phase, instead of making a shooting attack, a psyker with this ability may make a psychic test. If succesful, all enemy units within 9&quot; of the casting unit are hit with a Cleansing Flame. If the test fails, the casting unit as well as any friendly models within 9&quot; with the Psyker keyword instead suffers Perils of the Warp.</characteristic>
               </characteristics>
             </profile>
-            <profile id="1995-65c8-266f-c00f" name="Force" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-              <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the test is successful then the Strength value of any attacks made is doubled. If the test is failed then a Perils of the Warp attack is resolved targeting the unit
-containing the model that failed its test. If the Psyker survives Perils of the Warp then it may attack as normal.</characteristic>
-              </characteristics>
-            </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="7574-53fc-948b-1431" name="Soul Blaze" hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
@@ -2205,7 +2196,7 @@ A Cataphractii Terminator with an Iron Halo also re-rolls invulnerable saving th
         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Gets Hot</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Breaching (4+), Gets Hot</characteristic>
       </characteristics>
     </profile>
     <profile id="64c8-fb7b-b876-b5d6" name="Assault Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -2677,6 +2668,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     <profile name="Spatha Attack Bike" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="bcab-4a50-414b-687f">
       <characteristics>
         <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Legion Spatha Attack Bike has one Twin-Linked Bolter, and one Heavy Bolter. In addition, a model with a Legion Spatha Attack Bike that chooses to Run gains the Shrouded (5+) Special Rule until the start of the Controlling Player’s next turn.
+
 A model equipped with a Legion Spatha Attack Bike must change its Unit Type to Cavalry, keeping any Unit Sub-types it previously had, and may choose to gain the Skirmish Unit Sub type. In addition, the model must change its Movement Characteristic to 14 and gains the Firing Protocols (2), Battle-Hardened (1), Skilled Rider, and Hammer of Wrath (1) Special Rules.”</characteristic>
       </characteristics>
     </profile>
@@ -2787,6 +2779,22 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hand Flamer" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="7242-1524-ccd8-a98d">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Astartes Shotgun" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="8589-7312-5401-6028">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Concussive (1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
