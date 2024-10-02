@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="468e-a917-4877-c31a" name="Adeptus Astartes - Firstborn" revision="25" battleScribeVersion="2.03" authorName="Cobrinion" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="468e-a917-4877-c31a" name="Adeptus Astartes - Firstborn" revision="26" battleScribeVersion="2.03" authorName="Cobrinion" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <publications>
     <publication id="cfcf-7aa1-fe59-68ec" name="Book 1 The Council on Terra"/>
   </publications>
@@ -14113,7 +14113,7 @@ bolter, Stormbolter or bolt pistol.</description>
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Firewing Enigmatus Cabal (WIP)" hidden="false" id="240e-4ae2-50e9-96ed">
+    <selectionEntry type="upgrade" import="true" name="Firewing Enigmatus Cabal (WIPS)" hidden="false" id="240e-4ae2-50e9-96ed">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Firewing Enigmatii" hidden="false" id="a371-2590-1652-6017"/>
       </selectionEntries>
