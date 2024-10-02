@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="20" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="21" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="3ff9-2058-b559-545b" name="Emperor Edition Core Rules"/>
   </publications>
@@ -1317,7 +1317,7 @@ Similarily, if a model makes a shooting attack with a weapon that has the Poison
 Unless otherwise stated, poisoned weapons are treated as having a Strength of 1. The Poisoned Special Rule has no effect against vehicles.</description>
     </rule>
     <rule id="e665-d068-6f9e-bf71" name="Adamantium Will" hidden="false">
-      <description>Models with the Adamantium Will special rule gain an Invulnerable Save against any Wound inflicted by a weapon with the Force or Psychic Focus special rules and Wounds inflicted by Perils of the Warp – the value of this Save is indicated in brackets after the rule. For example, a model with Adamantium Will (5+) gains a 5+ Invulnerable Save against any Wound inflicted by a weapon with the Force or Psychic Focus special rules and Wounds inflicted by Perils of the Warp. If, for any reason, the Adamantium Will special rule is presented without a value in brackets then consider the rule to be Adamantium Will (5+).</description>
+      <description>Models with the Adamantium Will special rule gain an Invulnerable Save against any Wound inflicted by a weapon with the Force or Psychic Focus special rules and Wounds inflicted by Perils of the Warp – the value of this Save is indicated in brackets after the rule. For example, a model with Adamantium Will (5+) gains a 5+ Invulnerable Save against any Wound inflicted by a weapon with the Force or Psychic Focus special rules and Wounds inflicted by Perils of the Warp. If, for any reason, the Adamantium Will special rule is presented without a value in brackets then consider the rule to be Adamantium Will (5+)</description>
     </rule>
     <rule id="7908-edc4-d69f-fd78" name="Touch of Rust" hidden="false">
       <description>Weapons with this special rule cause a glancing hit on an armour penetration roll of a 6, unless the roll would otherwise cause a penetrating hit.</description>
@@ -2968,7 +2968,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     <profile name="Missile Launcher (Stasis Missiles)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="ca48-bcc8-9a4f-c8fc">
       <characteristics>
         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
-        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd"> 4</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Small Blast, Concussive (1)</characteristic>
       </characteristics>

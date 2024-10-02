@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="468e-a917-4877-c31a" name="Adeptus Astartes - Firstborn" revision="26" battleScribeVersion="2.03" authorName="Cobrinion" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="468e-a917-4877-c31a" name="Adeptus Astartes - Firstborn" revision="27" battleScribeVersion="2.03" authorName="Cobrinion" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <publications>
     <publication id="cfcf-7aa1-fe59-68ec" name="Book 1 The Council on Terra"/>
   </publications>
@@ -14115,7 +14115,25 @@ bolter, Stormbolter or bolt pistol.</description>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Firewing Enigmatus Cabal (WIPS)" hidden="false" id="240e-4ae2-50e9-96ed">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Firewing Enigmatii" hidden="false" id="a371-2590-1652-6017"/>
+        <selectionEntry type="upgrade" import="true" name="Firewing Enigmatii" hidden="false" id="a371-2590-1652-6017">
+          <profiles>
+            <profile name="Firewing Enigmatii" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit" hidden="false" id="5ddd-e3c5-f911-5583">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849"/>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa"/>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604"/>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5"/>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3"/>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5"/>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb"/>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482"/>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab"/>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f"/>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Hexagrammaton" id="b9ce-a7dc-62f8-c89e" hidden="true" defaultSelectionEntryId="none">
