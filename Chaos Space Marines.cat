@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb01-7be9-f390-5267" name="Chaos Space Marines" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="cb01-7be9-f390-5267" name="Chaos Space Marines" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="ab90-4e30-7e07-563f" name="Warband Origins" hidden="false"/>
   </categoryEntries>
@@ -545,27 +545,6 @@
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="f028-c6eb-1957-980a" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b2b-d6eb-3140-c052" type="max"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="f943-1434-3e18-c89b" name="Meltagun" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
-                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
-                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Melta</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="dde9-5e12-9716-75f0" name="Melta" hidden="false" targetId="25dd-f53c-779e-cefb" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="a984-b0b8-639b-01c1" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b9c-bdd2-72e3-54aa" type="max"/>
@@ -633,7 +612,7 @@
                     <infoLink id="97af-b039-4686-fa99" name="Meltagun" hidden="false" targetId="15cf-000e-a434-a3ad" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="bd92-779e-a79e-580b" name="Plasma Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -3859,17 +3838,15 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9752-b98d-8314-898c" name="Heavy Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="22c4-4c64-3fba-d80e">
+        <selectionEntryGroup name="Heavy Weapons" id="caef-267a-da53-2062" hidden="false" collective="false" import="true" defaultSelectionEntryId="e2a2-5c8e-eb17-c8b9">
           <constraints>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f002-8990-d89a-84ea" type="max"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="6920-48cf-5221-30fe"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="75cc-d89d-7400-6a70"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0eb7-7b9c-c61a-603f" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7116-a15f-90d4-7b2e" type="max"/>
-              </constraints>
+            <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="a5a3-f837-0ef8-f3b1" collective="false">
               <profiles>
-                <profile id="4b06-14ea-76ed-233b" name="Autocannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+                <profile name="Autocannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="8161-42b1-5f09-08af">
                   <characteristics>
                     <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
                     <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
@@ -3882,125 +3859,84 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e762-8551-5775-6a82" name="Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3497-7777-a7a2-5f89" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="8745-529b-7ecd-4ace" name="Heavy Flamer" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+            <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="2bc5-d470-8989-51c8" collective="false">
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Heavy Flamer" id="e57c-dd14-ae71-0b4f" hidden="false" type="profile" targetId="4a87-2884-7397-fd84"/>
+              </infoLinks>
             </selectionEntry>
-            <selectionEntry id="22c4-4c64-3fba-d80e" name="Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="639d-e5f0-0fba-5aec" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="40e7-637e-458f-b83e" name="Heavy Bolter" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+            <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="e2a2-5c8e-eb17-c8b9" collective="false">
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="4059-0093-9315-86d2" hidden="false" type="profile" targetId="ca4f-7c64-abdd-819d"/>
+              </infoLinks>
             </selectionEntry>
-            <selectionEntry id="fb66-0d47-ccd5-0de3" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92bb-bfa3-70e8-ab5a" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="85ef-25a3-b8aa-c14e" name="Lascannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+            <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="fde6-6f33-84ce-b9a0" collective="false">
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="7be2-194a-a47c-d64d" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6537-e2ba-3ea4-4743" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="2344-212b-9d42-22fa" name="Meltagun" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Melta</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <infoLinks>
-                <infoLink id="99be-e89a-2123-8dab" name="Melta" hidden="false" targetId="25dd-f53c-779e-cefb" type="rule"/>
+                <infoLink name="Lascannon" id="86ba-41f8-5e51-67cb" hidden="false" type="profile" targetId="6789-a19c-72d5-41b3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Multi-Melta" hidden="false" id="0c98-29dc-eef4-3b3d" collective="false">
+              <infoLinks>
+                <infoLink name="Multi-melta" id="8c47-67d8-7a86-1dfa" hidden="false" type="profile" targetId="c031-bf66-238d-35b6"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9a6a-4b5c-67a6-9409" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5690-01af-6485-393e" type="max"/>
-              </constraints>
+            <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="3e6f-acb6-30bf-2e75" collective="false">
               <infoLinks>
-                <infoLink id="e80b-f14a-5400-6890" name="Missile Launcher (Krak)" hidden="false" targetId="4bfc-e9e2-f183-1f5a" type="profile"/>
-                <infoLink id="3f66-e5cc-ec11-de99" name="Missile Launcher (Frag)" hidden="false" targetId="3f8e-6573-74c1-bd2b" type="profile"/>
+                <infoLink name="Missile Launcher (Krak)" id="bb03-5ad6-97f4-5f69" hidden="false" targetId="4bfc-e9e2-f183-1f5a" type="profile"/>
+                <infoLink name="Missile Launcher (Frag)" id="a114-2cab-22c5-783f" hidden="false" targetId="3f8e-6573-74c1-bd2b" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f468-276a-34db-af20" name="Plasma Gun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e00-b91e-62fb-a015" type="max"/>
-              </constraints>
+            <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="6c53-8959-c0d9-0f6f" collective="false">
               <infoLinks>
-                <infoLink id="dd2c-b995-aafd-8809" name="Plasma Gun" hidden="false" targetId="da38-b09b-1ae5-a286" type="profile"/>
-                <infoLink id="1736-a41f-5906-5b5e" name="Gets Hot" hidden="false" targetId="5d2d-493d-a032-fc88" type="rule"/>
+                <infoLink name="Plasma Gun" id="d59b-776f-aae9-2383" hidden="false" targetId="da38-b09b-1ae5-a286" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="65ed-5f4e-2431-beea" name="Volkite Culverin" hidden="true" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d642-d53d-736c-e0d2" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b5b-27fc-2f78-3df6" type="max"/>
-              </constraints>
+            <selectionEntry type="upgrade" import="true" name="Plasma Cannon" hidden="false" id="bb2d-fbb3-a3d1-ace4">
               <infoLinks>
-                <infoLink id="118c-5f86-fb3d-93e2" name="Deflagrate" hidden="false" targetId="9be6-b378-97d2-f566" type="rule"/>
-                <infoLink id="58db-1cfb-9056-8c0f" name="Volkite Culverin" hidden="false" targetId="2841-2b46-627d-41ae" type="profile"/>
+                <infoLink name="Plasma Cannon" id="e8d5-f0c5-af5d-323e" hidden="false" targetId="625b-a2bf-eff1-e29a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Volkite Culverin" hidden="false" id="971b-6538-4ffa-6f47">
+              <infoLinks>
+                <infoLink name="Volkite Culverin" id="6a4b-93f2-980c-66c7" hidden="false" type="profile" targetId="2841-2b46-627d-41ae"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <modifiers>
+            <modifier type="increment" value="1" field="6920-48cf-5221-30fe">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="4d4e-af81-6397-adb4" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="75cc-d89d-7400-6a70">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="4d4e-af81-6397-adb4" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>

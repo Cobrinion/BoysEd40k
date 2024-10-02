@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="17" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="20" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="3ff9-2058-b559-545b" name="Emperor Edition Core Rules"/>
   </publications>
@@ -1929,6 +1929,70 @@ A model with the Reinforced Sub-type does not have to make Snap Shots due to the
     <rule name="Sanctic Force" id="aacb-1d6a-511a-72e8" hidden="false">
       <description>Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the Check is successful then that weapon gains the Insant Death special rule. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check. If the Psyker survives Perils of the Warp then it may attack as normal.</description>
     </rule>
+    <rule name="Flyer" id="fc61-c826-2843-bc06" hidden="false">
+      <description>The airspace above a battle is just as frantic as on the ground. Fighters and bomber craft hurtle through the skies, duelling with one another and providing fire support for the troops on the ground.
+
+
+Aerial Support
+Flyers must begin the game as Reserve. Special rules that allow an owning player to move one or more of their units out of Reserve after deployment, but before the game begins, cannot be used to move a Flyer out of Reserve, unless they specifically state that Flyers can start the game deployed on the battlefield.
+
+
+Flyers and Measuring
+Flyers have flying bases that suspend them above the battlefield. However, distances are still measured to and from the Flyer’s hull, with the exception of the Vehicle’s weapons, which all work as normal. The base of a Flyer is effectively ignored, except for when:
+The Flyer is in close combat, in which case models may move into contact with the Vehicle’s hull, its base or both.
+Models are Embarking or Disembarking from the Flyer, in which case the base of the Flyer is used as an Access Point.
+
+
+Flyers and other Models
+Models that physically fit under a Flyer model can move beneath it. Likewise, a Flyer can end its move over such models. However, when moving this way, enemy models must still remain 1&quot; away from the base of the Flyer, and the Flyer cannot end its move with its base within 1&quot; of enemy models.
+
+
+Zoom
+Flyers can usually only make a special kind of move called a Zoom. Some can also Hover. Zooming allows the Flyer to move at extreme speeds, making it very difficult to shoot down, but limits its manoeuvrability.
+
+
+If a Flyer Zooms, then it may move up to twice its Movement Characteristic. However, a Zooming Flyer can never voluntarily move less than its Movement Characteristic in its own Movement phase. If a Zooming Flyer is forced to move less than its Movement Characteristic in its own Movement phase, it is automatically Wrecked.
+
+
+To represent its limited manoeuvrability, a Zooming Flyer can only make a single pivot on the spot of up to 90° before it moves. Thereafter, it must move directly forwards in a straight line. In a turn in which a Flyer enters the battlefield from Reserves, it can do so facing any direction you wish, providing that the resulting move will not carry it off the battlefield again.
+
+
+A Zooming Flyer can move over intervening units and Impassable Terrain exactly as a Skimmer. In addition, a Zooming Flyer does not have to take Dangerous Terrain tests even if it starts or stops over Difficult Terrain, Dangerous Terrain or Impassable Terrain. Finally, unless otherwise stated, models cannot Embark upon, or voluntarily Disembark from, a Zooming Flyer.
+
+
+Zoom and Ramming
+Zooming Flyers cannot Ram, nor can they be Rammed. If a Ramming Vehicle would end up beneath a Zooming Flyer, move the Ramming Vehicle by the shortest distance so that it is 1&quot; away from the base of the Flyer.
+
+
+Zooming and Shooting
+Zooming Flyers can fire up to four of their weapons using their full Ballistic Skill regardless of the distance moved that turn. Zooming Flyers can choose whether or not to use the Skyfire special rule at the start of each Shooting phase. If they do, all weapons they fire that Phase are treated as having the Skyfire special rule.
+
+
+Shooting Attacks targeting a Zooming Flyer can only be resolved as Snap Shots (unless the model or weapon has the Skyfire special rule). Template and Blast weapons, and any other attacks that do not roll To Hit, cannot hit Zooming Flyers.
+
+
+Charging Zooming Flyers
+Zooming Flyers cannot be Charged.
+
+
+Repairing Zooming Flyers
+Some models have the ability to repair Hull Points, Immobilised or Weapon Destroyed results on Vehicles. Such models can only use such abilities on a Zooming Flyer if that Flyer is a Transport and the model attempting to repair it is Embarked inside it.
+Leaving Combat Airspace
+It is likely that a Flyer making a Zoom Move will leave the battlefield, either deliberately or by accident. If this happens, the Flyer is said to have left combat airspace – it then enters Reserves. A Flyer that leaves combat airspace must Zoom back on when it returns from Reserves, even if it has the Hover sub-type.
+
+
+A Flyer cannot leave combat airspace on the same turn that it entered play from Reserves – the owning player must deploy their model in such a way that it will not leave the battlefield on the same turn.
+
+
+Flyers and Immobilised Results
+If a Zooming Flyer suffers an Immobilised result, roll a D6. On a 1 or 2, the Flyer will immediately Crash and Burn. On a 3+, the Immobilised result counts as a Crew Stunned result instead.</description>
+    </rule>
+    <rule name="Hover" id="3076-6cda-5ce7-a4bf" hidden="false">
+      <description>A Flyer that has the Hover sub-type can choose to Hover instead of Zooming. Hovering makes the Flyer slower, but considerably more agile, and in the case of Transports, it allows passengers to Embark or Disembark.
+
+
+A Flyer with the Hover sub-type must declare whether it is going to Zoom or Hover before it moves, and before any Embarked models Disembark, each Movement phase. This means that if the Flyer arrives from Reserves, you must declare which type of Movement it is using before placing it on the board. If a Flyer is in a Squadron, all Vehicles in the Squadron must choose the same type of Movement. A Flyer in Hover mode cannot switch to Zoom mode if it is Immobilised.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="9af7-7731-8e0e-4d1b" name="Jump Pack" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -1967,7 +2031,8 @@ During a Reaction made in any Phase, a player may not choose to activate a model
     </profile>
     <profile id="493f-7f11-6a34-df7f" name="Cataphractii Terminator Armour" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Cataphractii Terminator armour confers a 2+ Armour Save and a 4+ invulnerable save as well as the (Heavy) subtype.  Furthermore, models in Cataphractii Terminator armour have the Bulky (2), Deep Strike, Inexorable, and Slow and Purposeful special rules. 
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Cataphractii Terminator armour confers a 2+ Armour Save and a 4+ invulnerable save as well as the (Heavy) subtype. Furthermore, models in Cataphractii Terminator armour have the Bulky (2), Deep Strike, Inexorable, and Slow and Purposeful special rules.
+
 A Cataphractii Terminator with an Iron Halo also re-rolls invulnerable saving throws of 1 to represent the overlapping energy fields projected from both his iron halo and his armour&apos;s in-built shield generators.</characteristic>
       </characteristics>
     </profile>
@@ -2329,7 +2394,7 @@ A Cataphractii Terminator with an Iron Halo also re-rolls invulnerable saving th
         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">45&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 4, Deflagrate</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 5, Deflagrate</characteristic>
       </characteristics>
     </profile>
     <profile id="113d-8a42-0b64-fe07" name="Volkite Caliver" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -2795,6 +2860,125 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Concussive (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Boarding Shield" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="e3c3-428d-5f7f-de25">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Confers a 5+ Invulnerable Save. May not claim a bonus for having two melee weapons.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="New Profile" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="7f34-3098-8c8b-dbf1">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Large Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tempest Rocket" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="c37e-6561-dba7-4922">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">60&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sunder, One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vengeance Launcher" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="a936-4aa8-04e2-50b9">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Large Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Bolter Batteries" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="1d90-059a-63c6-4cb4">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 8, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Autocannon Batteries" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="d829-35a7-28cb-2e35">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 4, Rending (6+), Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hellstrike Missiles" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="c62e-a945-2357-ee6d">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sunder, One-Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-Linked Avenger Bolt Cannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="87cf-947b-280a-1a37">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ramjet Diffraction Grid" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="4e2c-a82e-7a33-0e0f">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A model with a ramjet diffraction grid reduces the Strength of Shooting Attacks made against its Rear or Side armour by -1, or -2 if that attack has the Blast special rule or uses a template to determine its Range. A ramjet diffraction grid has no effect on attacks inflicted with weapons of the Destroyer type.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sunfury Heavy Missiles" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="d9a4-cec6-3250-c6cf">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Small Blast, Breaching (4+), Gets Hot, One-Use</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kraken Penetrator Missiles" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="6b37-0a9f-e994-f31a">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Armourbane (Ranged), One-Use</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Phosphex Bombs" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="f9dd-6863-b734-412a">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">6&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, One Use, Small Blast, Poisoned (3+), Crawling Fire, Lingering Death</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plasma Incinerator" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="d610-92c3-bee0-bec0">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Breaching (4+), Torrent (9&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Suspensor Web" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="85f8-925b-931a-0d67">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A heavy weapon with a suspensor web may be treated as having the type Assault rather than Heavy when used to attack as part of any Shooting Attack at targets at up to half the weapon’s usual maximum range.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Missile Launcher (Stasis Missiles)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="ca48-bcc8-9a4f-c8fc">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd"> 4</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Small Blast, Concussive (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Missile Launcher (Rad Missiles" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="73f8-83f7-d5c9-75c3">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Small Blast, Fleshbane, Rad-Phage</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
