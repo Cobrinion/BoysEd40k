@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="932e-9347-ef61-1539" name="Orks" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="6" revision="16" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="932e-9347-ef61-1539" name="Orks" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="6" revision="17" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Boyz Mob" hidden="false" id="7399-b01e-2e13-6602">
       <selectionEntries>
@@ -21,6 +21,7 @@
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">6</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="4+" field="d33e-1fdc-0c00-8cb8">
@@ -73,6 +74,7 @@
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="4+" field="d33e-1fdc-0c00-8cb8">
@@ -223,6 +225,7 @@
             <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -340,6 +343,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
             <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -500,6 +504,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">5</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">-</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -551,6 +556,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -717,6 +723,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
             <characteristic name="A" typeId="d535-b745-b613-a7ab">6</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
         <profile name="Mork&apos;s Roar" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="e90e-70cf-2801-176d">
@@ -765,6 +772,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">6</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -826,6 +834,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -911,6 +920,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="5+" field="23ae-6026-aebd-abc3">
@@ -1065,6 +1075,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1137,6 +1148,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1282,6 +1294,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="5+" field="d33e-1fdc-0c00-8cb8">
@@ -1331,6 +1344,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="5+" field="d33e-1fdc-0c00-8cb8">
@@ -1439,6 +1453,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
             <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1485,6 +1500,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
             <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1597,6 +1613,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
             <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
         <profile name="Stikkbombs" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="972e-173a-8020-7ab6">
@@ -1767,6 +1784,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                     <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                     <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">6</characteristic>
                     <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                    <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1899,6 +1917,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2002,6 +2021,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                     <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
                     <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">5</characteristic>
                     <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5</characteristic>
+                    <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2021,6 +2041,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                     <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
                     <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">-</characteristic>
                     <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
+                    <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2059,6 +2080,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                     <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
                     <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">5</characteristic>
                     <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5</characteristic>
+                    <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2270,6 +2292,7 @@ Limitations
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2300,6 +2323,7 @@ Limitations
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>

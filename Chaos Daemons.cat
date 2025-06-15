@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6ba1-e0ef-9751-efdf" name="Chaos Daemons" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="6ba1-e0ef-9751-efdf" name="Chaos Daemons" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="dd7e-0412-06fa-7166" name="Nurglings" hidden="false" collective="false" import="true" targetId="3cbb-5abf-d9e3-9f71" type="selectionEntry">
       <categoryLinks>
@@ -83,7 +83,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="9f39-7bdf-e5f5-0784" name="Swarm" hidden="false" targetId="5012-2ddd-ace0-b9d6" type="rule"/>
+        <infoLink id="9f39-7bdf-e5f5-0784" name="Swarms" hidden="false" targetId="5012-2ddd-ace0-b9d6" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="c176-5cb4-86b9-ffba" name="Nurglings" hidden="false" collective="false" import="true" type="model">
@@ -105,6 +105,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
             <profile id="e809-fecb-6511-974f" name="Diseased Teeth and Claws" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -173,7 +174,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
       </rules>
       <infoLinks>
         <infoLink id="1867-2ec7-d7b4-b2a4" name="Daemon" hidden="false" targetId="c74e-51fd-4f2e-6929" type="rule"/>
-        <infoLink id="e62b-37d4-f06d-252b" name="Fear (X)" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
+        <infoLink id="e62b-37d4-f06d-252b" name="Fear" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Fear (1)"/>
           </modifiers>
@@ -265,6 +266,7 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
             <profile id="e86a-eca2-b023-5010" name="Plaguesword" page="0" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -306,6 +308,7 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -382,6 +385,7 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                     <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                     <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
                     <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                    <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -574,7 +578,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
           </modifiers>
         </infoLink>
         <infoLink id="a054-b885-dbff-0d05" name="Very Bulky" hidden="false" targetId="da98-f5f3-c21f-9234" type="rule"/>
-        <infoLink id="55cb-b605-27a4-bca0" name="Fleet (X)" hidden="false" targetId="b1ba-0709-4305-88e2" type="rule">
+        <infoLink id="55cb-b605-27a4-bca0" name="Fleet" hidden="false" targetId="b1ba-0709-4305-88e2" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Fleet (2)"/>
           </modifiers>
@@ -602,6 +606,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">5</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -700,6 +705,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -725,6 +731,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">7</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">-</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8"/>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -848,6 +855,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
             <characteristic name="A" typeId="d535-b745-b613-a7ab">5</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1203,6 +1211,7 @@ Roll a D6 for each unengaged enemy unit, on the battefield. On the roll of a 5 o
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">6+</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1228,6 +1237,7 @@ Roll a D6 for each unengaged enemy unit, on the battefield. On the roll of a 5 o
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1325,18 +1335,18 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="3894-e188-f704-45ba" name="Hatred (X)" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
+            <infoLink id="3894-e188-f704-45ba" name="Hatred" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Hatred (Daemons of Slaanesh)"/>
               </modifiers>
             </infoLink>
             <infoLink id="d551-42ea-3321-c97d" name="Daemon" hidden="false" targetId="c74e-51fd-4f2e-6929" type="rule"/>
-            <infoLink id="776d-8cb8-4237-5afa" name="Fear (X)" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
+            <infoLink id="776d-8cb8-4237-5afa" name="Fear" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Fear (1)"/>
               </modifiers>
             </infoLink>
-            <infoLink id="6cd6-defd-8fed-a64b" name="Furious Charge (X)" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
+            <infoLink id="6cd6-defd-8fed-a64b" name="Furious Charge" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Furious Charge (1)"/>
               </modifiers>
@@ -1366,6 +1376,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
             <characteristic name="A" typeId="d535-b745-b613-a7ab">6</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+/5++</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1383,12 +1394,12 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="5593-ddb4-30a0-aa46" name="Adamantium Will (X+)" hidden="false" targetId="e665-d068-6f9e-bf71" type="rule">
+        <infoLink id="5593-ddb4-30a0-aa46" name="Adamantium Will" hidden="false" targetId="e665-d068-6f9e-bf71" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Adamantium Will (4+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="b238-531f-8272-c40c" name="Hatred (X)" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
+        <infoLink id="b238-531f-8272-c40c" name="Hatred" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Hatred Characters"/>
           </modifiers>
@@ -1428,7 +1439,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="b05c-8d2a-09cc-9ded" name="Murderous Strike (X)" hidden="false" targetId="3868-1cb3-eb8e-88f4" type="rule">
+                <infoLink id="b05c-8d2a-09cc-9ded" name="Murderous Strike" hidden="false" targetId="3868-1cb3-eb8e-88f4" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Murderous Strike (6+)"/>
                   </modifiers>
@@ -1473,8 +1484,8 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
       <infoLinks>
         <infoLink id="f703-5c9c-27b8-fe52" name="Scout" hidden="false" targetId="702b-def9-b05b-e7b1" type="rule"/>
         <infoLink id="4e87-7591-8738-60e7" name="Collar of Khorne" hidden="false" targetId="61a0-7ed8-1ced-76fb" type="profile"/>
-        <infoLink id="1865-a62d-7dde-c89e" name="Fleet (X)" hidden="false" targetId="b1ba-0709-4305-88e2" type="rule"/>
-        <infoLink id="c9b4-5355-6388-43a3" name="Adamantium Will (X+)" hidden="false" targetId="e665-d068-6f9e-bf71" type="rule">
+        <infoLink id="1865-a62d-7dde-c89e" name="Fleet" hidden="false" targetId="b1ba-0709-4305-88e2" type="rule"/>
+        <infoLink id="c9b4-5355-6388-43a3" name="Adamantium Will" hidden="false" targetId="e665-d068-6f9e-bf71" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Adamantium Will (4+)"/>
           </modifiers>
@@ -1492,18 +1503,18 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="715a-2a85-8985-8cfc" name="Hatred (X)" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
+            <infoLink id="715a-2a85-8985-8cfc" name="Hatred" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Hatred (Daemons of Slaanesh)"/>
               </modifiers>
             </infoLink>
             <infoLink id="e54a-a337-8cf8-7fca" name="Daemon" hidden="false" targetId="c74e-51fd-4f2e-6929" type="rule"/>
-            <infoLink id="0390-43de-4653-518b" name="Fear (X)" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
+            <infoLink id="0390-43de-4653-518b" name="Fear" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Fear (1)"/>
               </modifiers>
             </infoLink>
-            <infoLink id="b7e8-39ff-3388-8439" name="Furious Charge (X)" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
+            <infoLink id="b7e8-39ff-3388-8439" name="Furious Charge" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Furious Charge (1)"/>
               </modifiers>
@@ -1543,6 +1554,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1561,7 +1573,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="e4dd-f9a3-4da4-d47f" name="Fleet (X)" hidden="false" targetId="b1ba-0709-4305-88e2" type="rule">
+            <infoLink id="e4dd-f9a3-4da4-d47f" name="Fleet" hidden="false" targetId="b1ba-0709-4305-88e2" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Fleet (2)"/>
               </modifiers>
@@ -1615,18 +1627,18 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="dd76-396a-1e48-f21a" name="Hatred (X)" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
+            <infoLink id="dd76-396a-1e48-f21a" name="Hatred" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Hatred (Daemons of Slaanesh)"/>
               </modifiers>
             </infoLink>
             <infoLink id="84f4-7859-04fe-05a7" name="Daemon" hidden="false" targetId="c74e-51fd-4f2e-6929" type="rule"/>
-            <infoLink id="97ec-e81d-b5c1-40df" name="Fear (X)" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
+            <infoLink id="97ec-e81d-b5c1-40df" name="Fear" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Fear (1)"/>
               </modifiers>
             </infoLink>
-            <infoLink id="b5e1-f659-4907-9fac" name="Furious Charge (X)" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
+            <infoLink id="b5e1-f659-4907-9fac" name="Furious Charge" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Furious Charge (1)"/>
               </modifiers>
@@ -1716,6 +1728,7 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1742,6 +1755,7 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1959,6 +1973,7 @@ Movement 8&quot;</characteristic>
             <characteristic name="A" typeId="d535-b745-b613-a7ab">-</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">-</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2072,6 +2087,7 @@ Limitations
             <characteristic name="A" typeId="d535-b745-b613-a7ab">-</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">-</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2199,7 +2215,7 @@ Once all of a character&apos;s rewards are determined, he  can choose to swap a 
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b011-d233-af62-42b2" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="be36-ca52-3dc3-5529" name="Adamantium Will (X+)" hidden="false" targetId="e665-d068-6f9e-bf71" type="rule"/>
+                    <infoLink id="be36-ca52-3dc3-5529" name="Adamantium Will" hidden="false" targetId="e665-d068-6f9e-bf71" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -2305,7 +2321,7 @@ Once all of a character&apos;s rewards are determined, he  can choose to swap a 
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b1-e3fc-4593-69ba" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="e574-27fd-3508-779a" name="Feel No Pain (X)" hidden="false" targetId="f3a2-c2b0-6b0e-1653" type="rule">
+                    <infoLink id="e574-27fd-3508-779a" name="Feel No Pain" hidden="false" targetId="f3a2-c2b0-6b0e-1653" type="rule">
                       <modifiers>
                         <modifier type="set" field="name" value="Feel No Pain (4+)"/>
                       </modifiers>
@@ -2441,7 +2457,7 @@ Once all of a character&apos;s rewards are determined, he  can choose to swap a 
                 </selectionEntry>
                 <selectionEntry id="8541-5896-389d-5815" name="4-Unholy Frenzy" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="08d9-ed50-f51e-780b" name="Rage (X)" hidden="false" targetId="8c0c-8856-f1ab-923d" type="rule"/>
+                    <infoLink id="08d9-ed50-f51e-780b" name="Rage" hidden="false" targetId="8c0c-8856-f1ab-923d" type="rule"/>
                     <infoLink id="b024-1e3f-064f-7002" name="Relentless" hidden="false" targetId="37e2-a92b-40b4-d7cc" type="rule"/>
                   </infoLinks>
                   <costs>
@@ -2642,7 +2658,7 @@ Once all of a character&apos;s rewards are determined, he  can choose to swap a 
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="2302-a8e5-4b8a-77bc" name="Feel No Pain (X)" hidden="false" targetId="f3a2-c2b0-6b0e-1653" type="rule"/>
+            <infoLink id="2302-a8e5-4b8a-77bc" name="Feel No Pain" hidden="false" targetId="f3a2-c2b0-6b0e-1653" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8835-2049-fe6c-2642" name="Sol Alliance - Grey Knights " revision="5" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="8835-2049-fe6c-2642" name="Sol Alliance - Grey Knights " revision="8" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="48c8-31f9-ff3a-af17" name="Castellan Crowe" hidden="false" collective="false" import="true" targetId="6a2f-09e0-8270-3764" type="selectionEntry">
       <categoryLinks>
@@ -64,6 +64,7 @@ If a model with this rule makes an attack against a mixed unit which has one or 
             <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/4++</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
       </profiles>
@@ -200,6 +201,7 @@ If a model with this rule makes an attack against a mixed unit which has one or 
             <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
       </profiles>
@@ -226,6 +228,7 @@ If a model with this rule makes an attack against a mixed unit which has one or 
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
           </profiles>
@@ -592,6 +595,7 @@ If a model with this rule makes an attack against a mixed unit which has one or 
                     <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                     <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
                     <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/5++</characteristic>
+                    <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -684,7 +688,7 @@ If a model with this rule makes an attack against a mixed unit which has one or 
                 <entryLink id="e401-a970-6859-2d49" name="Special Issue Wargear" hidden="false" collective="false" import="true" targetId="7dbc-0901-7e42-c7d5" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="60"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6a04-ffcc-d6f2-8fc2" name="Paladin Apothecary" hidden="false" collective="false" import="true" type="model">
@@ -705,7 +709,7 @@ If a model with this rule makes an attack against a mixed unit which has one or 
                 <entryLink id="da6f-840d-53d6-0ca0" name="Special Issue Wargear" hidden="false" collective="false" import="true" targetId="7dbc-0901-7e42-c7d5" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="70"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="73"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fcc3-2d7c-592d-80c0" name="Paladin with Banner" hidden="false" collective="false" import="true" type="model">
@@ -760,7 +764,7 @@ If a model with this rule makes an attack against a mixed unit which has one or 
                 <entryLink id="0712-3db6-4ab7-c94a" name="Special Issue Wargear" hidden="false" collective="false" import="true" targetId="7dbc-0901-7e42-c7d5" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="53"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="656d-ec4b-a1fb-46c9" name="Paladin with Special Weapon" hidden="false" collective="false" import="true" type="model">
@@ -783,7 +787,7 @@ If a model with this rule makes an attack against a mixed unit which has one or 
                 <entryLink id="3b2b-6e0d-84e2-9d5c" name="Special Weapons: " hidden="false" collective="false" import="true" targetId="cf3a-5911-8190-70a6" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="53"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b900-0e58-b2c9-c656" name="Paladin with Banner and Special Weapon" hidden="false" collective="false" import="true" type="model">
@@ -807,7 +811,7 @@ If a model with this rule makes an attack against a mixed unit which has one or 
                 <entryLink id="791d-3384-7dba-b534" name="Banner choice: " hidden="false" collective="false" import="true" targetId="6633-af79-cff0-9cf9" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="53"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -836,6 +840,7 @@ If a model with this rule makes an attack against a mixed unit which has one or 
             <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/5++</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1037,6 +1042,7 @@ In addition, a Personal Teleporter gives the Nemesis Dreadknight the Jump (Monst
             <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/5++</characteristic>
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
           </characteristics>
         </profile>
       </profiles>
