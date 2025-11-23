@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="29" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="32" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
-    <publication id="3ff9-2058-b559-545b" name="Emperor Edition Core Rules"/>
+    <publication id="3ff9-2058-b559-545b" name="Github" publisherUrl="Cobrinion/40kEmperor"/>
   </publications>
   <costTypes>
     <costType id="e7de-8dcf-403a-b76a" name="pts" defaultCostLimit="0" hidden="false"/>
@@ -218,11 +218,6 @@
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c1-5d0d-4a81-39b5" type="max"/>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="350d-8135-5033-1ad6" type="min"/>
       </constraints>
-      <rules>
-        <rule id="1351-57a1-2ae1-962d" name="Psychic Discipline: Sanctus" hidden="false">
-          <description>A Psyker with this discipline gains all the listed powers, weapons and other special rules, as well as the Aetheric Lightning Psychic weapon.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry id="43d0-ebf2-1f0e-f1a2" name="Cleansing Flame" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -323,9 +318,6 @@ containing the model that failed its test. If the Psyker survives Perils of the 
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="d480-37a9-c5c6-8cdb" name="Psychic Focus" hidden="false" targetId="6825-f0c9-1ea7-42a1" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
@@ -750,10 +742,6 @@ containing the model that failed its test. If the Psyker survives Perils of the 
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="cea8-c851-6201-f4de" name="Precision Shots" hidden="false" targetId="f973-ed50-2ef2-1ffd" type="rule"/>
-            <infoLink id="2f5d-58e0-302c-3196" name="Precision Strikes" hidden="false" targetId="3e4f-328e-6455-4cf9" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
@@ -773,11 +761,6 @@ containing the model that failed its test. If the Psyker survives Perils of the 
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="d33e-6aea-20f0-35b9" name="Psychic Focus" hidden="false" targetId="6825-f0c9-1ea7-42a1" type="rule"/>
-            <infoLink id="301a-9526-7b96-ce03" name="Guided Fire" hidden="false" targetId="9855-a17a-2eee-337f" type="rule"/>
-            <infoLink id="76ed-65c4-31a7-2e9f" name="Sniper" hidden="false" targetId="193d-a5ab-2a72-7772" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
@@ -830,10 +813,6 @@ containing the model that failed its test. If the Psyker survives Perils of the 
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="150f-f760-238a-350a" name="Psychic Focus" hidden="false" targetId="6825-f0c9-1ea7-42a1" type="rule"/>
-            <infoLink id="052b-7e47-b515-74ad" name="Sunder" hidden="false" targetId="69cb-9416-7d88-15db" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
@@ -1044,7 +1023,6 @@ Roll for the arrival of all Deep Striking units as specified in the rules for Re
 First, place one model from the unit anywhere on the table,in the position where you would like it to arrive, and roll for scatter to determine the model’s final position. If a vehicle scatters when arriving via Deep Strike, do not change its facing – it must continue to face the same direction as it did before you rolled for scatter. Next, the unit’s remaining models are arranged around the first one. Models must be placed in base contact with the first model and begin to form a circle around it. When the first circle is complete, a further concentric circle must be placed with each model touching the circle inside it. Each circle must include as many models as will fit. Models deploying via Deep Strike treat all difficult terrain as dangerous terrain.
 In the Movement phase during which they arrive, Deep Striking units may not move any further, other than to disembark from a Deep Striking Transport vehicle if they are in one. Units Deep Striking into ruins are placed on the ground floor. Deep Striking units count non-ruined buildings (except for their battlements) as impassable terrain.
 In that turn’s Shooting phase, these units can fire (or Run, Turbo-boost or move Flat Out) as normal, and count as having moved in the previous Movement phase. Vehicles, except for Walkers, count as having moved at Combat Speed (even Immobilised vehicles). This can affect the number of weapons they can fire with their full Ballistic Skill (see page 71).
-In that turn’s Assault phase, however, these units cannot charge. This also applies to units that have disembarked from Transports that arrived by Deep Strike that turn.
 
 
 Deep Strike and Transports
@@ -1520,7 +1498,7 @@ with, the unit breaks away from combat and must immediately move a number of inc
     <rule id="29dd-0901-558e-f89d" name="Firing Protocols" hidden="false">
       <description>When making a Shooting Attack, a model with this special rule may attack with a number of different weapons equal to the value of this special rule. For example, a model with Firing Protocols (2) may attack with up to two different weapons.</description>
     </rule>
-    <rule id="5ebf-6f3b-e001-fd3e" name="Preferred Enemy (X)" publicationId="3ff9-2058-b559-545b" page="245" hidden="false">
+    <rule id="5ebf-6f3b-e001-fd3e" name="Preferred Enemy" publicationId="3ff9-2058-b559-545b" page="245" hidden="false">
       <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains
 at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
     </rule>
@@ -2108,35 +2086,48 @@ SPECIAL RULES
 Gargantuan Creatures and Flying Gargantuan Creatures have the following special rules: Fear, Fearless, Feel No Pain, Hammer of Wrath, Move Through Cover, Relentless, Smash, Strikedown, Vector Strike (Flying Gargantuan Creatures only).</description>
     </rule>
     <rule name="Vehicle" id="a32a-5850-0dba-eac8" hidden="false">
-      <description>As vehicle models do not usually have bases, the normal rule of measuring distances to or from a base cannot be used. Instead, measure to and from their hull, ignoring gun barrels, dozer blades, banners and other decorative elements.
-There is, however, the notable exception of a vehicle’s weaponry. When firing a vehicle’s weapons, ranges are measured from the muzzle of the firing weapon, whilst line of sight is determined from the weapon’s mounting point and along its barrel, as will be explained later in this section.
-VEHICLES IN THE MOVEMENT PHASE
-The distance a vehicle moves dictates how accurately it can fire its weapons, as described later.
-Stationary. A vehicle that remains stationary will be able to bring its full firepower to bear on the enemy.
+      <description>VEHICLES IN THE MOVEMENT PHASE
+As with all other models in Warhammer: The Boys Edition rules, Vehicles have a Movement Characteristic which defines the maximum number of inches they may move on the battlefield. This Movement Characteristic is often much greater than any Infantry model, but the distance a Vehicle moves dictates how accurate its weapons fire will be, and so Vehicles that take full advantage of their powerful engines will be less capable of laying down support fire later in the turn. 
+
+Stationary –
+A Vehicle that remains Stationary will be able to attack with all of its weapons, regardless of type, with no modification to their accuracy. 
+
+Combat Speed –
+A Vehicle that travels equal to or less, than half of its Movement Characteristic is said to be 
+moving at Combat Speed. This represents the Vehicle advancing slowly to keep firing. A Vehicle moving at Combat Speed may attack with all non-Ordnance or non-Destroyer weapons with no modification to their accuracy. A Vehicle moving at Combat Speed may only fire a single Ordnance or Destroyer weapon, and if it does so then all other weapons must be fired as Snap Shots.
 
 
-Combat Speed. A vehicle that travels up to 6&quot; is said to be moving at Combat Speed. This represents the vehicle advancing slowly to keep firing, albeit with reduced firepower.
+Cruising Speed –
+A Vehicle that travels more than half of its Movement Characteristic is said to be moving at Cruising Speed. This represents the Vehicle diverting power to keep it moving as fast as possible, making all of its firepower wildly inaccurate. A Vehicle moving at Cruising Speed may fire a single weapon without 
+modification to its BS and any other weapons as Snap Shots. However, a Vehicle moving at Cruising Speed may not fire Ordnance or Destroyer weapons.
+Vehicles can turn any number of times as they move, just like any other model. Vehicles turn by pivoting on the spot about their centre point, rather than wheeling round. Pivoting on the spot alone does not count as moving, so a Vehicle that only pivots in the Movement phase counts as Stationary (however, Immobilised Vehicles cannot even pivot on the spot). Pivoting is always done from the centre of a Vehicle to prevent it from accidentally moving further than intended or allowed. Just like other units, Vehicles cannot move over friendly models. A Vehicle may only pivot during the Movement phase, unless another rule specifically allows it to do so at another point. Unlike other models, Vehicles may not move vertically in terrain or on Terrain Pieces in order to ascend levels. Some Vehicle types, from combat aircraft to lumbering 
+artillery vehicles, as detailed later in this section, can affect both the manner in which a Vehicle moves and the distances it may move.
 
 
-Cruising Speed. A vehicle that travels more than 6&quot; and up to 12&quot; is said to be moving at Cruising Speed. This represents the vehicle diverting power to keep it moving as fast as possible, making all of its firepower wildly inaccurate. Vehicles can turn any number of times as they move, just like any other model.
+Difficult Terrain and Dangerous Terrain
+Vehicles moving through areas of terrain are not slowed like other units, but still risk becoming stuck or damaged. Vehicles treat all Difficult Terrain as Dangerous Terrain 
+instead. A Vehicle that fails a Dangerous Terrain test immediately loses 1 Hull Point and suffers an Immobilised result on the Vehicle Damage table.
 
-Moving Flat Out
-A vehicle can elect to move Flat Out instead of firing in the Shooting phase, immediately moving up to 6&quot;; this move triggers Dangerous Terrain tests as normal. A Tank cannot move Flat Out in the same turn that it performs a Tank Shock.
+Ramming
+When moving a Vehicle, the controlling player may declare that the Vehicle will attempt to Ram instead of moving normally. A Ram Attack allows a Vehicle to use its sheer bulk as a weapon, crushing infantry and battering even the most heavily-armoured war machines. The Vehicle attempting a Ram Attack, and any Em-
+barked troops, may only fire Snap Shots in that turn’s Shooting phase.
+To perform a Ram Attack, first turn the Vehicle on the spot to face the direction you intend to move it in, and, after measuring, declare how many inches the Vehicle is going to move, up to a maximum of its Movement Characteristic. If, due to the size of the Vehicle modelmaking the Ram, pivoting the model brings it into contact 
+with an enemy unit then move the Ramming Vehicle the minimum distance required to keep it 1&quot; away from any other model before beginning the Ram. Once the Vehicle has been ‘aimed’ and the intended distance declared, move the Vehicle 
+straight forwards until it comes into contact with a unit, enemy or friendly, or it reaches the distance declared – no other changes of direction are allowed during a Ram.
+Note that a Vehicle conducting a Ram may not contact a unit that is locked in combat. If its movement would bring it into contact with a unit that is locked in combat then
+it must halt its movement 1&quot; away from that unit, ending the Ram.
+If a non-Vehicle unit is reached then that unit suffers D6 automatic Hits. These hits are resolved at a Strength equal to half the Front Armour Value of the Ramming Vehicle, rounding up, and with an AP of -. If the Ramming Vehicle is a Super-
+heavy Vehicle then the Strength of the attack is always 10, and the number of Hits is increased to 2D6.Once all Hits sustained from the Ram have been resolved, the 
+unit that has been rammed must take a Morale check and immediately Fall Back if it fails. Regardless of the result of the check, the Vehicle stops moving 1&quot; away from any other models and does not move any further this turn. If the Ramming Vehicle comes into contact with an enemy Vehicle or Building, then all Vehicles or Buildings immediately inflict a Hit against any Armour Facing that is in contact with another Vehicle. The Strength of Hits inflicted on all Vehicles will be equal to the Armour Value, rounding up, on the facing that is in contact with an enemy Vehicle or Building.
+If the Ramming Vehicle has more starting Hull Points than any Vehicle or Building it is in contact with, add +1 to the Strength of the Hit, and if the Ramming Vehicle
+has the Slow or Super-heavy type, or is a Building, add +4 Strength, to a maximum value of 10. Both players roll for armour penetration against any of their opponent’s Vehicles or Building involved in the Ramming Attack, and any results are immediately applied. Regardless of the damage dealt to any Vehicles or Buildings involved
+in the Ram Attack, once the Ram Attack is resolved the Ramming Vehicle halts 1&quot; away from any other models and does not move further this turn.
+If, at any point in its move, the Vehicle would enter into con-
+tact with Impassable Terrain or a battlefield edge, or if it 
+passes within 1&quot; of units in combat or friendly units, it immediately stops moving 1&quot; away from any other model. Units already Falling Back. If a unit that is Falling Back is Rammed, the unit that is Falling Back automatically fails its Morale check. This also applies if a unit Falls Back from a Ramming Attack and the Vehicle’s remaining move brings it into contact with them a second time. Ramming from Reserve A Vehicle that moves onto the battlefield from Reserve may attempt a Ram. This must be declared before the Vehicle moves onto the battlefield.
 
-Vehicles turn by pivoting on the spot about their centre-point, rather than wheeling round. Pivoting on the spot alone does not count as moving, so a vehicle that only pivots in
-the Movement phase counts as Stationary (however, Immobilised vehicles cannot even pivot on the spot). Pivoting is always done from the centre of a vehicle to prevent it from accidentally moving further than intended or allowed. Just like other units, vehicles cannot move over friendly models. Difficult and Dangerous Terrain Vehicles moving through broken terrain are not slowed like other units, but still risk becoming stuck or damaged. Vehicles are not slowed down by difficult terrain. However, they treat all difficult terrain as dangerous terrain instead. A vehicle that fails a Dangerous Terrain test immediately loses one Hull point and suffers an Immobilised result from the Vehicle Damage table (see page 74).
-VEHICLES IN THE PSYCHIC PHASE
-Vehicles with the Psychic Pilot special rule (see page 170) manifest their psychic powers during the Psychic phase, as normal.
-VEHICLES IN THE SHOOTING PHASE
-When a vehicle fires, it uses its own Ballistic Skill characteristic and shoots like any other unit. All its weapons must fire at a  single target unit. 
-Moving and Shooting with Vehicles
-All vehicles have the Relentless special rule, but the number and accuracy of the weapons a vehicle can fire in the Shooting phase depends on how fast it moved in that turn’s Movement phase:
-A vehicle that remained Stationary can fire all of its weapons. Note that pivoting on the spot does not count as moving.
-A vehicle that moved at Combat Speed may fire a single weapon using its Ballistic Skill. Thevehicle can also fire Snap Shots
-with any other weapons.
-A vehicle that moved at Cruising Speed can only make Snap Shots, as above.
-Vehicles and Ordnance Weapons
-Unlike other units, vehicles can move and fire with Ordnance weapons. However, a vehicle that fires an Ordnance weapon can only make Snap Shots with its other weapons that turn.</description>
+Ramming Restrictions
+Units cannot Embark onto or Disembark from a Transport Vehicle in the same Movement phase in which it has already performed a Ram. Likewise, a Transport Vehicle from which a unit has Embarked or Disembarked that Phase cannot perform a Ram in that Movement phase. A Vehicle that has performed a Ram during the Movement  phase may still make Shooting Attacks in the following Shooting phase, but may only make Snap Shots.</description>
     </rule>
     <rule name="Transport" id="ebe2-6e53-8dee-4fdc" hidden="false">
       <description>Transports have several additional characteristics: Transport Capacity, Fire Points and Access Points.
@@ -2464,6 +2455,21 @@ Type: Haywire</description>
     <rule name="Plasma Flame" id="c04f-d42b-d615-9413" hidden="false">
       <description>When making an Overwatch attack, any failed To Hit rolls may be re-rolled.</description>
     </rule>
+    <rule name="Salvo" id="c21d-a982-084f-4381" hidden="false">
+      <description>Salvo weapons are essentially more destructive Rapid Fire weapons.
+
+
+Salvo weapons have two numbers on their profile (listed after their type) separated by a ‘/’. A model armed with a Salvo weapon can move and fire at a target up to half its maximum range away. In this case, the number of shots is equal to the first number. If the model has not moved, it can instead fire a greater number of shots at a target up to the weapon’s maximum range. In this case, the number of shots is equal to the second number.
+
+
+Models that shoot with Salvo weapons in the Shooting phase cannot charge in the ensuing Assault phase.</description>
+    </rule>
+    <rule name="Daemon Primarch" id="b88c-9067-50f9-0606" hidden="false">
+      <description>All models with the Daemon Primarch Unit Type have the following special rules: Independent Character, Eternal Warrior, Fear (2), It Will Not Die (5+), Bulky (6), and Relentless. In addition, all models with the Daemon Primarch Unit Type always count as Character models.
+Models with the Daemon Primarch Unit Type are not affected by special rules that negatively modify their Characteristics (other than Wounds) and, in addition, models with the Daemon Primarch Unit Type always resolve Snap Shots at their normal BS. All models with the Daemon Primarch Unit Type are immune to the effects of the Fear (X) special rule, cannot be Pinned, and a unit that includes one or more models with the Daemon Primarch Unit Type automatically passes Pinning and Regroup tests and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule. When a unit that includes one or more models with the Daemon Primarch Unit Type fails a Morale check, the unit does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no Saves of any kind allowed which must be allocated to a model with the Daemon Primarch or Daemon Unit Type or the Corrupted Unit Sub-type.
+Any Hits inflicted by a model with the Daemon Primarch Unit Type, as part of either Shooting Attacks or in close combat, are allocated by that model’s controlling player and not the controlling player of the target unit. These Hits should form a separate Wound Pool.
+If an army includes any models with the Daemon Primarch Unit Type, then one of those models must be chosen as the army’s Warlord. • For the purposes of any special rule that affects or has additional effects that target models with the Daemon or Primarch Unit Type, a model with the Daemon Primarch Unit Type is considered to have the Daemon and Primarch Unit Types</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="9af7-7731-8e0e-4d1b" name="Jump Pack" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -2496,7 +2502,7 @@ Type: Haywire</description>
     </profile>
     <profile id="493f-7f11-6a34-df7f" name="Cataphractii Terminator Armour" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Cataphractii Terminator Armour confers the Bulky (2) and Slow And Purposeful Special Rules. This pattern of Terminator armour also affords a 2+ save a 4+ Invulnurable Save and increases the models wounds by +1. A model with Cataphractii Terminator who also has an Iron Halo or a Sigil of Corruption may reroll invulnurable saves of 1 to represent the overlapping energy fields. </characteristic>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Cataphractii Terminator Armour confers the Bulky (2) and Slow And Purposeful Special Rules. This pattern of Terminator armour also affords a 2+ save a 4+ Invulnurable Save and increases the models wounds by +1. A model with Cataphractii Terminator who also has an Iron Halo or a Sigil of Corruption may reroll invulnurable saves of 1 to represent the overlapping energy fields.</characteristic>
       </characteristics>
     </profile>
     <profile id="625e-f664-dbef-3973" name="Close Combat Weapon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -3566,6 +3572,40 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     <profile name="Digital Weapons" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="e8a3-9eb2-c92d-10e6">
       <characteristics>
         <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Digital Weapons provide +1 attack in close combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grenadier Gauntlet" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="c0f9-dac5-43d7-4994">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brute Shield" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="9b33-b933-744e-eb9f">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A brute shield confers a 5+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slabshield" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="af99-5f4d-911a-f621">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">If a model with a slabshield is in base contact with one or more models with a slabshield from the same unit, it adds +1 to its Armour Save. Furthermore, if a target (friend or foe) is partially obscured from the firer’s view by at least one model with a slabshield, it receives +1 to its cover save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rippa Gun" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="8287-d35f-f458-c0fb">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flakk Missile" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="4858-d25a-2f50-f89a">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Skyfire</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="468e-a917-4877-c31a" name="Adeptus Astartes - Firstborn" revision="33" battleScribeVersion="2.03" authorName="Cobrinion" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="468e-a917-4877-c31a" name="Adeptus Astartes - Firstborn" revision="34" battleScribeVersion="2.03" authorName="Cobrinion" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <publications>
     <publication id="cfcf-7aa1-fe59-68ec" name="Book 1 The Council on Terra"/>
   </publications>
@@ -26,6 +26,13 @@
       <categoryLinks>
         <categoryLink id="b5b5-4c1d-b8de-2a52" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="644a-f3d4-2643-0e0b" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="dfdd-30fa-8eb9-c56b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink id="b7d9-fd34-46e0-c79a" name="Drop Pod" hidden="false" collective="false" import="true" targetId="f15f-004d-e2d5-fbb4" type="selectionEntry">
       <categoryLinks>
@@ -38,7 +45,7 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="726e-6a86-1394-66f0" name="Legion" hidden="false" collective="false" import="true" targetId="1f49-1f9a-58f7-be82" type="selectionEntry"/>
-    <entryLink id="ae31-3d75-5f81-7e7c" name="Heavy Support Squad" hidden="false" collective="false" import="true" targetId="8e6f-4dae-0630-c85a" type="selectionEntry">
+    <entryLink id="ae31-3d75-5f81-7e7c" name="Legion Heavy Support Squad" hidden="false" collective="false" import="true" targetId="8e6f-4dae-0630-c85a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c41b-3429-b3fb-e63c" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
       </categoryLinks>
@@ -318,6 +325,13 @@
       <categoryLinks>
         <categoryLink targetId="ebc5-5615-35fb-bc91" id="1e8e-1004-33e4-e070" primary="true" name="Elites"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="644a-f3d4-2643-0e0b" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="dfdd-30fa-8eb9-c56b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Legion Breacher Squad" hidden="false" id="4ab8-c01a-6a83-e942" type="selectionEntry" targetId="acc8-1ab7-e6eb-f639">
       <categoryLinks>
@@ -363,6 +377,7 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Formations" hidden="false" id="09de-bd0f-22a4-2818" type="selectionEntry" targetId="9762-4621-c983-5eb5"/>
   </entryLinks>
   <rules>
     <rule id="47b5-d113-6cd9-7030" name="Firstborn Astartes" hidden="false">
@@ -2951,7 +2966,7 @@ bolter, Stormbolter or bolt pistol.</description>
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="d490-2cf8-a366-637b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="69e8-ff89-e091-c65d" type="equalTo"/>
+                    <condition type="equalTo" value="1" field="selections" scope="d490-2cf8-a366-637b" childId="2f0d-199b-1691-c6d2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="set" field="bdef-e255-ef3f-2cfd" value="2">
@@ -2996,8 +3011,8 @@ bolter, Stormbolter or bolt pistol.</description>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="d490-2cf8-a366-637b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4d49-5de1-4dfd-9c25" type="equalTo"/>
-                        <condition field="selections" scope="d490-2cf8-a366-637b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ecc3-abb5-3296-5edf" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="d490-2cf8-a366-637b" childId="9970-2b4a-7f4b-4e88" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="equalTo" value="1" field="selections" scope="d490-2cf8-a366-637b" childId="18c2-d2d7-fa35-5639" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -10399,6 +10414,30 @@ bolter, Stormbolter or bolt pistol.</description>
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pride of the Legion" hidden="false" id="dfdd-30fa-8eb9-c56b">
+          <rules>
+            <rule name="Pride of the Legion" id="8435-364b-6dab-e3f8" hidden="false">
+              <description>In the gravest wars, the Lion entrusts each Legion’s Praetorian to gather the finest of their warriors for the spearhead. In such hosts, only Veterans and Terminators form the battleline.
+
+•Legion Veteran squads and Terminator squads are Troops choices in the Force, and units of either of these types must be selected as the Force’s Compulsory Troops choices. This also includes any Legion specific Terminator squads which are also Elites choices.
+• Command squads may take a Land Raider of either the Proteus or Phobos type as a Dedicated Transport.
+
+Limitations
+• Should all Legion Veteran Tactical squads and Terminator squads in the Force be destroyed in the battle, then the enemy counts as having scored an additional Secondary Objective worth 2 Victory points.
+• You may not take an Allied Force Detachment.
+• The majority of the units in the detachment must have the Legiones Astartes special rule (so if the detachment comprises seven units, at least four must have the Legiones Astartes rule, for example)
+• An army using this Formation may not include more non-Infantry units than it does Infantry units.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="724a-d77b-6a61-4bd0"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1868-1270-2edb-69e0"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="e043-7a40-eb52-18a8" name="Blood Claw Pack" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -14398,6 +14437,64 @@ bolter, Stormbolter or bolt pistol.</description>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Belial" hidden="false" id="b4e1-2152-af7a-103d">
+      <profiles>
+        <profile name="Belial" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit" hidden="false" id="c96e-efc9-cd28-bcce">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">6</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">3</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">5</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/4++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Deathwing, Grim Resolve, Marked for Retribution, Tactical Precision, The Hunt</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Teleport Homer" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="5b88-64fb-87df-e776">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Friendly units do not scatter when they Deep Strike, so long as the first model placed is within 6&quot; of a model with a locator beacon. The Teleport Homer must have been on the battlefield at the start of the turn in order for it to be used.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="6ed7-4349-bb67-8ce2">
+          <infoLinks>
+            <infoLink name="Storm Bolter" id="72d3-30d0-4f65-feb8" hidden="false" type="profile" targetId="a144-5691-6fd0-a068"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a7a-4c48-3768-b28e"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b26-e597-4e9e-1a7c"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sword of Silence" hidden="false" id="4f88-9ada-ce44-3a9e">
+          <profiles>
+            <profile name="Sword of Silence" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="ad0a-b3e7-20b9-e7da">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Fleshbane, Master-Crafted</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0930-d971-596d-7f56"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="649a-1bcc-b797-7663"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="190"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0c06-2996-731d-3436" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7b51-aa0c-6949-646b" name="Dreadnought CCW In-Built" hidden="false" collective="false" import="true" defaultSelectionEntryId="8c9f-4832-01e5-ca54">
@@ -15105,7 +15202,7 @@ Limitations
           <infoLinks>
             <infoLink id="5769-1b7a-e80b-7a1a" name="Fearless" hidden="false" targetId="8220-efb5-2199-6d3d" type="rule"/>
             <infoLink id="a80b-8030-616b-3366" name="Hatred" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule"/>
-            <infoLink id="8ba2-2489-77b0-5c8c" name="Preferred Enemy (X)" hidden="false" targetId="5ebf-6f3b-e001-fd3e" type="rule"/>
+            <infoLink id="8ba2-2489-77b0-5c8c" name="Preferred Enemy" hidden="false" targetId="5ebf-6f3b-e001-fd3e" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -15583,6 +15680,15 @@ bolter, Stormbolter or bolt pistol.</description>
       <description>This unit can Run and charge in the same turn, and can re-roll failed charge rolls.</description>
     </rule>
     <rule name="Order Exemplars" id="25e4-665b-8a61-8c42" hidden="false"/>
+    <rule name="Marked for Retribution" id="90d8-91a2-45be-9d18" hidden="false">
+      <description>Reroll all failed to hit rolls when fighting in a challenge</description>
+    </rule>
+    <rule name="Tactical Precision" id="0016-1fe5-6dbb-1bef" hidden="false">
+      <description>Belial and his unit do not scatter when arriving from Deep Strike</description>
+    </rule>
+    <rule name="The Hunt" id="25f3-1451-4f5b-e1e1" hidden="false">
+      <description>Your Warlord has the Precision Shots special rule. In addition, your Warlord’s shooting attacks have the Ignores Cover special rule. </description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="a9ba-9836-8cc3-b199" name="Combat Shield" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">

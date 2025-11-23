@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8d0d-e6ee-d5f5-22ad" name="Sol Alliance- Black Templars" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="8d0d-e6ee-d5f5-22ad" name="Sol Alliance- Black Templars" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8307-81b1-ff1d-7c63" name="Black Templars" hidden="false" collective="false" import="true" targetId="4751-db4a-8b37-51e0" type="selectionEntry"/>
     <entryLink id="5a17-447f-df0b-56b8" name="Crusader Squad" hidden="false" collective="false" import="true" targetId="5de5-ab45-ddb0-6963" type="selectionEntry">
@@ -254,7 +254,6 @@ The shooting model is INFANTRY and its unit Remained Stationary in your previous
       </rules>
       <infoLinks>
         <infoLink id="e6aa-768c-15fe-9318" name="Combi-Melta (Secondary)" hidden="false" targetId="60ce-118c-f84a-c085" type="profile"/>
-        <infoLink id="ee00-9b51-5606-bd14" name="Melta" hidden="false" targetId="25dd-f53c-779e-cefb" type="rule"/>
         <infoLink id="c2f5-83db-6e3c-dc73" name="Iron Halo" hidden="false" targetId="9604-cc84-8bc0-8118" type="profile"/>
       </infoLinks>
       <entryLinks>
