@@ -378,6 +378,18 @@
       </modifiers>
     </entryLink>
     <entryLink import="true" name="Formations" hidden="false" id="09de-bd0f-22a4-2818" type="selectionEntry" targetId="9762-4621-c983-5eb5"/>
+    <entryLink import="true" name="Belial" hidden="true" id="3ae7-ab72-41ea-58f8" type="selectionEntry" targetId="b4e1-2152-af7a-103d">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="8cad-d0d6-9e56-d262" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="6375-3e5f-be64-925e" id="232a-c849-0a93-6a1a" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="47b5-d113-6cd9-7030" name="Firstborn Astartes" hidden="false">
