@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="32" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="33" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="3ff9-2058-b559-545b" name="Github" publisherUrl="Cobrinion/40kEmperor"/>
   </publications>
@@ -1019,10 +1019,28 @@ Armourbane (Melta): A model or weapon with this Armourbane special rule only gai
 
 
 Arriving by Deep Strike
-Roll for the arrival of all Deep Striking units as specified in the rules for Reserves (see page 147) and then deploy them as follows:
-First, place one model from the unit anywhere on the table,in the position where you would like it to arrive, and roll for scatter to determine the model’s final position. If a vehicle scatters when arriving via Deep Strike, do not change its facing – it must continue to face the same direction as it did before you rolled for scatter. Next, the unit’s remaining models are arranged around the first one. Models must be placed in base contact with the first model and begin to form a circle around it. When the first circle is complete, a further concentric circle must be placed with each model touching the circle inside it. Each circle must include as many models as will fit. Models deploying via Deep Strike treat all difficult terrain as dangerous terrain.
-In the Movement phase during which they arrive, Deep Striking units may not move any further, other than to disembark from a Deep Striking Transport vehicle if they are in one. Units Deep Striking into ruins are placed on the ground floor. Deep Striking units count non-ruined buildings (except for their battlements) as impassable terrain.
-In that turn’s Shooting phase, these units can fire (or Run, Turbo-boost or move Flat Out) as normal, and count as having moved in the previous Movement phase. Vehicles, except for Walkers, count as having moved at Combat Speed (even Immobilised vehicles). This can affect the number of weapons they can fire with their full Ballistic Skill (see page 71).
+Roll for the arrival of all Deep Striking units as specified in the rules for Reserves and then deploy them as follows:
+First, place one model from the unit anywhere on the table but not within 3&quot; of an enemy model,in the position where you would like it to arrive, and roll for scatter to determine the model’s final position. If a Vehicle scatters when arriving via Deep Strike, do not change its facing – it must continue to face the same direction as it did before you rolled for scatter. Next, the unit’s remaining models are arranged around the first one. Models must be placed in base contact with the first model and begin to form a circle around it. When the first circle is complete, a further concentric circle must be placed with each model touching the circle inside it. Each circle must include as many models as will fit. Models deploying via Deep Strike treat all difficult terrain as dangerous terrain.
+
+
+In the Movement phase during which they arrive, Deep Striking units may not move any further, other than to disembark from a Deep Striking Transport Vehicle if they are in one. Units Deep Striking into ruins are placed on the ground floor. Deep Striking units count non-ruined buildings (except for their battlements) as impassable terrain.
+In that turn’s Shooting phase, these units can fire (or Run, Turbo-boost or move Flat Out) as normal, and count as having moved in the previous Movement phase. Vehicles, except for Walkers, count as having moved at Combat Speed (even Immobilised vehicles). This can affect the number of weapons they can fire with their full Ballistic Skill
+
+
+Charging out of a Deep Strike
+A deep strike assault is a dangerous affair that can leave even the most battle hardened warriors disorientated on the field of battle.
+A unit that chooses to charge on the same turn which it has committed to a Deep Strike Assault rolls 1d6 instead of 2. (edited)Sunday, 23 November 2025 20:29
+:joy:
+Click to react
+:heart:
+Click to react
+:kek:
+Click to react
+Add Reaction
+Edit
+Forward
+More
+
 
 
 Deep Strike and Transports
@@ -1034,8 +1052,8 @@ As well as arriving via the usual Reserves method, some Flyers also have the abi
 
 
 Deep Strike Mishaps
-Deep Striking onto a crowded battlefield can be dangerous, as one may miss the intended objective or even materialise inside
-solid rock. If any of the models in a Deep Striking unit cannot be deployed, because at least one model would land partially or fully off the table, in impassable terrain, on top of a friendly model, or on top of or within 1&quot; of an enemy model, something has gone wrong. The controlling player must roll on the Deep Strike Mishap table and apply the results. If the unfortunate unit is also a Transport, the Deep Strike Mishap result applies to both the unit and anything embarked within it.
+Deep Striking onto a crowded battlefield can be dangerous, as one may miss the intended objective or even materialise inside
+solid rock. If any of the models in a Deep Striking unit cannot be deployed, because at least one model would land partially or fully off the table, in impassable terrain, on top of a friendly model, or on top of or within 3&quot; of an enemy model, something has gone wrong. The controlling player must roll on the Deep Strike Mishap table and apply the results. If the unfortunate unit is also a Transport, the Deep Strike Mishap result applies to both the unit and anything embarked within it.
 
 
 DEEPSTRIKE MISHAP TABLE
@@ -1926,11 +1944,8 @@ A Flyer with the Hover sub-type must declare whether it is going to Zoom or Hove
     </rule>
     <rule name="Bike" id="68ed-e350-aea6-d04c" hidden="false">
       <description>ARMOURED STEED
-Bike riders benefit from an increase to their Toughness characteristic by 1. If the Bike is part of the model’s 
-standard wargear, the bonus is already included on its profile.
-In addition, Bikes cannot Go to Ground and cannot be Pinned.
-MOVEMENT
-Bikes can move up to 12&quot; in the Movement phase.
+Bike riders benefit from an increase to their Toughness characteristic by 1. If the Bike is part of the model’s standard wargear, the bonus is already included on its profile.
+In addition, Bikes cannot Go to Ground and cannot be Pinned.
 BIKES AND TERRAIN
 Bikes are not slowed down by difficult terrain, even when charging. However, Bikes treat all difficult terrain as dangerous terrain instead.
 FALL BACK MOVES
@@ -1940,7 +1955,7 @@ Each Bike in a unit can fire with one weapon for each rider on the Bike. Thus a 
 SPECIAL RULES
 Bikes have the Hammer of Wrath, Jink, Relentless and Bulky (3) special rules.
 TURBO-BOOST
-Bikes cannot Run, but can make a special Turbo-boost move instead of firing in their Shooting phase. Turbo-boosting Bikes move up to 12&quot;. Bikes cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.</description>
+Bikes cannot Run, but can make a special Turbo-boost move instead of firing in their Shooting phase. Turbo-boosting Bikes move up to 18&quot;. Bikes cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.</description>
     </rule>
     <rule name="Jetbike" id="5d53-e918-1cd3-9c84" hidden="false">
       <description>Jetbike riders benefit from an increase to their Toughness characteristic by 1. If the Jetbike is part of the model’s 
@@ -3468,14 +3483,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Scimitar Jetbike" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="b0ea-7898-7feb-9eb2">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Scimitar jetbike has one heavy bolter. 
-
-
-
-A Scimitar Jetbike confers +1 Toughness, 2+ Save, cannot Go to Ground, and cannot be Pinned, not slowed down by difficult terrain, treat all difficult terrain as dangerous, Move 3D6&quot; when Falling Back, Turbo-boost up to 24&quot;. 
-
-
-Scimitar Jetbikes have the Hammer of Wrath, Jink, Relentless and Bulky (3) special rules.
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Scimitar Jetbike confers the Bike subtype and a +2 save. 
 
 
 Jetbikes can move over all other models and terrain freely. However, if a moving Jetbike begins or ends its move in difficult terrain, it must take a Dangerous Terrain test. Jetbikes cannot end their move over other models or impassable terrain, except that they can end their move on top of impassable terrain if it is actually possible to place the models on top of it. If they do so, they treat the impassable terrain as dangerous terrain.</characteristic>

@@ -390,6 +390,11 @@
         <categoryLink targetId="6375-3e5f-be64-925e" id="232a-c849-0a93-6a1a" primary="true" name="HQ"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Legion Stormraven Gunship" hidden="false" id="0e37-85f3-5fb3-f5f2" type="selectionEntry" targetId="56c9-e8f4-c1eb-e48e">
+      <categoryLinks>
+        <categoryLink targetId="3aa2-0f2d-c4eb-172c" id="cf89-0d1c-41a7-3740" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="47b5-d113-6cd9-7030" name="Firstborn Astartes" hidden="false">
@@ -5028,14 +5033,6 @@ bolter, Stormbolter or bolt pistol.</description>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead8-a4cc-bc25-46d3" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a561-b63c-366d-f632" name="Twin-Linked Boltgun" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
-                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
-                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
-                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Twin-Linked</characteristic>
-              </characteristics>
-            </profile>
             <profile id="d066-7821-e9c6-05e7" name="Legion Outrider" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Bike</characteristic>
@@ -5047,14 +5044,13 @@ bolter, Stormbolter or bolt pistol.</description>
                 <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
                 <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
-                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Hammer of Wrath, Jink, Relentless, Bulky (3), Scout, Firstborn Astartes, Fury of the Firstborn</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Hammer of Wrath (1), Jink, Relentless, Bulky (3), Scout, Firstborn Astartes, Fury of the Firstborn, Firing Protocols (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="8c0e-66a2-f3e5-5e4a" name="Bolt Pistol" hidden="false" targetId="2cb8-e71e-1b53-17fc" type="profile"/>
             <infoLink name="Spatha Attack Bike" id="1e90-9c2b-7f36-64a5" hidden="false" type="profile" targetId="bcab-4a50-414b-687f"/>
             <infoLink name="Astartes Chainsword" id="c5d9-07fa-c1d0-3ce1" hidden="false" type="profile" targetId="da5a-7e6e-09ff-de27"/>
           </infoLinks>
@@ -5150,20 +5146,20 @@ bolter, Stormbolter or bolt pistol.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7667-2096-d48d-7fc1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <profiles>
-            <profile name="Sky-Hunter Sergeant" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit" hidden="false" id="c63d-6e27-116a-3d22">
+            <profile name="Legion Outrider Sergeant" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit" hidden="false" id="33fe-f807-1776-329c">
               <characteristics>
-                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Bike, Character</characteristic>
-                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">16&quot;</characteristic>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Bike</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">14&quot;</characteristic>
                 <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
                 <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
                 <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
-                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
-                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">5</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
                 <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Hammer of Wrath (1), Jink, Relentless, Bulky (3), Scout, Firstborn Astartes, Fury of the Firstborn, Firing Protocols (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7120,7 +7116,7 @@ bolter, Stormbolter or bolt pistol.</description>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="6009-d5ae-d2e7-728d" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="57f6-1829-0cee-2d73" type="equalTo"/>
+                <condition field="selections" scope="6009-d5ae-d2e7-728d" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="57f6-1829-0cee-2d73" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -12145,13 +12141,13 @@ bolter, Stormbolter or bolt pistol.</description>
                 <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
                 <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
                 <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
-                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">5</characteristic>
                 <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
                 <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
-                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Bulky (3), Hit and Run, Hammer of Wrath (1), Jink, Outflank, Relentless, Firstborn Astartes, Fury of the Firstborn</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Bulky (3), Hit and Run, Hammer of Wrath (1), Jink, Outflank, Relentless, Deepstrike, Firstborn Astartes, Fury of the Firstborn</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12181,9 +12177,9 @@ bolter, Stormbolter or bolt pistol.</description>
                 <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
                 <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
-                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Bulky (3), Hit and Run, Hammer of Wrath (1), Jink, Outflank, Relentless, Firstborn Astartes, Fury of the Firstborn</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Bulky (3), Hit and Run, Hammer of Wrath (1), Jink, Outflank, Relentless, Deepstrike, Firstborn Astartes, Fury of the Firstborn</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12206,17 +12202,6 @@ bolter, Stormbolter or bolt pistol.</description>
           <infoLinks>
             <infoLink name="Scimitar Jetbike" id="bf95-161d-cc0b-db19" hidden="false" type="profile" targetId="b0ea-7898-7feb-9eb2"/>
           </infoLinks>
-        </selectionEntry>
-        <selectionEntry id="99a7-d041-cfdd-c159" name="Show deepstrike rules" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="510e-db4c-ed69-dfe8" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="ac07-2355-b2aa-67c2" name="Deep Strike" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -14507,6 +14492,216 @@ bolter, Stormbolter or bolt pistol.</description>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0c06-2996-731d-3436" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Legion Stormraven Gunship" hidden="false" id="56c9-e8f4-c1eb-e48e">
+      <profiles>
+        <profile name="Legion Stormraven Gunship" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle" hidden="false" id="aa87-ddd6-b825-b422">
+          <characteristics>
+            <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic>
+            <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">12</characteristic>
+            <characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic>
+            <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">12</characteristic>
+            <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">4</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Assault Vehicle (Flyer, Hover, Transport, Deepstrike)</characteristic>
+            <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">18&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Legion Stormraven Gunship" typeId="e117-4193-8756-1465" typeName="Transport" hidden="false" id="dfcd-44e1-d988-a009">
+          <characteristics>
+            <characteristic name="Capacity" typeId="0d1f-94e8-8176-5482">12</characteristic>
+            <characteristic name="Fire Points" typeId="80f0-dbea-cb89-3528"/>
+            <characteristic name="Access Points" typeId="65ec-159a-b517-6f9e">A Legion Stormraven Gunship has one Access Point on each side and one at the front and rear ramps.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dreadnought Grapple" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="6917-ce49-651f-f159">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Stormraven Gunship may use it&apos;s grappling cables to carry a single Dreadnought of any type. If a Zooming Stormraven Gunship is wrecked or suffers a Crash and Burn! result, the embarked Dreadnought suffers a Strength 10 hit on its rear armour; if the Stormraven Gunship is Hovering, the hit is Strength 4 instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May exchange Twin-Linked Assault Cannon for:" id="ddef-67a6-0f27-e01d" hidden="false" defaultSelectionEntryId="42db-f618-f6d6-795a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16b6-d3b5-497f-7849"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a3e1-be85-c915-0414"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twink-Linked Assault Cannon" hidden="false" id="42db-f618-f6d6-795a">
+              <infoLinks>
+                <infoLink name="Assault Cannon" id="5238-2250-3a47-6e63" hidden="false" type="profile" targetId="64c8-fb7b-b876-b5d6">
+                  <modifiers>
+                    <modifier type="set" value="Heavy 4, Rending, Twin-Linked" field="79ff-eaa1-5809-53f3"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Plasma Cannon" hidden="false" id="a6f0-ca2a-5660-748e">
+              <infoLinks>
+                <infoLink name="Plasma Cannon" id="73eb-053d-ff4a-96cb" hidden="false" type="profile" targetId="625b-a2bf-eff1-e29a">
+                  <modifiers>
+                    <modifier type="set" value="Heavy 1, Blast (3&quot;), Gets Hot, Twin-Linked" field="79ff-eaa1-5809-53f3"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Lascannon" hidden="false" id="da71-c769-dd88-12de">
+              <infoLinks>
+                <infoLink name="Twin-linked Lascannon" id="1bb1-aaf7-6588-f25e" hidden="false" type="profile" targetId="0d66-2d65-80f6-5f42"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Front Mounted Heavy Weapon" id="030b-1fc6-243e-6746" hidden="false" defaultSelectionEntryId="6c35-0b35-4993-0d8a">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Heavy Bolter" hidden="false" id="6e02-4d41-5521-3416">
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="9025-d95e-f23d-a2ca" hidden="false" type="profile" targetId="ca4f-7c64-abdd-819d">
+                  <modifiers>
+                    <modifier type="set" value="Heavy 4, Twin-Linked" field="79ff-eaa1-5809-53f3"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Multi-Melta" hidden="false" id="097c-f5a7-8c70-e932">
+              <infoLinks>
+                <infoLink name="Multi-melta" id="4747-067c-c89d-3623" hidden="false" type="profile" targetId="c031-bf66-238d-35b6"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="f967-fe90-800b-2692">
+              <infoLinks>
+                <infoLink name="Missile Launcher (Frag)" id="c2e3-182b-b007-a67b" hidden="false" type="profile" targetId="3f8e-6573-74c1-bd2b"/>
+                <infoLink name="Missile Launcher (Krak)" id="ccf5-ed6e-4022-bde1" hidden="false" type="profile" targetId="4bfc-e9e2-f183-1f5a"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2742-cc7e-d76d-871c"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24e2-5bdb-79a7-4061"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Hexagrammaton" id="c72f-d581-49cb-1f67" hidden="true" defaultSelectionEntryId="none">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stormwing" hidden="false" id="93f7-df08-010c-a96d">
+              <rules>
+                <rule name="Stormwing" id="cbf6-0a25-e0f4-a0ce" hidden="false">
+                  <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type gain a bonus of +1 To Hit when rolling To Hit as part of a Shooting Attack with a bolter, combi-
+bolter, Stormbolter or bolt pistol.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f930-2d3c-1d60-844f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Deathwing" hidden="false" id="7fe0-3488-b668-3d00">
+              <rules>
+                <rule name="Deathwing" id="45dd-2e68-ab51-bcec" hidden="false">
+                  <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type gain a bonus of +1 To Hit when rolling To Hit in an assault with one of the following weapons: chainsword, force sword, power sword, Terranic greatsword, Mace of Absolution, Calibanite warblade, Charnabal sabre, and Paragon blades or close combat weapons modelled as swords. In addition, a model with the Vehicle Unit Type gains a +1 bonus to the Strength of all Hits inflicted as part of a Ram Attack (up to a maximum of Strength 10).</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aae7-cbe7-82da-36fb"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dreadwing" hidden="false" id="28c1-6307-effb-0a57">
+              <rules>
+                <rule name="Dreadwing" id="e60f-d45e-ff7b-7291" hidden="false">
+                  <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type reduce the Strength of all attacks made against them with Flame, Plasma, Volkite and Phosphex weapons by -1, and force all attacks made against them with the Poisoned (X) special rule to increase the roll needed to Wound by 1 (to a maximum of 6+).</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dea1-c800-f2e1-2535"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83d2-2e9b-65cc-62af"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ironwing" hidden="false" id="6a57-c9b9-03cb-9615">
+              <rules>
+                <rule name="Ironwing" id="6965-ae51-cc0c-4652" hidden="false">
+                  <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type may re-roll failed To Hit rolls of ‘1’ when targeting an enemy model withthe Vehicle Unit Type. Additionally, a model with this Unit Sub-type and the Vehicle Unit Type makes all Snap Shots at BS 2 instead of BS 1.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85e1-4399-07f2-c47a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b11c-7c29-701a-7c27"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Firewing" hidden="false" id="d251-167f-d4a1-77f6">
+              <rules>
+                <rule name="Firewing" id="f7fb-5ee0-83d9-e5b9" hidden="false">
+                  <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type gain a bonus of +1 To Wound when attacking a unit that contains at least one model with the Independent Character special rule.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c03-7389-5897-26b9"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ravenwing" hidden="false" id="4678-d955-e88a-e848">
+              <rules>
+                <rule name="Ravenwing" id="28d7-9d52-c384-4fde" hidden="false">
+                  <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type, other than models with the Vehicle Unit Type, add +1 to the distance moved when the unit Runs, and models with the Cavalry Unit Type may also re-roll any failed Shrouded Damage Mitigation rolls. Models with this Unit Sub-type and the Vehicle Unit Type instead add +2to their Movement Characteristic when moving at Cruising Speed.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6413-f740-c93a-af48"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f533-ffde-2b52-040a"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4a4-555a-ec12-7482"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="8cad-d0d6-9e56-d262" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May replace side access points with Side Sponsons" id="d92b-94d8-1f05-c70b" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Two Hurricane Bolters" hidden="false" id="ab4e-0cf1-8809-a0be">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30"/>
+              </costs>
+              <profiles>
+                <profile name="Hurricane Bolter" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="b29a-eeaa-9e55-ba14">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire 3, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2fe-4ba4-fb2b-9eae"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd23-cf0b-29a2-13bb"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Vengeance Launcher" id="cc9e-381f-96c0-e45f" hidden="false" type="profile" targetId="a936-4aa8-04e2-50b9"/>
+        <infoLink name="Power of the Machine Spirit" id="8e09-d4ca-c8c9-ef4b" hidden="false" type="rule" targetId="8a4e-402a-234a-acef"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="200"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7b51-aa0c-6949-646b" name="Dreadnought CCW In-Built" hidden="false" collective="false" import="true" defaultSelectionEntryId="8c9f-4832-01e5-ca54">
@@ -14572,10 +14767,6 @@ bolter, Stormbolter or bolt pistol.</description>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="7dfe-294d-c67e-d7ec" name="Master-Crafted" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
-            <infoLink id="14a2-92c1-17dd-101e" name="Shred" hidden="false" targetId="41bc-ce18-3e6f-897f" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
           </costs>
@@ -14594,10 +14785,6 @@ bolter, Stormbolter or bolt pistol.</description>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="507b-05f3-85c9-ef64" name="Gets Hot" hidden="false" targetId="5d2d-493d-a032-fc88" type="rule"/>
-            <infoLink id="3f06-3f4f-53fe-9ff5" name="Master-Crafted" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
           </costs>
@@ -14621,9 +14808,6 @@ bolter, Stormbolter or bolt pistol.</description>
               <description>When the Mace of Redemption is used to attack a unit with the Chaos Space Marines or Primaris Astartes Faction, its AP is increased to 1.</description>
             </rule>
           </rules>
-          <infoLinks>
-            <infoLink id="ed58-3b0d-89e1-0f49" name="Concussive" hidden="false" targetId="f3f1-f153-dabd-995f" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30"/>
           </costs>
@@ -15505,7 +15689,7 @@ This warlord gains the Preternatural Skill and Precision Strikes special rules.<
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Dark Angels Stuff" id="1d65-66b3-c472-546c" hidden="false">
+    <selectionEntryGroup name="Dark Angels Weapons" id="1d65-66b3-c472-546c" hidden="false">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Terranic Greatsword" hidden="false" id="a9b2-fe18-9d5e-4291">
           <profiles>
@@ -15699,7 +15883,7 @@ bolter, Stormbolter or bolt pistol.</description>
       <description>Belial and his unit do not scatter when arriving from Deep Strike</description>
     </rule>
     <rule name="The Hunt" id="25f3-1451-4f5b-e1e1" hidden="false">
-      <description>Your Warlord has the Precision Shots special rule. In addition, your Warlord’s shooting attacks have the Ignores Cover special rule. </description>
+      <description>Your Warlord has the Precision Shots special rule. In addition, your Warlord’s shooting attacks have the Ignores Cover special rule.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
