@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6ba1-e0ef-9751-efdf" name="Chaos Daemons" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="6ba1-e0ef-9751-efdf" name="Chaos Daemons" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="dd7e-0412-06fa-7166" name="Nurglings" hidden="false" collective="false" import="true" targetId="3cbb-5abf-d9e3-9f71" type="selectionEntry">
       <categoryLinks>
@@ -1079,14 +1079,16 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
             <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Increase the Strength and Toughness characteristic of all units with the Daemon special rule by +1. This ability is only usable from turn 3 onwards.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1bff-c1fb-dfe2-9b52" name="Malicious Misdirection (2-8)" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
+        <profile id="1bff-c1fb-dfe2-9b52" name="Malicious Misdirection (1-4)" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
           <characteristics>
-            <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Increase the distance moved by any scatter dice rolled by the enemy by 1&quot; for each two warpstorm points used this turn up to four inches. This ability has no effect on a direct hit roll.</characteristic>
+            <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Cast when a scatter dice is rolled
+Increase the distance moved by any scatter dice rolled by the enemy by 1&quot; for each warpstorm point used up to four inches. This ability has no effect on a direct hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="85ae-257e-11c6-7c10" name="Insidious Whispers (6)" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
           <characteristics>
-            <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Whispers from the warp distract even the most seasoned psykers. Enemy psykers reduce their leadership by 2 for the purpose of any psychic abilities they cast this turn.</characteristic>
+            <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Cast at the start of the turn.
+Whispers from the warp distract even the most seasoned psykers. Enemy psykers reduce their leadership by 2 for the purpose of any psychic abilities they cast this turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1151,16 +1153,16 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="891f-139e-f65f-f32c" name="Rot, Glorious Rot (5)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="891f-139e-f65f-f32c" name="Rot, Glorious Rot (6)" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="826b-3b02-cb6e-5973" type="max"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e8ae-cea6-e33f-95b1" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="56d3-3fa8-2b40-3e69" name="Rot, Glorious Rot (5)" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
+                    <profile id="56d3-3fa8-2b40-3e69" name="Rot, Glorious Rot (6)" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Nurgle&apos;s plagues blossom across reality.
-Roll a D6 for each unengaged enemy unit, on the battefield. On the roll of a 5 or higher, that unit suffers D6 Strength 4 AP3 hits. These hits have the Poisoned (4+) and Ignores Cover special rules. Vehicles are hit on their side armour. Wounds are allocated by the unit’s controlling player.</characteristic>
+Roll a D6 for each unengaged enemy unit, on the battlefield. On the roll of a 6 that unit suffers D6 Strength 4 AP3 hits. These hits have the Poisoned (4+) and Ignores Cover special rules. Vehicles are hit on their side armour. Wounds are allocated by the unit’s controlling player.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1174,6 +1176,71 @@ Roll a D6 for each unengaged enemy unit, on the battefield. On the roll of a 5 o
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warpstorm of Slaanesh" hidden="false" id="62ea-f7fe-0cba-1b8a">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Death Ecstacy (1-3)" hidden="false" id="ba6b-caaf-8edd-84e6">
+              <profiles>
+                <profile name="Death Ecstacy (1-3)" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability" hidden="false" id="e1db-6ba3-dfd2-186a">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Choose a model who has fallen in battle during a challenge this turn. The model may make a final attack before it succumbs to it&apos;s wounds. 
+The model attacks once for each Warp Point spent, up to a maximum of three. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a11-40b6-754c-81b6" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a0c1-dfeb-1f80-1f9f" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dark Hallucinations (8)" hidden="false" id="4966-8e29-ddfa-9416">
+              <profiles>
+                <profile name="Dark Hallucinations (8)" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability" hidden="false" id="600a-f24a-e5dc-97de">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Cast at the start of the enemy turn.
+The smell of perfumes coats the battlefield, creating dark hallucinations that can trick even the most seasoned warriors. 
+When an enemy unit attempts to shoot or charge, it must make a leadership test. If it fails, the Dark Hallucinations overpower them, the unit suffers 1d6 Str 4 AP - hits. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f5e-2665-c549-ee32" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2c4-c484-e33b-2e4a" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lightning Speed (3-6)" hidden="false" id="513f-59d3-1841-7ba8">
+              <profiles>
+                <profile name="Lightning Speed (3-6)" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability" hidden="false" id="dc40-e94e-fe29-17ee">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Cast at the start of the turn. Units with the Daemon of Slaanesh or Mark of Slaanesh special rule may add +1 to all charges and run moves this turn. They may instead add +2 for the cost of 6 Warp Points. 
+
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecce-a2dd-e502-34b3" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c24e-807a-013d-515a" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mesmerising Dance (3)" hidden="false" id="6004-ba6c-e542-e6a8">
+              <profiles>
+                <profile name="Mesmerising Dance (3)" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability" hidden="false" id="0dc7-8eb6-ea83-e472">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Cast during the Fight Phase.
+Enemy units in combat must make a blind test. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="106b-e6ca-5f24-2be1" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ec6-3d34-1c85-6ceb" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="102d-7baf-06e0-d080" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1320,7 +1387,7 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
           </constraints>
           <rules>
             <rule id="0c09-337d-22c2-f019" name="Daemon of Khorne" hidden="false">
-              <description>Daemons of Khome have the Daemon, Furious Charge (1) and Hatred (Daemons of Slaanesh) special rules. Chariots with this rule resolve their Hammer of Wrath hits at Strength 7.</description>
+              <description>Daemons of Khome have the Daemon, Furious Charge (1) and Hatred (Daemon of Slaanesh) special rules. Chariots with this rule resolve their Hammer of Wrath hits at Strength 7.</description>
             </rule>
             <rule id="3672-44d6-487a-a1c0" name="Daemonic Instability" page="0" hidden="false">
               <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear and Morale tests. Take Daemonic Instability tests instead of suffering Perils of the Warp. 
@@ -1957,6 +2024,18 @@ Movement 8&quot;</characteristic>
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Daemon of Slaanesh" hidden="false" id="1d23-eda4-7525-eedf">
+          <rules>
+            <rule name="Daemon of Slaanesh" id="f9c0-85c3-0153-7f20" hidden="false">
+              <description>Daemons of Slaanesh have the Daemon, Fleet, Hatred (Daemon of Khorne) and Rending special rules. In addition, units composed entirely of Daemons of Slaanesh Run an additional 3&quot;. Units that are entirely composed of Cavalry models instead Run an additional 6&quot;. Vehicles that are not Walkers move an extra 3&quot; whenever they move Flat Out instead.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50b1-96f5-fbda-1c64" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry id="37c8-6a50-cbac-1b6d" name="Bulbous Ooze" hidden="false" collective="false" import="true" type="unit">
       <profiles>

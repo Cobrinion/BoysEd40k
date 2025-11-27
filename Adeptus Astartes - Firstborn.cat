@@ -395,6 +395,11 @@
         <categoryLink targetId="3aa2-0f2d-c4eb-172c" id="cf89-0d1c-41a7-3740" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Land Raider Squadron" hidden="false" id="a81c-ea63-65d8-a2ef" type="selectionEntry" targetId="fcdc-441a-c0bc-2482">
+      <categoryLinks>
+        <categoryLink targetId="2b42-3a90-e878-d0c5" id="b12b-e2a9-3456-a24e" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="47b5-d113-6cd9-7030" name="Firstborn Astartes" hidden="false">
@@ -2393,7 +2398,7 @@ bolter, Stormbolter or bolt pistol.</description>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Calibiate Warblade" hidden="true" id="11b1-ffe8-7a71-da3e">
+                <selectionEntry type="upgrade" import="true" name="Calibanite Warblade" hidden="true" id="11b1-ffe8-7a71-da3e">
                   <infoLinks>
                     <infoLink name="Calibanite Warblade" id="6492-6687-1375-041d" hidden="false" type="profile" targetId="c171-8d20-04d6-5d81"/>
                   </infoLinks>
@@ -2698,6 +2703,11 @@ bolter, Stormbolter or bolt pistol.</description>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="Fury of the Firstborn, Firstborn Astartes, Deep Strike" field="3df9-f556-8725-fe75">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="d490-2cf8-a366-637b" childId="2f0d-199b-1691-c6d2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry</characteristic>
@@ -2738,6 +2748,11 @@ bolter, Stormbolter or bolt pistol.</description>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                </modifier>
+                <modifier type="set" value="Fury of the Firstborn, Firstborn Astartes, Deep Strike" field="3df9-f556-8725-fe75">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="d490-2cf8-a366-637b" childId="2f0d-199b-1691-c6d2" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
               <characteristics>
@@ -13586,6 +13601,13 @@ bolter, Stormbolter or bolt pistol.</description>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
                 <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Adamantium Will (3+), Stubborn</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="set" value="Fury of the Firstborn, Firstborn Astartes, Deep Strike" field="3df9-f556-8725-fe75">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4066-d0f1-6df3-0f13" childId="fb58-9fb3-2ac7-e242" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <costs>
@@ -13774,6 +13796,13 @@ bolter, Stormbolter or bolt pistol.</description>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
                 <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Adamantium Will (3+), Stubborn</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="set" value="Fury of the Firstborn, Firstborn Astartes, Deep Strike" field="3df9-f556-8725-fe75">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4066-d0f1-6df3-0f13" childId="fb58-9fb3-2ac7-e242" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
         </selectionEntry>
@@ -13964,13 +13993,6 @@ bolter, Stormbolter or bolt pistol.</description>
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
-      <infoLinks>
-        <infoLink name="Adamantium Will" id="77bc-0cb0-4219-80ce" hidden="false" type="rule" targetId="e665-d068-6f9e-bf71">
-          <modifiers>
-            <modifier type="set" value="Adamantium Will (3+)" field="name"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Firewing Enigmatus Cabal (WIPS)" hidden="false" id="240e-4ae2-50e9-96ed">
       <selectionEntries>
@@ -14449,7 +14471,7 @@ bolter, Stormbolter or bolt pistol.</description>
             <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/4++</characteristic>
-            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Deathwing, Grim Resolve, Marked for Retribution, Tactical Precision, The Hunt</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Deathwing, Grim Resolve, Marked for Retribution, Tactical Precision, The Hunt, Deep Strike</characteristic>
           </characteristics>
         </profile>
         <profile name="Teleport Homer" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="5b88-64fb-87df-e776">
@@ -14458,39 +14480,67 @@ bolter, Stormbolter or bolt pistol.</description>
           </characteristics>
         </profile>
       </profiles>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="6ed7-4349-bb67-8ce2">
-          <infoLinks>
-            <infoLink name="Storm Bolter" id="72d3-30d0-4f65-feb8" hidden="false" type="profile" targetId="a144-5691-6fd0-a068"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a7a-4c48-3768-b28e"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b26-e597-4e9e-1a7c"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Sword of Silence" hidden="false" id="4f88-9ada-ce44-3a9e">
-          <profiles>
-            <profile name="Sword of Silence" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="ad0a-b3e7-20b9-e7da">
-              <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
-                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
-                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Fleshbane, Master-Crafted</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0930-d971-596d-7f56"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="649a-1bcc-b797-7663"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="190"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0c06-2996-731d-3436" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
       </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons Choice" id="b847-327f-6357-4d20" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="The Sword of Silence" hidden="false" id="bcab-1f2f-9c86-15ad">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="cb64-c89b-67b6-bc5a">
+                  <infoLinks>
+                    <infoLink name="Storm Bolter" id="f628-0c94-42b4-4f73" hidden="false" type="profile" targetId="a144-5691-6fd0-a068"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e594-d3a4-424c-5d81"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="269f-61e5-0cab-1a69"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Sword of Silence" hidden="false" id="393e-f7c9-1ab8-50db">
+                  <profiles>
+                    <profile name="Sword of Silence" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="49fe-c3d8-6288-f53a">
+                      <characteristics>
+                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Fleshbane, Master-Crafted</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a9f-d755-3089-664f"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d6d5-9a61-028e-5bae"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lightning Claws" hidden="false" id="610d-1446-97a0-6c2f">
+              <infoLinks>
+                <infoLink name="Lightning Claw" id="5f90-ab01-dbb9-4448" hidden="false" targetId="9400-b97e-1681-fbf4" type="profile"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ecf-7665-26a0-1eb3"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Thunder Hammer/Storm Shield" hidden="false" id="ed73-0314-c214-9fc5">
+              <infoLinks>
+                <infoLink name="Thunder Hammer" id="f219-8e78-7e0b-1c14" hidden="false" type="profile" targetId="d3e9-bb5e-d810-d3e7"/>
+                <infoLink name="Storm Shield" id="65a7-3d7d-4f9c-9adc" hidden="false" type="profile" targetId="9bbc-73bf-fece-6475"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8eb-0d2d-468d-46fb"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2240-b43c-bd21-ab32"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Legion Stormraven Gunship" hidden="false" id="56c9-e8f4-c1eb-e48e">
       <profiles>
@@ -14701,6 +14751,324 @@ bolter, Stormbolter or bolt pistol.</description>
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="200"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The First: Lion El&apos;Jonson (WIP)" hidden="false" id="0640-0efa-b7fe-f969">
+      <profiles>
+        <profile name="The First: Lion El&apos;Jonson" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit" hidden="false" id="2fc7-8e23-6f45-39ba">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Primarch</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">8&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">8</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">6</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">7</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">6</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">6</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">7</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">7</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Adamantium Will (3+), The Lion&apos;s Choler, The Point of the Blade</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Legion Land Raider Squadron" hidden="false" id="fcdc-441a-c0bc-2482">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Land Raider" hidden="false" id="1100-a2f8-a0f3-75a3">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Hexagrammaton" id="3be8-8892-4d90-3706" hidden="true" defaultSelectionEntryId="none">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stormwing" hidden="false" id="11cc-aa0a-40d4-0cd7">
+                  <rules>
+                    <rule name="Stormwing" id="1230-be85-ba3f-cc29" hidden="false">
+                      <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type gain a bonus of +1 To Hit when rolling To Hit as part of a Shooting Attack with a bolter, combi-
+bolter, Stormbolter or bolt pistol.</description>
+                    </rule>
+                  </rules>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2136-5f15-57c3-713d"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Deathwing" hidden="false" id="dbb7-b3a8-120f-8dc9">
+                  <rules>
+                    <rule name="Deathwing" id="83b7-3e02-c529-2abc" hidden="false">
+                      <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type gain a bonus of +1 To Hit when rolling To Hit in an assault with one of the following weapons: chainsword, force sword, power sword, Terranic greatsword, Mace of Absolution, Calibanite warblade, Charnabal sabre, and Paragon blades or close combat weapons modelled as swords. In addition, a model with the Vehicle Unit Type gains a +1 bonus to the Strength of all Hits inflicted as part of a Ram Attack (up to a maximum of Strength 10).</description>
+                    </rule>
+                  </rules>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a6a-15ee-bbb2-b23d"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dreadwing" hidden="false" id="13e8-b6bc-f005-502a">
+                  <rules>
+                    <rule name="Dreadwing" id="14ac-d51c-983b-3d90" hidden="false">
+                      <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type reduce the Strength of all attacks made against them with Flame, Plasma, Volkite and Phosphex weapons by -1, and force all attacks made against them with the Poisoned (X) special rule to increase the roll needed to Wound by 1 (to a maximum of 6+).</description>
+                    </rule>
+                  </rules>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c16-eb13-e3f1-9bac"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d08-05ef-76ad-7a64"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ironwing" hidden="false" id="141b-af9b-1be0-f817">
+                  <rules>
+                    <rule name="Ironwing" id="29e2-8982-a2c6-a8b8" hidden="false">
+                      <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type may re-roll failed To Hit rolls of ‘1’ when targeting an enemy model withthe Vehicle Unit Type. Additionally, a model with this Unit Sub-type and the Vehicle Unit Type makes all Snap Shots at BS 2 instead of BS 1.</description>
+                    </rule>
+                  </rules>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c635-2617-5cdd-cdf7"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbb7-e1e5-55f6-c132"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Firewing" hidden="false" id="1772-53e5-c76b-5113">
+                  <rules>
+                    <rule name="Firewing" id="a7c4-8cd3-ff3b-2017" hidden="false">
+                      <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type gain a bonus of +1 To Wound when attacking a unit that contains at least one model with the Independent Character special rule.</description>
+                    </rule>
+                  </rules>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef93-d876-6a5d-537a"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ravenwing" hidden="false" id="a5e1-e032-69af-77c2">
+                  <rules>
+                    <rule name="Ravenwing" id="1061-e1c1-b847-d164" hidden="false">
+                      <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type, other than models with the Vehicle Unit Type, add +1 to the distance moved when the unit Runs, and models with the Cavalry Unit Type may also re-roll any failed Shrouded Damage Mitigation rolls. Models with this Unit Sub-type and the Vehicle Unit Type instead add +2to their Movement Characteristic when moving at Cruising Speed.</description>
+                    </rule>
+                  </rules>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c460-45ff-5cb9-bc53"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cf5-2109-6042-af3e"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="305e-7eb2-26bb-3fcd"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="roster" childId="8cad-d0d6-9e56-d262" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Hull Mounted Weapon" id="7554-ce0c-d649-1dcd" hidden="false" collective="false" import="true" defaultSelectionEntryId="b198-a0f6-463f-585c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecfe-1054-a0c0-e433" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a06e-8af9-55e3-d68f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="b198-a0f6-463f-585c" collective="false">
+                  <infoLinks>
+                    <infoLink name="Twin-Linked" id="6045-7951-38a5-7d9e" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink name="Heavy Bolter" id="5885-f542-b755-5449" hidden="false" targetId="ca4f-7c64-abdd-819d" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Flamer" hidden="false" id="42d2-7e9c-8ce8-cd40" collective="false">
+                  <infoLinks>
+                    <infoLink name="Twin-Linked" id="872f-6028-9ea3-91e7" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                    <infoLink name="Heavy Flamer" id="927e-b0a8-9635-9207" hidden="false" targetId="4a87-2884-7397-fd84" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannon" hidden="false" id="fcc2-83a0-e6d1-72c7" collective="false">
+                  <infoLinks>
+                    <infoLink name="Lascannon" id="585f-a9f8-1506-33fd" hidden="false" targetId="6789-a19c-72d5-41b3" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pintle Mounted Weapon" id="459a-9115-b351-63c1" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0440-6d24-f3cf-8021" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Havoc Launcher" hidden="false" id="279a-1a1c-0729-d8b3" collective="false">
+                  <infoLinks>
+                    <infoLink name="Havoc Launcher" id="7b12-118d-f840-5921" hidden="false" targetId="f75f-4879-62c9-0247" type="profile"/>
+                    <infoLink name="Twin-Linked" id="7f5f-3054-eb25-2069" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="c965-e3d4-67a2-4d2d" collective="false">
+                  <infoLinks>
+                    <infoLink name="Heavy Bolter" id="14b7-928d-15d8-339b" hidden="false" targetId="ca4f-7c64-abdd-819d" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="7169-e304-96c4-5a09" collective="false">
+                  <infoLinks>
+                    <infoLink name="Heavy Flamer" id="7597-4332-a289-02da" hidden="false" targetId="4a87-2884-7397-fd84" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Multi-Melta" hidden="false" id="65d2-7fff-3fd5-4e0c" collective="false">
+                  <infoLinks>
+                    <infoLink name="Multi-melta" id="a4d3-445a-c796-cc81" hidden="false" targetId="c031-bf66-238d-35b6" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Combi-Bolter" hidden="false" id="2222-b8e7-e9d0-787b" collective="false">
+                  <infoLinks>
+                    <infoLink name="Combi-Bolter" id="6d34-4c31-4cc9-a3a1" hidden="false" targetId="cfb1-8542-6a8c-a2ca" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Combi Melta" hidden="false" id="2b97-26b4-0b7a-6b07" collective="false">
+                  <infoLinks>
+                    <infoLink name="Boltgun" id="a085-4c3c-44f3-81e5" hidden="false" targetId="9420-4cc8-cd07-bc52" type="profile"/>
+                    <infoLink name="Combi-Melta (Secondary)" id="cf6d-44fa-ab38-ec36" hidden="false" targetId="60ce-118c-f84a-c085" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Combi Plasma" hidden="false" id="edb3-987a-8bfb-dc5d" collective="false">
+                  <infoLinks>
+                    <infoLink name="Boltgun" id="3d8c-81c6-eac0-7e8b" hidden="false" targetId="9420-4cc8-cd07-bc52" type="profile"/>
+                    <infoLink name="Combi-Plasma (Secondary)" id="7111-d7b7-56fa-b324" hidden="false" targetId="c9b7-e39a-07fd-0409" type="profile"/>
+                    <infoLink name="Breaching" id="b793-9abf-25d9-20f7" hidden="false" targetId="af1c-b349-95c1-333a" type="rule">
+                      <modifiers>
+                        <modifier type="set" value="Breaching (4+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Gets Hot" id="439b-7e5f-1a0b-745a" hidden="false" targetId="5d2d-493d-a032-fc88" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Combi Flamer" hidden="false" id="fab4-7ce0-bc66-b3da" collective="false">
+                  <infoLinks>
+                    <infoLink name="Combi-Flamer (Secondary)" id="4a0f-ee4d-e90a-276a" hidden="false" targetId="8f21-c141-35ad-26bc" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Combi Grenade Launcher" hidden="false" id="23b1-06cd-8c53-97c1" collective="false">
+                  <infoLinks>
+                    <infoLink name="Boltgun" id="052b-e6c9-180d-412b" hidden="false" targetId="9420-4cc8-cd07-bc52" type="profile"/>
+                    <infoLink name="Grenade Launcher (Frag)" id="56ff-d9c1-dd1f-b895" hidden="false" targetId="da54-c5bd-0d32-55e1" type="profile"/>
+                    <infoLink name="Grenade Launcher (Krak)" id="a5f9-b731-41b5-7494" hidden="false" targetId="4358-0ce8-ae2e-4b2a" type="profile"/>
+                    <infoLink name="Pinning" id="ccaa-faac-e95e-3246" hidden="false" targetId="0afb-1495-6aeb-c2c5" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <profiles>
+            <profile name="Land Raider" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle" hidden="false" id="e23d-bc5e-b6ab-e7db">
+              <characteristics>
+                <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic>
+                <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">14</characteristic>
+                <characteristic name="Side" typeId="678c-ae54-8f51-b1df">14</characteristic>
+                <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">14</characteristic>
+                <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">5</characteristic>
+                <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Transport, Reinforced)</characteristic>
+                <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Land Raider" typeId="e117-4193-8756-1465" typeName="Transport" hidden="false" id="02df-399b-55ac-3656">
+              <characteristics>
+                <characteristic name="Capacity" typeId="0d1f-94e8-8176-5482">12</characteristic>
+                <characteristic name="Fire Points" typeId="80f0-dbea-cb89-3528">Sponson, Front Hull and Pintle.</characteristic>
+                <characteristic name="Access Points" typeId="65ec-159a-b517-6f9e">One Access Point on each side of the hull and one at the front.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="May take any of the following:" hidden="false" id="3010-199b-3ed5-f623" collective="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c43-61ff-1afb-7259" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e280-d850-fda6-11de" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Auxilliary Drive" hidden="false" id="80d3-f1fc-3d06-3116">
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c78-e69e-5018-0216" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="New Info (link)" id="c894-92a1-c1fb-ce66" hidden="false" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dozer Blade" hidden="false" id="cc1a-74d7-e1cb-928d">
+                  <infoLinks>
+                    <infoLink name="Dozer Blade" id="1ef5-b9b4-9b14-93ee" hidden="false" type="profile" targetId="adc5-51c4-322b-39d1"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c98a-e116-24e3-7a14" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Hunter-killer Missle" hidden="false" id="881d-adc9-1e4b-9a0c" collective="false" targetId="34f6-36ff-bd27-87c0" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b11-7b62-366e-f892" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edd3-187d-a9e5-debd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Hunter-Killer Missile" id="9cbc-53be-e0af-22bc" hidden="false" type="profile" targetId="f5aa-454d-e0cd-863e"/>
+                  </infoLinks>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Smoke Launchers and Searchlight" hidden="false" id="3024-6b37-dfd3-98f7" collective="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="52f7-8d9f-676d-47a1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1161-916b-b0bc-de0a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Smoke Launchers" id="5f34-f30d-5483-b764" hidden="false" type="profile" targetId="7ff5-cd30-5c53-c8aa"/>
+                <infoLink name="Searchlights" id="da41-1d98-5367-9736" hidden="false" type="profile" targetId="c50c-3005-7846-a79e"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24f3-465a-eb1c-236d"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bd0a-baea-1e41-cccc"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Assault Vehicle" id="6475-7fac-b40e-1eb3" hidden="false" targetId="9ad7-6964-df60-92b6" type="rule"/>
+            <infoLink name="Power of the Machine Spirit" id="eb47-5bfe-adce-7a27" hidden="false" targetId="8a4e-402a-234a-acef" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="220"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -15735,6 +16103,9 @@ This warlord gains the Preternatural Skill and Precision Strikes special rules.<
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfab-f585-6599-6ec3"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+          </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Calibanite Warblade" hidden="false" id="b510-8584-0e9c-2309">
           <profiles>
@@ -15747,6 +16118,9 @@ This warlord gains the Preternatural Skill and Precision Strikes special rules.<
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+          </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Plasma Repeater" hidden="false" id="b24e-0f26-03d1-9394">
           <profiles>
@@ -15884,6 +16258,15 @@ bolter, Stormbolter or bolt pistol.</description>
     </rule>
     <rule name="The Hunt" id="25f3-1451-4f5b-e1e1" hidden="false">
       <description>Your Warlord has the Precision Shots special rule. In addition, your Warlord’s shooting attacks have the Ignores Cover special rule.</description>
+    </rule>
+    <rule name="The Lion&apos;s Choler" id="b02d-138e-5ce6-01c6" hidden="false">
+      <description>While Lion El’Jonson has 4 Wounds or less, he gains +1 Attack. While Lion El’Jonson has 2 Wounds or less, he gains an additional +1 Attack.</description>
+    </rule>
+    <rule name="The Point of the Blade" id="ecb0-4ce3-e0ab-7eff" hidden="false">
+      <description>After declaring a Charge for Lion El’Jonson and any unit he has joined, the controlling player may choose not to make a Charge roll to determine their Charge Distance and instead make a Charge move of 8&quot; for Lion El’Jonson and any unit he has joined, ignoring the effects of Difficult Terrain and Dangerous Terrain and adding no bonuses to the distance moved for the unit’s Movement Characteristic or Wargear.</description>
+    </rule>
+    <rule name="Sire of the Dark Angels" id="a3f2-7e5d-185b-9e8c" hidden="false">
+      <description>All models with the Legiones Astartes (Dark Angels) special rule in the same army as Lion El’Jonson gain the Crusader special rule, and any friendly models with the Legiones Astartes (Dark Angels) special rule that can draw line of sight to Lion El’Jonson may add +1 to their Leadership (To a maximum of Ld 10). In addition, an army with Lion El’Jonson as its Warlord may make an additional Reaction in the opposing player’s Shooting phase as long as Lion El’Jonson has not been removed as a casualty.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
