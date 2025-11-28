@@ -317,6 +317,12 @@
         <categoryLink targetId="3aa2-0f2d-c4eb-172c" id="638a-b8e3-2e42-5b47" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Helbrute" hidden="false" id="e0aa-28dc-1513-350e" type="selectionEntry" targetId="023e-c202-3180-0f38">
+      <categoryLinks>
+        <categoryLink targetId="ebc5-5615-35fb-bc91" id="9cb6-d28e-704c-ceb9" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ferrum Infernus Chaos Dreadnought Talon" hidden="false" id="9105-efc2-096e-b531" type="selectionEntry" targetId="d591-bec5-5adb-cf29"/>
   </entryLinks>
   <rules>
     <rule id="b9b8-4987-8875-3992" name="Discipline of the Long War" hidden="false">
@@ -10599,7 +10605,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                   <profiles>
                     <profile name="Malefic Ammunition" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="a24a-fa1b-cb60-b12f">
                       <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Weapons with Malefic Ammunition gain the Rending special rule. </characteristic>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Weapons with Malefic Ammunition gain the Rending special rule.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10776,7 +10782,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                   <profiles>
                     <profile name="Malefic Ammunition" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="a0e5-43f5-4385-68e8">
                       <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Weapons with Malefic Ammunition gain the Rending special rule. </characteristic>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Weapons with Malefic Ammunition gain the Rending special rule.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10812,7 +10818,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                   <profiles>
                     <profile name="Malefic Ammunition" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="a0d8-4706-505a-2165">
                       <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Weapons with Malefic Ammunition gain the Rending special rule. </characteristic>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Weapons with Malefic Ammunition gain the Rending special rule.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10993,12 +10999,9 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="135"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="(WIP) Chaos Dreadnought Talon" hidden="false" id="d591-bec5-5adb-cf29" collective="false">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bf91-9741-9d92-b779" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-      </constraints>
+    <selectionEntry type="upgrade" import="true" name="Ferrum Infernus Chaos Dreadnought Talon" hidden="false" id="d591-bec5-5adb-cf29" collective="false">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Dreadnought" hidden="false" id="0675-b779-287d-930d" collective="false">
+        <selectionEntry type="model" import="true" name="Ferrum Infernus Chaos Dreadnought" hidden="false" id="0675-b779-287d-930d" collective="false">
           <modifiers>
             <modifier type="set" value="Venerable Dreadnought" field="name">
               <conditions>
@@ -11007,7 +11010,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
             </modifier>
           </modifiers>
           <profiles>
-            <profile name="Dreadnought (Heavy)" typeId="17f0-d093-bacf-886d" typeName="Dreadnought" hidden="false" id="2207-1303-fd9c-cff3">
+            <profile name="Ferrum Infernus Chaos Dreadnought (Heavy)" typeId="17f0-d093-bacf-886d" typeName="Dreadnought" hidden="false" id="2207-1303-fd9c-cff3">
               <characteristics>
                 <characteristic name="M" typeId="8fac-a846-de69-9178">6&quot;</characteristic>
                 <characteristic name="WS" typeId="ffe9-2a7f-bd4e-66cc">5</characteristic>
@@ -11064,14 +11067,6 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
               </profiles>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="May be upgraded to a Venerable Dreadnought" hidden="false" id="06de-4f36-6a5b-c6fd" collective="false">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df1b-a694-fc9a-06d1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -11252,39 +11247,34 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Blizzard Shield" hidden="true" id="14bc-e75f-d6dd-8599" collective="false">
-                  <modifiers>
-                    <modifier type="set" value="false" field="hidden">
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="0675-b779-287d-930d" childId="06de-4f36-6a5b-c6fd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0193-5185-36a9-4d2b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
+                <selectionEntry type="upgrade" import="true" name="Power Scourge" hidden="false" id="883c-07da-920f-c8bb">
                   <profiles>
-                    <profile name="Blizzard Shield" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="98ff-f003-0e9e-c237">
+                    <profile name="Power Scourge" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="80fe-482f-1ea8-ce7d">
                       <characteristics>
                         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
-                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
                         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Blizzard Shield</characteristic>
+                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Blind</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <rules>
-                    <rule name="Blizzard Shield" id="74d8-4935-b891-019c" hidden="false">
-                      <description>A Blizzard Shield confers a 3+ invulnurable save.</description>
-                    </rule>
-                  </rules>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5696-abef-cd9b-b5c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
                   </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="71fe-a1e7-6d17-abbc">
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Thunder Hammer" id="123b-d23d-21c8-e1fa" hidden="false" type="profile" targetId="d3e9-bb5e-d810-d3e7"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1521-3828-2de8-2308" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -11496,6 +11486,35 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Scourge" hidden="false" id="b1a8-4227-d270-28e6">
+                  <profiles>
+                    <profile name="Power Scourge" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="57ed-402b-610f-920e">
+                      <characteristics>
+                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Blind</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72fa-a005-6dd4-eadd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="e90e-d105-ba63-af44">
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Thunder Hammer" id="75e1-731c-6d17-de45" hidden="false" type="profile" targetId="d3e9-bb5e-d810-d3e7"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7cb6-54d6-049c-67c5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup name="May be equipped with:" id="64ad-e3c4-8b7e-d222" hidden="false" collective="false" import="true">
@@ -11520,95 +11539,110 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May take one of the following:" id="4417-f068-8376-ba5e" hidden="false" collective="false" import="true"/>
-            <selectionEntryGroup name="Dreadnought&apos;s Legacy" id="c19f-7547-1137-1732" hidden="false" collective="false" import="true">
+            <selectionEntryGroup name="May take one of the following:" id="4417-f068-8376-ba5e" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Lord of the Long War" hidden="false" id="172e-06d4-b6b7-6c3d">
+                  <profiles>
+                    <profile name="Lord of the Long War" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="53c3-e010-1c5e-57f2">
+                      <characteristics>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The Ferrum Infernus may issue and accept challenges as if it was a character. In addition, the champion interred with in the Ferrum Infernus Dreadnought has long courted the dark benedictions of the Ruinous Powers, and the moment of their judgement is finally at hand.
+Should the Ferrum Infernus ever sustain damage that causes it to be removed from play, roll D6.
+
+On a roll of 1-5 The Ruinous Powers judge that the aspiring champion is worthy only of transformation in to a mindless, thrashing mass of pseudopods and teeth, a Chaos Spawn clawing its way out of the wrecked sarcophagus. Apply the Spawnhood result from the Chaos Boon table in Codex Chaos Space Marines. 
+
+
+On a roll of 6, however, The champion is judged worthy at last, his broken body transfiguring into a being of horrifying grandeur. Apply the Dark Apotheosis result from the Chaos Boon Table of Codex Chaos Space Marines Being dedicated to a Chaos God counts the same as having a Mark of Chaos for the purposes of this result. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="473f-ef84-e72f-e8f2"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Host of Daemonic Iron" hidden="false" id="9821-fe5e-2872-5c41">
+                  <profiles>
+                    <profile name="Host of Daemonic Iron" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="7c07-7370-c1ac-e6d8">
+                      <characteristics>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The Dreadnought has the It Will Not Die (5+) special rule. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f65-79cc-4941-16fd"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Chaos God Dedication" id="c19f-7547-1137-1732" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d610-4271-2b99-682f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Legacy of Calth" hidden="false" id="0c1f-88be-8d10-0842" collective="false">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4573-c05b-240c-b7e3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <profiles>
-                    <profile name="Legacy of Calth" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="b893-1d35-6208-5a02">
-                      <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The vehicle gains the Hatred (Chaos Space Marines) special rule. In addition, enemy Warlords within 12&quot; suffer -1 to their leadership characteristic.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Hatred" id="ebf0-6843-478f-ff1f" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule"/>
-                  </infoLinks>
+                <selectionEntry type="upgrade" import="true" name="Dedication to Khorne" hidden="false" id="7a54-e1ed-0e57-3bfa">
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
                   </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Legacy of Terra" hidden="false" id="15be-3bb5-973f-4a51" collective="false">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2233-fa09-689c-75db" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
                   <profiles>
-                    <profile name="Legacy of Terra" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="69c6-c6f5-ba7c-0af5">
+                    <profile name="Dedication to Khorne" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="7e88-fa1c-5b57-f19c">
                       <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The vehicle gains the It Will Not Die special rule.</characteristic>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the Rage (2) and Rampage (D3) Special Rules</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink name="It Will Not Die" id="85d5-fb1f-a893-a010" hidden="false" targetId="42b6-2a61-9a88-0c0f" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="40"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Legacy of the Burning of Prospero" hidden="false" id="bfe2-6d63-82d7-a084" collective="false">
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb08-dd3f-c44a-3c5b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="faca-193f-6e5f-3c49"/>
                   </constraints>
-                  <profiles>
-                    <profile name="Legacy of the Burning of Prospero" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="2ef5-3f6d-0e3c-de15">
-                      <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The vehicle gains the Adamantium Will special rule. The bonus granted by this special rule is increased to +2 against Witchfire psychic powers.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Adamantium Will" id="8b18-7873-bbc9-46bb" hidden="false" targetId="e665-d068-6f9e-bf71" type="rule"/>
-                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dedication to Nurgle" hidden="false" id="fe6f-9110-d8b2-32da">
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
                   </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Legacy of Isstvan III" hidden="false" id="8605-cdfd-cfc9-0436" collective="false">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="000f-b0e6-29a7-92bc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
                   <profiles>
-                    <profile name="Legacy of Isstvan III" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="9865-b8b6-606a-5d18">
+                    <profile name="Dedication to Nurgle" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="f4fb-878e-9be0-6d38">
                       <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The vehicle has the Hatred (Chaos Space Marines) special rule. In addition, it automatically passes Dangerous Terrain tests incurred for passing through ruins and similar terrain.</characteristic>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the It Will Not Die (5+) Special Rule. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Legacy of the Isstvan V Dropsite Massacre" hidden="false" id="ee3d-934c-9185-233b" collective="false">
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3028-c8c1-1b37-7c4c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08e6-a746-2ae8-6d5a"/>
                   </constraints>
-                  <profiles>
-                    <profile name="Legacy of the Isstvan V Dropsite Massacre" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="974b-8127-303f-746c">
-                      <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The vehicle never scatters when entering play via the Deep Strike special rule. This upgrade does not give the vehicle the Deep Strike rule.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dedication to Tzeentch" hidden="false" id="1e65-8a05-6a4b-0ba5">
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
                   </costs>
+                  <profiles>
+                    <profile name="Dedication to Tzeentch" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="c222-c767-d1af-bcfc">
+                      <characteristics>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Has a 6+ Invulnurable Save and any Heavy Flamers gain Soul Blaze</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="930a-9d7d-a9e2-9c30"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dedication to Slaanesh" hidden="false" id="7dbf-64d7-2902-63b9">
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Dedication to Slaanesh" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="5a60-b59a-4454-9cce">
+                      <characteristics>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the Fleet special rule</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2eb6-e789-582b-8507"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -11616,6 +11650,12 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="125"/>
           </costs>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ee74-a4c2-9c00-0033" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Fear" id="fc3f-5d2f-13e1-da4f" hidden="false" type="rule" targetId="bbca-34a4-2d3d-8d2a"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Dreadnought" hidden="false" id="566e-b468-34bc-6032" collective="false">
           <constraints>
@@ -11638,6 +11678,544 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Helbrute" hidden="false" id="023e-c202-3180-0f38">
+      <profiles>
+        <profile name="Helbrute" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit" hidden="false" id="d952-9aba-7f63-f06d">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Dreadnought</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">6</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">6</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">6</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">5</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/5++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon Engine, Crazed, Fear</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Left Arm:" id="127b-cf70-7887-c0cc" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a64-e04c-4ed1-c500">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8ac-d9d0-c5ab-97d9" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Kheres Pattern Assault Cannon" hidden="false" id="70dc-63c8-b2a6-7508" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fff-62ef-934f-256f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Kheres Pattern Assault Cannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="e806-f059-83d8-8bdd">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 6, Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Rending" id="9e46-338d-574f-2306" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Multi-Melta" hidden="false" id="2e3b-62fd-f0ba-2be0" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92b7-b06e-4dc4-7eed" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Multi-Melta" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="dc46-b5a7-1cc6-b8b1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Melta</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Armourbane" id="94ac-d67b-3aa7-26f5" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Cannon" hidden="false" id="2ace-fef7-9822-04f5" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29c2-df59-a9d4-f8df" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Plasma Cannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="3343-9686-0f18-2a52">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Blast (3&quot;), Gets Hot</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Gets Hot" id="1cba-a377-8a53-76ea" hidden="false" targetId="5d2d-493d-a032-fc88" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Autocannon" hidden="false" id="b37b-167f-460a-50de" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b79f-f6d6-3755-1b6c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Twin-Linked Autocannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="ce7a-ec3e-4faf-4e88">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Twin-Linked" id="ecdd-e68d-5112-0fd0" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Lascannon" hidden="false" id="4bc5-75e3-2aca-93fb" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9a0-1768-171e-5dc3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Twin-Linked Lascannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="de59-afa9-0458-0b11">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Twin-Linked" id="216a-f45d-0264-1533" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chainfist w/ Built in Weapon" hidden="false" id="5da7-8656-eaa1-e455" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="748e-80c0-ef3b-7a9c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Dreadnought Chainfist" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="bf74-a38d-f49e-6dcf">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Armourbane</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Armourbane" id="7ede-7051-f4f0-2952" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="1efe-a19c-8f02-880e" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon w/ Build in Weapon" hidden="false" id="9ec1-c41d-4221-4f68" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a76-9f91-da01-605c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Dreadnought Close Combat Weapon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="c77e-7e5e-7906-ccb2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="5d81-99bd-98e4-ed33" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Heavy Bolter" hidden="false" id="da38-543c-3bee-47ae" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6dfe-eeac-efd0-6354" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Twin-Linked Heavy Bolter" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="fa8f-7d6c-c9be-7048">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Twin-Linked" id="2e41-ebe0-c98a-5320" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Scourge" hidden="false" id="df73-9db3-00b5-052e">
+              <profiles>
+                <profile name="Power Scourge" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="5200-d550-47b3-23a4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Blind</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0692-5659-24f2-7509" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="7437-674a-9480-fa0b">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Thunder Hammer" id="4594-8b0f-6602-28c3" hidden="false" type="profile" targetId="d3e9-bb5e-d810-d3e7"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="832d-bdad-4a90-e21c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Right Arm:" id="fe63-ee98-014f-9056" hidden="false" collective="false" import="true" defaultSelectionEntryId="07ce-f19b-6d7a-f985">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36e6-7bc4-bfa8-2022" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Kheres Pattern Assault Cannon" hidden="false" id="2022-1c42-927f-83fd" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cac8-9dd8-f46e-4f59" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Kheres Pattern Assault Cannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="8d15-af8f-02ff-82f3">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 6, Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Rending" id="d581-e601-2f04-c268" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Multi-Melta" hidden="false" id="e123-4402-d06d-d5ff" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccfc-7d7a-2a2b-296f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Multi-Melta" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="1d69-267f-76b3-94aa">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Melta</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Armourbane" id="ce52-d23b-076c-79f6" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Cannon" hidden="false" id="982b-c737-8f8d-1f38" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04b4-132b-b397-c562" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Plasma Cannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="3409-b829-13e9-1cce">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Blast (3&quot;), Gets Hot</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Gets Hot" id="ecb1-80b2-49d9-c458" hidden="false" targetId="5d2d-493d-a032-fc88" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Autocannon" hidden="false" id="4bae-5425-e1c0-cef1" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3198-edb2-c1c8-19e5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Twin-Linked Autocannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="70be-a7ef-eccf-f8bd">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Twin-Linked" id="e247-c64c-b616-8f0e" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Lascannon" hidden="false" id="209d-5639-0b63-ee3a" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ef7-af71-6a38-16d2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Twin-Linked Lascannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="9c2a-8720-c999-8eef">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Twin-Linked" id="df0a-e2fa-0f89-882f" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chainfist w/ Built in Weapon" hidden="false" id="2d00-92c6-7d96-bebf" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f13e-0ed2-10ca-2896" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Dreadnought Chainfist" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="e3c0-9c4c-9b2d-e3bd">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Armourbane</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Armourbane" id="c81e-beba-996b-ee45" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="5e4d-86e5-d089-4e1c" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon w/ Build in Weapon" hidden="false" id="0348-e5c9-ce41-3cdf" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee5c-596e-5438-f913" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Dreadnought Close Combat Weapon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="0b39-cae9-a39b-c544">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="6ced-a423-238b-58a2" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Heavy Bolter" hidden="false" id="a152-4b3b-d623-e302" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01b7-067f-3edc-3a08" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Twin-Linked Heavy Bolter" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="4180-85d8-49dd-3425">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Twin-Linked" id="5027-3cca-e765-b658" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Fenrisian Great Axe" hidden="true" id="4b9a-4937-d566-c149" collective="false">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="0675-b779-287d-930d" childId="06de-4f36-6a5b-c6fd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90e5-2520-949e-dbe3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Fenrisian Great Axe" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="3361-0c7d-2dda-da43">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">X2</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Master-crafted</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Master-Crafted" id="c9da-303d-719a-1f0e" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Scourge" hidden="false" id="45b4-a1ac-cf37-8d31">
+              <profiles>
+                <profile name="Power Scourge" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="6c75-f2ed-fa00-8aa9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Blind</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a360-3b93-1d0a-9371" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="e5e6-a00a-d25c-95b2">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Thunder Hammer" id="647d-4b8f-b9c6-d53e" hidden="false" type="profile" targetId="d3e9-bb5e-d810-d3e7"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5da1-3674-8cc7-d9c4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Chaos God Dedication" id="5c61-d190-9d84-5e2a" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e7e-375b-1a74-4db8" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Dedication to Khorne" hidden="false" id="163d-5e84-815e-d103">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+              </costs>
+              <profiles>
+                <profile name="Dedication to Khorne" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="ce3c-92f3-07d7-0e1e">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the Rage (2) and Rampage (D3) Special Rules</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="020c-b2d9-fc57-26af"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dedication to Nurgle" hidden="false" id="8106-deb6-9bad-64e9">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+              </costs>
+              <profiles>
+                <profile name="Dedication to Nurgle" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="7d2a-b546-7f6d-543f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the It Will Not Die (5+) Special Rule. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d42-132b-d88e-aac9"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dedication to Tzeentch" hidden="false" id="884a-17ca-863c-0904">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+              </costs>
+              <profiles>
+                <profile name="Dedication to Tzeentch" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="b701-d741-1f53-43b6">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Has a 6+ Invulnurable Save and any Heavy Flamers gain Soul Blaze</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="104d-0948-9494-858a"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dedication to Slaanesh" hidden="false" id="59b0-5da9-595b-bfce">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+              </costs>
+              <profiles>
+                <profile name="Dedication to Slaanesh" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="3235-a342-04ca-49c5">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the Fleet special rule</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2f3-2a7b-6609-8490"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="125"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

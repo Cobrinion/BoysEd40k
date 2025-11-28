@@ -395,10 +395,22 @@
         <categoryLink targetId="3aa2-0f2d-c4eb-172c" id="cf89-0d1c-41a7-3740" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Land Raider Squadron" hidden="false" id="a81c-ea63-65d8-a2ef" type="selectionEntry" targetId="fcdc-441a-c0bc-2482">
+    <entryLink import="true" name="Legion Land Raider Squadron" hidden="false" id="a81c-ea63-65d8-a2ef" type="selectionEntry" targetId="fcdc-441a-c0bc-2482">
       <categoryLinks>
         <categoryLink targetId="2b42-3a90-e878-d0c5" id="b12b-e2a9-3456-a24e" primary="true" name="Heavy Support"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The First: Lion El&apos;Jonson (WIP)" hidden="true" id="12fd-c335-d3bb-311b" type="selectionEntry" targetId="0640-0efa-b7fe-f969">
+      <categoryLinks>
+        <categoryLink targetId="6375-3e5f-be64-925e" id="22ed-2647-1d95-85a3" primary="true" name="HQ"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="8cad-d0d6-9e56-d262" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <rules>
@@ -9278,7 +9290,7 @@ Ragnar must always issue and accept challenges when possible.</description>
     </selectionEntry>
     <selectionEntry id="b5c7-2370-f88b-eff9" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee00-f89a-ad0f-623d" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee00-f89a-ad0f-623d" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="6eaf-849c-c218-67da" name="Blood Angels Warlord Traits" hidden="true" collective="false" import="true" targetId="f40d-eab1-ea10-1ee9" type="selectionEntryGroup">
@@ -14752,7 +14764,7 @@ bolter, Stormbolter or bolt pistol.</description>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="200"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="The First: Lion El&apos;Jonson (WIP)" hidden="false" id="0640-0efa-b7fe-f969">
+    <selectionEntry type="upgrade" import="true" name="The First: Lion El&apos;Jonson" hidden="false" id="0640-0efa-b7fe-f969">
       <profiles>
         <profile name="The First: Lion El&apos;Jonson" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit" hidden="false" id="2fc7-8e23-6f45-39ba">
           <characteristics>
@@ -14770,7 +14782,137 @@ bolter, Stormbolter or bolt pistol.</description>
             <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Adamantium Will (3+), The Lion&apos;s Choler, The Point of the Blade</characteristic>
           </characteristics>
         </profile>
+        <profile name="Stasis Grenades" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="3443-b085-fda6-9552">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Once per battle, Lion El’Jonson’s controlling player may choose to use stasis grenades when a Charge is declared for Lion El’Jonson and any unit he has joined. If the Charge for which the stasis grenades are used is successful then the target enemy unit or units must take an Initiative test (using the majority Initiative value of the unit(s)). If the Initiative test is passed then there is no further effect. If any of the target units fail the Test, then all enemy models in that unit must reduce their Initiative by -1 for the duration of the Assault phase in which the Charge was made.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Leonine Panoply" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="badb-e04b-d993-f243">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The Leonine Panoply provides a 2+ Armour Save and a 4+ Invulnerable Save. The first failed Invulnerable Save made for Lion El’Jonson each player turn may be re-rolled.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="The Emperor&apos;s Shield" hidden="false" id="6aac-e208-eede-244a">
+          <profiles>
+            <profile name="The Emperor&apos;s Shield" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="34f7-7c35-170c-1c8c">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Each time an attack is allocated to this model with the Brutal (X) characteristic, subtract 1 from the Brutal characteristic. 
+For example Brutal (3) becomes Brutal (2).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="458f-2ea9-8f81-1257"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aaec-1f51-99d9-bbdc"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="08f7-5c06-efbe-4414" collective="false" targetId="b5c7-2370-f88b-eff9" type="selectionEntry">
+          <infoLinks>
+            <infoLink name="Sire of the Dark Angels" id="45a5-2970-a938-916b" hidden="false" type="rule" targetId="a3f2-7e5d-185b-9e8c"/>
+          </infoLinks>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Melee Weapon Choice: " id="77f3-f359-81e6-0c4a" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Fealty" hidden="false" id="b9f1-91e0-639d-5e19">
+              <profiles>
+                <profile name="Fealty (Strike)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="b88f-a985-1ca8-0cf2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+2</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Instant Death, Master-Crafted, Brutal (2)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Fealty (Sweep)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="ce1c-f946-adfb-768b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+2</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Two-Handed, Master-Crafted, Instant Death, Reaping Blow (2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f0c-9238-7671-fdee"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Wolf Blade" hidden="false" id="cafc-24cf-bd38-cb8f">
+              <profiles>
+                <profile name="The Wolf Blade" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="42f2-c993-a26c-3a96">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+2</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Two-Handed, Shred, Breaching (4+), Reaping Blow (2), Master-Crafted, Fearsome Ruin</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="507f-2c0d-3583-fe0a"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f62-3d82-39e7-e097"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c0f-ff6a-65b0-4de7"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pistol Choice" id="32f7-06cf-9ac7-52dc" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Arma Luminis" hidden="false" id="0302-e4a5-742e-4dc4">
+              <profiles>
+                <profile name="Arma Luminis (Bolt)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="632d-8b28-130e-6ebb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol, Master-Crafted, Brutal (2)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Arma Luminis (Melta)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="4881-e31d-fe99-9c0c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol, Armourbane (Melta)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Fusil Actinaeus" hidden="false" id="ef6b-73c7-265c-ca31">
+              <profiles>
+                <profile name="The Fusil Actinaeus" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="83c5-99ad-c72a-8140">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Twin-Linked, Blind, Rending (3+)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35b6-f11b-e980-3993"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d45-cfd5-b2aa-4e08"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="850b-74f7-78aa-8828"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="480"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Frag Grenades" id="1010-680e-a0c8-f8e9" hidden="false" type="profile" targetId="3b31-8ac4-2152-876b"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Legion Land Raider Squadron" hidden="false" id="fcdc-441a-c0bc-2482">
       <selectionEntries>
@@ -16240,9 +16382,6 @@ bolter, Stormbolter or bolt pistol.</description>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="62ce-24f1-a0c6-3d92" name="Deathwing" hidden="false">
-      <description>A model with this special rule has the Fearless and Hatred (Chaos Space Marines) special rules.</description>
-    </rule>
     <rule id="e06d-5b63-54b1-6c4d" name="Death Frenzy" hidden="false">
       <description>If a model in this unit is slain in the Fight sub-phase, it can, at the end of the current Initiative step, pile in and fight before being removed as a casualty. The model can do this even if it has already fought this phase.</description>
     </rule>
@@ -16267,6 +16406,9 @@ bolter, Stormbolter or bolt pistol.</description>
     </rule>
     <rule name="Sire of the Dark Angels" id="a3f2-7e5d-185b-9e8c" hidden="false">
       <description>All models with the Legiones Astartes (Dark Angels) special rule in the same army as Lion El’Jonson gain the Crusader special rule, and any friendly models with the Legiones Astartes (Dark Angels) special rule that can draw line of sight to Lion El’Jonson may add +1 to their Leadership (To a maximum of Ld 10). In addition, an army with Lion El’Jonson as its Warlord may make an additional Reaction in the opposing player’s Shooting phase as long as Lion El’Jonson has not been removed as a casualty.</description>
+    </rule>
+    <rule name="Fearsome Ruin" id="4c9d-43d8-858a-d0e9" hidden="false">
+      <description>The controlling player of any unit which suffers one or more casualties from this weapon and makes a Morale check during the Assault phase must roll an additional D6 for that Check and keep the two highest dice to determine the result of that Morale check.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

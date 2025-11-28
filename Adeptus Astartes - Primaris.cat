@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f141-d53f-5859-916d" name="Adeptus Astartes - Primaris" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f141-d53f-5859-916d" name="Adeptus Astartes - Primaris" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="cbae-a4bc-dfdd-b24d" name="Chapter " hidden="false"/>
   </categoryEntries>
@@ -692,7 +692,7 @@ Assault Doctrine:  Affected models can re-roll To Hit rolls in the Assault phase
         </profile>
         <profile id="b34b-c40b-a09d-04f3" name="The Hand of Dominion (Shooting)" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24</characteristic>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
             <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
             <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
             <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire 3</characteristic>
@@ -749,7 +749,7 @@ If an army includes any Primarch models, then one of those models must be chosen
         <infoLink id="30e4-fbc3-2e59-7e25" name="Relentless" hidden="false" targetId="37e2-a92b-40b4-d7cc" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="500"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="480"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="427f-6fee-c229-cb59" name="Inceptor Squad" hidden="false" collective="false" import="true" type="upgrade">

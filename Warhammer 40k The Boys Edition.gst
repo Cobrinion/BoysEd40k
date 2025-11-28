@@ -2485,6 +2485,79 @@ Models with the Daemon Primarch Unit Type are not affected by special rules that
 Any Hits inflicted by a model with the Daemon Primarch Unit Type, as part of either Shooting Attacks or in close combat, are allocated by that model’s controlling player and not the controlling player of the target unit. These Hits should form a separate Wound Pool.
 If an army includes any models with the Daemon Primarch Unit Type, then one of those models must be chosen as the army’s Warlord. • For the purposes of any special rule that affects or has additional effects that target models with the Daemon or Primarch Unit Type, a model with the Daemon Primarch Unit Type is considered to have the Daemon and Primarch Unit Types</description>
     </rule>
+    <rule name="Reaping Blow" id="c450-2d44-3e4b-4a1c" hidden="false">
+      <description>If a model is in base contact with more than one enemy model in the Initiative step in which they fight, they gain a number of Attacks equal to the value of X as noted in the variant of the special rule (if no value of X is included then count the value of X as 1).</description>
+    </rule>
+    <rule name="Daemon Engine" id="9da2-cb72-870e-fbea" hidden="false">
+      <description>Models with this special rule are part construct, part daemonic entity, their twisted forms infused with the malice of the Warp.
+
+
+A model with the Daemon Engine special rule confers a 5+ Invulnurable save and gains the following benefits:
+
+
+The model may re-roll Run and Charge distances
+
+
+The model has the It Will Not Die (6+) special rule</description>
+    </rule>
+    <rule name="Crazed" id="343e-afe7-c858-67a5" hidden="false">
+      <description>Whenever this model suffers one or more unsaved Wounds in a phase, place 1 Crazed marker beside it (maximum 3).
+If the model has 1 or more Crazed markers at the start of its Movement phase, roll a D3 and apply the result for the duration of the turn. At the end of the turn, remove 1 Crazed marker.
+
+
+1 – Fire Frenzy
+
+
+
+The machine-spirit spasms with violent, uncontrolled targeting routines.
+
+
+The model may not Move in the Movement phase.
+
+If not Engaged in combat, it must make a Shooting Attack in the Shooting phase.
+
+It must fire all of its weapons twice at the nearest visible enemy unit.
+
+
+If an enemy unit inflicted one or more unsaved Wounds on it in the previous turn, that unit must be the target if possible.
+
+
+
+2 – Rising Fury
+
+
+The imprisoned warrior fights through agony, becoming more aggressive and responsive.
+
+
+The model ignores effects that would cause it to be Stunned, Shaken, or Pinned for the remainder of the turn.
+
+
+The model gains the Rage (2) special rule for this turn.
+
+
+The model must move it&apos;s full movement characteristic towards the closest enemy target this turn.
+
+
+3 – Blood Rage
+
+
+The daemonic influence boils over into a murderous frenzy.
+
+
+The model ignores effects that would cause it to be Stunned, Shaken, or Pinned for the remainder of the turn.
+
+
+The model gains Fleet, Furious Charge (1) and Rage (2) special rules for this turn.
+
+
+If not within maximum Charge range of an enemy unit in the Charge sub-phase, it must Run instead of Shooting this turn.
+
+
+If within maximum Charge range, it must declare a Charge against the nearest enemy unit if able.
+
+
+The model may not make Shooting attacks this turn.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="9af7-7731-8e0e-4d1b" name="Jump Pack" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
