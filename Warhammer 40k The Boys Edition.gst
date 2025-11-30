@@ -95,6 +95,7 @@
         <characteristicType id="b53b-1fc5-02c8-e69b" name="A"/>
         <characteristicType id="3886-1fbc-9ba4-cb2c" name="Ld"/>
         <characteristicType id="ab97-0508-cfbe-db94" name="Save"/>
+        <characteristicType name="Special Rules" id="c5fa-39b7-33f9-cb47"/>
       </characteristicTypes>
     </profileType>
     <profileType id="8102-1874-edb1-4860" name="Psychic Weapon">

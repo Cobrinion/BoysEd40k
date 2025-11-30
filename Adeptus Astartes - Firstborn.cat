@@ -32,6 +32,11 @@
             <condition type="atLeast" value="1" field="selections" scope="force" childId="dfdd-30fa-8eb9-c56b" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="remove" value="ebc5-5615-35fb-bc91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="dfdd-30fa-8eb9-c56b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </entryLink>
     <entryLink id="b7d9-fd34-46e0-c79a" name="Drop Pod" hidden="false" collective="false" import="true" targetId="f15f-004d-e2d5-fbb4" type="selectionEntry">
@@ -331,6 +336,11 @@
             <condition type="atLeast" value="1" field="selections" scope="force" childId="dfdd-30fa-8eb9-c56b" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="remove" value="ebc5-5615-35fb-bc91" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="dfdd-30fa-8eb9-c56b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </entryLink>
     <entryLink import="true" name="Legion Breacher Squad" hidden="false" id="4ab8-c01a-6a83-e942" type="selectionEntry" targetId="acc8-1ab7-e6eb-f639">
@@ -400,7 +410,7 @@
         <categoryLink targetId="2b42-3a90-e878-d0c5" id="b12b-e2a9-3456-a24e" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="The First: Lion El&apos;Jonson (WIP)" hidden="true" id="12fd-c335-d3bb-311b" type="selectionEntry" targetId="0640-0efa-b7fe-f969">
+    <entryLink import="true" name="The First: Lion El&apos;Jonson" hidden="true" id="12fd-c335-d3bb-311b" type="selectionEntry" targetId="0640-0efa-b7fe-f969">
       <categoryLinks>
         <categoryLink targetId="6375-3e5f-be64-925e" id="22ed-2647-1d95-85a3" primary="true" name="HQ"/>
       </categoryLinks>
@@ -5791,12 +5801,13 @@ bolter, Stormbolter or bolt pistol.</description>
                 <characteristic name="WS" typeId="ffe9-2a7f-bd4e-66cc">5</characteristic>
                 <characteristic name="BS" typeId="0ddb-0fe2-6393-7c9e">5</characteristic>
                 <characteristic name="S" typeId="860b-ab05-e422-b9db">6</characteristic>
-                <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">5</characteristic>
+                <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">6</characteristic>
                 <characteristic name="W" typeId="7e98-a40e-cf96-4a4b">5</characteristic>
-                <characteristic name="I" typeId="f7c5-664d-a82a-946f">2</characteristic>
+                <characteristic name="I" typeId="f7c5-664d-a82a-946f">4</characteristic>
                 <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">3</characteristic>
                 <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">9</characteristic>
                 <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+</characteristic>
+                <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6498,6 +6509,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                 <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">3</characteristic>
                 <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">9</characteristic>
                 <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+/5++</characteristic>
+                <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47"/>
               </characteristics>
             </profile>
           </profiles>
@@ -9888,12 +9900,13 @@ Ragnar must always issue and accept challenges when possible.</description>
             <characteristic name="WS" typeId="ffe9-2a7f-bd4e-66cc">5</characteristic>
             <characteristic name="BS" typeId="0ddb-0fe2-6393-7c9e">5</characteristic>
             <characteristic name="S" typeId="860b-ab05-e422-b9db">6</characteristic>
-            <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">5</characteristic>
+            <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">6</characteristic>
             <characteristic name="W" typeId="7e98-a40e-cf96-4a4b">5</characteristic>
-            <characteristic name="I" typeId="f7c5-664d-a82a-946f">2</characteristic>
+            <characteristic name="I" typeId="f7c5-664d-a82a-946f">4</characteristic>
             <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">5</characteristic>
             <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">9</characteristic>
             <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+</characteristic>
+            <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47"/>
           </characteristics>
         </profile>
       </profiles>
@@ -10001,6 +10014,7 @@ Ragnar must always issue and accept challenges when possible.</description>
                 <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">5</characteristic>
                 <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">9</characteristic>
                 <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+</characteristic>
+                <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47"/>
               </characteristics>
             </profile>
           </profiles>
@@ -12446,12 +12460,13 @@ bolter, Stormbolter or bolt pistol.</description>
             <characteristic name="WS" typeId="ffe9-2a7f-bd4e-66cc">5</characteristic>
             <characteristic name="BS" typeId="0ddb-0fe2-6393-7c9e">5</characteristic>
             <characteristic name="S" typeId="860b-ab05-e422-b9db">6</characteristic>
-            <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">5</characteristic>
+            <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">6</characteristic>
             <characteristic name="W" typeId="7e98-a40e-cf96-4a4b">5</characteristic>
-            <characteristic name="I" typeId="f7c5-664d-a82a-946f">2</characteristic>
+            <characteristic name="I" typeId="f7c5-664d-a82a-946f">4</characteristic>
             <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">3</characteristic>
             <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">9</characteristic>
             <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+</characteristic>
+            <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47"/>
           </characteristics>
         </profile>
       </profiles>
@@ -12869,12 +12884,13 @@ bolter, Stormbolter or bolt pistol.</description>
             <characteristic name="WS" typeId="ffe9-2a7f-bd4e-66cc">6</characteristic>
             <characteristic name="BS" typeId="0ddb-0fe2-6393-7c9e">6</characteristic>
             <characteristic name="S" typeId="860b-ab05-e422-b9db">7</characteristic>
-            <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">5</characteristic>
+            <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">6</characteristic>
             <characteristic name="W" typeId="7e98-a40e-cf96-4a4b">6</characteristic>
-            <characteristic name="I" typeId="f7c5-664d-a82a-946f">3</characteristic>
+            <characteristic name="I" typeId="f7c5-664d-a82a-946f">5</characteristic>
             <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">5</characteristic>
             <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">9</characteristic>
             <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+/5++</characteristic>
+            <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47"/>
           </characteristics>
         </profile>
       </profiles>
@@ -14428,7 +14444,7 @@ bolter, Stormbolter or bolt pistol.</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bda-4bc9-deab-3578"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="40"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="May take:" id="d867-abca-90b7-f6c3" hidden="false">
@@ -14467,6 +14483,9 @@ bolter, Stormbolter or bolt pistol.</description>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="75"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Belial" hidden="false" id="b4e1-2152-af7a-103d">
       <profiles>

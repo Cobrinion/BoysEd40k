@@ -2699,17 +2699,17 @@
             <profile id="6e2c-0aa7-1e49-b09d" name="Aspiring Champion" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
-                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">4</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
                 <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
                 <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
                 <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
-                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">1</characteristic>
-                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">4</characteristic>
-                <characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic>
-                <characteristic name="A" typeId="d535-b745-b613-a7ab">9</characteristic>
-                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">3+</characteristic>
-                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8"/>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3513,10 +3513,10 @@
                 <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
                 <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
                 <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
-                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
-                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4155,6 +4155,7 @@ Negatives:
                 <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">3</characteristic>
                 <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">9</characteristic>
                 <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+/5++</characteristic>
+                <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47"/>
               </characteristics>
             </profile>
           </profiles>
@@ -8814,11 +8815,17 @@ A model with Resplendent Wings may still Run if it would normally be able to Run
             <characteristic name="BS" typeId="0ddb-0fe2-6393-7c9e">5</characteristic>
             <characteristic name="S" typeId="860b-ab05-e422-b9db">6</characteristic>
             <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">5</characteristic>
-            <characteristic name="W" typeId="7e98-a40e-cf96-4a4b">5</characteristic>
+            <characteristic name="W" typeId="7e98-a40e-cf96-4a4b">6</characteristic>
             <characteristic name="I" typeId="f7c5-664d-a82a-946f">3</characteristic>
             <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">3</characteristic>
             <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">9</characteristic>
             <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+</characteristic>
+            <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47"/>
+          </characteristics>
+        </profile>
+        <profile name="Dedication to Slaanesh" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="a8f6-a9a7-504a-2cf6">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the Fleet special rule</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11002,13 +11009,6 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
     <selectionEntry type="upgrade" import="true" name="Ferrum Infernus Chaos Dreadnought Talon" hidden="false" id="d591-bec5-5adb-cf29" collective="false">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Ferrum Infernus Chaos Dreadnought" hidden="false" id="0675-b779-287d-930d" collective="false">
-          <modifiers>
-            <modifier type="set" value="Venerable Dreadnought" field="name">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="0675-b779-287d-930d" childId="06de-4f36-6a5b-c6fd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <profiles>
             <profile name="Ferrum Infernus Chaos Dreadnought (Heavy)" typeId="17f0-d093-bacf-886d" typeName="Dreadnought" hidden="false" id="2207-1303-fd9c-cff3">
               <characteristics>
@@ -11016,35 +11016,14 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                 <characteristic name="WS" typeId="ffe9-2a7f-bd4e-66cc">5</characteristic>
                 <characteristic name="BS" typeId="0ddb-0fe2-6393-7c9e">5</characteristic>
                 <characteristic name="S" typeId="860b-ab05-e422-b9db">6</characteristic>
-                <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">5</characteristic>
+                <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">6</characteristic>
                 <characteristic name="W" typeId="7e98-a40e-cf96-4a4b">5</characteristic>
-                <characteristic name="I" typeId="f7c5-664d-a82a-946f">2</characteristic>
+                <characteristic name="I" typeId="f7c5-664d-a82a-946f">4</characteristic>
                 <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">3</characteristic>
                 <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">9</characteristic>
                 <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+</characteristic>
+                <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47"/>
               </characteristics>
-              <modifiers>
-                <modifier type="set" value="6" field="7e98-a40e-cf96-4a4b">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="0675-b779-287d-930d" childId="06de-4f36-6a5b-c6fd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="4" field="b53b-1fc5-02c8-e69b">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="0675-b779-287d-930d" childId="06de-4f36-6a5b-c6fd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="2+/3++" field="ab97-0508-cfbe-db94">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="0675-b779-287d-930d" childId="14bc-e75f-d6dd-8599" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="Venerable Dreadnought" field="name">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="0675-b779-287d-930d" childId="06de-4f36-6a5b-c6fd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
             </profile>
           </profiles>
           <selectionEntries>
@@ -11454,38 +11433,6 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Fenrisian Great Axe" hidden="true" id="c27f-ca62-b805-1b60" collective="false">
-                  <modifiers>
-                    <modifier type="set" value="false" field="hidden">
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="0675-b779-287d-930d" childId="06de-4f36-6a5b-c6fd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cb8-cc72-1292-51bb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <profiles>
-                    <profile name="Fenrisian Great Axe" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="74a8-9e9d-6bc4-3ada">
-                      <characteristics>
-                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
-                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">X2</characteristic>
-                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Master-crafted</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Master-Crafted" id="f311-8e0e-bdff-95b7" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Power Scourge" hidden="false" id="b1a8-4227-d270-28e6">
                   <profiles>
                     <profile name="Power Scourge" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="57ed-402b-610f-920e">
@@ -11551,7 +11498,7 @@ Should the Ferrum Infernus ever sustain damage that causes it to be removed from
 On a roll of 1-5 The Ruinous Powers judge that the aspiring champion is worthy only of transformation in to a mindless, thrashing mass of pseudopods and teeth, a Chaos Spawn clawing its way out of the wrecked sarcophagus. Apply the Spawnhood result from the Chaos Boon table in Codex Chaos Space Marines. 
 
 
-On a roll of 6, however, The champion is judged worthy at last, his broken body transfiguring into a being of horrifying grandeur. Apply the Dark Apotheosis result from the Chaos Boon Table of Codex Chaos Space Marines Being dedicated to a Chaos God counts the same as having a Mark of Chaos for the purposes of this result. </characteristic>
+On a roll of 6, however, The champion is judged worthy at last, his broken body transfiguring into a being of horrifying grandeur. Apply the Dark Apotheosis result from the Chaos Boon Table of Codex Chaos Space Marines Being dedicated to a Chaos God counts the same as having a Mark of Chaos for the purposes of this result.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -11566,7 +11513,7 @@ On a roll of 6, however, The champion is judged worthy at last, his broken body 
                   <profiles>
                     <profile name="Host of Daemonic Iron" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="7c07-7370-c1ac-e6d8">
                       <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The Dreadnought has the It Will Not Die (5+) special rule. </characteristic>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The Dreadnought has the It Will Not Die (5+) special rule.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -11606,7 +11553,7 @@ On a roll of 6, however, The champion is judged worthy at last, his broken body 
                   <profiles>
                     <profile name="Dedication to Nurgle" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="f4fb-878e-9be0-6d38">
                       <characteristics>
-                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the It Will Not Die (5+) Special Rule. </characteristic>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the It Will Not Die (5+) Special Rule.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -12083,38 +12030,6 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fenrisian Great Axe" hidden="true" id="4b9a-4937-d566-c149" collective="false">
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="0675-b779-287d-930d" childId="06de-4f36-6a5b-c6fd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90e5-2520-949e-dbe3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <profiles>
-                <profile name="Fenrisian Great Axe" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="3361-0c7d-2dda-da43">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">X2</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Master-crafted</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Master-Crafted" id="c9da-303d-719a-1f0e" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Power Scourge" hidden="false" id="45b4-a1ac-cf37-8d31">
               <profiles>
                 <profile name="Power Scourge" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="6c75-f2ed-fa00-8aa9">
@@ -12173,7 +12088,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
               <profiles>
                 <profile name="Dedication to Nurgle" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="7d2a-b546-7f6d-543f">
                   <characteristics>
-                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the It Will Not Die (5+) Special Rule. </characteristic>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Gains the It Will Not Die (5+) Special Rule.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

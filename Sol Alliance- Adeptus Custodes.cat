@@ -6,7 +6,7 @@
         <categoryLink id="3ab6-f9e3-3c1c-6110" name="Troops" hidden="false" targetId="644a-f3d4-2643-0e0b" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4ea5-cf1f-3c42-9cac" name="Custodian Guard Squad" hidden="false" collective="false" import="true" targetId="eaa0-4311-0ec7-5435" type="selectionEntry">
+    <entryLink id="4ea5-cf1f-3c42-9cac" name="(DONE) Custodian Guard Squad" hidden="false" collective="false" import="true" targetId="eaa0-4311-0ec7-5435" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b52d-60df-9d4b-92a9" name="Troops" hidden="false" targetId="644a-f3d4-2643-0e0b" primary="true"/>
       </categoryLinks>
@@ -16,12 +16,12 @@
         <categoryLink id="e827-62e1-fd67-a6d9" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3fda-7071-dfbf-d589" name="Allarus Terminator Squad" hidden="false" collective="false" import="true" targetId="07fc-af15-a40f-58be" type="selectionEntry">
+    <entryLink id="3fda-7071-dfbf-d589" name="(DONE) Allarus Terminator Squad" hidden="false" collective="false" import="true" targetId="07fc-af15-a40f-58be" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f812-b55a-7251-7ae9" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7c4f-5895-b5a2-962e" name="Shield Captain" hidden="false" collective="false" import="true" targetId="1529-11d3-b4fd-5d39" type="selectionEntry">
+    <entryLink id="7c4f-5895-b5a2-962e" name="(DONE) Shield Captain" hidden="false" collective="false" import="true" targetId="1529-11d3-b4fd-5d39" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="10f3-32e1-2554-ddfa" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
       </categoryLinks>
@@ -41,14 +41,19 @@
         <categoryLink id="4e04-f72c-e88b-fa58" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6f1d-fb55-a09c-7bc3" name="Aquillon Terminator Squad" hidden="false" collective="false" import="true" targetId="a683-2b0c-99c1-f3da" type="selectionEntry">
+    <entryLink id="6f1d-fb55-a09c-7bc3" name="(DONE) Aquillon Terminator Squad" hidden="false" collective="false" import="true" targetId="a683-2b0c-99c1-f3da" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="31a4-93dc-8c6a-6cf6" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Contemptor Galatus Dreadnought" hidden="false" id="0527-a510-4ec7-eaf1" type="selectionEntry" targetId="6c74-212c-2c5a-0d25">
+      <categoryLinks>
+        <categoryLink targetId="2b42-3a90-e878-d0c5" id="9475-668a-10d7-9909" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="eaa0-4311-0ec7-5435" name="Custodian Guard Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="eaa0-4311-0ec7-5435" name="(DONE) Custodian Guard Squad" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Misericord" id="f24c-ccdb-8e96-e26d" hidden="false" type="profile" targetId="ff2f-1808-ee4a-7fad"/>
       </infoLinks>
@@ -77,7 +82,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="55"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="45"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -321,22 +326,20 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="a835-6a32-c76d-92e6" name="Plasma and Krak Grenades" hidden="false" collective="false" import="true" targetId="d78d-f87e-e70d-8f21" type="selectionEntry"/>
+        <entryLink import="true" name="Custodian Armour" hidden="false" id="6dd7-efea-5495-35f5" collective="false" targetId="0a46-ef15-de34-6371" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef07-5b64-207c-9594" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e055-b39f-e5fe-87c0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="8a09-a245-865b-d03c" name="Sentinel Guard Squad (WIP)" hidden="false" collective="false" import="true" type="upgrade">
-      <rules>
-        <rule id="b7a3-7a29-38de-3703" name="Shield Barricade" publicationId="3ff9-2058-b559-545b" hidden="false">
-          <description>Friendly Infantry units being targeted by ranged attacks which pass through the area occupied by a unit composed entirely of models with this special rule gain a 4+ cover save.</description>
-        </rule>
-      </rules>
+    <selectionEntry id="8a09-a245-865b-d03c" name="(DONE) Sentinel Guard Squad" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="05d0-f80b-a7d9-19a8" name="Bulky" hidden="false" targetId="65d1-8086-fb69-9579" type="rule"/>
-        <infoLink id="cb53-f647-d193-0e56" name="Crusader" hidden="false" targetId="9e9f-d95e-6c06-ff3b" type="rule"/>
-        <infoLink id="f908-1aff-22fb-61b2" name="Close Combat Weapon" hidden="false" targetId="625e-f664-dbef-3973" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Close Combat Weapon"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Misericord" id="6286-f9e4-63d4-37a4" hidden="false" type="profile" targetId="ff2f-1808-ee4a-7fad"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="0f68-3dce-005d-63d9" name="Praesidium Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -347,7 +350,7 @@
           <profiles>
             <profile id="0ed3-7813-7f15-6344" name="Praesidium Shield" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Praesidium Shield increases the invulnerable save of the bearer by 1 (e.g., a 5+ becomes a 4+), to a maximum of 3+. It also imposes a -1 penalty on To Hit rolls of opponents who direct their attacks against the model in the Assault phase, to a maximum of 6+. A model equipped with a Praesidium shield however cannot use a weapon with the Two-handed special rule, claim the benefit of an additional close combat weapon in assault or use the increased close combat profile when charging for a Guardian spear-type weapon.</characteristic>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Praesidium shield confers a 5+ Invulnerable Save – this does not stack with existing Invulnerable Saves and if a model has more than one such save, the controlling player must select one to use against any Wounds inflicted on that model. In addition, a model with a Praesidium shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-handed special rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -363,7 +366,7 @@
           <profiles>
             <profile id="2748-c64e-df40-125e" name="Sentinel Guard" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry, Skirmish)</characteristic>
                 <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">8&quot;</characteristic>
                 <characteristic name="WS" typeId="9660-0df5-9c5d-3604">5</characteristic>
                 <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
@@ -371,15 +374,15 @@
                 <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">5</characteristic>
                 <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
                 <characteristic name="I" typeId="ea41-893b-3f82-5482">5</characteristic>
-                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
-                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/5++</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/6++</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Legio Custodes, Bulky (3), Chosen Warriors, Relentless, Stubborn</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="65"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="45"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3504-2f08-796a-6fb3" name="One may replace his Shield with a Magisterium Vexilla:" hidden="false" collective="false" import="true" type="upgrade">
@@ -419,71 +422,25 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="a9b5-3cd6-9d49-b3f8" name="Sentinal Warblade" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="deb4-103b-2761-c936" name="Sentinal Warblade (Bolt Caster)" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Hail of Fire</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="27a0-f76e-e716-6705" name="Sentinel Warblade (Warblade)" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Melee</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Rending, Specialist Weapon</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="e814-dd9e-ee4f-fbbe" name="Hail of Fire" publicationId="3ff9-2058-b559-545b" hidden="false">
-                  <description>This weapon makes snap shots at BS2.</description>
-                </rule>
-              </rules>
               <infoLinks>
-                <infoLink id="0893-0a6d-a4ff-9b1c" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
-                <infoLink id="939f-7c28-8c4a-c5b0" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
+                <infoLink name="Sentinal Warblade (Bolt Caster)" id="4b49-c4fd-0660-7ad7" hidden="false" type="profile" targetId="b928-4ecc-889e-0cb6"/>
+                <infoLink name="Sentinel Warblade (Warblade)" id="c00b-094f-7b66-9979" hidden="false" type="profile" targetId="ea57-7722-9c60-a2f0"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6ab2-9f11-ccff-364d" name="Solerite Power Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="bd10-44f6-ee24-afd0" name="Solerite Power Gauntlet" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Master-Crafted, Unweildy</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <infoLinks>
-                <infoLink id="d639-6cc7-7963-aecb" name="Master-Crafted" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
-                <infoLink id="0d16-49d6-19f0-d934" name="Unwieldy" hidden="false" targetId="69cd-1f57-1f07-a602" type="rule"/>
+                <infoLink name="Solerite Power Gauntlet" id="6f76-c097-9fa8-518f" hidden="false" type="profile" targetId="aeeb-6e5b-ffa9-3316"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="30"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4a5b-33a7-2c43-bd60" name="Solerite Power Talon" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="47f9-eef3-5290-a731" name="Solerite Power Talon" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+2</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Master-Crafted, Shred</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <infoLinks>
-                <infoLink id="cfd4-b83e-fdb8-03ec" name="Shred" hidden="false" targetId="41bc-ce18-3e6f-897f" type="rule"/>
-                <infoLink id="f472-8baf-4f73-a7bf" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
-                <infoLink id="153f-5354-36c9-3e12" name="Master-Crafted" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
+                <infoLink name="Solerite Power Talon" id="306c-cb44-d136-493f" hidden="false" type="profile" targetId="02f8-c192-6751-0a19"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
@@ -565,11 +522,10 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="4368-2790-ae5e-fcbd" name="Plasma and Krak Grenades" hidden="false" collective="false" import="true" targetId="d78d-f87e-e70d-8f21" type="selectionEntry"/>
-        <entryLink id="db3d-1ee4-46c2-9b11" name="Legio Custodes" hidden="false" collective="false" import="true" targetId="266f-408d-5699-08aa" type="selectionEntry"/>
         <entryLink id="6824-4d8f-7c04-fb9c" name="Custodian Armour" hidden="false" collective="false" import="true" targetId="0a46-ef15-de34-6371" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="67c3-3454-fe7b-c17a" name="Jetbike Squadron" hidden="false" collective="false" import="true" type="upgrade">
@@ -587,10 +543,77 @@
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c74-212c-2c5a-0d25" name="Contemptor Galatus Dreadnought" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6c74-212c-2c5a-0d25" name="(DONE) Contemptor Galatus Dreadnought" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="235"/>
       </costs>
+      <profiles>
+        <profile name="Contemptor Galatus Dreadnought" typeId="17f0-d093-bacf-886d" typeName="Dreadnought" hidden="false" id="53f8-2c06-f823-1cbc">
+          <characteristics>
+            <characteristic name="M" typeId="8fac-a846-de69-9178">8&quot;</characteristic>
+            <characteristic name="WS" typeId="ffe9-2a7f-bd4e-66cc">6</characteristic>
+            <characteristic name="BS" typeId="0ddb-0fe2-6393-7c9e">5</characteristic>
+            <characteristic name="S" typeId="860b-ab05-e422-b9db">8</characteristic>
+            <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">7</characteristic>
+            <characteristic name="W" typeId="7e98-a40e-cf96-4a4b">6</characteristic>
+            <characteristic name="I" typeId="f7c5-664d-a82a-946f">4</characteristic>
+            <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">4</characteristic>
+            <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">10</characteristic>
+            <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+</characteristic>
+            <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47">Dreadnought, Legio Custodes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Atomantic Deflector" id="21c3-1a08-fa07-9107" hidden="false" type="profile" targetId="cd7c-46f6-7711-85b3"/>
+        <infoLink name="Infernus Incinerator" id="9fba-45a4-cb5f-c512" hidden="false" type="profile" targetId="8c5f-c7cc-2fcb-0b21">
+          <modifiers>
+            <modifier type="set" value="Twin-Linked Infernus Incinerator" field="name"/>
+            <modifier type="set" value="Heavy 1, Twin-Linked" field="79ff-eaa1-5809-53f3"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Galatus Warblade" id="80e3-761f-9430-1581" hidden="false" type="profile" targetId="8f39-169c-a773-7ff6"/>
+        <infoLink name="Gravis Praesidium Shield" id="3245-c1f8-c43e-49dc" hidden="false" type="profile" targetId="cc42-5767-4f58-d390"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Dreadnought&apos;s Legacy" id="f35e-23bf-88eb-472c" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="963a-e692-a700-24ba" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Legacy of Terra" hidden="false" id="7467-d791-fb09-4191" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d90-bc6c-c4d1-bf3e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Legacy of Terra" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="ee65-ea4b-28c8-ad45">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The vehicle gains the It Will Not Die special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="40"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Legacy of the Burning of Prospero" hidden="false" id="158c-ff0d-0a93-71a3" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b8a-a914-2221-879e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Legacy of the Burning of Prospero" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="2885-0384-5318-1356">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The vehicle gains the Adamantium Will special rule. The bonus granted by this special rule is increased to +2 against Witchfire psychic powers.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="44d1-eed3-573c-ff1b" name="Sagittarum Guard Squad" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntries>
@@ -760,12 +783,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eac8-2cd6-c686-3b2e" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="48d5-e0ab-87fe-645b" name="Legio Custodes" hidden="false" collective="false" import="true" targetId="266f-408d-5699-08aa" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a87-0992-39b6-909d" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48f3-7e87-f1c9-faf1" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="1be1-2da7-64e9-63c7" name="Custodian Armour" hidden="false" collective="false" import="true" targetId="0a46-ef15-de34-6371" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a1f-6712-7e75-daaa" type="max"/>
@@ -777,16 +794,11 @@
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0575-c94b-0ce7-b8b4" name="Telemon Heavy Dreadnought" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0575-c94b-0ce7-b8b4" name="(DONE) Telemon Heavy Dreadnought" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="df35-744d-8887-9cc7" name="Multi-Layer Refractor Field" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A multi-layer refractor field confers a 4+ Invulnerable save, increasing to 3+ against weapons with the Blast special rule or that use a template of any kind.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="be12-d269-8d0d-3e51" name="Telemon Dreadnought" hidden="false" typeId="17f0-d093-bacf-886d" typeName="Dreadnought">
           <characteristics>
-            <characteristic name="M" typeId="8fac-a846-de69-9178">6</characteristic>
+            <characteristic name="M" typeId="8fac-a846-de69-9178">6&quot;</characteristic>
             <characteristic name="WS" typeId="ffe9-2a7f-bd4e-66cc">6</characteristic>
             <characteristic name="BS" typeId="0ddb-0fe2-6393-7c9e">5</characteristic>
             <characteristic name="S" typeId="860b-ab05-e422-b9db">8</characteristic>
@@ -796,25 +808,14 @@
             <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">5</characteristic>
             <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">10</characteristic>
             <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+</characteristic>
+            <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47">Dreadnought (Heavy), Legio Custodes, Hammer of Wrath (3), Move Through Cover</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="d5e0-45bb-bbf7-30d8" name="Unyielding Sentinel" publicationId="3ff9-2058-b559-545b" hidden="false">
-          <description>If this model suffers a penetrating hit, two dice must be rolled to determine the result
-on the Vehicle Damage table and the highest roll discarded before the final results are
-decided.</description>
-        </rule>
-      </rules>
       <infoLinks>
-        <infoLink id="9d86-9014-8e89-6145" name="Move Through Cover" hidden="false" targetId="9ace-eb05-c579-57cb" type="rule"/>
-        <infoLink id="1ef3-29d6-55e1-5a31" name="Extra Armour" hidden="false" targetId="712f-db62-39f7-584f" type="profile"/>
-        <infoLink id="1ff4-32ba-8351-ed15" name="Armoured Ceramite" hidden="false" targetId="b05f-6e67-b4b4-ded1" type="profile"/>
-        <infoLink id="2cfc-d0aa-4c4f-b478" name="Hammer of Wrath" hidden="false" targetId="a4d3-4e19-13d9-508e" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Atomantic Deflector" id="0844-f392-fc1e-f6f2" hidden="false" type="profile" targetId="cd7c-46f6-7711-85b3"/>
+        <infoLink name="Arae-Shrikes (Targeting Interference)" id="b89b-25e7-bc6f-33f2" hidden="false" type="profile" targetId="3e3b-303f-29de-d3ec"/>
+        <infoLink name="Arae-Shrikes (Deep Strike Interference)" id="c932-7dfe-934e-7cbd" hidden="false" type="profile" targetId="3b9a-713d-eb3a-bbb4"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="e351-01e5-40ad-57d0" name="Torso-mounted Spiculus Bolt Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -825,21 +826,13 @@ decided.</description>
           <profiles>
             <profile id="a4e1-b468-9383-a282" name="Spiculus Bolt Launcher" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
-                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 5, Rending, Volley Fire</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 8, Pinning</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="f399-b9c4-b5c6-77d7" name="Volley Fire" hidden="false">
-              <description>If the bearer does not move in the Movement phase, it may double the number of shots fired by this weapon. Note that the Relentless special rule does not allow models to move and claim the benefit of this special rule.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="f22d-c5d2-cb4b-e289" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
@@ -852,90 +845,34 @@ decided.</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6bc6-7816-f023-d4c5" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e8de-5029-1372-3964" name="Arachnus Storm Cannon" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ddaf-2bab-71e1-cb6c" name="Burst Fire" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 7</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="854f-2ec0-c873-fb6d" name="Concentrated Blast" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Exo-Shock</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="3621-2049-06d0-6296" name="Exoshock" publicationId="3ff9-2058-b559-545b" hidden="false">
-                  <description>If this wepon scores a penetrating hit on a target, roll a D6. on a roll of a 4+, a second automatic penetrating hit is inflicted on the same target, against which cover saves may not be taken.</description>
-                </rule>
-              </rules>
+            <selectionEntry type="upgrade" import="true" name="Arachnus Storm Cannon" hidden="false" id="63e8-647b-4aec-8e37" collective="false">
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="40"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="35"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="4088-d3b9-b224-b6f5" name="Illastus Accelerator Culverin" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="e4e0-60f7-ff5c-5c0f" name="Illastus Accelerator Culverin" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 5, Rending, Heliothermic Detonation</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="670a-37b9-dd15-52a6" name="Heliothermic Detonation" publicationId="3ff9-2058-b559-545b" hidden="false">
-                  <description>If any Target suffers one or more unsaved wounds from this weapon and is not slain, they must take an immediate Toughness test. if this test is failed, they suffer Instant Death. in the case of a vehicle suffering a penetrating hit from this weapon, add +1 to the result that is rolled on the Vehicle Damage table.</description>
-                </rule>
-              </rules>
               <infoLinks>
-                <infoLink id="2a65-55ca-c7fb-19cc" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                <infoLink name="Arachnus Storm Cannon" id="f844-8756-33a6-ea40" hidden="false" type="profile" targetId="17f6-7c03-5274-8f2d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Illastus Accelerator Culverin" hidden="false" id="e6f5-ceb9-c165-91c7" collective="false">
+              <infoLinks>
+                <infoLink name="Illastus Accelerator Culverin" id="cdb4-7ec4-cadf-6e96" hidden="false" type="profile" targetId="b720-241c-abb9-e2ea"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="15a1-99f6-4abe-914b" name="Telemon Caestus" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="8e6b-f08f-7eff-a65b" name="Telemon Caestus" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Melee</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Shred, Murderous Strike</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+            <selectionEntry type="upgrade" import="true" name="Telemon Caestus" hidden="false" id="246b-e9e4-741d-6c37" collective="false">
               <infoLinks>
-                <infoLink id="c238-d05b-5008-7804" name="Murderous Strike" hidden="false" targetId="3868-1cb3-eb8e-88f4" type="rule"/>
-                <infoLink id="7546-39da-7fad-6504" name="Shred" hidden="false" targetId="41bc-ce18-3e6f-897f" type="rule"/>
+                <infoLink name="Telemon Caestus" id="153f-969c-ebf3-8803" hidden="false" type="profile" targetId="9e94-9215-0aef-4474"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry id="739d-955e-f31a-d122" name="Proteus Plasma Projector" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry type="upgrade" import="true" name="Proteus Plasma Projector" hidden="false" id="9324-d3a6-2d52-10d1" collective="false">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f424-7882-dd50-607e" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aaf4-7f90-513a-6c8e" type="max"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="dcd3-1afc-c7e8-7947" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c420-fbe0-1e77-13c4" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
-                  <profiles>
-                    <profile id="099f-1db1-4ad8-d421" name="Proteus Plasma Projector" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
-                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
-                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Gets Hot</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
                   <infoLinks>
-                    <infoLink id="d0f5-0d1e-96ee-46be" name="Gets Hot" hidden="false" targetId="5d2d-493d-a032-fc88" type="rule"/>
+                    <infoLink name="Proteus Plasma Projector" id="9536-fc96-6874-21c8" hidden="false" type="profile" targetId="fab6-e251-8ea7-be10"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -955,19 +892,8 @@ decided.</description>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e5d2-1077-1a3a-5373" name="Telemon Caestus" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="e810-2838-ec87-5f3a" name="Telemon Caestus" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Melee</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">x2</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Shred, Murderous Strike</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <infoLinks>
-                <infoLink id="b450-05ff-88cb-4592" name="Murderous Strike" hidden="false" targetId="3868-1cb3-eb8e-88f4" type="rule"/>
-                <infoLink id="1b0b-278e-6a40-51ce" name="Shred" hidden="false" targetId="41bc-ce18-3e6f-897f" type="rule"/>
+                <infoLink name="Telemon Caestus" id="6447-0e91-297a-79a4" hidden="false" type="profile" targetId="9e94-9215-0aef-4474"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="915f-1dee-4c32-f9ed" name="Proteus Plasma Projector" hidden="false" collective="false" import="true" type="upgrade">
@@ -975,18 +901,8 @@ decided.</description>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="04e1-6e1d-a106-92e2" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a8b3-8c35-6181-f3ac" type="max"/>
                   </constraints>
-                  <profiles>
-                    <profile id="390a-dcc1-45e8-7dbd" name="Proteus Plasma Projector" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
-                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
-                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Gets Hot</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
                   <infoLinks>
-                    <infoLink id="cfc5-d801-893c-816b" name="Gets Hot" hidden="false" targetId="5d2d-493d-a032-fc88" type="rule"/>
+                    <infoLink name="Proteus Plasma Projector" id="fac1-a192-7dfd-0f6b" hidden="false" type="profile" targetId="fab6-e251-8ea7-be10"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -998,51 +914,16 @@ decided.</description>
               </costs>
             </selectionEntry>
             <selectionEntry id="87c2-a4c7-aa10-a0e4" name="Arachnus Storm Cannon" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="3854-87a8-695c-d694" name="Burst Fire" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 7</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="ddda-fcb7-d7ec-ce61" name="Concentrated Blast" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Exo-Shock</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="5b55-0918-335f-c70f" name="Exoshock" publicationId="3ff9-2058-b559-545b" hidden="false">
-                  <description>If this wepon scores a penetrating hit on a target, roll a D6. on a roll of a 4+, a second automatic penetrating hit is inflicted on the same target, against which cover saves may not be taken.</description>
-                </rule>
-              </rules>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="40"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="35"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Arachnus Storm Cannon" id="85bf-e679-2c02-052c" hidden="false" type="profile" targetId="17f6-7c03-5274-8f2d"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="2232-73bb-d5c1-ab1f" name="Illastus Accelerator Culverin" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ac7a-f4a0-9381-3ae7" name="Illastus Accelerator Culverin" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 5, Rending, Heliothermic Detonation</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="398d-bdb2-ac94-3c3e" name="Heliothermic Detonation" publicationId="3ff9-2058-b559-545b" hidden="false">
-                  <description>If any Target suffers one or more unsaved wounds from this weapon and is not slain, they must take an immediate Toughness test. if this test is failed, they suffer Instant Death. in the case of a vehicle suffering a penetrating hit from this weapon, add +1 to the result that is rolled on the Vehicle Damage table.</description>
-                </rule>
-              </rules>
               <infoLinks>
-                <infoLink id="c1c1-e237-5bb0-b3eb" name="Rending" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                <infoLink name="Illastus Accelerator Culverin" id="8a78-250e-d0f4-4756" hidden="false" type="profile" targetId="b720-241c-abb9-e2ea"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
@@ -1066,9 +947,6 @@ decided.</description>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="ff43-8212-e60d-3fdf" name="It Will Not Die" hidden="false" targetId="42b6-2a61-9a88-0c0f" type="rule"/>
-              </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="40"/>
               </costs>
@@ -1084,9 +962,6 @@ decided.</description>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="2730-f814-5389-bf99" name="Adamantium Will" hidden="false" targetId="e665-d068-6f9e-bf71" type="rule"/>
-              </infoLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
               </costs>
@@ -1111,35 +986,7 @@ decided.</description>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="266f-408d-5699-08aa" name="Legio Custodes" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d86-8e2b-ff75-3205" type="max"/>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6b8-6a67-2775-6942" type="min"/>
-      </constraints>
-      <rules>
-        <rule id="ac44-6d20-8a04-104d" name="Inviolable Psyche" publicationId="3ff9-2058-b559-545b" hidden="false">
-          <description>A unit with this special rule is immune to Fear and Pinning test, and can re-roll failed Deny the Witch attempts. This unit does not suffer penalties to its LEadership when taking Morale checks.</description>
-        </rule>
-        <rule id="8119-7e8b-a39e-d3fd" name="The Sodality" publicationId="3ff9-2058-b559-545b" hidden="false">
-          <description>A unit composed entirely of models with this special rule has a coherency of 3&quot; instead of the usual 2&quot; and may always attempt to Regroup as an unmodified Leadership test regardless of casualties taken or any other effects.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="8dd4-5dc9-1743-c1f6" name="Preternatural Skill" hidden="false" targetId="9cc3-b380-0861-df5a" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="07fc-af15-a40f-58be" name="Allarus Terminator Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="e457-7eac-7162-3739" name="Crusader" hidden="false" targetId="9e9f-d95e-6c06-ff3b" type="rule"/>
-        <infoLink id="f49d-f259-72b8-4ca8" name="Bulky" hidden="false" targetId="65d1-8086-fb69-9579" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Bulky (4)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
+    <selectionEntry id="07fc-af15-a40f-58be" name="(DONE) Allarus Terminator Squad" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntries>
         <selectionEntry id="be87-4002-3c19-3b36" name="Allarus Terminator" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1149,8 +996,8 @@ decided.</description>
           <profiles>
             <profile id="a9a9-1e3a-eb98-84bd" name="Allarus Terminator" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
-                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">7&quot;</characteristic>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry, Skirmish</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">8&quot;</characteristic>
                 <characteristic name="WS" typeId="9660-0df5-9c5d-3604">5</characteristic>
                 <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
                 <characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic>
@@ -1160,12 +1007,12 @@ decided.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/4++</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Legio Custodes, Bulky (3), Chosen Warriors, Relentless, Stubborn</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="75"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="90"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="62f5-e6e7-1e8a-1b83" name="Allarus Pattern Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -1239,7 +1086,7 @@ decided.</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6bab-3fd3-2eef-1af8" name="(WIP) May replace Guardian Spear with:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6bab-3fd3-2eef-1af8" name="May replace Guardian Spear with:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="a219-7712-1a8c-709c" value="1">
               <repeats>
@@ -1260,22 +1107,6 @@ decided.</description>
           <selectionEntries>
             <selectionEntry id="4c7f-a294-553c-10ca" name="Castellan Axe" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="ab45-400c-a80a-2823" name="Castellan Axe" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Melee</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+2</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Two-Handed, Reaping Blow</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="ee80-a938-e004-0dc9" name="Ballistus Grenade Launcher" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3&quot;),</characteristic>
-                  </characteristics>
-                </profile>
                 <profile id="1027-b164-5e21-d837" name="Castellan Axe (Shooting)" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
@@ -1288,55 +1119,168 @@ decided.</description>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Ballistus Grenade Launcher (Frag)" id="c867-63fe-2a9a-2af4" hidden="false" type="profile" targetId="64e9-a45f-070b-1885"/>
+                <infoLink name="Ballistus Grenade Launcher (Krak)" id="cae9-c4c8-322d-f0b9" hidden="false" type="profile" targetId="cb8f-6dce-b8f0-c69b"/>
+                <infoLink name="Ballistus Grenade Launcher (Tanglefoot)" id="9c00-e9d5-1486-cd90" hidden="false" type="profile" targetId="099f-df55-85f0-b075"/>
+                <infoLink name="Castellan Axe" id="0a62-d354-e4d2-17e5" hidden="false" type="profile" targetId="1426-97e5-1eb1-30e4"/>
+                <infoLink name="Castellan Axe" id="24f5-f411-8d62-8fc3" hidden="false" type="profile" targetId="1426-97e5-1eb1-30e4"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="e99b-3b06-7d3a-1797" name="Guardian Spear" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="590c-6ebc-0b1b-0449" name="Guardian Spear (Guardian Bolter)" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="30e9-990e-bdda-1cf1" name="Guardian Spear (Power Blade)" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Melee</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User/+1*</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3/2*</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Lightning Blows, Specialist Weapon</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="62e1-be18-faa9-477a" name="Ballistus Grenade Launcher" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3&quot;),</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="6f37-e88f-29e4-6701" name="Lightning Blows" publicationId="3ff9-2058-b559-545b" hidden="false">
-                  <description>Every roll of a 6 To Hit with this weapon generates another attack with the same weapon at the same Initiative step. These extra attacks do not themselves also generate additional attacks.</description>
-                </rule>
-              </rules>
               <infoLinks>
-                <infoLink id="154d-56bf-a0cc-7512" name="Specialist Weapon" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
+                <infoLink name="Guardian Spear (Guardian Bolter)" id="36d4-fdd7-0606-ef13" hidden="false" type="profile" targetId="7d85-f1e7-1b31-4fa9"/>
+                <infoLink name="Guardian Spear (Power Blade)" id="c55f-85d5-b93b-310b" hidden="false" type="profile" targetId="74cc-aa55-5243-c9bd"/>
+                <infoLink name="Ballistus Grenade Launcher (Frag)" id="be45-8be6-5905-03f8" hidden="false" type="profile" targetId="64e9-a45f-070b-1885"/>
+                <infoLink name="Ballistus Grenade Launcher (Krak)" id="57f4-39b4-0dbc-054e" hidden="false" type="profile" targetId="cb8f-6dce-b8f0-c69b"/>
+                <infoLink name="Ballistus Grenade Launcher (Tanglefoot)" id="7b52-e542-fd27-e7a8" hidden="false" type="profile" targetId="099f-df55-85f0-b075"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Adrasite Spear" hidden="false" id="6d5a-7b02-333a-bf5a">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Adrasite Spear" id="f4ce-87d8-69e2-153f" hidden="false" type="profile" targetId="a5ac-cf20-60c6-965c"/>
+                <infoLink name="Ballistus Grenade Launcher (Frag)" id="38d0-273c-94d6-9478" hidden="false" type="profile" targetId="64e9-a45f-070b-1885"/>
+                <infoLink name="Ballistus Grenade Launcher (Krak)" id="70ec-d466-6793-b3dd" hidden="false" type="profile" targetId="cb8f-6dce-b8f0-c69b"/>
+                <infoLink name="Ballistus Grenade Launcher (Tanglefoot)" id="2525-3fb3-d6c0-57a1" hidden="false" type="profile" targetId="099f-df55-85f0-b075"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pytherite Spear" hidden="false" id="ca27-5bb9-de26-47dc">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Guardian Spear (Power Blade)" id="e776-d8ae-e037-4ad6" hidden="false" type="profile" targetId="74cc-aa55-5243-c9bd"/>
+                <infoLink name="Melta Beam" id="8d10-03fc-c269-8e4f" hidden="false" type="profile" targetId="7fca-708b-71de-0632"/>
+                <infoLink name="Ballistus Grenade Launcher (Frag)" id="3c26-5081-51a0-cc84" hidden="false" type="profile" targetId="64e9-a45f-070b-1885"/>
+                <infoLink name="Ballistus Grenade Launcher (Krak)" id="a686-3f54-4a46-5ea6" hidden="false" type="profile" targetId="cb8f-6dce-b8f0-c69b"/>
+                <infoLink name="Ballistus Grenade Launcher (Tanglefoot)" id="089e-2451-dee1-85a4" hidden="false" type="profile" targetId="099f-df55-85f0-b075"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Two Solarite Power Talons" hidden="false" id="0f08-6944-99ab-cae1">
+              <infoLinks>
+                <infoLink name="Solerite Power Talon" id="d55a-b0d2-bae6-c34f" hidden="false" type="profile" targetId="02f8-c192-6751-0a19"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="One may replace with Magisterium Vexilla and a Master-Crafted Power Weapon or Sentinal Warblade" id="dd6b-37b7-31a0-1e61" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="eaa0-4311-0ec7-5435" shared="true" id="f357-f2e8-c50a-d61b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Magisterium Vexilla &amp; Master-crafted Power Axe" hidden="false" id="adcb-51df-cb21-b938" collective="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80bb-2fa2-59da-cce0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Axe" id="54e7-f4e9-a9c5-ae79" hidden="false" targetId="48e9-7858-e556-9d95" type="profile"/>
+                    <infoLink name="Master-Crafted" id="91c6-d663-2368-5d60" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
+                    <infoLink name="Magesterium Vexilla" id="26fb-b2f7-075c-411a" hidden="false" targetId="ef83-0f75-3914-42e6" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Magisterium Vexilla &amp; Master-crafted Power Maul" hidden="false" id="c482-fcdd-2167-e864" collective="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9de-204b-8bca-0b5a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Maul" id="515a-9a46-8073-b2f7" hidden="false" targetId="bbe8-21fa-9cbe-ae7e" type="profile"/>
+                    <infoLink name="Master-Crafted" id="5cb2-eacd-5a7a-acc3" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
+                    <infoLink name="Magesterium Vexilla" id="18d9-9a45-becb-7ac1" hidden="false" targetId="ef83-0f75-3914-42e6" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Magisterium Vexilla &amp; Master-crafted Power Lance" hidden="false" id="c51c-74c1-925a-8e5f" collective="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c6f-d1cc-7ef2-9890" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Lance" id="b2b5-cdd6-51ac-6e0f" hidden="false" targetId="e9cb-8086-3e11-4741" type="profile"/>
+                    <infoLink name="Master-Crafted" id="ae83-189c-9b75-d9d6" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
+                    <infoLink name="Magesterium Vexilla" id="d9a2-28bc-b070-79e8" hidden="false" targetId="ef83-0f75-3914-42e6" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Magisterium Vexilla &amp; Master-crafted Power Sword" hidden="false" id="53e9-b3aa-83b5-1893" collective="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f28-a143-d40f-8b85" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Power Sword" id="2340-bd83-2a06-acbb" hidden="false" targetId="a559-1dfb-6cf5-65c7" type="profile"/>
+                    <infoLink name="Master-Crafted" id="d7c2-e661-7e98-eed1" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
+                    <infoLink name="Magesterium Vexilla" id="7aad-c11c-28fd-4dcc" hidden="false" targetId="ef83-0f75-3914-42e6" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Magisterium Vexilla &amp; Master-crafted Sentinal Warblade" hidden="false" id="4fdf-84f5-2917-4eb2" collective="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc07-d48b-47cc-c825" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Master-Crafted" id="d1f6-505e-0d5e-c3a2" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
+                    <infoLink name="Magesterium Vexilla" id="5601-b8dd-669b-a8bc" hidden="false" targetId="ef83-0f75-3914-42e6" type="profile"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Sentinal Warblade" hidden="false" id="fea0-bfa1-6835-0ae3" collective="false">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f7d-acbf-f093-4b2e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a0c-3fb5-d3b3-785f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Sentinal Warblade (Bolt Caster)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="babf-6c49-3139-2f81">
+                          <characteristics>
+                            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+                            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+                            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+                            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Hail of Fire</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Sentinel Warblade (Warblade)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="b788-4832-0f01-88a0" publicationId="3ff9-2058-b559-545b">
+                          <characteristics>
+                            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Melee</characteristic>
+                            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+                            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Rending, Specialist Weapon</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule name="Hail of Fire" id="1d13-1e27-3b74-bb91" hidden="false" publicationId="3ff9-2058-b559-545b">
+                          <description>This weapon makes snap shots at BS2.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink name="Rending" id="af2c-7365-14f8-5d0a" hidden="false" targetId="daf9-7786-40aa-8807" type="rule"/>
+                        <infoLink name="Specialist Weapon" id="5e04-3736-f61f-b9db" hidden="false" targetId="eb86-e6c7-073c-5338" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="1f54-7eee-4155-46ad" name="Legio Custodes" hidden="false" collective="false" import="true" targetId="266f-408d-5699-08aa" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="55"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="f311-7b5e-11ad-1d7e" name="Vertus Praetor Bike Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1477,7 +1421,7 @@ decided.</description>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1529-11d3-b4fd-5d39" name="Shield Captain" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1529-11d3-b4fd-5d39" name="(DONE) Shield Captain" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="0252-da7f-4bfd-51e8" name="Shield Captain" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
           <characteristics>
@@ -1786,11 +1730,11 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="200"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="515b-5179-d3fb-948a" name="Contemptor Achillus Dreadnought" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="515b-5179-d3fb-948a" name="(DONE) Contemptor Achillus Dreadnought" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="06c8-ad05-1840-7765" name="Contemptor-Achillus Dreadnought" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="17f0-d093-bacf-886d" typeName="Dreadnought">
           <characteristics>
-            <characteristic name="M" typeId="8fac-a846-de69-9178">8</characteristic>
+            <characteristic name="M" typeId="8fac-a846-de69-9178">8&quot;</characteristic>
             <characteristic name="WS" typeId="ffe9-2a7f-bd4e-66cc">6</characteristic>
             <characteristic name="BS" typeId="0ddb-0fe2-6393-7c9e">5</characteristic>
             <characteristic name="S" typeId="860b-ab05-e422-b9db">8</characteristic>
@@ -1800,15 +1744,12 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
             <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">4</characteristic>
             <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">10</characteristic>
             <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+</characteristic>
+            <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47">Dreadnought, Legio Custodes,</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c77f-717e-30b1-fa0b" name="Extra Armour" hidden="false" targetId="712f-db62-39f7-584f" type="profile"/>
-        <infoLink id="9d0b-d423-e26f-4026" name="Refractor Field" hidden="false" targetId="16b6-1360-e90d-f382" type="profile"/>
-        <infoLink id="6645-d706-9ee6-f55d" name="Counter-Attack" hidden="false" targetId="2a25-a0c2-2424-ea88" type="rule"/>
-        <infoLink id="3125-d2c8-f8aa-2c06" name="Fleet" hidden="false" targetId="b1ba-0709-4305-88e2" type="rule"/>
-        <infoLink id="2838-aa75-b20d-7b6c" name="Move Through Cover" hidden="false" targetId="9ace-eb05-c579-57cb" type="rule"/>
+        <infoLink name="Atomantic Deflector" id="ee89-4b27-5228-48a4" hidden="false" type="profile" targetId="cd7c-46f6-7711-85b3"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="6784-4549-08c6-d1ec" name="Searchlight and Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
@@ -1846,7 +1787,6 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df22-18a7-b329-ddf9" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="debb-6058-e93f-3a38" name="Master-Crafted" hidden="false" targetId="1814-e927-17ca-b6d5" type="rule"/>
                 <infoLink id="4748-fdb0-3f03-0507" name="Corve Las-Pulser" hidden="false" targetId="a5da-d5cd-87e1-b98f" type="profile"/>
                 <infoLink id="129f-8fc4-9d2c-a76a" name="Achillus Dreadspear" hidden="false" targetId="66aa-4407-1420-91df" type="profile"/>
               </infoLinks>
@@ -1884,21 +1824,14 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe30-4440-5ba3-72ca" type="max"/>
                       </constraints>
-                      <profiles>
-                        <profile id="8ee4-a4b2-b026-6ac3" name="Infernus Incinerator" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                          <characteristics>
-                            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
-                            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
-                            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
                       <costs>
                         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
                       </costs>
+                      <infoLinks>
+                        <infoLink name="Infernus Incinerator" id="5827-34a9-4688-8afb" hidden="false" type="profile" targetId="8c5f-c7cc-2fcb-0b21"/>
+                      </infoLinks>
                     </selectionEntry>
-                    <selectionEntry id="dd6a-f25e-a8a1-71dd" name="Lastrum Storm Bolter" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="dd6a-f25e-a8a1-71dd" name="Two Lastrum Storm Bolters" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c39f-949b-aa3e-cbdc" type="max"/>
                       </constraints>
@@ -1908,15 +1841,10 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
                             <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
                             <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
                             <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Heilothermic Detonation</characteristic>
+                            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 3, Shred</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
-                      <rules>
-                        <rule id="7e1c-a257-e54d-e203" name="Heliothermic Detonation" publicationId="3ff9-2058-b559-545b" hidden="false">
-                          <description>If any Target suffers one or more unsaved wounds from this weapon and is not slain, they must take an immediate Toughnes test. if this test is failed, they suffer Instant Death. in the case of a vehicle suffering a penetrating hit from this weapon, add +1 to the result that is rolled on the Vehicle Damage table.</description>
-                        </rule>
-                      </rules>
                       <costs>
                         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
                       </costs>
@@ -1930,17 +1858,11 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
                           <characteristics>
                             <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
                             <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
-                            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
                             <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Instant Death, Gets Hot, Armourbane, Twin-Linked</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink id="2a82-bd6e-7b7d-f4d0" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
-                        <infoLink id="f64f-f336-9654-6762" name="Gets Hot" hidden="false" targetId="5d2d-493d-a032-fc88" type="rule"/>
-                        <infoLink id="90bf-a06a-404b-aa44" name="Instant Death" hidden="false" targetId="e503-b27c-8c99-fa84" type="rule"/>
-                        <infoLink id="f41b-5f09-513d-cd0d" name="Armourbane" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
-                      </infoLinks>
                       <costs>
                         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
                       </costs>
@@ -1954,20 +1876,49 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Dreadnought&apos;s Legacy" id="17f0-1179-6dd9-3cad" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="685a-b5e5-b09d-82cd" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Legacy of Terra" hidden="false" id="2ef8-c872-e41a-ab6b" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bea-0f33-6536-057d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Legacy of Terra" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="a3f1-99db-88d7-b025">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The vehicle gains the It Will Not Die special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="40"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Legacy of the Burning of Prospero" hidden="false" id="15ec-5398-a954-68b6" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28b3-a45b-5289-6835" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Legacy of the Burning of Prospero" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="b7c0-558d-35c9-04f6">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The vehicle gains the Adamantium Will special rule. The bonus granted by this special rule is increased to +2 against Witchfire psychic powers.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="250"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a683-2b0c-99c1-f3da" name="Aquillon Terminator Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="4feb-6105-8b03-a5d9" name="Bulky" hidden="false" targetId="65d1-8086-fb69-9579" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Bulky (4)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="5b77-3976-4e15-0e0e" name="Crusader" hidden="false" targetId="9e9f-d95e-6c06-ff3b" type="rule"/>
-      </infoLinks>
+    <selectionEntry id="a683-2b0c-99c1-f3da" name="(DONE) Aquillon Terminator Squad" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntries>
         <selectionEntry id="45a6-ef77-d3fa-6530" name="Aquillon Pattern Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1977,13 +1928,10 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
           <profiles>
             <profile id="91ec-1dad-1128-7010" name="Aquillon Pattern Terminator Armour" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Aquilon Pattern Terminator Armour provides a 2+ armor save, a 4+ Invulnerable save, and the Hammer of Wrath special rule. A model equipped with Aquilon Pattern Terminator armour may fire Heavy and Salvo weapons, counting as stationary even if they moved in the previous movement phase. They may also charge after firing Rapid Fire, Heavy, or Salvo weapons. A model equipped with Aquilon pattern Terminator armour may not make Run moves, but may still fire overwatch and make Sweeping Advances.</characteristic>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Aquilon Pattern Terminator Armour provides a 2+ armor save, a 4+ Invulnerable save. A model equipped with Aquilon Pattern Terminator armour may fire Heavy and Salvo weapons, counting as stationary even if they moved in the previous movement phase. They may also charge after firing Rapid Fire, Heavy, or Salvo weapons. A model equipped with Aquilon pattern Terminator armour may not make Run moves, but may still fire overwatch and make Sweeping Advances.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="8a6f-6d5e-d632-dddb" name="Hammer of Wrath" hidden="false" targetId="a4d3-4e19-13d9-508e" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
@@ -1996,7 +1944,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
           <profiles>
             <profile id="506c-4eb3-d8e0-db5d" name="Aquilon Terminator" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Heavy, Character)</characteristic>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Heavy, Skirmish)</characteristic>
                 <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">7&quot;</characteristic>
                 <characteristic name="WS" typeId="9660-0df5-9c5d-3604">5</characteristic>
                 <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
@@ -2007,12 +1955,12 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+/4++</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Legio Custodes, Bulky (4), Chosen Warriors, Relentless, Stubborn</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="75"/>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="90"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2077,7 +2025,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="dd19-c7bc-c353-de23" name="May Replace Lastrum Pattern Storm Bolter for: (WIP)" hidden="false" collective="false" import="true" defaultSelectionEntryId="547e-1697-5ca3-3413">
+        <selectionEntryGroup id="dd19-c7bc-c353-de23" name="May Replace Lastrum Pattern Storm Bolter for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="547e-1697-5ca3-3413">
           <modifiers>
             <modifier type="increment" field="0440-4fc1-604a-eaaa" value="1">
               <repeats>
@@ -2103,18 +2051,34 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
                     <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
                     <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
                     <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Heilothermic Detonation</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 3, Shred</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <rules>
-                <rule id="3f17-c951-d8b6-4e37" name="Heliothermic Detonation" publicationId="3ff9-2058-b559-545b" hidden="false">
-                  <description>If any Target suffers one or more unsaved wounds from this weapon and is not slain, they must take an immediate Toughnes test. if this test is failed, they suffer Instant Death. in the case of a vehicle suffering a penetrating hit from this weapon, add +1 to the result that is rolled on the Vehicle Damage table.</description>
-                </rule>
-              </rules>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Adrathic Destructor" hidden="false" id="2c21-73d4-8cf7-b042">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-Linked Adrathic Destructor" id="f402-6a4c-c534-6a85" hidden="false" type="profile" targetId="91d4-02d9-4d9b-f4ec"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Solarite Power Talon" hidden="false" id="d334-ef5f-d0bc-7097">
+              <infoLinks>
+                <infoLink name="Solerite Power Talon" id="6ec7-c1a5-5cd0-68f4" hidden="false" type="profile" targetId="02f8-c192-6751-0a19"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Infernus Firepike" hidden="false" id="907d-2550-e221-b318">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Infernus Firepike" id="c5be-a632-2e82-d31f" hidden="false" type="profile" targetId="e5ad-2582-4045-29cf"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2172,12 +2136,6 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="6f84-4c8d-baf0-fe75" name="Legio Custodes" hidden="false" collective="false" import="true" targetId="266f-408d-5699-08aa" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="55"/>
-      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2185,13 +2143,10 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
       <profiles>
         <profile id="5cfb-468a-067a-4f60" name="Custodian Armour" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Custodian armour provides a 2+ armour save and confers the Move Through Cover special rule.</characteristic>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Custodian armour provides a 2+ armour save and a 6+ Invulnurable Save</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="a2bd-126b-84ce-60d0" name="Move Through Cover" hidden="false" targetId="9ace-eb05-c579-57cb" type="rule"/>
-      </infoLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d8a1-db00-666a-71d9" name="Legio Custodes Ranged Weapons" hidden="false" collective="false" import="true">
       <selectionEntries>
@@ -2248,6 +2203,30 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Infernus Firepike" hidden="false" id="ff04-0eb7-ca60-5e28">
+          <profiles>
+            <profile name="Infernus Firepike" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="50ac-2aed-770e-a601">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Torrent (9&quot;)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Twin-Linked Adrathic Destructor" hidden="false" id="a2e8-a375-6a51-dfe3">
+          <profiles>
+            <profile name="Twin-Linked Adrathic Destructor" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="8747-9fe5-782f-5ead">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -2279,6 +2258,9 @@ A unit composed entirely of models with this special rule gains an additional bo
 When rolling to Hit while Engaged with a Nemesis unit, a model with this special rule will never need to roll better than 4+ to score a Hit – unless the Nemesis unit is composed entirely of models with the Primarch Unit Type, or the attacking model is in a Challenge with a model that has the Primarch Unit Type.</description>
     </rule>
     <rule name="Reaping Blow" id="a67e-19ac-5248-dc45" hidden="false"/>
+    <rule name="Heliothermic Detonation" id="54fb-ab86-2357-df8a" hidden="false" publicationId="3ff9-2058-b559-545b">
+      <description>If any Target suffers one or more unsaved wounds from this weapon and is not slain, they must take an immediate Toughnes test. if this test is failed, they suffer Instant Death. in the case of a vehicle suffering a penetrating hit from this weapon, add +1 to the result that is rolled on the Vehicle Damage table.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="ef83-0f75-3914-42e6" name="Magesterium Vexilla" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -2291,15 +2273,15 @@ When rolling to Hit while Engaged with a Nemesis unit, a model with this special
         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">12</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, *Impaling, Master-Crafted</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Exoshock (4+), Two-Handed</characteristic>
       </characteristics>
     </profile>
     <profile id="a5da-d5cd-87e1-b98f" name="Corve Las-Pulser" publicationId="3ff9-2058-b559-545b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
-        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy D3</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3</characteristic>
       </characteristics>
     </profile>
     <profile name="Arae-Shrikes (Deep Strike Interference)" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="3b9a-713d-eb3a-bbb4" publicationId="3ff9-2058-b559-545b">
@@ -2322,7 +2304,7 @@ When rolling to Hit while Engaged with a Nemesis unit, a model with this special
         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Instant Death, Gets Hot, Armourbane (Ranged), Two-Handed, Reaping Blow (1)</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Instant Death, Gets Hot, Armourbane (Ranged)</characteristic>
       </characteristics>
     </profile>
     <profile name="Guardian Spear (Power Blade)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="74cc-aa55-5243-c9bd" publicationId="3ff9-2058-b559-545b">
@@ -2333,12 +2315,12 @@ When rolling to Hit while Engaged with a Nemesis unit, a model with this special
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Reaping Blow (1), Specialist Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile name="Ballistus Grenade Launcher" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="64e9-a45f-070b-1885">
+    <profile name="Ballistus Grenade Launcher (Frag)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="64e9-a45f-070b-1885">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
-        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
-        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3&quot;),</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3&quot;), Pinning, Shell Shock (1)</characteristic>
       </characteristics>
     </profile>
     <profile name="Guardian Axe" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="0c6b-8a4c-6f24-eebf">
@@ -2411,6 +2393,128 @@ When rolling to Hit while Engaged with a Nemesis unit, a model with this special
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9"/>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Instant Death</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-Linked Adrathic Destructor" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="91d4-02d9-4d9b-f4ec">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Infernus Firepike" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="e5ad-2582-4045-29cf">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Torrent (9&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ballistus Grenade Launcher (Krak)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="cb8f-6dce-b8f0-c69b">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Concussive (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ballistus Grenade Launcher (Tanglefoot)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="099f-df55-85f0-b075">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Entangle (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Castellan Axe" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="1426-97e5-1eb1-30e4">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Melee</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+2</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Two-Handed, Reaping Blow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Castellan Axe (Shooting)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="aec0-b2ae-48ea-d166" publicationId="3ff9-2058-b559-545b">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Atomantic Deflector" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="cd7c-46f6-7711-85b3">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A model with an atomantic deflector gains a 5+ Invulnerable Save, in addition any model with an atomantic deflector and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead. When a model with an atomantic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Infernus Incinerator" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="8c5f-c7cc-2fcb-0b21" publicationId="3ff9-2058-b559-545b">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Galatus Warblade" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="8f39-169c-a773-7ff6">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Instant Death</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gravis Praesidium Shield" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="cc42-5767-4f58-d390">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Gravis Praesidium shield confers a 4+ Invulnerable Save, this does not stack with existing Invulnerable Saves and if a model has more than one such save the controlling player must select one to use against any Wounds inflicted on that model. In addition, a model with a Gravis Praesidium shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-handed special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Telemon Caestus" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="9e94-9215-0aef-4474">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Melee</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">10</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Specialist Weapon, Sunder</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Proteus Plasma Projector" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="fab6-e251-8ea7-be10" publicationId="3ff9-2058-b559-545b">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Breaching (4+), Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Arachnus Storm Cannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="17f6-7c03-5274-8f2d">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3, Lance, Exoshock (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Illastus Accelerator Culverin" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="b720-241c-abb9-e2ea" publicationId="3ff9-2058-b559-545b">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 4, Rending (6+), Brutal (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sentinal Warblade (Bolt Caster)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="b928-4ecc-889e-0cb6">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Shred</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sentinel Warblade (Warblade)" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="ea57-7722-9c60-a2f0" publicationId="3ff9-2058-b559-545b">
+      <characteristics>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Melee</characteristic>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

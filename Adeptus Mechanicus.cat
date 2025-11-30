@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ca2-ac19-6315-af7d" name="Adeptus Mechanicus" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="2ca2-ac19-6315-af7d" name="Adeptus Mechanicus" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="ed61-e00f-9f30-ca68" name="Forge World and Allegiance" hidden="false" collective="false" import="true" targetId="56b6-2712-5967-8f5c" type="selectionEntry"/>
     <entryLink id="ab40-3dbe-9012-f0b8" name="Skitarii Rangers" hidden="false" collective="false" import="true" targetId="b88a-2387-e5cf-d012" type="selectionEntry">
@@ -145,15 +145,16 @@
             <profile id="ef9f-03f8-96ca-f9c5" name="Skitarii Ranger" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry</characteristic>
-                <characteristic name="WS" typeId="e8fa-a6b3-0e8c-18aa">3</characteristic>
-                <characteristic name="BS" typeId="9660-0df5-9c5d-3604">4</characteristic>
-                <characteristic name="S" typeId="565d-bf36-9e7e-29b5">3</characteristic>
-                <characteristic name="T" typeId="23ae-6026-aebd-abc3">3</characteristic>
-                <characteristic name="W" typeId="f6db-a6a5-71d2-71c5">1</characteristic>
-                <characteristic name="I" typeId="a763-cbc8-2080-a4fb">3</characteristic>
-                <characteristic name="A" typeId="ea41-893b-3f82-5482">1</characteristic>
-                <characteristic name="Ld" typeId="d535-b745-b613-a7ab">8</characteristic>
-                <characteristic name="Save" typeId="3b5e-ab67-ed36-a88f">4+</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa"/>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">3</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
                 <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
@@ -171,15 +172,16 @@
             <profile id="ca27-6e2c-523e-0192" name="Ranger Alpha" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
-                <characteristic name="WS" typeId="e8fa-a6b3-0e8c-18aa">3</characteristic>
-                <characteristic name="BS" typeId="9660-0df5-9c5d-3604">4</characteristic>
-                <characteristic name="S" typeId="565d-bf36-9e7e-29b5">3</characteristic>
-                <characteristic name="T" typeId="23ae-6026-aebd-abc3">3</characteristic>
-                <characteristic name="W" typeId="f6db-a6a5-71d2-71c5">2</characteristic>
-                <characteristic name="I" typeId="a763-cbc8-2080-a4fb">3</characteristic>
-                <characteristic name="A" typeId="ea41-893b-3f82-5482">2</characteristic>
-                <characteristic name="Ld" typeId="d535-b745-b613-a7ab">4+</characteristic>
-                <characteristic name="Save" typeId="3b5e-ab67-ed36-a88f"/>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa"/>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">3</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">4+</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8"/>
                 <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules"/>
               </characteristics>
             </profile>
