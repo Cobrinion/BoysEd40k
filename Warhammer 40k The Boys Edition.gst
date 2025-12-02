@@ -1030,19 +1030,7 @@ In that turn’s Shooting phase, these units can fire (or Run, Turbo-boost or mo
 
 Charging out of a Deep Strike
 A deep strike assault is a dangerous affair that can leave even the most battle hardened warriors disorientated on the field of battle.
-A unit that chooses to charge on the same turn which it has committed to a Deep Strike Assault rolls 1d6 instead of 2. (edited)Sunday, 23 November 2025 20:29
-:joy:
-Click to react
-:heart:
-Click to react
-:kek:
-Click to react
-Add Reaction
-Edit
-Forward
-More
-
-
+A unit that chooses to charge on the same turn which it has committed to a Deep Strike Assault rolls 1d6 instead of 2. 
 
 Deep Strike and Transports
 Units do not confer the Deep Strike special rule onto a Transport vehicle they are embarked inside. A Transport vehicle with Deep Strike may Deep Strike regardless of whether its passengers have Deep Strike or not.
@@ -1954,7 +1942,7 @@ Bikes move 3D6&quot; when Falling Back, rather than 2D6&quot;.
 SHOOTING
 Each Bike in a unit can fire with one weapon for each rider on the Bike. Thus a Legion Space Marine Sky Hunter with a single rider can only fire a single weapon.
 SPECIAL RULES
-Bikes have the Hammer of Wrath, Jink, Relentless and Bulky (3) special rules.
+Bikes have the Hammer of Wrath (1), Jink, Relentless and Bulky (3) special rules.
 TURBO-BOOST
 Bikes cannot Run, but can make a special Turbo-boost move instead of firing in their Shooting phase. Turbo-boosting Bikes move up to 18&quot;. Bikes cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.</description>
     </rule>
@@ -3290,9 +3278,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Spatha Attack Bike" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="bcab-4a50-414b-687f">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Spatha Attack Bike has one Twin-Linked Bolter.
-A Spatha Attack Bike confers +1 Toughness, cannot Go to Ground, and cannot be Pinned, not slowed down by difficult terrain, treat all difficult terrain as dangerous, Move 3D6&quot; when Falling Back, Turbo-boost up to 12&quot;. 
-Bikes have the Hammer of Wrath, Jink, Relentless and Bulky (3) special rules.</characteristic>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Spatha Attack Bike confers the Bike, Firing Protocols (2) and Skilled Rider special rules</characteristic>
       </characteristics>
     </profile>
     <profile name="Twin-linked Lascannon" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="0d66-2d65-80f6-5f42">
@@ -3557,7 +3543,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Scimitar Jetbike" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="b0ea-7898-7feb-9eb2">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Scimitar Jetbike confers the Bike subtype and a +2 save. 
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A Scimitar Jetbike confers the Bike subtype, Skilled Rider, Firing Protocols (2) special rule and a +2 save. 
 
 
 Jetbikes can move over all other models and terrain freely. However, if a moving Jetbike begins or ends its move in difficult terrain, it must take a Dangerous Terrain test. Jetbikes cannot end their move over other models or impassable terrain, except that they can end their move on top of impassable terrain if it is actually possible to place the models on top of it. If they do so, they treat the impassable terrain as dangerous terrain.</characteristic>

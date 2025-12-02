@@ -5083,7 +5083,7 @@ bolter, Stormbolter or bolt pistol.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Hammer of Wrath (1), Jink, Relentless, Bulky (3), Scout, Firstborn Astartes, Fury of the Firstborn, Firing Protocols (2)</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Hammer of Wrath (1), Jink, Relentless, Bulky (3), Scout, Firstborn Astartes, Fury of the Firstborn, Firing Protocols (2), Skilled Rider</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5185,7 +5185,7 @@ bolter, Stormbolter or bolt pistol.</description>
           <profiles>
             <profile name="Legion Outrider Sergeant" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit" hidden="false" id="33fe-f807-1776-329c">
               <characteristics>
-                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Bike</characteristic>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Bike (Character)</characteristic>
                 <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">14&quot;</characteristic>
                 <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
                 <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
@@ -5196,7 +5196,7 @@ bolter, Stormbolter or bolt pistol.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Hammer of Wrath (1), Jink, Relentless, Bulky (3), Scout, Firstborn Astartes, Fury of the Firstborn, Firing Protocols (2)</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Hammer of Wrath (1), Jink, Relentless, Bulky (3), Scout, Firstborn Astartes, Fury of the Firstborn, Firing Protocols (2), Skilled Rider</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12220,7 +12220,7 @@ bolter, Stormbolter or bolt pistol.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Bulky (3), Hit and Run, Hammer of Wrath (1), Jink, Outflank, Relentless, Deepstrike, Firstborn Astartes, Fury of the Firstborn</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Bulky (3), Hit and Run, Hammer of Wrath (1), Jink, Outflank, Skilled Rider, Firing Protocols (2) Relentless, Deepstrike, Firstborn Astartes, Fury of the Firstborn</characteristic>
               </characteristics>
             </profile>
           </profiles>
