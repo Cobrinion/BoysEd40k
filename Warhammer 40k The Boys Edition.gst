@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="33" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="d74c-5ac5-fbf4-56c3" name="Warhammer 40k: Emperor Edition" revision="34" battleScribeVersion="2.03" authorName="Cobrinion" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="3ff9-2058-b559-545b" name="Github" publisherUrl="Cobrinion/40kEmperor"/>
   </publications>
@@ -458,118 +458,86 @@ containing the model that failed its test. If the Psyker survives Perils of the 
     </selectionEntryGroup>
     <selectionEntryGroup id="9cde-c840-2f53-e2d5" name="Pyromancy" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="2efd-2bf6-403c-2bf5" name="0-Flame Breath" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry type="upgrade" import="true" name="Aetheric Lightning" hidden="false" id="334e-9810-2837-7444" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8568-2689-b2f2-f5ac" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e560-5005-2c1a-3827" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
           <profiles>
-            <profile id="6222-9db6-4410-2c8a" name="0-Flame Breath" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
+            <profile name="Aetheric Lightning" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="1e1c-2274-5457-0198">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62"/>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Force</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Force" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability" hidden="false" id="8e51-9c08-c1bd-65e3">
+              <characteristics>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the test is successful then the Strength value of any attacks made is doubled. If the test is failed then a Perils of the Warp attack is resolved targeting the unit
+containing the model that failed its test. If the Psyker survives Perils of the Warp then it may attack as normal.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="7794-fa28-f42f-e688" name="Soul Blaze" hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0735-e3f4-5c65-4954" name="1-Fiery Form" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry type="upgrade" import="true" name="Pyromantic Desolation" hidden="false" id="24b1-e8bd-f908-0d35">
           <profiles>
-            <profile id="bc9e-d8ef-0f16-a16e" name="1-Fiery Form" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
+            <profile name="Pyromantic Desolation" typeId="8102-1874-edb1-4860" typeName="Psychic Weapon" hidden="false" id="ec48-f6df-b68b-b82f">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Fiery Form is a blessing that targets the Psyker. Whilst the power is in effect, the Psyker gains a 4+ invulnerable save and his close combat attacks have the Soul Blaze special rule. Whilst the power is in effect, the Psyker re-rolls failed To Wound rolls inflicted by any further Pyromancy powers he manifests.</characteristic>
+                <characteristic name="Type" typeId="cff3-dee8-de48-e5f8">Melee</characteristic>
+                <characteristic name="AP" typeId="b200-d274-a6c8-1dbd">3</characteristic>
+                <characteristic name="S" typeId="38b9-aa50-1a98-e7ff">6</characteristic>
+                <characteristic name="Effect" typeId="0ab5-732c-2c6c-c62a">Unwieldy, Pyromantic Desolation, Psychic Focus</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="2574-619e-afd1-aeb1" name="Soul Blaze" hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91db-7e69-a46a-5906" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2f3-e44b-1288-35f8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
-        <selectionEntry id="ad41-b10b-cae4-fc38" name="3-Spontaneous Combustion" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry type="upgrade" import="true" name="Pyromantic Combustion" hidden="false" id="c5f0-2274-8893-c6ae">
           <profiles>
-            <profile id="f367-46b9-48e6-2545" name="3-Spontaneous Combustion" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
+            <profile name="Pyromantic Combustion" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability" hidden="false" id="7faa-4111-1e7e-c1ea">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Spontaneous Combustion is a focussed witchfire power with a range of 18&quot;. The target model suffers a Strength 6 AP3 hit with the Soul Blaze special rule. If the model is slain by this hit in the Psychic phase, centre the small blast marker over the target before removing him as a casualty. All other models under the marker suffer a Strength 5 AP4 hit with the Ignores Cover and Soul Blaze special rules.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of making a Shooting Attack, a Psyker with this Psychic Power can place a Large Blast (5&quot;) marker anywhere on the battlefield that is entirely within 18&quot; and within line of sight of the Psyker. Once placed, scatter the marker D6&quot; to determine its final position and then leave it in place until the beginning of the controlling player’s next Shooting phase. The area under the marker counts as Difficult Terrain and any model, friendly or enemy, under the marker’s final position, or that moves onto or through the marker, suffers a Strength 6, AP 4 Hit. When using this Psychic Power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the Psyker’s controlling player may place and scatter up to three Large Blast (5&quot;) markers instead of just one. Any model under more than one Blast marker placed using this Psychic Power suffers 1 Hit for each Blast marker it is under. If the Check is failed then the power fails completely, no markers are placed and the Psyker suffers Perils of the Warp.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="9b22-7001-e1e0-e3c6" name="Soul Blaze" hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b35a-8857-3e84-6c21" name="4-Sunburst" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="374f-d6e1-c466-605a" name="4-Sunburst" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-              <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="54fe-1f89-0df8-c805" name="Soul Blaze" hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
-            <infoLink id="7a88-743e-6367-be1c" name="Nova" hidden="false" targetId="32fd-f680-8773-4a82" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b4f0-4162-c195-a363" name="5-Inferno" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="ab6f-f5d4-f118-712d" name="5-Inferno" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-              <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="84b2-51a7-9bf1-3356" name="Soul Blaze" hidden="false" targetId="e4f5-738e-169e-6dc5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d6da-3b58-03b9-c7de" name="6-Molten Beam" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="032c-dc67-2748-aeee" name="6-Molten Beam" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-              <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="5ee1-988f-1b7c-b911" name="Armourbane" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7b57-04fb-7f09-ebd0" name="2-Fire Shield" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="fc74-1567-32c0-0e76" name="2-Fire Shield" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-              <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Fire Shield is a blessing that targets a single friendly unit within 24&quot;. Whilst the power is in effect, the target unit has a 4+ cover save and all enemy units treat all terrain within 6&quot; of the target as Dangerous Terrain (even open ground).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce42-17fb-f07c-e55f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f2d6-c87b-44d6-9e54" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1264-48a4-9905-f43e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="3832-eee3-cffe-434b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup id="9f4a-8f38-08b0-a669" name="Telepathy" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="6ce3-2f1d-933c-c434" name="0-Psychic Shriek" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry type="upgrade" import="true" name="Aetheric Lightning" hidden="false" id="04cf-2351-0a0b-a8c4" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2df-72cd-1e07-e33e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ebf-0f9f-6370-341d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
           <profiles>
-            <profile id="371f-f8f7-1e9c-d54a" name="0-Psychic Shriek" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
+            <profile name="Aetheric Lightning" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="76ac-3ec4-0b91-4992">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Psychic Shriek is a witchfire power with a range of 18&quot;. Roll 3D6 and subtract the target’s Leadership – the target unit suffers a number of Wounds equal to the result. Armour and cover saves cannot be taken against Wounds caused by Psychic Shriek.</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Force</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Force" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability" hidden="false" id="b210-4987-9067-ac80">
+              <characteristics>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the test is successful then the Strength value of any attacks made is doubled. If the test is failed then a Perils of the Warp attack is resolved targeting the unit
+containing the model that failed its test. If the Psyker survives Perils of the Warp then it may attack as normal.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -577,94 +545,40 @@ containing the model that failed its test. If the Psyker survives Perils of the 
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="264f-7b51-18be-d38e" name="1-Dominate" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry type="upgrade" import="true" name="Telepathic Fugue" hidden="false" id="59ad-82a0-b444-491a">
           <profiles>
-            <profile id="3166-ae4f-60f9-6a50" name="1-Dominate" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
+            <profile name="Telepathic Fugue" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability" hidden="false" id="ebc7-30b3-7e49-5210">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Dominate is a malediction that targets a single enemy unit within 24&quot;. Whilst the power is in effect, the target unit must pass a Leadership test each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge – if the test is failed, the action is forfeit and the unit can do nothing else that phase. A unit that fails this test when attempting to fire Overwatch does not fire any shots, but acts normally in the ensuing Fight sub-phase.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Once per turn, at the start of any Phase, the Psyker with this Psychic Power’s controlling player may select a single enemy unit within 24&quot; and line of sight of the Psyker and take a Psychic check. If that Check is passed then the target unit may not make any Overwatch or Return Fire actions for until the end of the turn. If the Check is failed then the Psyker suffers Perils of the Warp.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b2a-7279-eb4d-d096" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6939-7945-ca22-5a9a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
-        <selectionEntry id="d373-8f17-ceaa-c84c" name="2-Mental Fortitude" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry type="upgrade" import="true" name="Telepathic Hallucinations" hidden="false" id="4b2b-500a-f532-906e">
           <profiles>
-            <profile id="1585-32d3-5720-8f77" name="2-Mental Fortitude" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
+            <profile name="Telepathic Hallucinations" typeId="8102-1874-edb1-4860" typeName="Psychic Weapon" hidden="false" id="a589-be25-b2d9-dfe0">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Mental Fortitude is a blessing that targets a single friendly unit within 24&quot;. If the target is falling back, it immediately Regroups. In addition, whilst the power is in effect, the target gains the Fearless special rule.</characteristic>
+                <characteristic name="Type" typeId="cff3-dee8-de48-e5f8">Ranged (36&quot;)</characteristic>
+                <characteristic name="AP" typeId="b200-d274-a6c8-1dbd">-</characteristic>
+                <characteristic name="S" typeId="38b9-aa50-1a98-e7ff">-</characteristic>
+                <characteristic name="Effect" typeId="0ab5-732c-2c6c-c62a">Assault 6, Hallucinations, Psychic Focus</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="91be-bd9e-32fd-2935" name="Fearless" hidden="false" targetId="8220-efb5-2199-6d3d" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5902-e0c2-f2fc-8348" name="3-Terrify" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="bb44-58b9-8ac0-b085" name="3-Terrify" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-              <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">errify is a malediction that targets a single enemy unit within 24&quot;. Whilst the power is in effect, the target has a -1 penalty to their Leadership and treats all enemy units as having the Fear special rule. Furthermore, the target must take a Morale check at the end of the Psychic phase.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="6b98-bfb7-a932-d2e6" name="Fear" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="63b8-2122-0e87-39ce" name="4-Shrouding" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="703d-ba3c-05cb-1da1" name="4-Shrouding" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-              <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Shrouding is a blessing that targets the Psyker. Whilst this power is in effect, the Psyker, and all friendly models within 6&quot; of the Psyker, have the Shrouded special rule.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="1853-307e-d4e5-0e76" name="Shrouded" hidden="false" targetId="a1b0-d78d-3830-c26f" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2dd4-217b-bb8d-eddd" name="5-Invisibility" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="d9fb-238d-877a-2d0d" name="5-Invisibility" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-              <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Invisibility is a blessing that targets a single friendly unit within 24&quot;. Whilst the power is in effect, enemy units can only fire Snap Shots at the target unit and in close combat will only hit models in it on To Hit rolls of a 6.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="438f-be11-d407-fc6e" name="6-Hallucination" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="b2ca-70d9-2f2c-1832" name="6-Hallucination" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
-              <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Hallucination is a malediction that targets a single enemy unit within 24&quot;. Roll once this power has been successfully manifested to determine the manner of hallucinations the target is suffering from (roll once for the whole unit).
-
-1-2: Bugs! I Hate Bugs! Something awful has gotten under the victims’ armour and is crawling around.The unit must take a Pinning test. 
-
-3-4: It’s So Beautiful! All sense of urgency is lost, and the befuddled warriors stare listlessly into space. Whilst the power is in effect, all models in the unit suffer a -1 penalty to their Weapon Skill, Ballistic Skill, Initiative and Attacks (to a minimum of 1). 
-
-5-6: You! You’re a Traitor! Paranoia sets in and the panicked warriors lash out at their commanders. Randomly select one character in the target unit. That model suffers a single Strength 3 hit for every other model in the target unit. Cover saves cannot be taken against these hits, and they can never be allocated to another model. If there are no character models in the target unit, or if there are no other models apart from the character model, treat this result as It’s So Beautiful! instead.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4b7-b189-a475-5e9b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bcd8-2c35-1edc-830b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="f1c7-97fc-f21a-8554" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="435e-333d-14a1-181d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup id="c60f-9227-dc05-9c56" name="Slaanesh" hidden="false" collective="false" import="true">
       <selectionEntries>
@@ -1426,11 +1340,11 @@ D6 Result
     <rule id="4748-71d0-ebeb-241a" name="Cavalry" hidden="false">
       <description>This category covers warriors with a living mount. When closing on their enemies, such troops are able to move at far greater speeds than warriors on foot, and as such, are able to launch deadly charges and counter-charges.
 MOVEMENT
-Cavalry can move up to 12&quot; in the Movement phase. Cavalry are not slowed down by difficult terrain (even when charging). However, Cavalry models treat all difficult terrain as dangerous terrain instead.
+Cavalry cannot be pinned. Cavalry are not slowed down by difficult terrain (even when charging). However, Cavalry models treat all difficult terrain as dangerous terrain instead.
 FALL BACK MOVES
 Cavalry make Fall Back moves just like Infantry, except that they move 3D6&quot;.
 SPECIAL RULES
-Cavalry have the Fleet and Hammer of Wrath special rules.</description>
+Cavalry can only join a unit that includes a Cavalry model.</description>
     </rule>
     <rule id="ca2d-8422-ab7d-b899" name="Reach" publicationId="3ff9-2058-b559-545b" hidden="false">
       <description>A model making attacks as part of an Assault using a weapon with this special rule, adds the value of (X) that is included as part of this special rule to its Initiative Characteristic. If a model has more than one weapon with this special rule then that model only increases the value of its Initiative by the value of the special rule on the weapon whose profile is used by that model to attack during the Fight Sub-phase. A weapon that is not used to attack does not modify the model’s Initiative Characteristic – models that may attack with more than one weapon, or models claiming the bonus for having a second weapon, may only add the value of the highest variant of this special rule and do not add the values together.
@@ -1794,21 +1708,16 @@ To make a Bombing Run, a Flyer must be Zooming. Move the model that is making th
       <description>A model attacking with a Pistol weapon makes the number of Attacks indicated on its profile regardless of whether the bearer has moved or not. A model carrying a Pistol weapon can make a Shooting Attack with it in the Shooting phase and still Charge in the Assault phase. A Pistol weapon also counts as a close combat weapon in the Assault phase. In addition, all models with two Pistol type weapons can attack with both in the same Shooting phase. This follows the normal rules for shooting.</description>
     </rule>
     <rule name="Primarch" id="476d-cd7b-995d-9d76" hidden="false">
-      <description>All Primarchs have the following special rules: Independent Character, Eternal Warrior, Fear, Adamantium Will (5+), Fleet, Fearless, It Will Not Die (5+). In addition, all models with the Primarch unit type always count as Character models.
-
-
+      <description>All Primarchs have the following special rules: Independent Character, Eternal Warrior, Fearless, It Will Not Die (5+), Bulky (4), and Relentless. In addition, all models with the Primarch unit type always count as Character models.
 
 Primarchs are not affected by special rules that negatively modify their Characteristics (other than Wounds) and, in addition, Primarchs always resolve Snap Shots at their normal BS.
 
 Any Hits inflicted by a Primarch, as part of either Shooting Attacks or in close combat, are allocated by the Primarch’s controlling player and not the controlling player of the target unit. These Hits should form a separate Wound Pool.
+
 If an army includes any Primarch models, then one of those models must be chosen as the army’s Warlord.</description>
     </rule>
     <rule name="Infantry" id="77fc-c99b-0279-71f8" hidden="false">
       <description>Infantry units include all types of foot soldiers. A typical unit of Infantry is between five and ten models strong, but they can be much larger. In rare cases, an Infantry unit may comprise only a single model. Infantry are fairly slow moving, but can cross almost any terrain and make the best use of cover to avoid enemy fire.
-
-
-The wider category of Infantry units contains a number of sub-types which may be referenced in other Age of Darkness books. Infantry represent the most basic element of any army and, as such, require no additional rules.
-
 
 An Infantry unit may only include or be joined by models of the Infantry or Primarch Unit Type, unless a special rule states otherwise.</description>
     </rule>
@@ -1836,7 +1745,7 @@ A unit that includes only models with the Light sub-type may make Shooting Attac
 Models with the Light sub-type may never claim a Cover Save in the same turn that it makes a Run move.</description>
     </rule>
     <rule name="Dreadnought" id="794c-174f-b5d9-4611" hidden="false">
-      <description>As with other Unit Types, the Dreadnought type includes a number of sub-types which may be referenced in other Age of Darkness books. The following rules apply to all Dreadnought models and any Dreadnought sub-types:
+      <description>The following rules apply to all Dreadnought models and any Dreadnought sub-types:
 Successful Wounds scored by attacks with the Poisoned or Fleshbane special rules must be re-rolled against models of the Dreadnought Unit Type.
 All Dreadnought models have the Fearless special rule.
 A model with the Dreadnought Unit Type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
@@ -1864,7 +1773,7 @@ A model with the Reinforced Sub-type ignores the effects of any Crew Shaken resu
 A model with the Reinforced Sub-type does not have to make Snap Shots due to the effects of the Crew Stunned result on the Vehicle Damage table (but still cannot move or pivot until the end of its next turn).</description>
     </rule>
     <rule name="Sanctic Force" id="aacb-1d6a-511a-72e8" hidden="false">
-      <description>Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the Check is successful then that weapon gains the Insant Death special rule. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check. If the Psyker survives Perils of the Warp then it may attack as normal.</description>
+      <description>Any Psyker with a weapon or ability with this special rule may choose to make a Psychic check before making any attacks with that weapon or resolving the ability. If the Check is successful then that weapon gains the Instant Death special rule. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check. If the Psyker survives Perils of the Warp then it may attack as normal.</description>
     </rule>
     <rule name="Flyer" id="fc61-c826-2843-bc06" hidden="false">
       <description>The airspace above a battle is just as frantic as on the ground. Fighters and bomber craft hurtle through the skies, duelling with one another and providing fire support for the troops on the ground.
@@ -2021,18 +1930,20 @@ Jet Pack units have the Bulky, Deep Strike and Relentless special rules.</descri
     <rule name="Beast" id="43d5-6a89-2061-e975" hidden="false">
       <description>Beasts are savage and swift-moving creatures.
 MOVEMENT
-Beasts can move up to 12&quot; in the Movement phase. Beasts are not slowed by difficult terrain (even when charging) and automatically pass Dangerous Terrain tests.
+Beasts are not slowed by difficult terrain (even when charging) and automatically pass Dangerous Terrain tests.
 FALL BACK MOVES
 Beasts make Fall Back moves just like Infantry, except that they move 3D6&quot;.
 SPECIAL RULES
-Beasts have the Fleet special rule.</description>
+Beasts have the Fleet (2) special rule.</description>
     </rule>
     <rule name="Monstrous Creature" id="51ae-63d0-7b62-0048" hidden="false">
-      <description>Some creatures are too big to fit into the Infantry unit category. While Monstrous Creatures use many of the Infantry rules, their size and destructive capability make them a lot more dangerous.
-SHOOTING
-Monstrous Creatures can fire up to two of their weapons each Shooting phase – they must fire both at the same target. They may never Go to Ground, voluntarily or otherwise.
-SPECIAL RULES
-Monstrous Creatures have the Fear, Hammer of Wrath, Move Through Cover, Relentless and Smash special rules.</description>
+      <description>The following rules apply to models with the Monstrous subtype:
+• A unit that includes any models with the Monstrous
+sub-type cannot be Pinned.
+• A model with the Monstrous sub-type may fire all weapons they are equipped with in each Shooting Attack they make.
+• A model with the Monstrous sub-type may fire Heavy and
+Ordnance weapons and counts as Stationary even if it moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
+• No model that is not also Monstrous may join a unit that includes a Monstrous model.</description>
     </rule>
     <rule name="Flying Monstrous Creature" id="9812-f0af-ab5d-d74b" hidden="false">
       <description>Flying Monstrous Creatures are Monstrous Creatures that have a number of additional rules:
@@ -2546,6 +2457,20 @@ If within maximum Charge range, it must declare a Charge against the nearest ene
 
 
 The model may not make Shooting attacks this turn.</description>
+    </rule>
+    <rule name="Pyromantic Desolation" id="3e1b-caae-7ca4-2bb7" hidden="false">
+      <description>In addition to attacking normally in the Assault Phase, at the beginning of the Initiative Step at which the model using this Psychic Weapon would normally attack, but before any Pile-in moves or attacks are made, place a Blast (3&quot;) marker centred on the attacking model. All other models wholly or partially under the marker, friendly or enemy, suffer an automatic Hit with the profile shown. These Hits are resolved immediately and do not count for the purpose of resolving the winner of an assault. Once they are resolved, the attacking model may Pile-in and make any other attacks as normal.</description>
+    </rule>
+    <rule name="Hallucinations" id="a58b-4de5-05a5-e6cc" hidden="false">
+      <description>A unit that suffers one or more Hits from a Weapon with this special rule must make an immediate Pinning test, adding one to the result of the roll for each Hit scored by this attack before the result is decided. For example, if a Psyker attacks an enemy unit that has a Leadership of 8, scoring 3 Hits with Telepathic Hallucinations, then that unit must make an immediate Pinning test and add 3 to the result rolled before determining the result.</description>
+    </rule>
+    <rule name="Automata" id="598f-ffb0-5cd7-3c3c" hidden="false">
+      <description>The following rules apply to all Automata models and any Automata sub-types:
+• All Automata models have the Fearless special rule. 
+• Successful Wounds inflicted by attacks with the
+Poisoned or Fleshbane special rules must be re-rolled against models of the Automata Unit Type.
+• No model that is not also of the Automata Unit Type
+may join a unit that includes an Automata model.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3674,6 +3599,11 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Skyfire</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Auxiliary Drive" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="c484-c3bb-a5ef-8bc5">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A vehicle with an auxiliary drive may repair Immobilised results it suffers on a D6 roll of 4+ at the start of the controlling player&apos;s Movement phase.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

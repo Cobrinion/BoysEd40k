@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="32f2-0953-3a19-b2e6" name="Imperial Guard" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="32f2-0953-3a19-b2e6" name="Imperial Guard" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <forceEntries>
     <forceEntry id="fe0e-3c3e-b918-f97e" name="Imperial Guard Battalion" hidden="false">
       <categoryLinks>
@@ -207,6 +207,18 @@ Units with this rule may re-roll To Wound rolls of 1 in the first round of any a
 All Infantry units in this detachment increase their Ballistic Skill by +1 (To a maximum of 4). A Company Commander in this detachment increases its Initiative to 5.</description>
                 </rule>
               </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Praetorian Guard" hidden="false" id="20f9-0a86-3a28-091d">
+              <rules>
+                <rule name="Praetorian Discipline" id="5512-8805-e9b6-be8f" hidden="false">
+                  <description>If an Infantry unit from this Detachment did not move in its Movement phase, it may add +1 to it&apos;s Ballistic Skill (To a maximum of 4) when firing Las weapons.
+
+In addition, Praetorian Infantry units may re-roll failed Morale tests while within 6&quot; of another Praetorian unit. If the re-roll is also failed, the unit does not Fall Back but instead becomes Pinned (their officers force them to hold formation under duress).</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6353-ff96-4b90-37bf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -4242,7 +4254,9 @@ While at least one model with a voxcaster is present on the battlefield and not 
             <entryLink import="true" name="Biomancy" hidden="false" id="30af-faef-2840-3d7d" type="selectionEntryGroup" targetId="840e-c496-0441-ba25"/>
             <entryLink import="true" name="Divination" hidden="false" id="5f83-10ba-3640-bc3c" type="selectionEntryGroup" targetId="7ea5-9df4-33f4-83c3"/>
             <entryLink import="true" name="Sanctus" hidden="false" id="cabb-2e4c-8c76-0004" type="selectionEntryGroup" targetId="be72-9e20-115e-68d8"/>
-            <entryLink import="true" name="Telekinesis" hidden="false" id="297f-40fb-ecec-2aef" type="selectionEntryGroup" targetId="0185-eb3b-e34b-a776"/>
+            <entryLink import="true" name="Pyromancy" hidden="false" id="9f36-b454-9b3e-3c22" type="selectionEntryGroup" targetId="9cde-c840-2f53-e2d5"/>
+            <entryLink import="true" name="Telepathy" hidden="false" id="4bc9-d7b1-0b7d-21e8" type="selectionEntryGroup" targetId="9f4a-8f38-08b0-a669"/>
+            <entryLink import="true" name="Telekinesis" hidden="false" id="e75a-307e-703f-7cd5" type="selectionEntryGroup" targetId="0185-eb3b-e34b-a776"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1adb-4021-751d-4ae1"/>

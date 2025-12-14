@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7b50-05fa-23d7-ec2c" name="Sol Alliance- Adeptus Custodes" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="7b50-05fa-23d7-ec2c" name="Sol Alliance- Adeptus Custodes" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
-    <entryLink id="aa80-dc77-47a3-da5e" name="(DONE) Sentinel Guard Squad" hidden="false" collective="false" import="true" targetId="8a09-a245-865b-d03c" type="selectionEntry">
+    <entryLink id="aa80-dc77-47a3-da5e" name="Sentinel Guard Squad" hidden="false" collective="false" import="true" targetId="8a09-a245-865b-d03c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3ab6-f9e3-3c1c-6110" name="Troops" hidden="false" targetId="644a-f3d4-2643-0e0b" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4ea5-cf1f-3c42-9cac" name="(DONE) Custodian Guard Squad" hidden="false" collective="false" import="true" targetId="eaa0-4311-0ec7-5435" type="selectionEntry">
+    <entryLink id="4ea5-cf1f-3c42-9cac" name="Custodian Guard Squad" hidden="false" collective="false" import="true" targetId="eaa0-4311-0ec7-5435" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b52d-60df-9d4b-92a9" name="Troops" hidden="false" targetId="644a-f3d4-2643-0e0b" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4be0-5179-8546-bce3" name="(DONE) Telemon Heavy Dreadnought" hidden="false" collective="false" import="true" targetId="0575-c94b-0ce7-b8b4" type="selectionEntry">
+    <entryLink id="4be0-5179-8546-bce3" name="Telemon Heavy Dreadnought" hidden="false" collective="false" import="true" targetId="0575-c94b-0ce7-b8b4" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e827-62e1-fd67-a6d9" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3fda-7071-dfbf-d589" name="(DONE) Allarus Terminator Squad" hidden="false" collective="false" import="true" targetId="07fc-af15-a40f-58be" type="selectionEntry">
+    <entryLink id="3fda-7071-dfbf-d589" name="Allarus Terminator Squad" hidden="false" collective="false" import="true" targetId="07fc-af15-a40f-58be" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f812-b55a-7251-7ae9" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7c4f-5895-b5a2-962e" name="(DONE) Shield Captain" hidden="false" collective="false" import="true" targetId="1529-11d3-b4fd-5d39" type="selectionEntry">
+    <entryLink id="7c4f-5895-b5a2-962e" name="Shield Captain" hidden="false" collective="false" import="true" targetId="1529-11d3-b4fd-5d39" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="10f3-32e1-2554-ddfa" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="29c0-e8b9-4049-fe30" name="(WIP Dawneagle Jetbike Squadron" hidden="false" collective="false" import="true" targetId="f311-7b5e-11ad-1d7e" type="selectionEntry">
+    <entryLink id="29c0-e8b9-4049-fe30" name="Dawneagle Jetbike Squadron" hidden="false" collective="false" import="true" targetId="f311-7b5e-11ad-1d7e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="970f-1f0d-a9f3-38b8" name="Fast Attack" hidden="false" targetId="3aa2-0f2d-c4eb-172c" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6a1f-dae4-3e29-c48f" name="(DONE) Contemptor Achillus Dreadnought" hidden="false" collective="false" import="true" targetId="515b-5179-d3fb-948a" type="selectionEntry">
+    <entryLink id="6a1f-dae4-3e29-c48f" name="Contemptor Achillus Dreadnought" hidden="false" collective="false" import="true" targetId="515b-5179-d3fb-948a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="15d9-56a7-ca0b-e319" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a6f4-d327-2f46-66d1" name="(WIP) Sagittarum Guard Squad" hidden="false" collective="false" import="true" targetId="44d1-eed3-573c-ff1b" type="selectionEntry">
+    <entryLink id="a6f4-d327-2f46-66d1" name="Sagittarum Guard Squad" hidden="false" collective="false" import="true" targetId="44d1-eed3-573c-ff1b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4e04-f72c-e88b-fa58" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6f1d-fb55-a09c-7bc3" name="(DONE) Aquillon Terminator Squad" hidden="false" collective="false" import="true" targetId="a683-2b0c-99c1-f3da" type="selectionEntry">
+    <entryLink id="6f1d-fb55-a09c-7bc3" name="Aquillon Terminator Squad" hidden="false" collective="false" import="true" targetId="a683-2b0c-99c1-f3da" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="31a4-93dc-8c6a-6cf6" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="(DONE) Contemptor Galatus Dreadnought" hidden="false" id="0527-a510-4ec7-eaf1" type="selectionEntry" targetId="6c74-212c-2c5a-0d25">
+    <entryLink import="true" name="Contemptor Galatus Dreadnought" hidden="false" id="0527-a510-4ec7-eaf1" type="selectionEntry" targetId="6c74-212c-2c5a-0d25">
       <categoryLinks>
         <categoryLink targetId="2b42-3a90-e878-d0c5" id="9475-668a-10d7-9909" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="(DONE) Coronus Grav-Carrier" hidden="false" id="14be-932a-18f8-d463" type="selectionEntry" targetId="88d1-4e8d-2e3f-e3c1">
+    <entryLink import="true" name="Coronus Grav-Carrier" hidden="false" id="14be-932a-18f8-d463" type="selectionEntry" targetId="88d1-4e8d-2e3f-e3c1">
       <categoryLinks>
         <categoryLink targetId="9ec8-042a-a605-4622" id="3402-07a1-4861-7f17" primary="true" name="Transport"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="(DONE) Agamatus Jetbike Squadron" hidden="false" id="b3f5-acd6-b0fa-4993" type="selectionEntry" targetId="67c3-3454-fe7b-c17a">
+    <entryLink import="true" name="Agamatus Jetbike Squadron" hidden="false" id="b3f5-acd6-b0fa-4993" type="selectionEntry" targetId="67c3-3454-fe7b-c17a">
       <categoryLinks>
         <categoryLink targetId="3aa2-0f2d-c4eb-172c" id="8812-b616-a36c-61ce" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="(DONE) Hetaeron Guard Squad" hidden="false" id="b450-5450-a105-3157" type="selectionEntry" targetId="5293-b592-fdbe-8bdd">
+    <entryLink import="true" name="Hetaeron Guard Squad" hidden="false" id="b450-5450-a105-3157" type="selectionEntry" targetId="5293-b592-fdbe-8bdd">
       <categoryLinks>
         <categoryLink targetId="ebc5-5615-35fb-bc91" id="98e1-bfdc-ce92-3e81" primary="true" name="Elites"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="(DONE) Sagittarum Guard Squad" hidden="false" id="af75-3ce2-b644-1e53" type="selectionEntry" targetId="44d1-eed3-573c-ff1b">
+    <entryLink import="true" name="Sagittarum Guard Squad" hidden="false" id="af75-3ce2-b644-1e53" type="selectionEntry" targetId="44d1-eed3-573c-ff1b">
       <categoryLinks>
         <categoryLink targetId="2b42-3a90-e878-d0c5" id="f980-4670-1c87-f5a4" primary="true" name="Heavy Support"/>
       </categoryLinks>
@@ -356,16 +356,17 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="a835-6a32-c76d-92e6" name="Plasma and Krak Grenades" hidden="false" collective="false" import="true" targetId="d78d-f87e-e70d-8f21" type="selectionEntry"/>
-        <entryLink import="true" name="Custodian Armour" hidden="false" id="6dd7-efea-5495-35f5" collective="false" targetId="0a46-ef15-de34-6371" type="selectionEntryGroup">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef07-5b64-207c-9594" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e055-b39f-e5fe-87c0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
       </costs>
+      <profiles>
+        <profile name="Custodian Armour" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="7f96-304d-a43a-5ea1" publicationId="3ff9-2058-b559-545b">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Custodian armour provides a 2+ armour save and a 6+ Invulnurable Save</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry id="8a09-a245-865b-d03c" name="Sentinel Guard Squad" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>

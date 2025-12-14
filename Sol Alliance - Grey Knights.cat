@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8835-2049-fe6c-2642" name="Sol Alliance - Grey Knights " revision="11" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="8835-2049-fe6c-2642" name="Sol Alliance - Grey Knights " revision="12" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="48c8-31f9-ff3a-af17" name="Castellan Crowe" hidden="false" collective="false" import="true" targetId="6a2f-09e0-8270-3764" type="selectionEntry">
       <categoryLinks>
@@ -2089,7 +2089,7 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
               <infoLinks>
-                <infoLink name="New Info (link)" id="7729-a3d2-9834-76e0" hidden="false" type="profile"/>
+                <infoLink name="Auxiliary Drive" id="7729-a3d2-9834-76e0" hidden="false" type="profile" targetId="c484-c3bb-a5ef-8bc5"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="437f-7d68-45bb-1c43" percentValue="false" includeChildSelections="false" includeChildForces="false"/>

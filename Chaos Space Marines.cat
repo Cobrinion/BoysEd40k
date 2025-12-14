@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb01-7be9-f390-5267" name="Chaos Space Marines" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="cb01-7be9-f390-5267" name="Chaos Space Marines" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="ab90-4e30-7e07-563f" name="Warband Origins" hidden="false"/>
   </categoryEntries>
@@ -1015,6 +1015,9 @@
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Surgical Augments" id="1008-93f3-702d-7835" hidden="false" type="selectionEntryGroup" targetId="9989-f80e-b1c7-b03c"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2385,6 +2388,9 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Emperor&apos;s Children Weapons" hidden="false" id="4723-2ff1-431f-8d3f" type="selectionEntryGroup" targetId="ef12-611f-856f-9a5a"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
@@ -2503,6 +2509,9 @@
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="110"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Surgical Augments" id="8935-46f1-d6af-d932" hidden="false" type="selectionEntryGroup" targetId="9989-f80e-b1c7-b03c"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="0e91-eea8-436b-5630" name="Daemon Prince" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -5639,6 +5648,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
       <infoLinks>
         <infoLink id="6832-0caa-33fd-609f" name="Frag Grenades" hidden="false" targetId="3b31-8ac4-2152-876b" type="profile"/>
         <infoLink id="149d-7d9a-ebac-9c1b" name="Krak Grenades" hidden="false" targetId="9af1-f354-beeb-0bfd" type="profile"/>
+        <infoLink name="Surgical Augments" id="b375-a0ec-bf07-30b9" hidden="false" type="selectionEntryGroup" targetId="9989-f80e-b1c7-b03c"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="c880-92bd-4602-e816" name="Daemonic Wings" hidden="false" collective="false" import="true" type="upgrade">
@@ -8718,6 +8728,9 @@ A model with Resplendent Wings may still Run if it would normally be able to Run
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Surgical Augments" id="175c-a7f1-fca5-4663" hidden="false" type="selectionEntryGroup" targetId="9989-f80e-b1c7-b03c"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="08ee-f576-e544-c4d2" name="Icon of Excess" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -10027,7 +10040,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="New Info (link)" id="c274-75b5-75f9-ccfc" hidden="false" type="profile"/>
+                    <infoLink name="Auxiliary Drive" id="c274-75b5-75f9-ccfc" hidden="false" type="profile" targetId="c484-c3bb-a5ef-8bc5"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Dirge Caster" hidden="false" id="3c7d-0099-78f5-0d44">
@@ -11178,7 +11191,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     <infoLink name="Armourbane" id="aaa5-64e7-80aa-423f" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
                   </infoLinks>
                   <entryLinks>
-                    <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="44a3-6110-153d-f00f" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+                    <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="44a3-6110-153d-f00f" collective="false" targetId="a013-95d9-5e44-54c2" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
@@ -11199,7 +11212,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="3ff4-a37b-2891-1df2" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+                    <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="3ff4-a37b-2891-1df2" collective="false" targetId="a013-95d9-5e44-54c2" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -11385,7 +11398,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     <infoLink name="Armourbane" id="5ac0-0d70-873a-10b6" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
                   </infoLinks>
                   <entryLinks>
-                    <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="076b-b830-14f5-f90c" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+                    <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="076b-b830-14f5-f90c" collective="false" targetId="a013-95d9-5e44-54c2" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
@@ -11406,7 +11419,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="93e3-5ebe-ecaa-b402" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+                    <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="93e3-5ebe-ecaa-b402" collective="false" targetId="a013-95d9-5e44-54c2" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -11775,7 +11788,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                 <infoLink name="Armourbane" id="7ede-7051-f4f0-2952" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
               </infoLinks>
               <entryLinks>
-                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="1efe-a19c-8f02-880e" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="1efe-a19c-8f02-880e" collective="false" targetId="a013-95d9-5e44-54c2" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
@@ -11796,7 +11809,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="5d81-99bd-98e4-ed33" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="5d81-99bd-98e4-ed33" collective="false" targetId="a013-95d9-5e44-54c2" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -11982,7 +11995,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                 <infoLink name="Armourbane" id="c81e-beba-996b-ee45" hidden="false" targetId="6ba0-fe52-d3bc-761a" type="rule"/>
               </infoLinks>
               <entryLinks>
-                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="5e4d-86e5-d089-4e1c" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="5e4d-86e5-d089-4e1c" collective="false" targetId="a013-95d9-5e44-54c2" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
@@ -12003,7 +12016,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="6ced-a423-238b-58a2" collective="false" targetId="7b51-aa0c-6949-646b" type="selectionEntryGroup"/>
+                <entryLink import="true" name="Dreadnought CCW In-Built" hidden="false" id="6ced-a423-238b-58a2" collective="false" targetId="a013-95d9-5e44-54c2" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -12958,7 +12971,7 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a1fc-3005-e9d3-9821" name="Emperor&apos;s Children Warlord Traits" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="a1fc-3005-e9d3-9821" name="Emperor&apos;s Children Warlord Traits" hidden="true" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c56-e118-629f-d6f8" type="max"/>
       </constraints>
@@ -13004,6 +13017,113 @@ Your Warlord&apos;s profile gains 1 Attack each time a wound is allocated to the
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="9bda-7c1f-0f29-2044" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Surgical Augments" id="9989-f80e-b1c7-b03c" hidden="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Sonic Shriekers" hidden="false" id="3f8c-9312-8443-23bf">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="873b-faaf-30cb-79c5"/>
+          </constraints>
+          <profiles>
+            <profile name="Sonic Shriekers" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="7e27-baf0-afff-6bdf">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">During a turn in which a unit with at least one model equipped with sonic shriekers succesfully charges, or themselves is succesfully charged, all models in any enemy units locked in combat with them suffer a -1 penalty to all To Hit rolls. Models which are immune to the effects of Fear (X) are not affected. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sub-sonic Pulser" hidden="false" id="3b24-2c6b-8f78-75fa">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de5d-3a55-db95-ecad"/>
+          </constraints>
+          <profiles>
+            <profile name="Sub-sonic Pulser" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item" hidden="false" id="4fed-5d55-f87c-9ca3">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A model equipped with this upgrade and any unit it joins, ignores the penalties to Leadership and Ballistic Skill imposed by the Night Fighting special rules. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sonic Lance" hidden="false" id="9211-fc69-4ab8-4c1a">
+          <profiles>
+            <profile name="Sonic Lance" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="6b2a-d724-b2cc-3522">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">2</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Breaching (6+), Pinning</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9b0-2a51-8e85-c973"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="9bda-7c1f-0f29-2044" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Emperor&apos;s Children Weapons" id="ef12-611f-856f-9a5a" hidden="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pheonix Rapier" hidden="false" id="1638-1962-68ed-c6aa">
+          <profiles>
+            <profile name="Pheonix Rapier" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="4046-e143-583d-2ae5">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Rending (6+), Murderous Strike (6+)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8c5-c003-ab15-f1bf"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Pheonix Power Spear" hidden="false" id="05ab-321c-703a-0547">
+          <profiles>
+            <profile name="Pheonix Power Spear" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="3d25-8f9b-96b9-6ae3">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+2</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Reach (1), Murderous Strike (6+), Breaching (6+), Two-Handed</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea07-cbd7-2502-ac5e"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="9bda-7c1f-0f29-2044" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
