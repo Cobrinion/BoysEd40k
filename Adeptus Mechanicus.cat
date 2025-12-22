@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ca2-ac19-6315-af7d" name="Adeptus Mechanicus" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="2ca2-ac19-6315-af7d" name="Adeptus Mechanicus" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="ed61-e00f-9f30-ca68" name="Forge World and Allegiance" hidden="false" collective="false" import="true" targetId="56b6-2712-5967-8f5c" type="selectionEntry"/>
     <entryLink id="ab40-3dbe-9012-f0b8" name="Skitarii Rangers" hidden="false" collective="false" import="true" targetId="b88a-2387-e5cf-d012" type="selectionEntry">
@@ -443,4 +443,48 @@ Units	Effects
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule name="Attack Wing" id="d481-3bd0-121a-4aa8" hidden="false">
+      <description>A unit with this Special Rule containing more than one model must be deployed together, but once deployed act as separate units, including for purposes of VP and Units Destroyed.</description>
+    </rule>
+    <rule name="Auxiliary Gunners" id="189d-6b67-487d-d565" hidden="false">
+      <description>A weapon with this Special Rule may be fired at different targets to the model’s other weapons at no penalty to the firing model.</description>
+    </rule>
+    <rule name="Command Protocols" id="6b5b-4170-be5b-e2d2" hidden="false">
+      <description>Wherever this Special Rule is present, it will include a qualifier after the rule in brackets, for example Command Protocols (Skitarius). These variants are described below:
+
+
+Skitarius:
+Once per game, at the start of the Controlling Player’s Shooting phase, you may nominate one unit with the Skitarii Sub-type unit within 12” of this model. This unit can re-roll failed to Hit rolls of 1 during that Shooting Phase.
+
+
+Kill-Clade:
+This model, and any unit it has joined, may re-roll the dice for determining Charge distances.</description>
+    </rule>
+    <rule name="Cybernetica Data-Web" id="3a1a-30db-46da-f8fe" hidden="false">
+      <description>A model with this Special Rule may ignore the Programmed behaviour restrictions applied by the Cybernetica Sub-type as long as there is a friendly model within 24” equipped with a Cortex Controller.
+
+
+A model with this Special Rule may always react, ignoring the restrictions applied on reactions by the Automata Sub-type. In addition, a model with this Special Rule may never be affected by Cybertheurgy from any source, whether friendly or enemy.</description>
+    </rule>
+    <rule name="Datasphere Uplink" id="d62e-120d-d60b-391d" hidden="false">
+      <description>During deployment, if you have any models present in your army with the Datasphere Uplink Special Rule, you must select one of the following Protocols. At the start of any Game Turn, you may activate your chosen Protocol; it remains active until the start of the next Game Turn, with all models in your army with the Datasphere Uplink Special Rule gaining the effects specified.
+
+
+Scrapcoded Exultation:
+All models with the Datasphere Uplink Special Rule gain the Shrouded (6+) Special Rule.
+
+
+Self-Repair Programming:
+All models with the Datasphere Uplink Special Rule models which have taken a Wound or Hull Point of Damage but remain in play regain +1 Wound or +1 Hull Point respectively, up to their starting Characteristic.
+
+
+Predatory Engrams:
+All models with the Datasphere Uplink Special Rule add +1 to their Attacks and Initiative Characteristics.
+
+
+Targeting Cryptogram:
+All models with the Datasphere Uplink Special Rule add +1 to their Ballistic Skill Characteristic.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
