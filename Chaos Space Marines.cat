@@ -4247,13 +4247,6 @@ Negatives:
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0990-79f3-d7c1-3497" type="min"/>
               </constraints>
               <rules>
-                <rule id="d0e1-be36-2617-5d13" name="Dreadnought" hidden="false">
-                  <description>Succesful wounds scored by attacks with the Poisoned or Fleshbane special rules must be re-rolled against Dreadnoughts. 
-All Dreadnoughts have the Fearless special rule.
-A Dreadnought may fire all weapons they are equipped with in each shooting phase even if it moved in the preceding movement phase. 
-A Dreadnought may declare charges as normal regardless of any Shooting Attacks made in the same turn. 
-No model that is not also a Dreadnought may join a unit that includes Dreadnought model.</description>
-                </rule>
               </rules>
               <infoLinks>
                 <infoLink id="61fd-71c1-cacb-54ce" name="Fearless" hidden="false" targetId="8220-efb5-2199-6d3d" type="rule"/>
@@ -5389,9 +5382,6 @@ No model that is not also a Dreadnought may join a unit that includes Dreadnough
         </profile>
       </profiles>
       <rules>
-        <rule id="66b8-dd65-9016-2249" name="Repair" hidden="false">
-          <description>In the Shooting phase instead of firing a weapon, the Rhino may attempt to repair an Immobilised result on a D6 roll of a 6.</description>
-        </rule>
       </rules>
       <selectionEntryGroups>
         <selectionEntryGroup id="70ab-4abb-0642-a25a" name="May choose between:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4b99-b5cf-20ec-03e1">
@@ -6763,15 +6753,6 @@ Limitations
         <rule id="d523-2809-ebac-5d94" name="Veterans of the Long War" hidden="false">
           <description>Models with this rule have +1ld and Hatred (Space Marines). This hatred applies to all Adeptus Astartes factions.</description>
         </rule>
-        <rule id="de69-1926-1d5c-b422" name="Primarch" hidden="false">
-          <description>All Primarchs have the following special rules: Independent Character, Eternal Warrior, Fearless, It Will Not Die (5+), Bulky (4), and Relentless.
-In addition, all models with the Primarch unit type always count as
-Character models.
-• Primarchs are not affected by special rules that negatively modify their Characteristics (other than Wounds) and, in addition, Primarchs always resolve Snap Shots at their normal BS.
-• Any Hits inflicted by a Primarch, as part of either Shooting Attacks or in close combat, are allocated by the Primarch’s controlling player and not the controlling player of the target unit. These Hits should
-form a separate Wound Pool.
-• If an army includes any Primarch models, then one of those models must be chosen as the army’s Warlord.</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="28bc-eb39-9f03-6a6b" name="Rampage" hidden="false" targetId="6976-3785-3ce1-5043" type="rule">
@@ -8106,9 +8087,6 @@ A model with Resplendent Wings may still Run if it would normally be able to Run
             </profile>
           </profiles>
           <rules>
-            <rule id="64d0-b1ab-9cef-6910" name="Skyfire" hidden="false">
-              <description>A model which has this special rule, or that is firing a weapon with this special rule, fires using its normal Ballistic Skill when shooting at Flyers and Skimmers, but it can only fire Snap Shots against other targets.</description>
-            </rule>
           </rules>
           <infoLinks>
             <infoLink id="56d4-880e-482b-ac7a" name="Pinning" hidden="false" targetId="0afb-1495-6aeb-c2c5" type="rule"/>
@@ -8854,13 +8832,6 @@ A model with Resplendent Wings may still Run if it would normally be able to Run
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6390-4299-3521-f2c3" type="min"/>
           </constraints>
           <rules>
-            <rule id="a33c-2752-7044-a289" name="Dreadnought" hidden="false">
-              <description>Succesful wounds scored by attacks with the Poisoned or Fleshbane special rules must be re-rolled against Dreadnoughts. 
-All Dreadnoughts have the Fearless special rule.
-A Dreadnought may fire all weapons they are equipped with in each shooting phase even if it moved in the preceding movement phase. 
-A Dreadnought may declare charges as normal regardless of any Shooting Attacks made in the same turn. 
-No model that is not also a Dreadnought may join a unit that includes Dreadnought model.</description>
-            </rule>
           </rules>
           <infoLinks>
             <infoLink id="6447-1bbf-f0a6-55f6" name="Fearless" hidden="false" targetId="8220-efb5-2199-6d3d" type="rule"/>
@@ -11628,13 +11599,6 @@ On a roll of 6, however, The champion is judged worthy at last, his broken body 
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef7b-b354-9429-8be6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <rules>
-            <rule name="Dreadnought" id="f2d4-dc98-c407-751b" hidden="false">
-              <description>Succesful wounds scored by attacks with the Poisoned or Fleshbane special rules must be re-rolled against Dreadnoughts. 
-All Dreadnoughts have the Fearless special rule.
-A Dreadnought may fire all weapons they are equipped with in each shooting phase even if it moved in the preceding movement phase. 
-A Dreadnought may declare charges as normal regardless of any Shooting Attacks made in the same turn. 
-No model that is not also a Dreadnought may join a unit that includes Dreadnought model.</description>
-            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -13666,9 +13630,6 @@ If, at the start of any of their player turns, Fulgrim has two or fewer Wounds a
     </rule>
     <rule name="Living Icon" id="0df0-76c6-cfce-8703" hidden="false" publicationId="3ff9-2058-b559-545b" page="30">
       <description>The unit, and all friendly units with at least one model within 6&quot; of it, are considered to be victorious in any assault that would otherwise be a draw.</description>
-    </rule>
-    <rule name="Sudden Strike" id="037d-31ea-19dc-39e2" hidden="false" publicationId="3ff9-2058-b559-545b" page="107">
-      <description>Units with this rule gain 1 Initiative during any phase when they charge.  This is cumulative with other bonuses.</description>
     </rule>
     <rule name="Crawling Advance" id="c854-3e1f-fd25-7443" hidden="false">
       <description>A Termite Assault Drill may never move faster than Combat Speed or move Flat Out.</description>

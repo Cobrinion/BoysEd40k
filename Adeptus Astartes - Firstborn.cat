@@ -459,11 +459,6 @@
     </entryLink>
   </entryLinks>
   <rules>
-    <rule id="47b5-d113-6cd9-7030" name="Firstborn Astartes" hidden="false">
-      <description>Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties. 
-
-In additon, each Legion confers special abilities unique to them, defined by their gene-seed.</description>
-    </rule>
     <rule id="f498-d577-ff6e-2688" name="Vengeful Strike" publicationId="cfcf-7aa1-fe59-68ec" page="154" hidden="false">
       <description>All ranged weapons are Twin-Linked on the turn this Deathwing model deep strikes.</description>
     </rule>
@@ -3731,7 +3726,7 @@ bolter, Stormbolter or bolt pistol.</description>
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff7-bdce-f10b-1b43" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="0555-adf4-bfa1-b5a1" name="Firstborn Astartes" hidden="false" targetId="47b5-d113-6cd9-7030" type="rule"/>
+        <infoLink id="0555-adf4-bfa1-b5a1" name="Firstborn Astartes" hidden="false" targetId="8ea7-5bf6-33c6-0b41" type="rule"/>
         <infoLink id="5f6b-15b0-ea74-0506" name="Fury of the Firstborn" hidden="false" targetId="ba1a-4f70-4e54-4fe2" type="rule"/>
       </infoLinks>
       <selectionEntries>
@@ -6743,13 +6738,6 @@ bolter, Stormbolter or bolt pistol.</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03e7-b5bb-688f-d00d" type="min"/>
           </constraints>
           <rules>
-            <rule id="5285-0ceb-e291-13ad" name="Dreadnought" hidden="false">
-              <description>Succesful wounds scored by attacks with the Poisoned or Fleshbane special rules must be re-rolled against Dreadnoughts. 
-All Dreadnoughts have the Fearless special rule.
-A Dreadnought may fire all weapons they are equipped with in each shooting phase even if it moved in the preceding movement phase. 
-A Dreadnought may declare charges as normal regardless of any Shooting Attacks made in the same turn. 
-No model that is not also a Dreadnought may join a unit that includes Dreadnought model.</description>
-            </rule>
           </rules>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -9457,7 +9445,7 @@ bolter, Stormbolter or bolt pistol.</description>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="021f-1f09-00d0-e3e1" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="f2aa-7c4f-2ea7-7d57" name="Firstborn Astartes" hidden="false" targetId="47b5-d113-6cd9-7030" type="rule"/>
+        <infoLink id="f2aa-7c4f-2ea7-7d57" name="Firstborn Astartes" hidden="false" targetId="8ea7-5bf6-33c6-0b41" type="rule"/>
         <infoLink id="1e8e-cd24-9cd4-9861" name="Fury of the Firstborn" hidden="false" targetId="ba1a-4f70-4e54-4fe2" type="rule"/>
       </infoLinks>
       <costs>
@@ -10361,12 +10349,6 @@ Ragnar must always issue and accept challenges when possible.</description>
                     </profile>
                   </profiles>
                   <rules>
-                    <rule id="29ea-f06f-3e85-2194" name="Lingering Death" publicationId="cfcf-7aa1-fe59-68ec" page="242" hidden="false">
-                      <description>When a Blast weapon with this rule is used, after the attack is resolved leave the Blast marker in play for the rest of the game and mark it with a counter of some kind. This area is now treated as Dangerous Terrain for all models with a Toughness value.</description>
-                    </rule>
-                    <rule id="62e9-0f1f-ce47-939c" name="Crawling Fire" publicationId="cfcf-7aa1-fe59-68ec" page="236" hidden="false">
-                      <description>After the Blast marker for a weapon with this special rule is placed, the attacking unit’s controlling player may move the marker up to 2&quot; in any direction so long as this would cover more models than it previously would have.</description>
-                    </rule>
                   </rules>
                   <infoLinks>
                     <infoLink id="538f-7f68-34f4-ec20" name="Barrage" hidden="false" targetId="f4af-44ef-cff6-0c1d" type="rule"/>

@@ -487,9 +487,6 @@
 
 If the Commander has any Drones, they form a unit with him while he is Gliding. When he is Swooping, the Drones are removed from the battlefield. If he is slain whilst Swooping, his Drones are destroyed. If a Swooping Commander changes flight mode (or is grounded), his surviving Drones are immediately placed on the battlefield in unit coherency with him.</description>
                 </rule>
-                <rule id="58c4-93a2-4fc6-9795" name="Night Vision" hidden="false">
-                  <description>A unit that contains at least one model with this special rule ignores the effects of Night Fighting.</description>
-                </rule>
               </rules>
               <infoLinks>
                 <infoLink id="b896-c376-6887-c8f2" name="Twin-Linked" hidden="false" targetId="753c-39ae-57f2-56db" type="rule"/>
@@ -603,9 +600,6 @@ If the Commander has any Drones, they form a unit with him while he is Gliding. 
               <rules>
                 <rule id="e4a7-eb6c-c766-f044" name="Enforcer Battlesuit" hidden="false">
                   <description>A Commander equipped with an Enforcer battlesuit has the Monstrous Creature (Character) unit type, but does not have the Fear or Smash special rules. They also have a multi-tracker and blacksun filter.</description>
-                </rule>
-                <rule id="43c3-95b1-36f4-4881" name="Night Vision" hidden="false">
-                  <description>A unit that contains at least one model with this special rule ignores the effects of Night Fighting.</description>
                 </rule>
               </rules>
               <costs>
