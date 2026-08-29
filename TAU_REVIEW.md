@@ -11,6 +11,10 @@ This batch adds four 7th-edition Tau Empire units to the Emperor Edition New Rec
 - XV88 Broadside Battlesuit Team (Heavy Support)
 - TY7 Devilfish (Dedicated Transport)
 - Kroot Carnivore Squad (Troops)
+- TX4 Piranha (Fast Attack)
+- Sky Ray Missile Defence Gunship (Heavy Support)
+- Vespid Stingwing Squad (Fast Attack)
+- Sniper Drone Team (Heavy Support)
 
 The initial points, profiles, weapons, and options use the 7th Edition Tau Empire Codex as the baseline. They have not yet had Emperor Edition playtest balancing.
 
@@ -25,5 +29,5 @@ The initial points, profiles, weapons, and options use the 7th Edition Tau Empir
 
 - Devilfish transport integration for Pathfinders
 - Drones, vehicle support systems, seeker missiles, disruption pods, and Longstrike
-- Piranha, Skyray, Vespid, sniper drones, named characters, and Farsight Enclaves
+- Named characters, Farsight Enclaves, and the detailed drone-system pass
 - Full New Recruit UI smoke test and faction balance playtesting
