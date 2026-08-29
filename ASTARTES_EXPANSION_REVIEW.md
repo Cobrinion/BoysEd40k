@@ -26,10 +26,11 @@ entry would only duplicate it.
 
 ## Conversion choices
 
-- The 7th-edition unit identity, squad size and baseline points are the primary
-  source for the new units.  The point adjustments are deliberately narrow:
-  Scouts 13/15, Possessed 26/28, Plague Marines 24/27, Obliterators 75,
-  Vindicators 125 and Land Raider 250.
+- The 7th-edition unit identity and squad size are the primary source, but
+  points are anchored to the project&apos;s 10-point basic Marine.  The reviewed
+  values are: Scouts 8/10, Possessed 20/22, Plague Marines 19/21,
+  Obliterators 60, Centurions 55/60 (assault) or 65/70 (devastator),
+  Vindicators 125, Whirlwinds 65 and Land Raiders 220.
 - Project-native conventions take precedence: Astartes use 7-inch movement,
   the existing faction rules, and normal Marines remain at one Wound.  The
   2-Wound Centurion and Obliterator profiles are intentional heavy-infantry
