@@ -6,6 +6,11 @@ This batch adds four 7th-edition Tau Empire units to the Emperor Edition New Rec
 - Cadre Fireblade (HQ)
 - Pathfinder Team (Fast Attack)
 - Hammerhead Gunship (Heavy Support)
+- XV8 Crisis Battlesuit Team (Elites)
+- XV104 Riptide Battlesuit (Elites)
+- XV88 Broadside Battlesuit Team (Heavy Support)
+- TY7 Devilfish (Dedicated Transport)
+- Kroot Carnivore Squad (Troops)
 
 The initial points, profiles, weapons, and options use the 7th Edition Tau Empire Codex as the baseline. They have not yet had Emperor Edition playtest balancing.
 
@@ -20,5 +25,5 @@ The initial points, profiles, weapons, and options use the 7th Edition Tau Empir
 
 - Devilfish transport integration for Pathfinders
 - Drones, vehicle support systems, seeker missiles, disruption pods, and Longstrike
-- Riptide, Broadside, Piranha, Skyray, Kroot, Vespid, and Farsight Enclaves
+- Piranha, Skyray, Vespid, sniper drones, named characters, and Farsight Enclaves
 - Full New Recruit UI smoke test and faction balance playtesting
