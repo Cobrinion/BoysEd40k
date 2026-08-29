@@ -16,6 +16,10 @@ This batch adds four 7th-edition Tau Empire units to the Emperor Edition New Rec
 - Vespid Stingwing Squad (Fast Attack)
 - Sniper Drone Team (Heavy Support)
 
+The common Gun, Shield, and Marker Drone selections now include battlefield profiles and their core weapon or defensive information.
+
+Commander Shadowsun and Commander Farsight are now unique HQ selections. Their enclave/army-composition restrictions remain a separate review item.
+
 The initial points, profiles, weapons, and options use the 7th Edition Tau Empire Codex as the baseline. They have not yet had Emperor Edition playtest balancing.
 
 ## Review decisions requested
