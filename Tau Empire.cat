@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="91c4-9f62-68aa-d951" name="Tau Empire" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="91c4-9f62-68aa-d951" name="Tau Empire" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="d74c-5ac5-fbf4-56c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="4e9e-5ba9-31a8-e10c" name="Tau Commander" hidden="false" collective="false" import="true" targetId="e033-039f-82d8-db0a" type="selectionEntry">
       <categoryLinks>
@@ -16,8 +16,108 @@
         <categoryLink id="eb65-833e-78c9-03c6" name="Troops" hidden="false" targetId="644a-f3d4-2643-0e0b" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="b201-0001-0001-0001" name="Ethereal" hidden="false" collective="false" import="true" targetId="b201-1001-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b201-0001-0002-0001" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b201-0002-0001-0001" name="Cadre Fireblade" hidden="false" collective="false" import="true" targetId="b201-1002-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b201-0002-0002-0001" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b201-0003-0001-0001" name="Pathfinder Team" hidden="false" collective="false" import="true" targetId="b201-1003-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b201-0003-0002-0001" name="Fast Attack" hidden="false" targetId="3aa2-0f2d-c4eb-172c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b201-0004-0001-0001" name="Hammerhead Gunship" hidden="false" collective="false" import="true" targetId="b201-1004-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b201-0004-0002-0001" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
+    <selectionEntry id="b201-1001-0001-0001" name="Ethereal" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b201-1001-0002-0001" name="Ethereal" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+          </characteristics>
+        </profile>
+        <profile id="b201-1001-0003-0001" name="Honour Blade" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Rending</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b201-1001-0004-0001" name="Invocation of the Elements" hidden="false">
+          <description>At the start of each of your Movement phases, an Ethereal may invoke one elemental power. Until the start of your next turn, friendly non-vehicle Tau Empire units within 12&quot; benefit from that power: Storm of Fire grants an extra shot to pulse weapons at half range; Calm of Tides allows failed Morale and Pinning tests to be re-rolled; Zephyr&apos;s Grace grants the Stubborn special rule; and Sense of Stone grants Feel No Pain (6+).</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink id="b201-1001-0005-0001" name="Supporting Fire" hidden="false" collective="false" import="true" targetId="5f32-f199-a39b-2d89" type="selectionEntry"/>
+      </entryLinks>
+      <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b201-1002-0001-0001" name="Cadre Fireblade" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b201-1002-0002-0001" name="Cadre Fireblade" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic><characteristic name="Ld" typeId="d535-b745-b613-a7ab">9</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+          </characteristics>
+        </profile>
+        <profile id="b201-1002-0003-0001" name="Pulse Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire</characteristic></characteristics></profile>
+        <profile id="b201-1002-0004-0001" name="Markerlight" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Markerlight</characteristic></characteristics></profile>
+      </profiles>
+      <rules><rule id="b201-1002-0005-0001" name="Volley Fire" hidden="false"><description>Models in a unit joined by a Cadre Fireblade that did not move in its Movement phase fire an additional shot when shooting pulse rifles or pulse carbines in the Shooting phase.</description></rule></rules>
+      <entryLinks><entryLink id="b201-1002-0006-0001" name="Supporting Fire" hidden="false" collective="false" import="true" targetId="5f32-f199-a39b-2d89" type="selectionEntry"/></entryLinks>
+      <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="60"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b201-1003-0001-0001" name="Pathfinder Team" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntries>
+        <selectionEntry id="b201-1003-0002-0001" name="Pathfinder" hidden="false" collective="false" import="true" type="model">
+          <constraints><constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0002-0002" type="max"/><constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0002-0003" type="min"/></constraints>
+          <profiles><profile id="b201-1003-0002-0004" name="Pathfinder" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic><characteristic name="Ld" typeId="d33e-1fdc-0c00-8cb8">7</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b201-1003-0002-0005" name="Pulse Carbine" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Pinning</characteristic></characteristics></profile><profile id="b201-1003-0002-0006" name="Markerlight" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic><characteristic name="AP" typeId="1544-3a5e-421-edf9">-</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Markerlight</characteristic></characteristics></profile></profiles>
+          <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="11"/></costs>
+        </selectionEntry>
+        <selectionEntry id="b201-1003-0003-0001" name="Pathfinder Shas&apos;ui" hidden="false" collective="false" import="true" type="model">
+          <constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0003-0002" type="max"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0003-0003" type="min"/></constraints>
+          <profiles><profile id="b201-1003-0003-0004" name="Pathfinder Shas&apos;ui" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic><characteristic name="Ld" typeId="d33e-1fdc-0c00-8cb8">8</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile></profiles>
+          <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="21"/></costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups><selectionEntryGroup id="b201-1003-0004-0001" name="Special Weapons" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0004-0002" type="max"/></constraints><selectionEntries><selectionEntry id="b201-1003-0004-0003" name="Rail Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="b201-1003-0004-0004" name="Rail Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic><characteristic name="AP" typeId="1544-3a5e-421-edf9">1</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Rending, Pinning</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/></costs></selectionEntry><selectionEntry id="b201-1003-0004-0005" name="Ion Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="b201-1003-0004-0006" name="Ion Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic><characteristic name="AP" typeId="1544-3a5e-421-edf9">4</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Gets Hot</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups>
+      <entryLinks><entryLink id="b201-1003-0005-0001" name="Supporting Fire" hidden="false" collective="false" import="true" targetId="5f32-f199-a39b-2d89" type="selectionEntry"/></entryLinks>
+      <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b201-1004-0001-0001" name="Hammerhead Gunship" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b201-1004-0002-0001" name="Hammerhead Gunship" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle"><characteristics><characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic><characteristic name="Front" typeId="4bfa-429f-5871-ec8b">13</characteristic><characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic><characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic><characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic><characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Skimmer, Fast</characteristic><characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic></characteristics></profile>
+        <profile id="b201-1004-0003-0001" name="Railgun - Solid Shot" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">10</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1</characteristic></characteristics></profile>
+        <profile id="b201-1004-0004-0001" name="Railgun - Submunition" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Large Blast</characteristic></characteristics></profile>
+        <profile id="b201-1004-0005-0001" name="Twin-linked Burst Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Twin-linked</characteristic></characteristics></profile>
+      </profiles>
+      <selectionEntryGroups><selectionEntryGroup id="b201-1004-0006-0001" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b201-1004-0006-0003"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1004-0006-0002" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1004-0006-0004" type="max"/></constraints><selectionEntries><selectionEntry id="b201-1004-0006-0003" name="Railgun" hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/></costs></selectionEntry><selectionEntry id="b201-1004-0006-0005" name="Ion Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="b201-1004-0006-0006" name="Ion Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">60&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic><characteristic name="AP" typeId="1544-3a5e-421-edf9">3</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups>
+      <rules><rule id="b201-1004-0007-0001" name="Hammerhead Gunship" hidden="false"><description>A Hammerhead is equipped with a railgun and twin-linked burst cannon. Its railgun can fire either the solid shot or submunition profile each time it shoots.</description></rule></rules>
+      <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="125"/></costs>
+    </selectionEntry>
     <selectionEntry id="e033-039f-82d8-db0a" name="Tau Commander" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="28da-c183-1120-4ad7" name="Tau Commander" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
