@@ -1,6 +1,6 @@
 # Tau analytical balance test - baseline
 
-Status: **hold for roster QA, then tabletop playtest**.
+Status: **ready for New Recruit smoke testing, then tabletop playtest**.
 
 This is a first-pass analytical test of the Tau additions. It uses the profiles and points currently in `Tau Empire.cat`, with no Markerlight, Commander, Ethereal, cover, psychic, or army-rule buffs. Results are expected values, not a substitute for games.
 
@@ -27,11 +27,11 @@ A basic Riptide (T6, 5W, 2+) requires about 270 BS4 bolter shots to inflict five
 
 ## Roster and data findings
 
-### Release blockers
+### Roster fixes applied
 
-1. Five first-batch weapon profiles have invalid AP characteristic IDs: Pathfinder pulse carbine, markerlight, rail rifle, ion rifle, and Hammerhead ion cannon. New Recruit needs those corrected before a full roster UI test.
-2. The XV8 Crisis Battlesuit Team links to the shared Ranged Weapons and Support Systems groups, but does not currently enforce its intended per-model hardpoint limit. This can permit illegal or under-costed loadouts.
-3. The pre-existing Tau `Melta` info-link still points to a missing rule.
+1. Corrected the five invalid AP characteristic IDs: Pathfinder pulse carbine, markerlight, rail rifle, ion rifle, and Hammerhead ion cannon.
+2. Added a combined three-hardpoint constraint to each XV8 Crisis Battlesuit&apos;s weapon and support-system selections.
+3. Restored the missing Tau Melta rule target.
 
 ### Balance watch list
 

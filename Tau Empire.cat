@@ -36,21 +36,80 @@
         <categoryLink id="b201-0004-0002-0001" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b202-0001-0001-0001" name="XV8 Crisis Battlesuit Team" hidden="false" collective="false" import="true" targetId="b202-1001-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b202-0001-0002-0001" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b202-0002-0001-0001" name="XV104 Riptide Battlesuit" hidden="false" collective="false" import="true" targetId="b202-1002-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b202-0002-0002-0001" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b202-0003-0001-0001" name="XV88 Broadside Battlesuit Team" hidden="false" collective="false" import="true" targetId="b202-1003-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b202-0003-0002-0001" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b202-0004-0001-0001" name="TY7 Devilfish" hidden="false" collective="false" import="true" targetId="b202-1004-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b202-0004-0002-0001" name="Transport" hidden="false" targetId="9ec8-042a-a605-4622" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b202-0005-0001-0001" name="Kroot Carnivore Squad" hidden="false" collective="false" import="true" targetId="b202-1005-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b202-0005-0002-0001" name="Troops" hidden="false" targetId="644a-f3d4-2643-0e0b" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b203-0001-0001-0001" name="TX4 Piranha" hidden="false" collective="false" import="true" targetId="b203-1001-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b203-0001-0002-0001" name="Fast Attack" hidden="false" targetId="3aa2-0f2d-c4eb-172c" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b203-0002-0001-0001" name="Sky Ray Missile Defence Gunship" hidden="false" collective="false" import="true" targetId="b203-1002-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b203-0002-0002-0001" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b203-0003-0001-0001" name="Vespid Stingwing Squad" hidden="false" collective="false" import="true" targetId="b203-1003-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b203-0003-0002-0001" name="Fast Attack" hidden="false" targetId="3aa2-0f2d-c4eb-172c" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b203-0004-0001-0001" name="Sniper Drone Team" hidden="false" collective="false" import="true" targetId="b203-1004-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b203-0004-0002-0001" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b204-0001-0001-0001" name="Commander Shadowsun" hidden="false" collective="false" import="true" targetId="b204-2001-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b204-0001-0002-0001" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b204-0002-0001-0001" name="Commander Farsight" hidden="false" collective="false" import="true" targetId="b204-2002-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b204-0002-0002-0001" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b205-0001-0001-0001" name="Aun&apos;Va" hidden="false" collective="false" import="true" targetId="b205-2001-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b205-0001-0002-0001" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b205-0002-0001-0001" name="Darkstrider" hidden="false" collective="false" import="true" targetId="b205-2002-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b205-0002-0002-0001" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/></categoryLinks></entryLink>
-    <entryLink id="b205-0003-0001-0001" name="Longstrike&apos;s Hammerhead" hidden="false" collective="false" import="true" targetId="b205-2003-0001-0001" type="selectionEntry"><categoryLinks><categoryLink id="b205-0003-0002-0001" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/></categoryLinks></entryLink>
+    <entryLink id="b202-0001-0001-0001" name="XV8 Crisis Battlesuit Team" hidden="false" collective="false" import="true" targetId="b202-1001-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b202-0001-0002-0001" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b202-0002-0001-0001" name="XV104 Riptide Battlesuit" hidden="false" collective="false" import="true" targetId="b202-1002-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b202-0002-0002-0001" name="Elites" hidden="false" targetId="ebc5-5615-35fb-bc91" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b202-0003-0001-0001" name="XV88 Broadside Battlesuit Team" hidden="false" collective="false" import="true" targetId="b202-1003-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b202-0003-0002-0001" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b202-0004-0001-0001" name="TY7 Devilfish" hidden="false" collective="false" import="true" targetId="b202-1004-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b202-0004-0002-0001" name="Transport" hidden="false" targetId="9ec8-042a-a605-4622" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b202-0005-0001-0001" name="Kroot Carnivore Squad" hidden="false" collective="false" import="true" targetId="b202-1005-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b202-0005-0002-0001" name="Troops" hidden="false" targetId="644a-f3d4-2643-0e0b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b203-0001-0001-0001" name="TX4 Piranha" hidden="false" collective="false" import="true" targetId="b203-1001-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b203-0001-0002-0001" name="Fast Attack" hidden="false" targetId="3aa2-0f2d-c4eb-172c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b203-0002-0001-0001" name="Sky Ray Missile Defence Gunship" hidden="false" collective="false" import="true" targetId="b203-1002-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b203-0002-0002-0001" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b203-0003-0001-0001" name="Vespid Stingwing Squad" hidden="false" collective="false" import="true" targetId="b203-1003-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b203-0003-0002-0001" name="Fast Attack" hidden="false" targetId="3aa2-0f2d-c4eb-172c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b203-0004-0001-0001" name="Sniper Drone Team" hidden="false" collective="false" import="true" targetId="b203-1004-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b203-0004-0002-0001" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b204-0001-0001-0001" name="Commander Shadowsun" hidden="false" collective="false" import="true" targetId="b204-2001-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b204-0001-0002-0001" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b204-0002-0001-0001" name="Commander Farsight" hidden="false" collective="false" import="true" targetId="b204-2002-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b204-0002-0002-0001" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b205-0001-0001-0001" name="Aun&apos;Va" hidden="false" collective="false" import="true" targetId="b205-2001-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b205-0001-0002-0001" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b205-0002-0001-0001" name="Darkstrider" hidden="false" collective="false" import="true" targetId="b205-2002-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b205-0002-0002-0001" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b205-0003-0001-0001" name="Longstrike&apos;s Hammerhead" hidden="false" collective="false" import="true" targetId="b205-2003-0001-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b205-0003-0002-0001" name="Heavy Support" hidden="false" targetId="2b42-3a90-e878-d0c5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
+  <rules>
+    <rule id="25dd-f53c-779e-cefb" name="Melta" hidden="false"><description>When a weapon with the Melta special rule rolls to penetrate a vehicle&apos;s armour at half range or less, roll an additional D6 and discard the lowest result.</description></rule>
+  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="b201-1001-0001-0001" name="Ethereal" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -87,50 +146,252 @@
       <entryLinks>
         <entryLink id="b201-1001-0005-0001" name="Supporting Fire" hidden="false" collective="false" import="true" targetId="5f32-f199-a39b-2d89" type="selectionEntry"/>
       </entryLinks>
-      <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/></costs>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b201-1002-0001-0001" name="Cadre Fireblade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="b201-1002-0002-0001" name="Cadre Fireblade" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
-            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic><characteristic name="Ld" typeId="d535-b745-b613-a7ab">9</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+            <characteristic name="Ld" typeId="d535-b745-b613-a7ab">9</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
           </characteristics>
         </profile>
-        <profile id="b201-1002-0003-0001" name="Pulse Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire</characteristic></characteristics></profile>
-        <profile id="b201-1002-0004-0001" name="Markerlight" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Markerlight</characteristic></characteristics></profile>
+        <profile id="b201-1002-0003-0001" name="Pulse Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b201-1002-0004-0001" name="Markerlight" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Markerlight</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
-      <rules><rule id="b201-1002-0005-0001" name="Volley Fire" hidden="false"><description>Models in a unit joined by a Cadre Fireblade that did not move in its Movement phase fire an additional shot when shooting pulse rifles or pulse carbines in the Shooting phase.</description></rule></rules>
-      <entryLinks><entryLink id="b201-1002-0006-0001" name="Supporting Fire" hidden="false" collective="false" import="true" targetId="5f32-f199-a39b-2d89" type="selectionEntry"/></entryLinks>
-      <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="60"/></costs>
+      <rules>
+        <rule id="b201-1002-0005-0001" name="Volley Fire" hidden="false">
+          <description>Models in a unit joined by a Cadre Fireblade that did not move in its Movement phase fire an additional shot when shooting pulse rifles or pulse carbines in the Shooting phase.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink id="b201-1002-0006-0001" name="Supporting Fire" hidden="false" collective="false" import="true" targetId="5f32-f199-a39b-2d89" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="60"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b201-1003-0001-0001" name="Pathfinder Team" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntries>
         <selectionEntry id="b201-1003-0002-0001" name="Pathfinder" hidden="false" collective="false" import="true" type="model">
-          <constraints><constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0002-0002" type="max"/><constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0002-0003" type="min"/></constraints>
-          <profiles><profile id="b201-1003-0002-0004" name="Pathfinder" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic><characteristic name="Ld" typeId="d33e-1fdc-0c00-8cb8">7</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b201-1003-0002-0005" name="Pulse Carbine" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Pinning</characteristic></characteristics></profile><profile id="b201-1003-0002-0006" name="Markerlight" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic><characteristic name="AP" typeId="1544-3a5e-421-edf9">-</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Markerlight</characteristic></characteristics></profile></profiles>
-          <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="11"/></costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0002-0002" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0002-0003" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b201-1003-0002-0004" name="Pathfinder" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="d33e-1fdc-0c00-8cb8">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+            <profile id="b201-1003-0002-0005" name="Pulse Carbine" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Pinning</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b201-1003-0002-0006" name="Markerlight" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Markerlight</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="11"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b201-1003-0003-0001" name="Pathfinder Shas&apos;ui" hidden="false" collective="false" import="true" type="model">
-          <constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0003-0002" type="max"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0003-0003" type="min"/></constraints>
-          <profiles><profile id="b201-1003-0003-0004" name="Pathfinder Shas&apos;ui" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic><characteristic name="Ld" typeId="d33e-1fdc-0c00-8cb8">8</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile></profiles>
-          <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="21"/></costs>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0003-0002" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0003-0003" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b201-1003-0003-0004" name="Pathfinder Shas&apos;ui" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                <characteristic name="Ld" typeId="d33e-1fdc-0c00-8cb8">8</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="21"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups><selectionEntryGroup id="b201-1003-0004-0001" name="Special Weapons" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0004-0002" type="max"/></constraints><selectionEntries><selectionEntry id="b201-1003-0004-0003" name="Rail Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="b201-1003-0004-0004" name="Rail Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic><characteristic name="AP" typeId="1544-3a5e-421-edf9">1</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Rending, Pinning</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/></costs></selectionEntry><selectionEntry id="b201-1003-0004-0005" name="Ion Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="b201-1003-0004-0006" name="Ion Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic><characteristic name="AP" typeId="1544-3a5e-421-edf9">4</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Gets Hot</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups>
-      <entryLinks><entryLink id="b201-1003-0005-0001" name="Supporting Fire" hidden="false" collective="false" import="true" targetId="5f32-f199-a39b-2d89" type="selectionEntry"/></entryLinks>
-      <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/></costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b201-1003-0004-0001" name="Special Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1003-0004-0002" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b201-1003-0004-0003" name="Rail Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b201-1003-0004-0004" name="Rail Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Rending, Pinning</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b201-1003-0004-0005" name="Ion Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b201-1003-0004-0006" name="Ion Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Gets Hot</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b201-1003-0005-0001" name="Supporting Fire" hidden="false" collective="false" import="true" targetId="5f32-f199-a39b-2d89" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b201-1004-0001-0001" name="Hammerhead Gunship" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b201-1004-0002-0001" name="Hammerhead Gunship" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle"><characteristics><characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic><characteristic name="Front" typeId="4bfa-429f-5871-ec8b">13</characteristic><characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic><characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic><characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic><characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Skimmer, Fast</characteristic><characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic></characteristics></profile>
-        <profile id="b201-1004-0003-0001" name="Railgun - Solid Shot" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">10</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1</characteristic></characteristics></profile>
-        <profile id="b201-1004-0004-0001" name="Railgun - Submunition" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Large Blast</characteristic></characteristics></profile>
-        <profile id="b201-1004-0005-0001" name="Twin-linked Burst Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Twin-linked</characteristic></characteristics></profile>
+        <profile id="b201-1004-0002-0001" name="Hammerhead Gunship" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic>
+            <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">13</characteristic>
+            <characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic>
+            <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
+            <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Skimmer, Fast</characteristic>
+            <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b201-1004-0003-0001" name="Railgun - Solid Shot" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">10</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b201-1004-0004-0001" name="Railgun - Submunition" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Large Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b201-1004-0005-0001" name="Twin-linked Burst Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
-      <selectionEntryGroups><selectionEntryGroup id="b201-1004-0006-0001" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b201-1004-0006-0003"><constraints><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1004-0006-0002" type="min"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1004-0006-0004" type="max"/></constraints><selectionEntries><selectionEntry id="b201-1004-0006-0003" name="Railgun" hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/></costs></selectionEntry><selectionEntry id="b201-1004-0006-0005" name="Ion Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="b201-1004-0006-0006" name="Ion Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">60&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic><characteristic name="AP" typeId="1544-3a5e-421-edf9">3</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups>
-      <rules><rule id="b201-1004-0007-0001" name="Hammerhead Gunship" hidden="false"><description>A Hammerhead is equipped with a railgun and twin-linked burst cannon. Its railgun can fire either the solid shot or submunition profile each time it shoots.</description></rule></rules>
-      <costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="125"/></costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b201-1004-0006-0001" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b201-1004-0006-0003">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1004-0006-0002" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b201-1004-0006-0004" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b201-1004-0006-0003" name="Railgun" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b201-1004-0006-0005" name="Ion Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b201-1004-0006-0006" name="Ion Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">60&quot;</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <rules>
+        <rule id="b201-1004-0007-0001" name="Hammerhead Gunship" hidden="false">
+          <description>A Hammerhead is equipped with a railgun and twin-linked burst cannon. Its railgun can fire either the solid shot or submunition profile each time it shoots.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="125"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e033-039f-82d8-db0a" name="Tau Commander" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -925,23 +1186,509 @@ For each markerlight counter expended on this ability, the unit immediately fire
       </costs>
     </selectionEntry>
     <selectionEntry id="b202-1001-0001-0001" name="XV8 Crisis Battlesuit Team" hidden="false" collective="false" import="true" type="unit">
-      <selectionEntries><selectionEntry id="b202-1001-0002-0001" name="XV8 Crisis Battlesuit" hidden="false" collective="false" import="true" type="model"><constraints><constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1001-0002-0002" type="max"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1001-0002-0003" type="min"/></constraints><profiles><profile id="b202-1001-0002-0004" name="XV8 Crisis Battlesuit" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile></profiles><entryLinks><entryLink id="b202-1001-0002-0005" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="8a73-1205-3216-fe49" type="selectionEntryGroup"/><entryLink id="b202-1001-0002-0006" name="Support Systems" hidden="false" collective="false" import="true" targetId="b3a0-3670-196d-5b85" type="selectionEntryGroup"/></entryLinks><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="22"/></costs></selectionEntry></selectionEntries>
+      <selectionEntries>
+        <selectionEntry id="b202-1001-0002-0001" name="XV8 Crisis Battlesuit" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1001-0002-0002" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1001-0002-0003" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b202-1001-0002-0004" name="XV8 Crisis Battlesuit" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="b202-1001-0002-0005" name="Ranged Weapons:" hidden="false" collective="false" import="true" targetId="8a73-1205-3216-fe49" type="selectionEntryGroup"><constraints><constraint field="selections" scope="b202-1001-0002-0001" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b206-1001-0001-0001" type="max"/></constraints></entryLink>
+            <entryLink id="b202-1001-0002-0006" name="Support Systems" hidden="false" collective="false" import="true" targetId="b3a0-3670-196d-5b85" type="selectionEntryGroup"><constraints><constraint field="selections" scope="b202-1001-0002-0001" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b206-1001-0001-0002" type="max"/></constraints></entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="22"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry id="b202-1002-0001-0001" name="XV104 Riptide Battlesuit" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="b202-1002-0002-0001" name="XV104 Riptide Battlesuit" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Monstrous Creature</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">6</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">6</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">5</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b202-1002-0002-0002" name="Heavy Burst Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 12</characteristic></characteristics></profile></profiles><rules><rule id="b202-1002-0002-0003" name="Nova Reactor" hidden="false"><description>At the start of each of its Movement phases, a Riptide can activate its nova reactor. Roll a D6: on a 1, it suffers a wound with no saves allowed; otherwise choose one nova charge effect from its wargear.</description></rule></rules><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="185"/></costs>
+      <profiles>
+        <profile id="b202-1002-0002-0001" name="XV104 Riptide Battlesuit" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Monstrous Creature</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">6</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">6</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">5</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+          </characteristics>
+        </profile>
+        <profile id="b202-1002-0002-0002" name="Heavy Burst Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b202-1002-0002-0003" name="Nova Reactor" hidden="false">
+          <description>At the start of each of its Movement phases, a Riptide can activate its nova reactor. Roll a D6: on a 1, it suffers a wound with no saves allowed; otherwise choose one nova charge effect from its wargear.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="185"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="b202-1003-0001-0001" name="XV88 Broadside Battlesuit Team" hidden="false" collective="false" import="true" type="unit"><selectionEntries><selectionEntry id="b202-1003-0002-0001" name="XV88 Broadside Battlesuit" hidden="false" collective="false" import="true" type="model"><constraints><constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1003-0002-0002" type="max"/><constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1003-0002-0003" type="min"/></constraints><profiles><profile id="b202-1003-0002-0004" name="XV88 Broadside Battlesuit" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b202-1003-0002-0005" name="Twin-linked Heavy Rail Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">60&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Twin-linked, Armourbane</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="65"/></costs></selectionEntry></selectionEntries></selectionEntry>
-    <selectionEntry id="b202-1004-0001-0001" name="TY7 Devilfish" hidden="false" collective="false" import="true" type="unit"><profiles><profile id="b202-1004-0002-0001" name="TY7 Devilfish" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle"><characteristics><characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic><characteristic name="Front" typeId="4bfa-429f-5871-ec8b">12</characteristic><characteristic name="Side" typeId="678c-ae54-8f51-b1df">11</characteristic><characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic><characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic><characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Skimmer, Fast</characteristic><characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic></characteristics></profile><profile id="b202-1004-0002-0002" name="Twin-linked Burst Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Twin-linked</characteristic></characteristics></profile><profile id="b202-1004-0002-0003" name="TY7 Devilfish" hidden="false" typeId="e117-4193-8756-1465" typeName="Transport"><characteristics><characteristic name="Capacity" typeId="0d1f-94e8-8176-5482">12 models</characteristic><characteristic name="Fire Points" typeId="80f0-dbea-cb89-3528">0</characteristic><characteristic name="Access Points" typeId="65ec-159a-b517-6f9e">1 rear ramp</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="80"/></costs></selectionEntry>
-    <selectionEntry id="b202-1005-0001-0001" name="Kroot Carnivore Squad" hidden="false" collective="false" import="true" type="unit"><selectionEntries><selectionEntry id="b202-1005-0002-0001" name="Kroot Carnivore" hidden="false" collective="false" import="true" type="model"><constraints><constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1005-0002-0002" type="max"/><constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1005-0002-0003" type="min"/></constraints><profiles><profile id="b202-1005-0002-0004" name="Kroot Carnivore" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b202-1005-0002-0005" name="Kroot Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Sniper</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="6"/></costs></selectionEntry></selectionEntries></selectionEntry>
-    <selectionEntry id="b203-1001-0001-0001" name="TX4 Piranha" hidden="false" collective="false" import="true" type="unit"><profiles><profile id="b203-1001-0002-0001" name="TX4 Piranha" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle"><characteristics><characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic><characteristic name="Front" typeId="4bfa-429f-5871-ec8b">11</characteristic><characteristic name="Side" typeId="678c-ae54-8f51-b1df">11</characteristic><characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic><characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">2</characteristic><characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Fast Skimmer</characteristic><characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic></characteristics></profile><profile id="b203-1001-0002-0002" name="Burst Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="40"/></costs></selectionEntry>
-    <selectionEntry id="b203-1002-0001-0001" name="Sky Ray Missile Defence Gunship" hidden="false" collective="false" import="true" type="unit"><profiles><profile id="b203-1002-0002-0001" name="Sky Ray Missile Defence Gunship" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle"><characteristics><characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic><characteristic name="Front" typeId="4bfa-429f-5871-ec8b">13</characteristic><characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic><characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic><characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic><characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Skimmer, Fast</characteristic><characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic></characteristics></profile><profile id="b203-1002-0002-0002" name="Seeker Missile" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Unlimited</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Seeker</characteristic></characteristics></profile><profile id="b203-1002-0002-0003" name="Networked Markerlight" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Markerlight</characteristic></characteristics></profile></profiles><rules><rule id="b203-1002-0002-0004" name="Sky Ray Missile Defence Gunship" hidden="false"><description>A Sky Ray is equipped with six seeker missiles and two networked markerlights. Seeker missiles may be fired by friendly markerlight hits as described by the Seeker special rule.</description></rule></rules><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="115"/></costs></selectionEntry>
-    <selectionEntry id="b203-1003-0001-0001" name="Vespid Stingwing Squad" hidden="false" collective="false" import="true" type="unit"><selectionEntries><selectionEntry id="b203-1003-0002-0001" name="Vespid Stingwing" hidden="false" collective="false" import="true" type="model"><constraints><constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b203-1003-0002-0002" type="max"/><constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b203-1003-0002-0003" type="min"/></constraints><profiles><profile id="b203-1003-0002-0004" name="Vespid Stingwing" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jump Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">3</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">6</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">6</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b203-1003-0002-0005" name="Neutron Blaster" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="18"/></costs></selectionEntry></selectionEntries></selectionEntry>
-    <selectionEntry id="b203-1004-0001-0001" name="Sniper Drone Team" hidden="false" collective="false" import="true" type="unit"><profiles><profile id="b203-1004-0002-0001" name="Sniper Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b203-1004-0002-0002" name="Longshot Pulse Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sniper, Pinning</characteristic></characteristics></profile></profiles><rules><rule id="b203-1004-0002-0003" name="Sniper Drone Team" hidden="false"><description>This baseline entry represents one Firesight Marksman and three Sniper Drones. Add the detailed model split and drone-controller options during the drone systems pass.</description></rule></rules><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="52"/></costs></selectionEntry>
-    <selectionEntry id="b204-2001-0001-0001" name="Commander Shadowsun" hidden="false" collective="false" import="true" type="unit"><constraints><constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b204-2001-0001-0002" type="max"/></constraints><profiles><profile id="b204-2001-0001-0003" name="Commander Shadowsun" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry (Character)</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">3</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b204-2001-0001-0004" name="Twin-linked Fusion Blaster" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Twin-linked, Melta</characteristic></characteristics></profile></profiles><rules><rule id="b204-2001-0001-0005" name="Supreme Commander" hidden="false"><description>Friendly Tau Empire units within 12&quot; of Commander Shadowsun may use her Leadership for Morale, Pinning and Regroup tests.</description></rule></rules><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="135"/></costs></selectionEntry>
-    <selectionEntry id="b204-2002-0001-0001" name="Commander Farsight" hidden="false" collective="false" import="true" type="unit"><constraints><constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b204-2002-0001-0002" type="max"/></constraints><profiles><profile id="b204-2002-0001-0003" name="Commander Farsight" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry (Character)</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">5</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">3</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b204-2002-0001-0004" name="Dawn Blade" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Master-crafted</characteristic></characteristics></profile></profiles><rules><rule id="b204-2002-0001-0005" name="Way of the Short Blade" hidden="false"><description>Commander Farsight and any XV8 Crisis Battlesuit Team he joins have the Preferred Enemy (Orks) special rule.</description></rule></rules><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="165"/></costs></selectionEntry>
-    <selectionEntry id="b205-2001-0001-0001" name="Aun&apos;Va" hidden="false" collective="false" import="true" type="unit"><constraints><constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b205-2001-0001-0002" type="max"/></constraints><profiles><profile id="b205-2001-0001-0003" name="Aun&apos;Va" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">3</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile></profiles><rules><rule id="b205-2001-0001-0004" name="Supreme Ethereal" hidden="false"><description>Friendly Tau Empire units within 12&quot; of Aun&apos;Va may use his Leadership for Morale, Pinning and Regroup tests. He invokes two different elemental powers each turn.</description></rule></rules><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="100"/></costs></selectionEntry>
-    <selectionEntry id="b205-2002-0001-0001" name="Darkstrider" hidden="false" collective="false" import="true" type="unit"><constraints><constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b205-2002-0001-0002" type="max"/></constraints><profiles><profile id="b205-2002-0001-0003" name="Darkstrider" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b205-2002-0001-0004" name="Pulse Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire</characteristic></characteristics></profile></profiles><rules><rule id="b205-2002-0001-0005" name="Structural Analyser" hidden="false"><description>When Darkstrider&apos;s unit shoots a non-vehicle enemy unit, that target suffers -1 Toughness against the attacks of Darkstrider&apos;s unit for that Shooting phase.</description></rule></rules><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="100"/></costs></selectionEntry>
-    <selectionEntry id="b205-2003-0001-0001" name="Longstrike&apos;s Hammerhead" hidden="false" collective="false" import="true" type="unit"><constraints><constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b205-2003-0001-0002" type="max"/></constraints><profiles><profile id="b205-2003-0001-0003" name="Longstrike&apos;s Hammerhead" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle"><characteristics><characteristic name="BS" typeId="1bb0-95e0-a42a-3545">5</characteristic><characteristic name="Front" typeId="4bfa-429f-5871-ec8b">13</characteristic><characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic><characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic><characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic><characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Skimmer, Fast</characteristic><characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic></characteristics></profile><profile id="b205-2003-0001-0004" name="Railgun - Solid Shot" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">10</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1</characteristic></characteristics></profile></profiles><rules><rule id="b205-2003-0001-0005" name="Tank Ace" hidden="false"><description>Longstrike&apos;s Hammerhead has the Tank Hunter special rule and may fire Overwatch with Supporting Fire.</description></rule></rules><costs><cost name="pts" typeId="e7de-8dcf-403a-b76a" value="180"/></costs></selectionEntry>
+    <selectionEntry id="b202-1003-0001-0001" name="XV88 Broadside Battlesuit Team" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="b202-1003-0002-0001" name="XV88 Broadside Battlesuit" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1003-0002-0002" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1003-0002-0003" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b202-1003-0002-0004" name="XV88 Broadside Battlesuit" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">2</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+            <profile id="b202-1003-0002-0005" name="Twin-linked Heavy Rail Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">60&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Twin-linked, Armourbane</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="65"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="b202-1004-0001-0001" name="TY7 Devilfish" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b202-1004-0002-0001" name="TY7 Devilfish" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic>
+            <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">12</characteristic>
+            <characteristic name="Side" typeId="678c-ae54-8f51-b1df">11</characteristic>
+            <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
+            <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Skimmer, Fast</characteristic>
+            <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b202-1004-0002-0002" name="Twin-linked Burst Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b202-1004-0002-0003" name="TY7 Devilfish" hidden="false" typeId="e117-4193-8756-1465" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="0d1f-94e8-8176-5482">12 models</characteristic>
+            <characteristic name="Fire Points" typeId="80f0-dbea-cb89-3528">0</characteristic>
+            <characteristic name="Access Points" typeId="65ec-159a-b517-6f9e">1 rear ramp</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="80"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b202-1005-0001-0001" name="Kroot Carnivore Squad" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="b202-1005-0002-0001" name="Kroot Carnivore" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1005-0002-0002" type="max"/>
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-1005-0002-0003" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b202-1005-0002-0004" name="Kroot Carnivore" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+            <profile id="b202-1005-0002-0005" name="Kroot Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Sniper</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="6"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="b203-1001-0001-0001" name="TX4 Piranha" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b203-1001-0002-0001" name="TX4 Piranha" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic>
+            <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">11</characteristic>
+            <characteristic name="Side" typeId="678c-ae54-8f51-b1df">11</characteristic>
+            <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
+            <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">2</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Fast Skimmer</characteristic>
+            <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b203-1001-0002-0002" name="Burst Cannon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="40"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b203-1002-0001-0001" name="Sky Ray Missile Defence Gunship" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b203-1002-0002-0001" name="Sky Ray Missile Defence Gunship" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">4</characteristic>
+            <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">13</characteristic>
+            <characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic>
+            <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
+            <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Skimmer, Fast</characteristic>
+            <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b203-1002-0002-0002" name="Seeker Missile" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Unlimited</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Seeker</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b203-1002-0002-0003" name="Networked Markerlight" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Markerlight</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b203-1002-0002-0004" name="Sky Ray Missile Defence Gunship" hidden="false">
+          <description>A Sky Ray is equipped with six seeker missiles and two networked markerlights. Seeker missiles may be fired by friendly markerlight hits as described by the Seeker special rule.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="115"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b203-1003-0001-0001" name="Vespid Stingwing Squad" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="b203-1003-0002-0001" name="Vespid Stingwing" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b203-1003-0002-0002" type="max"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b203-1003-0002-0003" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b203-1003-0002-0004" name="Vespid Stingwing" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jump Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">3</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">6</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">6</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+            <profile id="b203-1003-0002-0005" name="Neutron Blaster" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="18"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="b203-1004-0001-0001" name="Sniper Drone Team" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b203-1004-0002-0001" name="Sniper Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+          </characteristics>
+        </profile>
+        <profile id="b203-1004-0002-0002" name="Longshot Pulse Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sniper, Pinning</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b203-1004-0002-0003" name="Sniper Drone Team" hidden="false">
+          <description>This baseline entry represents one Firesight Marksman and three Sniper Drones. Add the detailed model split and drone-controller options during the drone systems pass.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="52"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b204-2001-0001-0001" name="Commander Shadowsun" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b204-2001-0001-0002" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b204-2001-0001-0003" name="Commander Shadowsun" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">3</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+          </characteristics>
+        </profile>
+        <profile id="b204-2001-0001-0004" name="Twin-linked Fusion Blaster" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Twin-linked, Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b204-2001-0001-0005" name="Supreme Commander" hidden="false">
+          <description>Friendly Tau Empire units within 12&quot; of Commander Shadowsun may use her Leadership for Morale, Pinning and Regroup tests.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="135"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b204-2002-0001-0001" name="Commander Farsight" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b204-2002-0001-0002" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b204-2002-0001-0003" name="Commander Farsight" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">5</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">3</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+          </characteristics>
+        </profile>
+        <profile id="b204-2002-0001-0004" name="Dawn Blade" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Master-crafted</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b204-2002-0001-0005" name="Way of the Short Blade" hidden="false">
+          <description>Commander Farsight and any XV8 Crisis Battlesuit Team he joins have the Preferred Enemy (Orks) special rule.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="165"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b205-2001-0001-0001" name="Aun&apos;Va" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b205-2001-0001-0002" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b205-2001-0001-0003" name="Aun&apos;Va" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">3</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b205-2001-0001-0004" name="Supreme Ethereal" hidden="false">
+          <description>Friendly Tau Empire units within 12&quot; of Aun&apos;Va may use his Leadership for Morale, Pinning and Regroup tests. He invokes two different elemental powers each turn.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="100"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b205-2002-0001-0001" name="Darkstrider" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b205-2002-0001-0002" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b205-2002-0001-0003" name="Darkstrider" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+          </characteristics>
+        </profile>
+        <profile id="b205-2002-0001-0004" name="Pulse Rifle" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b205-2002-0001-0005" name="Structural Analyser" hidden="false">
+          <description>When Darkstrider&apos;s unit shoots a non-vehicle enemy unit, that target suffers -1 Toughness against the attacks of Darkstrider&apos;s unit for that Shooting phase.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="100"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b205-2003-0001-0001" name="Longstrike&apos;s Hammerhead" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b205-2003-0001-0002" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b205-2003-0001-0003" name="Longstrike&apos;s Hammerhead" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">5</characteristic>
+            <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">13</characteristic>
+            <characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic>
+            <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
+            <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Skimmer, Fast</characteristic>
+            <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b205-2003-0001-0004" name="Railgun - Solid Shot" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">10</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b205-2003-0001-0005" name="Tank Ace" hidden="false">
+          <description>Longstrike&apos;s Hammerhead has the Tank Hunter special rule and may fire Overwatch with Supporting Fire.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="180"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="8a73-1205-3216-fe49" name="Ranged Weapons:" hidden="false" collective="false" import="true">
@@ -1061,9 +1808,6 @@ For each markerlight counter expended on this ability, the unit immediately fire
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="b057-039b-8ee8-2c41" name="Melta" hidden="false" targetId="25dd-f53c-779e-cefb" type="rule"/>
-          </infoLinks>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
           </costs>
@@ -1123,7 +1867,13 @@ For each markerlight counter expended on this ability, the unit immediately fire
     <selectionEntryGroup id="b3a0-3670-196d-5b85" name="Support Systems" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="6bc8-eaa4-70cc-882e" name="Advanced Targeting System" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1001-0001-0001" name="Advanced Targeting System" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer&apos;s shooting attacks have the Rending special rule.</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1001-0001-0001" name="Advanced Targeting System" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer&apos;s shooting attacks have the Rending special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b994-c9eb-499f-432b" type="max"/>
           </constraints>
@@ -1132,7 +1882,13 @@ For each markerlight counter expended on this ability, the unit immediately fire
           </costs>
         </selectionEntry>
         <selectionEntry id="2a08-6905-7751-cc50" name="Counterfire Defence System" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1002-0001-0001" name="Counterfire Defence System" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer fires Overwatch at its normal Ballistic Skill.</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1002-0001-0001" name="Counterfire Defence System" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer fires Overwatch at its normal Ballistic Skill.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca1c-ce66-4e90-5f7d" type="max"/>
           </constraints>
@@ -1141,7 +1897,13 @@ For each markerlight counter expended on this ability, the unit immediately fire
           </costs>
         </selectionEntry>
         <selectionEntry id="144f-dbb1-e5d4-ac66" name="Early Warning Override" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1003-0001-0001" name="Early Warning Override" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has the Interceptor special rule.</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1003-0001-0001" name="Early Warning Override" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has the Interceptor special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24fa-14c5-53d0-66c2" type="max"/>
           </constraints>
@@ -1150,7 +1912,13 @@ For each markerlight counter expended on this ability, the unit immediately fire
           </costs>
         </selectionEntry>
         <selectionEntry id="994f-8e8d-db76-31e9" name="Positional Relay" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1004-0001-0001" name="Positional Relay" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">At the start of your turn, the bearer may choose one friendly unit in Reserve. That unit automatically arrives from Reserve this turn.</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1004-0001-0001" name="Positional Relay" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">At the start of your turn, the bearer may choose one friendly unit in Reserve. That unit automatically arrives from Reserve this turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31d2-c990-2ee0-88c9" type="max"/>
           </constraints>
@@ -1159,7 +1927,13 @@ For each markerlight counter expended on this ability, the unit immediately fire
           </costs>
         </selectionEntry>
         <selectionEntry id="2d81-0b3b-ecf7-a3bc" name="Target Lock" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1005-0001-0001" name="Target Lock" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer may select a different target from the rest of its unit when it shoots.</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1005-0001-0001" name="Target Lock" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer may select a different target from the rest of its unit when it shoots.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="580b-1a0e-9c91-885a" type="max"/>
           </constraints>
@@ -1168,7 +1942,13 @@ For each markerlight counter expended on this ability, the unit immediately fire
           </costs>
         </selectionEntry>
         <selectionEntry id="527d-c5f4-3e82-20be" name="Vectored Retro-Thrusters" hidden="true" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1006-0001-0001" name="Vectored Retro-Thrusters" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has the Hit &amp; Run special rule.</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1006-0001-0001" name="Vectored Retro-Thrusters" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has the Hit &amp; Run special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e71-20b0-c13c-f2d8" type="max"/>
           </constraints>
@@ -1177,7 +1957,13 @@ For each markerlight counter expended on this ability, the unit immediately fire
           </costs>
         </selectionEntry>
         <selectionEntry id="e516-deae-b8a6-e26e" name="Drone Controller" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1007-0001-0001" name="Drone Controller" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Friendly Drones in the bearer&apos;s unit use the bearer&apos;s Ballistic Skill when making shooting attacks.</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1007-0001-0001" name="Drone Controller" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Friendly Drones in the bearer&apos;s unit use the bearer&apos;s Ballistic Skill when making shooting attacks.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a60e-6a9b-bb4f-0dbc" type="max"/>
           </constraints>
@@ -1186,7 +1972,13 @@ For each markerlight counter expended on this ability, the unit immediately fire
           </costs>
         </selectionEntry>
         <selectionEntry id="fd88-093a-72c8-ed0d" name="Stimulant Injector" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1008-0001-0001" name="Stimulant Injector" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has Feel No Pain (5+).</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1008-0001-0001" name="Stimulant Injector" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has Feel No Pain (5+).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <modifiers>
             <modifier type="set" field="e7de-8dcf-403a-b76a" value="15">
               <conditions>
@@ -1202,7 +1994,13 @@ For each markerlight counter expended on this ability, the unit immediately fire
           </costs>
         </selectionEntry>
         <selectionEntry id="2857-480a-3ff2-db17" name="Velocity Tracker" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1009-0001-0001" name="Velocity Tracker" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has the Skyfire special rule.</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1009-0001-0001" name="Velocity Tracker" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has the Skyfire special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f443-8ef1-3edf-086a" type="max"/>
           </constraints>
@@ -1211,7 +2009,13 @@ For each markerlight counter expended on this ability, the unit immediately fire
           </costs>
         </selectionEntry>
         <selectionEntry id="71cb-e978-c878-ee8b" name="Shield Generator" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1010-0001-0001" name="Shield Generator" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has a 4+ invulnerable save.</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1010-0001-0001" name="Shield Generator" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has a 4+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <modifiers>
             <modifier type="set" field="e7de-8dcf-403a-b76a" value="25">
               <conditions>
@@ -1361,8 +2165,30 @@ For each markerlight counter expended on this ability, the unit immediately fire
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37c4-a9a8-ab7d-f713" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b204-1001-0001-0001" name="MV1 Gun Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">2</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile>
-            <profile id="b204-1001-0001-0002" name="Twin-linked Pulse Carbine" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Twin-linked, Pinning</characteristic></characteristics></profile>
+            <profile id="b204-1001-0001-0001" name="MV1 Gun Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">2</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+            <profile id="b204-1001-0001-0002" name="Twin-linked Pulse Carbine" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Twin-linked, Pinning</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="12"/>
@@ -1372,7 +2198,24 @@ For each markerlight counter expended on this ability, the unit immediately fire
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a580-804a-a986-7ea5" type="max"/>
           </constraints>
-          <profiles><profile id="b204-1002-0001-0001" name="MV4 Shield Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">2</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+ (4++ invulnerable)</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b204-1002-0001-0001" name="MV4 Shield Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">2</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+ (4++ invulnerable)</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="12"/>
           </costs>
@@ -1381,13 +2224,63 @@ For each markerlight counter expended on this ability, the unit immediately fire
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c68-853b-ae62-1284" type="max"/>
           </constraints>
-          <profiles><profile id="b204-1003-0001-0001" name="MV7 Marker Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b204-1003-0001-0002" name="Markerlight" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Markerlight</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b204-1003-0001-0001" name="MV7 Marker Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+            <profile id="b204-1003-0001-0002" name="Markerlight" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Markerlight</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="12"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d874-e3ad-723b-b223" name="MV8 Missle Drone" hidden="true" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1101-0001-0001" name="MV8 Missile Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">2</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b205-1101-0001-0002" name="Missile Pod" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1101-0001-0001" name="MV8 Missile Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">2</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+            <profile id="b205-1101-0001-0002" name="Missile Pod" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="105e-70ee-356f-1dfe" type="max"/>
           </constraints>
@@ -1396,7 +2289,29 @@ For each markerlight counter expended on this ability, the unit immediately fire
           </costs>
         </selectionEntry>
         <selectionEntry id="6eaf-4624-4139-bb69" name="MV36 Guardian Drone" hidden="true" collective="false" import="true" type="upgrade">
-          <profiles><profile id="b205-1102-0001-0001" name="MV36 Guardian Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit"><characteristics><characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic><characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic><characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic><characteristic name="BS" typeId="565d-bf36-9e7e-29b5">2</characteristic><characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic><characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic><characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic><characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic><characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic><characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic><characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic><characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/></characteristics></profile><profile id="b205-1102-0001-0002" name="Shield Generator" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item"><characteristics><characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Models in the Guardian Drone&apos;s unit gain a 5+ invulnerable save while it remains in play.</characteristic></characteristics></profile></profiles>
+          <profiles>
+            <profile id="b205-1102-0001-0001" name="MV36 Guardian Drone" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jet Pack Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">2</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+              </characteristics>
+            </profile>
+            <profile id="b205-1102-0001-0002" name="Shield Generator" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Models in the Guardian Drone&apos;s unit gain a 5+ invulnerable save while it remains in play.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a04e-df53-df85-5e07" type="max"/>
           </constraints>
