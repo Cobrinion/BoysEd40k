@@ -18,7 +18,11 @@ This batch adds four 7th-edition Tau Empire units to the Emperor Edition New Rec
 
 The common Gun, Shield, and Marker Drone selections now include battlefield profiles and their core weapon or defensive information.
 
+Missile and Guardian Drone profiles are also now populated. Guardian Drones remain surfaced only by the units that explicitly permit them.
+
 Commander Shadowsun and Commander Farsight are now unique HQ selections. Their enclave/army-composition restrictions remain a separate review item.
+
+Aun&apos;Va, Darkstrider, and Longstrike are now selectable as unique named entries. No faction-specific army restrictions are implemented in this phase.
 
 The initial points, profiles, weapons, and options use the 7th Edition Tau Empire Codex as the baseline. They have not yet had Emperor Edition playtest balancing.
 
