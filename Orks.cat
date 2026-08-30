@@ -3451,6 +3451,9 @@ Limitations
         <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="140" />
       </ns0:costs>
       <ns0:infoLinks>
+        <ns0:infoLink name="Twin-linked Kustom Mega-Kannon" id="o200-9106-0103-0001" hidden="false" type="profile" targetId="702a-ee28-ff4c-82d8" />
+        <ns0:infoLink name="Smasha Gun" id="o200-9106-0103-0002" hidden="false" type="profile" targetId="2424-e86a-957b-1931" />
+        <ns0:infoLink name="Stikkbomb Flinga" id="o200-9106-0103-0003" hidden="false" type="profile" targetId="8eb4-82b0-fc80-202b" />
         <ns0:infoLink name="Deep Strike" id="o200-9106-0001-0003" hidden="false" type="rule" targetId="5de7-dbec-8706-f21a" />
       </ns0:infoLinks>
     </ns0:selectionEntry>
@@ -3482,11 +3485,13 @@ Limitations
                 <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" />
               </ns0:costs>
             </ns0:selectionEntry>
-            <ns0:selectionEntry id="o200-8106-0001-0008" name="Grabbin' klaw, Grot riggers or Wreckin' ball" hidden="false" collective="false" import="true" type="upgrade">
+            <ns0:selectionEntry id="o200-8106-0001-0008" name="Grabbin' klaw" hidden="false" collective="false" import="true" type="upgrade">
               <ns0:costs>
                 <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" />
               </ns0:costs>
             </ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0009" name="Grot riggers" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0014" name="Wreckin' ball" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
           </ns0:selectionEntries>
         </ns0:selectionEntryGroup>
       </ns0:selectionEntryGroups>
