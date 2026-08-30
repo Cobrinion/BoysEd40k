@@ -2984,7 +2984,7 @@ Limitations
                 <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" />
               </ns0:costs>
             </ns0:selectionEntry>
-            <ns0:selectionEntry id="o200-8103-0001-0024" name="Centreline kannon, lobba or zzap gun" hidden="false" collective="false" import="true" type="upgrade">
+            <ns0:selectionEntry id="o200-8103-0001-0024" name="Centreline kannon" hidden="false" collective="false" import="true" type="upgrade">
               <ns0:costs>
                 <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" />
               </ns0:costs>
@@ -3490,6 +3490,8 @@ Limitations
                 <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" />
               </ns0:costs>
             </ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8103-0001-0034" name="Centreline lobba" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8103-0001-0035" name="Centreline zzap gun" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
             <ns0:selectionEntry id="o200-8103-0001-0030" name="Grabbin' klaw" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" /></ns0:costs></ns0:selectionEntry>
             <ns0:selectionEntry id="o200-8103-0001-0031" name="Wreckin' ball" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
             <ns0:selectionEntry id="o200-8106-0001-0009" name="Grot riggers" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
