@@ -3133,6 +3133,7 @@ Limitations
       </ns0:profiles>
       <ns0:selectionEntryGroups>
         <ns0:selectionEntryGroup id="o200-7104-0001-0003" name="Grot Mega-tank weapon exchanges" hidden="false">
+          <ns0:constraints><ns0:constraint type="max" value="5" field="selections" scope="parent" shared="true" id="o200-5104-0001-0001" /></ns0:constraints>
           <ns0:selectionEntries>
             <ns0:selectionEntry id="o200-8104-0001-0010" name="Twin-linked rokkit launcha" hidden="false" collective="false" import="true" type="upgrade" />
             <ns0:selectionEntry id="o200-8104-0001-0011" name="Twin-linked skorcha" hidden="false" collective="false" import="true" type="upgrade" />
