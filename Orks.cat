@@ -2950,7 +2950,7 @@ Limitations
             <characteristic name="Side" typeId="678c-ae54-8f51-b1df">11</characteristic>
             <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
             <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
-            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Open-topped, Transport)</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Open-topped, Transport, Don't Press Dat!)</characteristic>
             <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">14"</characteristic>
           </characteristics>
         </profile>
@@ -3032,11 +3032,6 @@ Limitations
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <rules>
-        <rule name="Don't Press Dat!" id="o200-9203-0001-0001" hidden="false">
-          <description>At the start of each Movement phase, roll a D6 for this vehicle. On a 1 it must move Flat Out if able.</description>
-        </rule>
-      </rules>
     </selectionEntry>
     <selectionEntry id="o200-1004-0001-0001" name="Big Trakk" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -3047,7 +3042,7 @@ Limitations
             <characteristic name="Side" typeId="678c-ae54-8f51-b1df">11</characteristic>
             <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
             <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
-            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Open-topped, Transport)</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Open-topped, Transport, Rumbler)</characteristic>
             <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12"</characteristic>
           </characteristics>
         </profile>
@@ -3111,11 +3106,6 @@ Limitations
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50" />
       </costs>
-      <rules>
-        <rule name="Rumbler" id="o200-9204-0001-0001" hidden="false">
-          <description>A Big Trakk ignores the first failed Dangerous Terrain test it makes each turn.</description>
-        </rule>
-      </rules>
     </selectionEntry>
     <selectionEntry id="o200-1004-0001-0002" name="Grot Mega-tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -3126,7 +3116,7 @@ Limitations
             <characteristic name="Side" typeId="678c-ae54-8f51-b1df">11</characteristic>
             <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
             <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
-            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Full Speed Ahead!, Rolling Scrap Pile)</characteristic>
             <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">2D6"</characteristic>
           </characteristics>
         </profile>
@@ -3165,14 +3155,6 @@ Limitations
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="90" />
       </costs>
-      <rules>
-        <rule name="Full Speed Ahead!" id="o200-9204-0001-0002" hidden="false">
-          <description>When this vehicle moves, roll 2D6 for its Movement. On a double 1 it suffers a Glancing Hit.</description>
-        </rule>
-        <rule name="Rolling Scrap Pile" id="o200-9204-0001-0003" hidden="false">
-          <description>This vehicle counts as having a 5+ cover save against Shooting Attacks.</description>
-        </rule>
-      </rules>
     </selectionEntry>
     <selectionEntry id="o200-1005-0001-0001" name="Gorkanaut" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -3564,7 +3546,7 @@ Limitations
             <characteristic name="Side" typeId="678c-ae54-8f51-b1df">10</characteristic>
             <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
             <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
-            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Fast, Open-topped)</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Fast, Open-topped, Deadly Cargo)</characteristic>
             <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">16"</characteristic>
           </characteristics>
         </profile>
@@ -3651,11 +3633,6 @@ Limitations
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <rules>
-        <rule name="Deadly Cargo" id="o200-9206-0001-0001" hidden="false">
-          <description>If this vehicle explodes, add +1 to the result on the explosion table.</description>
-        </rule>
-      </rules>
     </selectionEntry>
     <selectionEntry id="o200-1007-0001-0001" name="Stompa" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -3714,7 +3691,7 @@ Limitations
             <characteristic name="Side" typeId="678c-ae54-8f51-b1df">13</characteristic>
             <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
             <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">7</characteristic>
-            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Super-heavy)</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Super-heavy, Crushing Weight, Engine Damage)</characteristic>
             <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">14"</characteristic>
           </characteristics>
         </profile>
@@ -3734,14 +3711,6 @@ Limitations
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="330" />
       </costs>
-      <rules>
-        <rule name="Crushing Weight" id="o200-9207-0001-0001" hidden="false">
-          <description>This vehicle counts as Super-heavy when Ramming.</description>
-        </rule>
-        <rule name="Engine Damage" id="o200-9207-0001-0002" hidden="false">
-          <description>See the Ork vehicle damage rules.</description>
-        </rule>
-      </rules>
     </selectionEntry>
     <selectionEntry id="o200-1007-0001-0003" name="Kill Bursta" hidden="false" collective="false" import="true" type="unit">
       <profiles>
