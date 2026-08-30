@@ -21,7 +21,7 @@
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">6</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules" />
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules">'Ere We Go!, Furious Charge (1), Mob Rule</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="4+" field="d33e-1fdc-0c00-8cb8">
@@ -74,7 +74,7 @@
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules" />
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules">'Ere We Go!, Furious Charge (1), Mob Rule</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="4+" field="d33e-1fdc-0c00-8cb8">
@@ -681,7 +681,7 @@
             <characteristic name="A" typeId="d535-b745-b613-a7ab">6</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
-            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules" />
+            <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules">'Ere We Go!, Mob Rule, Eternal Warrior, Furious Charge (1), Battle-Hardened (1), Bulky (3), Fear (1), Biggest and Best</characteristic>
           </characteristics>
         </profile>
         <profile name="Mork's Roar" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="e90e-70cf-2801-176d">
@@ -1098,7 +1098,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules" />
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules">Battle-Hardened (1), Bulky (2), 'Ere We Go!, Furious Charge (1), Mob Rule, Relentless</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1243,7 +1243,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules" />
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules">'Ere We Go!, Furious Charge (1), Mob Rule</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="5+" field="d33e-1fdc-0c00-8cb8">
@@ -1293,7 +1293,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules" />
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules">Battle-Hardened (1), 'Ere We Go!, Furious Charge (1), Mob Rule</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="5+" field="d33e-1fdc-0c00-8cb8">
@@ -1681,7 +1681,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                     <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                     <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">6</characteristic>
                     <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
-                    <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules" />
+                    <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules">'Ere We Go!, Furious Charge (1), Mob Rule, Infiltrate, Move Through Cover, Stealth</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1814,7 +1814,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not beenÂ
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules" />
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules">Battle-Hardened (1), 'Ere We Go!, Furious Charge (1), Mob Rule, Retinue</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2189,7 +2189,7 @@ Limitations
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules" />
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules">'Ere We Go!, Furious Charge (1), Mob Rule, Scavengers</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2220,7 +2220,7 @@ Limitations
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
-                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules" />
+                <characteristic typeId="3df9-f556-8725-fe75" name="Special Rules">Battle-Hardened (1), 'Ere We Go!, Furious Charge (1), Mob Rule, Retinue, Scavengers</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3211,6 +3211,7 @@ Limitations
             <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">5</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Rampage</characteristic>
           </characteristics>
         </profile>
         <profile id="o200-3005-0001-0004" name="Morkanaut Transport" hidden="false" typeId="e117-4193-8756-1465" typeName="Transport">
