@@ -115,6 +115,7 @@
     <categoryEntry id="644a-f3d4-2643-0e0b" name="Troops" hidden="false"/>
     <categoryEntry id="9ec8-042a-a605-4622" name="Transport" hidden="false"/>
     <categoryEntry id="2b42-3a90-e878-d0c5" name="Heavy Support" hidden="false"/>
+    <categoryEntry id="c120-40b0-a111-9001" name="Lords of War" hidden="false"/>
     <categoryEntry id="6093-06d4-ef01-5a0b" name="Relics" hidden="false">
       <constraints>
         <constraint field="selections" scope="1fd7-0abc-0802-6a78" value="25" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="72d4-6a1c-47ae-f794" type="max"/>
@@ -131,6 +132,7 @@
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad3-5620-b7ee-5001" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="c120-40b0-a111-9002" name="Lords of War" hidden="false" targetId="c120-40b0-a111-9001" primary="false"/>
         <categoryLink id="483f-2d0f-edc5-0c42" name="HQ" hidden="false" targetId="6375-3e5f-be64-925e" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0171-411f-66a3-d3b3" type="min"/>
