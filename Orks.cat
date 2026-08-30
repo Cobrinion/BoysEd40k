@@ -3490,10 +3490,13 @@ Limitations
                 <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" />
               </ns0:costs>
             </ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8103-0001-0030" name="Grabbin' klaw" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" /></ns0:costs></ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8103-0001-0031" name="Wreckin' ball" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
             <ns0:selectionEntry id="o200-8106-0001-0009" name="Grot riggers" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
             <ns0:selectionEntry id="o200-8106-0001-0014" name="Wreckin' ball" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
           </ns0:selectionEntries>
         </ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="o200-7103-0001-0006" name="Battlewagon pintle weapons" hidden="false"><ns0:constraints><ns0:constraint type="max" value="4" field="selections" scope="parent" shared="true" id="o200-5103-0001-0100" /></ns0:constraints><ns0:selectionEntries><ns0:selectionEntry id="o200-8103-0001-0032" name="Pintle big shoota" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" /></ns0:costs></ns0:selectionEntry><ns0:selectionEntry id="o200-8103-0001-0033" name="Pintle rokkit launcha" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" /></ns0:costs></ns0:selectionEntry></ns0:selectionEntries></ns0:selectionEntryGroup>
       </ns0:selectionEntryGroups>
       <ns0:selectionEntries>
         <ns0:selectionEntry id="o200-4006-0001-0001" name="Warbuggy" hidden="false" collective="false" import="true" type="model">
@@ -3524,26 +3527,39 @@ Limitations
       <ns0:selectionEntryGroups>
         <ns0:selectionEntryGroup id="o200-7106-0001-0004" name="Kustom Junka weapons and gubbinz" hidden="false">
           <ns0:selectionEntries>
-            <ns0:selectionEntry id="o200-8106-0001-0010" name="Turret skorcha or kustom mega-blasta" hidden="false" collective="false" import="true" type="upgrade">
+            <ns0:selectionEntry id="o200-8106-0001-0010" name="Turret skorcha" hidden="false" collective="false" import="true" type="upgrade">
               <ns0:costs>
                 <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" />
               </ns0:costs>
             </ns0:selectionEntry>
-            <ns0:selectionEntry id="o200-8106-0001-0011" name="Turret deffgun, kannon, lobba or zzap gun" hidden="false" collective="false" import="true" type="upgrade">
+            <ns0:selectionEntry id="o200-8106-0001-0011" name="Turret kustom mega-blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" /></ns0:costs>
+            </ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0015" name="Turret deffgun" hidden="false" collective="false" import="true" type="upgrade">
               <ns0:costs>
                 <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" />
               </ns0:costs>
             </ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0016" name="Turret kannon" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0017" name="Turret lobba" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0018" name="Turret zzap gun" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
             <ns0:selectionEntry id="o200-8106-0001-0012" name="Co-axial big shoota" hidden="false" collective="false" import="true" type="upgrade">
               <ns0:costs>
                 <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" />
               </ns0:costs>
             </ns0:selectionEntry>
-            <ns0:selectionEntry id="o200-8106-0001-0013" name="Reinforced ram, deff rolla or special gubbinz" hidden="false" collective="false" import="true" type="upgrade">
+            <ns0:selectionEntry id="o200-8106-0001-0013" name="Reinforced ram" hidden="false" collective="false" import="true" type="upgrade">
+              <ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5" /></ns0:costs>
+            </ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0019" name="Deff rolla" hidden="false" collective="false" import="true" type="upgrade">
               <ns0:costs>
                 <ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" />
               </ns0:costs>
             </ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0020" name="Burna exhaust" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10" /></ns0:costs></ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0021" name="Mine layer" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15" /></ns0:costs></ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0022" name="Rokkit array" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15" /></ns0:costs></ns0:selectionEntry>
+            <ns0:selectionEntry id="o200-8106-0001-0023" name="Shokkjump engine" hidden="false" collective="false" import="true" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15" /></ns0:costs></ns0:selectionEntry>
           </ns0:selectionEntries>
         </ns0:selectionEntryGroup>
       </ns0:selectionEntryGroups>
