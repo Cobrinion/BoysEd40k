@@ -3312,6 +3312,9 @@ Snakebite combat drugs.
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2. Twin-Linked</characteristic>
       </characteristics>
     </profile>
+    <profile name="Burna Bomb" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="o200-6001-0001-0001"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Bomb 1, Blast (5&quot;), Ignores Cover, One Shot</characteristic></characteristics></profile>
+    <profile name="Supa Shoota" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="o200-6001-0001-0002"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 3</characteristic></characteristics></profile>
+    <profile name="Skorcha Missile" typeId="66fe-f217-d00c-847a" typeName="Weapon" hidden="false" id="o200-6001-0001-0003"><characteristics><characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic><characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic><characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic><characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Blast (3&quot;), Ignores Cover, One Shot</characteristic></characteristics></profile>
   </sharedProfiles>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Melee Weapons" id="d466-142c-c43c-90c6" hidden="false" defaultSelectionEntryId="87a5-48c8-e896-4d8a">
