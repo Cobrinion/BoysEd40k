@@ -3297,6 +3297,9 @@ While at least one model with a voxcaster is present on the battlefield and not 
           </profiles>
         </selectionEntry>
         <selectionEntry name="One may take a Vox-Caster" id="1674-8241-4ba4-3bdc" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="1674-8241-4ba4-3bdd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
           </costs>
