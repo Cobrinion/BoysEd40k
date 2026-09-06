@@ -4409,22 +4409,13 @@ While at least one model with a voxcaster is present on the battlefield and not 
           </characteristics>
         </profile>
       </profiles>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Psychic Discipline" id="56bd-621e-f71b-e29f" hidden="false">
-          <constraints>
-            <constraint id="1adb-4021-751d-4ae1" field="selections" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="ead5-94a4-fa1a-8115" field="selections" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <entryLinks>
-            <entryLink name="Biomancy" id="30af-faef-2840-3d7d" hidden="false" import="true" targetId="840e-c496-0441-ba25" type="selectionEntryGroup"/>
-            <entryLink name="Divination" id="5f83-10ba-3640-bc3c" hidden="false" import="true" targetId="7ea5-9df4-33f4-83c3" type="selectionEntryGroup"/>
-            <entryLink name="Sanctus" id="cabb-2e4c-8c76-0004" hidden="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
-            <entryLink name="Pyromancy" id="9f36-b454-9b3e-3c22" hidden="false" import="true" targetId="9cde-c840-2f53-e2d5" type="selectionEntryGroup"/>
-            <entryLink name="Telepathy" id="4bc9-d7b1-0b7d-21e8" hidden="false" import="true" targetId="9f4a-8f38-08b0-a669" type="selectionEntryGroup"/>
-            <entryLink name="Telekinesis" id="e75a-307e-703f-7cd5" hidden="false" import="true" targetId="0185-eb3b-e34b-a776" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink name="Psychic Discipline" id="56bd-621e-f71b-e29f" hidden="false" import="true" targetId="c901-7d0e-1a44-9b02" type="selectionEntryGroup">
+          <modifiers>
+            <modifier field="577e-7de7-faa1-3105" type="set" value="1"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry name="Conscript Squad" id="d201-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <selectionEntries>

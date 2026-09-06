@@ -2960,6 +2960,19 @@ may join a unit that includes an Automata model.</description>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Captain Melee Weapons" id="80a8-69e1-c94b-cce6" collective="false" hidden="false" import="true"/>
+    <selectionEntryGroup name="Psychic Discipline" id="c901-7d0e-1a44-9b02" collective="false" hidden="false" import="true">
+      <constraints>
+        <constraint id="c902-7d0e-1a44-9b02" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Biomancy" id="c903-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="840e-c496-0441-ba25" type="selectionEntryGroup"/>
+        <entryLink name="Divination" id="c904-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="7ea5-9df4-33f4-83c3" type="selectionEntryGroup"/>
+        <entryLink name="Pyromancy" id="c905-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="9cde-c840-2f53-e2d5" type="selectionEntryGroup"/>
+        <entryLink name="Sanctus" id="c906-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
+        <entryLink name="Telekinesis" id="c907-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="0185-eb3b-e34b-a776" type="selectionEntryGroup"/>
+        <entryLink name="Telepathy" id="c908-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="9f4a-8f38-08b0-a669" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
     <selectionEntryGroup name="Sanctus" id="be72-9e20-115e-68d8" collective="false" hidden="false" import="true">
       <constraints>
         <constraint id="d0c1-5d0d-4a81-39b5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
