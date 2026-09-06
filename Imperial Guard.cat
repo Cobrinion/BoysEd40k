@@ -4426,7 +4426,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Conscript Squad (DONE)" id="d201-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Conscript Squad" id="d201-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry name="Conscript" id="d201-3001-0001-0001" collective="false" hidden="false" import="true" type="model">
           <constraints>
@@ -4525,7 +4525,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Hydra Flak Tank (DONE)" id="d202-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Hydra Flak Tank" id="d202-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="70"/>
       </costs>
@@ -4582,7 +4582,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Wyvern Suppression Tank (DONE)" id="d203-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Wyvern Suppression Tank" id="d203-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="65"/>
       </costs>
@@ -4639,7 +4639,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Manticore Missile Tank (DONE)" id="d204-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Manticore Missile Tank" id="d204-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="170"/>
       </costs>
@@ -4696,7 +4696,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Hellhound (DONE)" id="d205-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Hellhound" id="d205-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="125"/>
       </costs>
@@ -4790,7 +4790,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Valkyrie Assault Carrier (DONE)" id="d206-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Valkyrie Assault Carrier" id="d206-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="125"/>
       </costs>
@@ -4881,7 +4881,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Basilisk Battery (DONE)" id="d207-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Basilisk Battery" id="d207-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="125"/>
       </costs>
@@ -4938,7 +4938,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Deathstrike Missile Launcher (DONE)" id="d208-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Deathstrike Missile Launcher" id="d208-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="160"/>
       </costs>
@@ -4973,7 +4973,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Vendetta Gunship (DONE)" id="d209-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Vendetta Gunship" id="d209-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="170"/>
       </costs>
@@ -5016,7 +5016,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Enginseer (DONE)" id="d210-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Enginseer" id="d210-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="40"/>
       </costs>
@@ -5058,7 +5058,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Wyrdvane Psykers (DONE)" id="d211-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Wyrdvane Psykers" id="d211-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry name="Wyrdvane Psyker" id="d211-3001-0001-0001" collective="false" hidden="false" import="true" type="model">
           <constraints>
@@ -5103,7 +5103,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Company Command Squad (DONE)" id="d212-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Company Command Squad" id="d212-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <entryLinks>
         <entryLink name="Company Commander" id="d212-7001-0001-0001" collective="false" hidden="false" import="true" targetId="6b85-58bf-4e1e-3162" type="selectionEntry">
           <constraints>
@@ -5239,7 +5239,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Militarum Tempestus Command Squad (DONE)" id="d213-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Militarum Tempestus Command Squad" id="d213-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup name="Command Scions may take special weapons:" id="d213-7001-0001-0001" collective="false" hidden="false">
           <constraints>
@@ -5283,7 +5283,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Platoon Command Squad (DONE)" id="d214-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Platoon Command Squad" id="d214-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry name="Platoon Commander" id="d214-3001-0001-0001" collective="false" hidden="false" import="true" type="model">
           <constraints>
@@ -5446,12 +5446,12 @@ While at least one model with a voxcaster is present on the battlefield and not 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Rough Rider Squad (DONE)" id="d215-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Rough Rider Squad" id="d215-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="11"/>
       </costs>
       <entryLinks>
-        <entryLink name="One Rough Rider may take a Special Weapon" id="d215-9001-0001-0010" collective="false" hidden="false" import="true" targetId="d000-86c3-9fb4-99b0" type="selectionEntryGroup">
+        <entryLink name="Special Weapons" id="d215-9001-0001-0010" collective="false" hidden="false" import="true" targetId="d000-86c3-9fb4-99b0" type="selectionEntryGroup">
           <constraints>
             <constraint id="d215-8001-0001-0003" field="selections" includeChildForces="false" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
