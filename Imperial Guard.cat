@@ -6,7 +6,7 @@
         <categoryLink name="HQ" id="a4ec-eb8d-7242-4494" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Infantry Squad" id="00d0-d6ed-3fd3-c4fb" collective="false" hidden="false" import="true" targetId="e86c-dd5c-6160-3241" type="selectionEntry">
+    <entryLink name="Infantry Squad (DONE)" id="00d0-d6ed-3fd3-c4fb" collective="false" hidden="false" import="true" targetId="e86c-dd5c-6160-3241" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="5373-c592-37c4-6b38" hidden="false" primary="true" targetId="644a-f3d4-2643-0e0b"/>
       </categoryLinks>
@@ -16,7 +16,7 @@
         <categoryLink name="Heavy Support" id="7e4b-27cd-3c47-8e01" hidden="false" primary="true" targetId="2b42-3a90-e878-d0c5"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Leman Russ Squadron" id="e027-9afd-6934-a8ac" collective="false" hidden="false" import="true" targetId="8f3d-ef37-d5bd-c7a5" type="selectionEntry">
+    <entryLink name="Leman Russ Squadron (DONE)" id="e027-9afd-6934-a8ac" collective="false" hidden="false" import="true" targetId="8f3d-ef37-d5bd-c7a5" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="d353-7544-362d-0705" hidden="false" primary="true" targetId="2b42-3a90-e878-d0c5"/>
       </categoryLinks>
@@ -37,7 +37,7 @@
         <categoryLink name="HQ" id="aa99-9a57-0e7f-ccbe" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Death Korps Grenadier Squad" id="4463-c060-dea6-0c9e" collective="false" hidden="false" import="true" targetId="1676-2a6d-5349-3f56" type="selectionEntry">
+    <entryLink name="Death Korps Grenadier Squad (DONE)" id="4463-c060-dea6-0c9e" collective="false" hidden="false" import="true" targetId="1676-2a6d-5349-3f56" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="bed5-5ac8-99a1-82a3" hidden="false" primary="true" targetId="ebc5-5615-35fb-bc91"/>
       </categoryLinks>
@@ -52,127 +52,127 @@
         <categoryLink name="Elites" id="cd77-9642-c92c-b631" hidden="false" primary="true" targetId="ebc5-5615-35fb-bc91"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Sentinel Squadron" id="014e-732b-852c-a5b6" collective="false" hidden="false" import="true" targetId="8a34-8435-54a-c085" type="selectionEntry">
+    <entryLink name="Sentinel Squadron (DONE)" id="014e-732b-852c-a5b6" collective="false" hidden="false" import="true" targetId="8a34-8435-54a-c085" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Fast Attack" id="8ed5-33bc-93e0-2516" hidden="false" primary="true" targetId="3aa2-0f2d-c4eb-172c"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Special Weapons Squad" id="0287-e46a-ac9d-2096" hidden="false" import="true" targetId="df5a-f2af-f5c6-b546" type="selectionEntry">
+    <entryLink name="Special Weapons Squad (DONE)" id="0287-e46a-ac9d-2096" hidden="false" import="true" targetId="df5a-f2af-f5c6-b546" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="73c2-8632-20c7-3ec8" primary="true" targetId="ebc5-5615-35fb-bc91"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Veteran Infantry Squad" id="27c8-1ccc-c93d-1fe3" hidden="false" import="true" targetId="1bde-6255-8537-4803" type="selectionEntry">
+    <entryLink name="Veteran Infantry Squad (DONE)" id="27c8-1ccc-c93d-1fe3" hidden="false" import="true" targetId="1bde-6255-8537-4803" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="e17e-ced5-813f-8b0a" primary="true" targetId="644a-f3d4-2643-0e0b"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Militarum Tempestus Scions" id="283a-2066-f382-ddc0" hidden="false" import="true" targetId="0e23-8e38-e14f-5b01" type="selectionEntry">
+    <entryLink name="Militarum Tempestus Scions (DONE)" id="283a-2066-f382-ddc0" hidden="false" import="true" targetId="0e23-8e38-e14f-5b01" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="d205-3f5f-21f2-b689" primary="true" targetId="ebc5-5615-35fb-bc91"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Ratling Pack" id="5fec-3fcd-f10b-43f1" hidden="false" import="true" targetId="71c1-0950-04ac-c19d" type="selectionEntry">
+    <entryLink name="Ratling Pack (DONE)" id="5fec-3fcd-f10b-43f1" hidden="false" import="true" targetId="71c1-0950-04ac-c19d" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="5218-36ea-5a5f-e672" primary="true" targetId="ebc5-5615-35fb-bc91"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Chimera" id="7825-a459-1813-009d" hidden="false" import="true" targetId="4470-1484-4080-05ff" type="selectionEntry">
+    <entryLink name="Chimera (DONE)" id="7825-a459-1813-009d" hidden="false" import="true" targetId="4470-1484-4080-05ff" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Transport" id="c5d4-4a44-284c-8516" primary="true" targetId="9ec8-042a-a605-4622"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Taurox" id="cde6-5818-d2df-fbfa" hidden="false" import="true" targetId="9209-1659-04a1-006b" type="selectionEntry">
+    <entryLink name="Taurox (DONE)" id="cde6-5818-d2df-fbfa" hidden="false" import="true" targetId="9209-1659-04a1-006b" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Transport" id="17f3-41df-6868-af9e" primary="true" targetId="9ec8-042a-a605-4622"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Ogryn Pals" id="0e3e-e379-94f8-39e9" hidden="false" import="true" targetId="dffd-6a33-bcc4-cbab" type="selectionEntry">
+    <entryLink name="Ogryn Pals (DONE)" id="0e3e-e379-94f8-39e9" hidden="false" import="true" targetId="dffd-6a33-bcc4-cbab" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="085e-0b8e-ea19-e719" primary="true" targetId="ebc5-5615-35fb-bc91"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Rogal Dorn Squadron" id="8780-82b8-cc6c-ca7b" hidden="false" import="true" targetId="80e5-73d3-e862-abb6" type="selectionEntry">
+    <entryLink name="Rogal Dorn Squadron (DONE)" id="8780-82b8-cc6c-ca7b" hidden="false" import="true" targetId="80e5-73d3-e862-abb6" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="409b-57b4-5d1b-232c" primary="true" targetId="2b42-3a90-e878-d0c5"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Primaris Psyker" id="c041-8f5a-399f-fc38" hidden="false" import="true" targetId="7c29-dbf9-b7f0-05a4" type="selectionEntry">
+    <entryLink name="Primaris Psyker (DONE)" id="c041-8f5a-399f-fc38" hidden="false" import="true" targetId="7c29-dbf9-b7f0-05a4" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="19c4-9ed9-5477-264f" primary="true" targetId="6375-3e5f-be64-925e"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Conscript Squad (DONE)" id="d201-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d201-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Conscript Squad" id="d201-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d201-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="d201-2001-0001-0001" hidden="false" primary="true" targetId="644a-f3d4-2643-0e0b"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Hydra Flak Tank (DONE)" id="d202-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d202-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Hydra Flak Tank" id="d202-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d202-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="d202-2001-0001-0001" hidden="false" primary="true" targetId="2b42-3a90-e878-d0c5"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Wyvern Suppression Tank (DONE)" id="d203-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d203-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Wyvern Suppression Tank" id="d203-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d203-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="d203-2001-0001-0001" hidden="false" primary="true" targetId="2b42-3a90-e878-d0c5"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Manticore Missile Tank (DONE)" id="d204-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d204-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Manticore Missile Tank" id="d204-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d204-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="d204-2001-0001-0001" hidden="false" primary="true" targetId="2b42-3a90-e878-d0c5"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Hellhound (DONE)" id="d205-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d205-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Hellhound" id="d205-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d205-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Fast Attack" id="d205-2001-0001-0001" hidden="false" primary="true" targetId="3aa2-0f2d-c4eb-172c"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Valkyrie Assault Carrier (DONE)" id="d206-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d206-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Valkyrie Assault Carrier" id="d206-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d206-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Flyer" id="d206-2001-0001-0001" hidden="false" primary="true" targetId="19d9-45e7-5d5a-b7db"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Basilisk Battery (DONE)" id="d207-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d207-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Basilisk Battery" id="d207-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d207-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="d207-2001-0001-0001" hidden="false" primary="true" targetId="2b42-3a90-e878-d0c5"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Deathstrike Missile Launcher (DONE)" id="d208-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d208-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Deathstrike Missile Launcher" id="d208-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d208-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="d208-2001-0001-0001" hidden="false" primary="true" targetId="2b42-3a90-e878-d0c5"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Vendetta Gunship (DONE)" id="d209-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d209-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Vendetta Gunship" id="d209-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d209-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Flyer" id="d209-2001-0001-0001" hidden="false" primary="true" targetId="19d9-45e7-5d5a-b7db"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Enginseer (DONE)" id="d210-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d210-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Enginseer" id="d210-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d210-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="d210-2001-0001-0001" hidden="false" primary="true" targetId="ebc5-5615-35fb-bc91"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Wyrdvane Psykers (DONE)" id="d211-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d211-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Wyrdvane Psykers" id="d211-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d211-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="d211-2001-0001-0001" hidden="false" primary="true" targetId="ebc5-5615-35fb-bc91"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Company Command Squad (DONE)" id="d212-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d212-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Company Command Squad" id="d212-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d212-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="d212-2001-0001-0001" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Militarum Tempestus Command Squad (DONE)" id="d213-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d213-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Militarum Tempestus Command Squad" id="d213-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d213-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="d213-2001-0001-0001" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Platoon Command Squad (DONE)" id="d214-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d214-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Platoon Command Squad" id="d214-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d214-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="d214-2001-0001-0001" hidden="false" primary="true" targetId="644a-f3d4-2643-0e0b"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Rough Rider Squad (DONE)" id="d215-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d215-1001-0001-0001" type="selectionEntry">
+    <entryLink name="Rough Rider Squad" id="d215-0001-0001-0001" collective="false" hidden="false" import="true" targetId="d215-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Fast Attack" id="d215-2001-0001-0001" hidden="false" primary="true" targetId="3aa2-0f2d-c4eb-172c"/>
       </categoryLinks>
@@ -1136,7 +1136,7 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="1"/>
+                    <repeat childId="be62-d140-caee-615c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1164,6 +1164,9 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="One may take an Augury Scanner" id="9275-06f6-bfff-46ff" collective="false" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="9275-06f6-bfff-4700" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
@@ -1172,13 +1175,16 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Entire Squad may take Bayonets" id="e6cb-149a-80d0-0e71" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="d721-873a-3c96-2f0f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <infoLinks>
                 <infoLink name="Bayonet" id="c6dc-8b54-469a-f543" hidden="false" targetId="a481-0f78-fa02-a3b9" type="profile"/>
               </infoLinks>
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="1"/>
+                    <repeat childId="be62-d140-caee-615c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1192,7 +1198,7 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               <modifiers>
                 <modifier field="5962-de87-0838-81ef" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="9"/>
+                    <repeat childId="be62-d140-caee-615c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="9"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1290,7 +1296,7 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="2"/>
+                    <repeat childId="be62-d140-caee-615c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="2"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1319,7 +1325,7 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="3"/>
+                    <repeat childId="be62-d140-caee-615c" field="selections" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="3"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1331,7 +1337,7 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="2"/>
+                    <repeat childId="be62-d140-caee-615c" field="selections" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="2"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1343,7 +1349,7 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="2"/>
+                    <repeat childId="be62-d140-caee-615c" field="selections" repeats="1" roundUp="false" scope="e86c-dd5c-6160-3241" shared="true" value="2"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1472,9 +1478,6 @@ Terminator armour confers a 2+ Armour save.</characteristic>
           <costs>
             <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="140"/>
           </costs>
-          <infoLinks>
-            <infoLink name="Smoke Launchers" id="b0da-3e04-7520-cfdc" hidden="false" targetId="7ff5-cd30-5c53-c8aa" type="profile"/>
-          </infoLinks>
           <profiles>
             <profile name="Leman Russ" id="c267-5277-effc-a8d2" hidden="false" page="46" publicationId="3ff9-2058-b559-545b" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
               <characteristics>
@@ -1483,7 +1486,7 @@ Terminator armour confers a 2+ Armour save.</characteristic>
                 <characteristic name="Side" typeId="678c-ae54-8f51-b1df">13</characteristic>
                 <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
                 <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
-                <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle, Tank, Heavy</characteristic>
+                <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle, Tank, Heavy, Smoke Launchers</characteristic>
                 <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
               </characteristics>
             </profile>
@@ -1971,6 +1974,9 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="1"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="b6f5-9c3b-bafd-1d63" hidden="false" targetId="2cb8-e71e-1b53-17fc" type="profile"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry name="Boltgun" id="cb66-9fa7-cf47-c98a" collective="false" hidden="false" import="true" type="upgrade">
               <costs>
@@ -1984,11 +1990,17 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Plasma Pistol" id="fca8-eaee-fefa-3bc1" hidden="false" targetId="6d14-059d-0f3b-1472" type="profile"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry name="Shotgun" id="b486-a604-bfd2-b945" collective="false" hidden="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="1"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Shotgun" id="4e89-e139-40a4-dd6e" hidden="false" targetId="43ec-5d27-9257-f744" type="profile"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2011,39 +2023,46 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               </costs>
               <infoLinks>
                 <infoLink name="Power Sword" id="4697-817f-057b-9eb1" hidden="false" targetId="a559-1dfb-6cf5-65c7" type="profile"/>
-                <infoLink name="Rending" id="5cd9-c20d-c2ff-3088" hidden="false" targetId="daf9-7786-40aa-8807" type="rule">
-                  <modifiers>
-                    <modifier field="name" type="set" value="Rending (6+)"/>
-                  </modifiers>
-                </infoLink>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Power Axe" id="d597-96c0-4446-5215" collective="false" hidden="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Power Axe" id="955b-7e04-4584-5516" hidden="false" targetId="48e9-7858-e556-9d95" type="profile"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry name="Power Maul" id="7969-ba3a-c7d4-d98b" collective="false" hidden="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Power Maul" id="5a6d-159d-e978-0608" hidden="false" targetId="bbe8-21fa-9cbe-ae7e" type="profile"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry name="Power Lance" id="9cfe-35f5-15ee-53a4" collective="false" hidden="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Power Lance" id="754d-666c-1e08-e016" hidden="false" targetId="e9cb-8086-3e11-4741" type="profile"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry name="Chainsword" id="537c-b893-5880-c5d7" collective="false" hidden="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Chainsword" id="b202-564a-2771-1be4" hidden="false" targetId="887c-49ed-c54d-4010" type="profile"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry name="Powerfist" id="7825-ad0b-c733-a83f" collective="false" hidden="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
               </costs>
               <infoLinks>
-                <infoLink name="Power Fist" id="f77f-1499-ec03-fc62" hidden="false" targetId="aa52-17f9-7ced-00e0" type="profile"/>
+                <infoLink name="Power Fist" id="06f1-7464-7be5-ff3d" hidden="false" targetId="aa52-17f9-7ced-00e0" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -2297,7 +2316,7 @@ Terminator armour confers a 2+ Armour save.</characteristic>
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="1676-2a6d-5349-3f56" shared="true" value="1"/>
+                    <repeat childId="0404-c75a-5812-bcad" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="1676-2a6d-5349-3f56" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -2435,11 +2454,6 @@ While at least one model with a voxcaster is present on the battlefield and not 
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Augmented Mounts" id="2f33-ebc7-269f-796a" hidden="false">
-          <description>Death Riders may re-roll failed Dangerous Terrain tests</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Ridemaster" id="1d61-3ff3-ef65-ae5a" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -2463,7 +2477,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Feel No Pain (6+)</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Augmented Mounts, Feel No Pain (6+)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2581,7 +2595,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">6</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4+</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Feel No Pain (6+)</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Augmented Mounts, Feel No Pain (6+)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2829,12 +2843,12 @@ While at least one model with a voxcaster is present on the battlefield and not 
           <modifiers>
             <modifier field="cee9-32a5-ac24-0afa" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
+                <repeat childId="7f5f-6061-9241-4920" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="cca4-5ed0-2a5c-6893" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
+                <repeat childId="7f5f-6061-9241-4920" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="parent" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -2976,7 +2990,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="2"/>
+                    <repeat childId="0c95-7686-7fb7-e392" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="2"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3005,7 +3019,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="3"/>
+                    <repeat childId="0c95-7686-7fb7-e392" field="selections" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="3"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3017,7 +3031,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="2"/>
+                    <repeat childId="0c95-7686-7fb7-e392" field="selections" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="2"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3029,7 +3043,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="2"/>
+                    <repeat childId="0c95-7686-7fb7-e392" field="selections" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="2"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3051,7 +3065,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="1"/>
+                    <repeat childId="0c95-7686-7fb7-e392" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3079,6 +3093,9 @@ While at least one model with a voxcaster is present on the battlefield and not 
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="One may take an Augury Scanner" id="cc53-4dda-8010-5221" collective="false" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="cc53-4dda-8010-5222" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
               </costs>
@@ -3087,13 +3104,16 @@ While at least one model with a voxcaster is present on the battlefield and not 
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Entire Squad may take Bayonets" id="dbda-827b-d25a-ce2c" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="dbda-827b-d25a-ce2d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <infoLinks>
                 <infoLink name="Bayonet" id="7856-c21e-fe0d-996b" hidden="false" targetId="a481-0f78-fa02-a3b9" type="profile"/>
               </infoLinks>
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="1"/>
+                    <repeat childId="0c95-7686-7fb7-e392" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="1bde-6255-8537-4803" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -4118,19 +4138,22 @@ While at least one model with a voxcaster is present on the battlefield and not 
           <modifiers>
             <modifier field="e7de-8dcf-403a-b76a" type="increment" value="4">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="dffd-6a33-bcc4-cbab" shared="true" value="1"/>
+                <repeat childId="233d-2d66-501b-f96b" field="selections" repeats="1" roundUp="false" scope="dffd-6a33-bcc4-cbab" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
         </selectionEntry>
         <selectionEntry name="Entire Squad may take Bayonets" id="52b7-487a-84f8-fc24" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="7458-e31e-f433-2ff4" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
           <infoLinks>
             <infoLink name="Bayonet" id="5be5-2e9f-5f76-4393" hidden="false" targetId="a481-0f78-fa02-a3b9" type="profile"/>
           </infoLinks>
           <modifiers>
             <modifier field="e7de-8dcf-403a-b76a" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="dffd-6a33-bcc4-cbab" shared="true" value="1"/>
+                <repeat childId="233d-2d66-501b-f96b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="dffd-6a33-bcc4-cbab" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -4138,9 +4161,6 @@ While at least one model with a voxcaster is present on the battlefield and not 
       </selectionEntries>
     </selectionEntry>
     <selectionEntry name="Rogal Dorn Squadron" id="80e5-73d3-e862-abb6" hidden="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink name="Smoke Launchers" id="952f-4b31-8c7c-9b8f" hidden="false" targetId="7ff5-cd30-5c53-c8aa" type="profile"/>
-      </infoLinks>
       <selectionEntries>
         <selectionEntry name="Rogal Dorn Battletank" id="3cd0-59e4-c92f-c4ae" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -4158,7 +4178,7 @@ While at least one model with a voxcaster is present on the battlefield and not 
                 <characteristic name="Side" typeId="678c-ae54-8f51-b1df">13</characteristic>
                 <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">13</characteristic>
                 <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">5</characteristic>
-                <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Tank, Heavy)</characteristic>
+                <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Tank, Heavy, Smoke Launchers)</characteristic>
                 <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
               </characteristics>
             </profile>
@@ -4389,6 +4409,13 @@ While at least one model with a voxcaster is present on the battlefield and not 
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Psychic Discipline" id="56bd-621e-f71b-e29f" hidden="false" import="true" targetId="c901-7d0e-1a44-9b02" type="selectionEntryGroup">
+          <modifiers>
+            <modifier field="577e-7de7-faa1-3105" type="set" value="1"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Force Staff" id="e2ec-0f73-a525-d408" hidden="false" targetId="ce8a-e461-368b-1c81" type="profile"/>
         <infoLink name="Refractor Field" id="846e-5bea-a7bb-3c6b" hidden="false" targetId="16b6-1360-e90d-f382" type="profile"/>
@@ -4412,13 +4439,6 @@ While at least one model with a voxcaster is present on the battlefield and not 
           </characteristics>
         </profile>
       </profiles>
-      <entryLinks>
-        <entryLink name="Psychic Discipline" id="56bd-621e-f71b-e29f" hidden="false" import="true" targetId="c901-7d0e-1a44-9b02" type="selectionEntryGroup">
-          <modifiers>
-            <modifier field="577e-7de7-faa1-3105" type="set" value="1"/>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry name="Conscript Squad" id="d201-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <selectionEntries>

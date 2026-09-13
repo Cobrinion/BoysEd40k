@@ -882,7 +882,7 @@ A Grunt Squad may only split in this way if:
           <modifiers>
             <modifier field="831f-db79-d57b-5f04" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ed8b-9128-07ad-2085" shared="true" value="1"/>
+                <repeat childId="b901-bced-dd30-ef6a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ed8b-9128-07ad-2085" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -922,12 +922,12 @@ A Grunt Squad may only split in this way if:
           <modifiers>
             <modifier field="e5b4-878c-04d3-c53e" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ed8b-9128-07ad-2085" shared="true" value="1"/>
+                <repeat childId="b901-bced-dd30-ef6a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ed8b-9128-07ad-2085" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="b0cd-1d60-9b5d-76d3" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ed8b-9128-07ad-2085" shared="true" value="1"/>
+                <repeat childId="b901-bced-dd30-ef6a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ed8b-9128-07ad-2085" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>

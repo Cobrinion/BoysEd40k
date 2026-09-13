@@ -1,41 +1,30 @@
-# Tau implementation review - first batch
+# Tau implementation review
 
-This batch adds four 7th-edition Tau Empire units to the Emperor Edition New Recruit catalogue:
+## Current scope
 
-- Ethereal (HQ)
-- Cadre Fireblade (HQ)
-- Pathfinder Team (Fast Attack)
-- Hammerhead Gunship (Heavy Support)
-- XV8 Crisis Battlesuit Team (Elites)
-- XV104 Riptide Battlesuit (Elites)
-- XV88 Broadside Battlesuit Team (Heavy Support)
-- TY7 Devilfish (Dedicated Transport)
-- Kroot Carnivore Squad (Troops)
-- TX4 Piranha (Fast Attack)
-- Sky Ray Missile Defence Gunship (Heavy Support)
-- Vespid Stingwing Squad (Fast Attack)
-- Sniper Drone Team (Heavy Support)
+The local Tau Empire catalogue has received a complete source-and-structure pass against the 2015 Codex, with the archived 7th-edition catalogue used only as a secondary cross-check where the supplied scans omit a card. It now includes all core Codex cards, the shared drone, Support System, Signature System and Vehicle Battle System infrastructure, and the existing Boys Edition Commander-suit additions.
 
-The common Gun, Shield, and Marker Drone selections now include battlefield profiles and their core weapon or defensive information.
+The following remain deliberately outside this pass:
 
-Missile and Guardian Drone profiles are also now populated. Guardian Drones remain surfaced only by the units that explicitly permit them.
+- faction-specific army restrictions and detachments;
+- Sisters/other non-Tau factions;
+- faction-wide balance playtesting against the other Boys Edition armies.
 
-Commander Shadowsun and Commander Farsight are now unique HQ selections. Their enclave/army-composition restrictions remain a separate review item.
+## Verified catalogue work
 
-Aun&apos;Va, Darkstrider, and Longstrike are now selectable as unique named entries. No faction-specific army restrictions are implemented in this phase.
+- Core infantry, battlesuits, vehicles, flyers, drones and named characters have their source weapon, drone, upgrade and special-rule selections represented.
+- Combined Crisis/Commander/Bodyguard hardpoint accounting, twin-linked two-slot weapons, per-model drone limits and source replacement leaders are constrained in the catalogue.
+- Fire Team, Heroic Morale, Supporting Fire and other reusable Tau rules live in the shared catalogue-rule area rather than as duplicate selectable unit rules.
+- Vehicle rules are recorded in vehicle Type characteristics. Vehicle cards expose only their own wargear and never selectable passengers.
+- The Kroot Shaper, Pathfinder Shas'ui, Crisis Shas'vre and Vespid Strain Leader correctly replace an existing squad member for total-model accounting.
 
-The initial points, profiles, weapons, and options use the 7th Edition Tau Empire Codex as the baseline. They have not yet had Emperor Edition playtest balancing.
+## Retained Boys Edition divergences / decisions still needed
 
-## Review decisions requested
+- Piranha, Devilfish and Vespid now use the 7th-edition Wahapedia core profiles and unit limits. The former local divergences were not documented as deliberate balance choices and have therefore been replaced.
+- Longstrike is source-costed at 170 points: a 125-point Hammerhead plus the printed 45-point upgrade. This was corrected from an unexplained local 180-point value using the 7th-edition Wahapedia reference.
+- Existing XV84, XV81, XV8-02 Iridium and Enforcer Commander chassis are preserved as Boys Edition/expanded material and are kept separate from normal core-Codex legality.
 
-1. Confirm whether the 7th Edition baseline points are appropriate before faction-wide balance passes.
-2. Decide whether the Ethereal's Invocation of the Elements should retain its 7th Edition effects or be converted to the project's Horus Heresy-style psychic/command framework.
-3. Confirm the Hammerhead's 13/12/10 armour and its 125-point railgun baseline against existing anti-tank units in Firstborn, Imperial Guard, and Chaos Space Marines.
-4. Confirm whether Pathfinder special weapons should replace their pulse carbine and markerlight in roster output; the current implementation records the chosen weapons but does not suppress the base profiles.
+## Still required before declaring play-ready
 
-## Deliberately deferred
-
-- Devilfish transport integration for Pathfinders
-- Drones, vehicle support systems, seeker missiles, disruption pods, and Longstrike
-- Named characters, Farsight Enclaves, and the detailed drone-system pass
-- Full New Recruit UI smoke test and faction balance playtesting
+1. Open the local catalogue in New Recruit and execute the legal/illegal roster cases in `TAU_COMPLETION_CHECKLIST.md`.
+2. Resolve the retained balance decisions above through normal Boys Edition playtesting.

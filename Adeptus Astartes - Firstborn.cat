@@ -480,6 +480,39 @@
 Ragnar and all Space Wolves models in his unit have the Furious Charge (1) special rule.
 Ragnar must always issue and accept challenges when possible.</description>
     </rule>
+    <rule name="Descent of Angels" id="0385-901a-ebd6-506d" hidden="false">
+      <description>If this unit enters play via Deep Strike all enemy units within 6&quot; immediatly suffer D6 str 4 AP - hits. Roll once to determine the number of hits applied to all units within range.</description>
+    </rule>
+    <rule name="Drop Pod Assault" id="da76-6ea0-b063-b6f6" hidden="false">
+      <description>Drop Pods and units embarked upon them must be held in Deep Strike Reserve. At the beginning of your first turn, half of your Drop Pods (rounding up) automatically arrive from Reserve. The arrival of remaining Drop Pods is rolled for normally. Once a Drop Pod lands, all passengers must disembark and no model can embark for the rest of the game.</description>
+    </rule>
+    <rule name="Inertial Guidance System" id="040b-7fef-401d-2272" hidden="false">
+      <description>If a Drop Pod scatters on top of impassable terrain or another model (friend or foe), reduce the scatter distance by the minimum required in order to avoid that obstacle. If the Drop Pod scatters off the edge of the board, it suffers a Deep Strike Mishap.</description>
+    </rule>
+    <rule name="Terrax Pattern Termite Assault Drill" id="6dee-ea26-98e2-6b7b" hidden="false">
+      <description>* May not carry models with the Bulky, Very Bulky or Extremely Bulky special rules
+
+** In practice you may choose to open and embar/disembark from a single hatch on either side of the hull.</description>
+    </rule>
+    <rule name="Melta Cutters" id="0218-1115-b6e7-9017" hidden="false">
+      <description>A Termite Assault Drill ignores difficult terrain and dangerous terrain.
+In addition, it adds 2 to its Strength when making ramming attacks against fortifications.</description>
+    </rule>
+    <rule name="Crawling Advance" id="d18b-8c4b-38b8-1d07" hidden="false">
+      <description>A Termite Assault Drill may never move faster than Combat Speed or move Flat Out.</description>
+    </rule>
+    <rule name="Murderlust" id="9dcf-aaa4-7867-801b" hidden="false">
+      <description>Murderfang may add +2 to his charge results.</description>
+    </rule>
+    <rule name="Hard to Hit" id="78c5-5417-b85e-063f" hidden="false">
+      <description>Shooting Attacks targeting a Zooming Flyer can only beresolved as Snap Shots (unless the model or weapon hasthe Skyfire special rule). Template and Blastweapons, and any other attacks that do not roll To Hit,cannot hit Zooming Flyers.</description>
+    </rule>
+    <rule name="Wyrdbane" id="f117-4b78-35aa-ac62" hidden="false">
+      <description>The Staff of the Stormcaller grants the wielder the Adamantium Will (5+) special rule. In addition, the weilder may re-roll a single failed Psychic Focus check,</description>
+    </rule>
+    <rule name="Howl of the Wolf" id="b552-5b6e-1171-5fb3" hidden="false">
+      <description>With a single howl from the Warlords lips, the Rout is spurred to action, taking the final killing sprint to deliver the death blow all to the echoing cry of his warriors. Once per game, a Warlord with this trait may declare it will howl. For the rest of that turn, all Space Wolves units in your army gain the benefits of the Fleet (2) special rule.</description>
+    </rule>
   </rules>
   <sharedProfiles>
     <profile name="Combat Shield" id="a9ba-9836-8cc3-b199" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -3298,19 +3331,11 @@ bolter, Stormbolter or bolt pistol.</description>
             <characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic>
             <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">12</characteristic>
             <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
-            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Open-topped, Transport).</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Open-topped, Transport), Drop Pod Assault, Inertial Guidance System</characteristic>
             <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Drop Pod Assault" id="da76-6ea0-b063-b6f6" hidden="false">
-          <description>Drop Pods and units embarked upon them must be held in Deep Strike Reserve. At the beginning of your first turn, half of your Drop Pods (rounding up) automatically arrive from Reserve. The arrival of remaining Drop Pods is rolled for normally. Once a Drop Pod lands, all passengers must disembark and no model can embark for the rest of the game.</description>
-        </rule>
-        <rule name="Inertial Guidance System" id="040b-7fef-401d-2272" hidden="false">
-          <description>If a Drop Pod scatters on top of impassable terrain or another model (friend or foe), reduce the scatter distance by the minimum required in order to avoid that obstacle. If the Drop Pod scatters off the edge of the board, it suffers a Deep Strike Mishap.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Interior Weapon" id="a928-cf03-582a-fd31" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -4533,11 +4558,6 @@ bolter, Stormbolter or bolt pistol.</description>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Descent of Angels" id="0385-901a-ebd6-506d" hidden="false">
-          <description>If this unit enters play via Deep Strike all enemy units within 6&quot; immediatly suffer D6 str 4 AP - hits. Roll once to determine the number of hits applied to all units within range.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Sanguinary Guard" id="67a9-ac54-e9f4-bb67" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -4739,7 +4759,7 @@ bolter, Stormbolter or bolt pistol.</description>
           <modifiers>
             <modifier field="e7de-8dcf-403a-b76a" type="increment" value="3">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ea72-990f-a012-b874" shared="true" value="1"/>
+                <repeat childId="ab74-8828-34d8-454d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ea72-990f-a012-b874" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -4754,12 +4774,12 @@ bolter, Stormbolter or bolt pistol.</description>
           <modifiers>
             <modifier field="b9da-3a6b-cc59-7731" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ea72-990f-a012-b874" shared="true" value="1"/>
+                <repeat childId="ab74-8828-34d8-454d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ea72-990f-a012-b874" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="c811-bda6-52ff-4582" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ea72-990f-a012-b874" shared="true" value="1"/>
+                <repeat childId="ab74-8828-34d8-454d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ea72-990f-a012-b874" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -4837,12 +4857,12 @@ bolter, Stormbolter or bolt pistol.</description>
           <modifiers>
             <modifier field="0d81-b41e-269b-8519" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ea72-990f-a012-b874" shared="true" value="1"/>
+                <repeat childId="ab74-8828-34d8-454d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ea72-990f-a012-b874" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="f350-b4dc-6fb3-bfd3" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ea72-990f-a012-b874" shared="true" value="1"/>
+                <repeat childId="ab74-8828-34d8-454d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="ea72-990f-a012-b874" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -4901,16 +4921,9 @@ bolter, Stormbolter or bolt pistol.</description>
               </costs>
               <infoLinks>
                 <infoLink name="Concussive" id="706e-039b-4547-b213" hidden="false" targetId="f3f1-f153-dabd-995f" type="rule"/>
+                <infoLink name="Crozius Arcanum" id="firstborn-crozius-shared-profile-link" hidden="false" targetId="53cf-5240-e8aa-9652" type="profile" />
               </infoLinks>
               <profiles>
-                <profile name="Crozius Arcanum" id="53cf-5240-e8aa-9652" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
-                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">+2</characteristic>
-                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Concussive</characteristic>
-                  </characteristics>
-                </profile>
               </profiles>
             </selectionEntry>
           </selectionEntries>
@@ -8881,7 +8894,7 @@ bolter, Stormbolter or bolt pistol.</description>
             <characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic>
             <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
             <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
-            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Transport</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Tank, Transport, Terrax Pattern Termite Assault Drill, Melta Cutters, Crawling Advance</characteristic>
             <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4"/>
           </characteristics>
         </profile>
@@ -8893,20 +8906,6 @@ bolter, Stormbolter or bolt pistol.</description>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Terrax Pattern Termite Assault Drill" id="6dee-ea26-98e2-6b7b" hidden="false">
-          <description>* May not carry models with the Bulky, Very Bulky or Extremely Bulky special rules
-
-** In practice you may choose to open and embar/disembark from a single hatch on either side of the hull.</description>
-        </rule>
-        <rule name="Melta Cutters" id="0218-1115-b6e7-9017" hidden="false">
-          <description>A Termite Assault Drill ignores difficult terrain and dangerous terrain.
-In addition, it adds 2 to its Strength when making ramming attacks against fortifications.</description>
-        </rule>
-        <rule name="Crawling Advance" id="d18b-8c4b-38b8-1d07" hidden="false">
-          <description>A Termite Assault Drill may never move faster than Combat Speed or move Flat Out.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Deepstrike and Sub Assault Rules" id="64f2-11f4-97c3-b329" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -10250,15 +10249,10 @@ bolter, Stormbolter or bolt pistol.</description>
             <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">5</characteristic>
             <characteristic name="Ld" typeId="3886-1fbc-9ba4-cb2c">9</characteristic>
             <characteristic name="Save" typeId="ab97-0508-cfbe-db94">2+</characteristic>
-            <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47">It Will Not Die, Furious Charge (1), Rage (3), Rampage (2)</characteristic>
+            <characteristic name="Special Rules" typeId="c5fa-39b7-33f9-cb47">It Will Not Die, Furious Charge (1), Rage (3), Rampage (2), Murderlust</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Murderlust" id="9dcf-aaa4-7867-801b" hidden="false">
-          <description>Murderfang may add +2 to his charge results.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Searchlight and Smoke Launchers" id="ac9e-3347-5246-4896" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -11095,7 +11089,7 @@ Limitations
           <modifiers>
             <modifier field="3dc7-c160-cdda-ef5c" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="e043-7a40-eb52-18a8" shared="true" value="15"/>
+                <repeat childId="d380-1344-7d3e-0ea2" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="e043-7a40-eb52-18a8" shared="true" value="15"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -11209,16 +11203,11 @@ If this unit is slain in the combat phase, it may fight again at Initiative 1 be
             <characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic>
             <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">12</characteristic>
             <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
-            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Flyer, Hover, Transport (16), Power of the Machine Spirit, Assault Vehicle</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Flyer, Hover, Transport (16), Power of the Machine Spirit, Assault Vehicle, Hard to Hit</characteristic>
             <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">18&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Hard to Hit" id="78c5-5417-b85e-063f" hidden="false">
-          <description>Shooting Attacks targeting a Zooming Flyer can only beresolved as Snap Shots (unless the model or weapon hasthe Skyfire special rule). Template and Blastweapons, and any other attacks that do not roll To Hit,cannot hit Zooming Flyers.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Twin-Linked Lascannon" id="7c7a-12b0-30ce-ccbb" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -11670,7 +11659,7 @@ Models in affected units that are slain in the Fight sub-phase can, at the end o
             <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
-            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Adamantium Will (5+)</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Adamantium Will (5+), Wyrdbane</characteristic>
           </characteristics>
           <modifierGroups>
             <modifierGroup>
@@ -11701,11 +11690,6 @@ Models in affected units that are slain in the Fight sub-phase can, at the end o
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Wyrdbane" id="f117-4b78-35aa-ac62" hidden="false">
-          <description>The Staff of the Stormcaller grants the wielder the Adamantium Will (5+) special rule. In addition, the weilder may re-roll a single failed Psychic Focus check,</description>
-        </rule>
-      </rules>
       <selectionEntryGroups>
         <selectionEntryGroup name="Psychic Discipline" id="139b-a089-b722-f1a2" collective="false" hidden="false" import="true">
           <constraints>
@@ -12799,7 +12783,7 @@ bolter, Stormbolter or bolt pistol.</description>
             <characteristic name="A" typeId="d535-b745-b613-a7ab">7</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">10</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">2+</characteristic>
-            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Howl of the Wolf</characteristic>
           </characteristics>
         </profile>
         <profile name="The Armour Elavagar" id="8447-5c72-2cdf-972a" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -12808,11 +12792,6 @@ bolter, Stormbolter or bolt pistol.</description>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Howl of the Wolf" id="b552-5b6e-1171-5fb3" hidden="false">
-          <description>With a single howl from the Warlords lips, the Rout is spurred to action, taking the final killing sprint to deliver the death blow all to the echoing cry of his warriors. Once per game, a Warlord with this trait may declare it will howl. For the rest of that turn, all Space Wolves units in your army gain the benefits of the Fleet (2) special rule.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Scornsplitter" id="6bd4-43a7-b6b6-7f00" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>

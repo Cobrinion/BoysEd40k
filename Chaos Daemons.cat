@@ -42,6 +42,26 @@
         <categoryLink name="HQ" id="05d5-f1dc-e594-9d06" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
       </categoryLinks>
     </entryLink>
+    <entryLink name="Bloodthirster of Unfettered Fury (DONE)" id="d4ae-1000-0000-0100" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0101" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0102" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Bloodthirster of Insensate Rage (DONE)" id="d4ae-1000-0000-0110" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0111" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0112" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Epidemius (DONE)" id="d4ae-1000-0000-0130" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0131" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0132" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Ku&apos;gath Plaguefather (DONE)" id="d4ae-1000-0000-0140" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0141" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0142" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink name="Flesh Hounds" id="9ad2-50c7-d147-f1d7" collective="false" hidden="false" import="true" targetId="6e32-e5f5-1ba8-efd2" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Fast Attack" id="aac5-1963-24bf-01f8" hidden="false" primary="true" targetId="3aa2-0f2d-c4eb-172c"/>
@@ -51,6 +71,26 @@
     <entryLink name="Blood Crushers" id="4c17-81f8-cccd-2c5a" collective="false" hidden="false" import="true" targetId="622a-7e46-67ea-08e8" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="56b9-7754-8ff0-c866" hidden="false" primary="true" targetId="ebc5-5615-35fb-bc91"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Skull Cannon of Khorne (DONE)" id="d4ae-1000-0000-0020" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0021" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" id="d4ae-1000-0000-0022" hidden="false" primary="true" targetId="2b42-3a90-e878-d0c5"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Karanak (DONE)" id="d4ae-1000-0000-0030" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0031" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0032" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Skulltaker (DONE)" id="d4ae-1000-0000-0040" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0041" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0042" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Skarbrand (DONE)" id="d4ae-1000-0000-0050" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0051" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0052" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Soul Grinder of Chaos" id="711c-0f57-eb58-df55" collective="false" hidden="false" import="true" targetId="e538-8175-2c9b-2249" type="selectionEntry">
@@ -66,6 +106,56 @@
     </entryLink>
     <entryLink name="Daemonic Formations" id="186a-4232-fb02-a101" collective="false" hidden="false" import="true" targetId="ef40-6a4c-4383-87e1" type="selectionEntry"/>
     <entryLink name="Feculent Gnarlmaw" id="4a60-94f9-bf79-5d92" collective="false" hidden="false" import="true" targetId="f5f3-0104-2151-8f03" type="selectionEntry"/>
+    <entryLink name="Screamers of Tzeentch (DONE)" id="d4ae-1000-0000-0300" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0301" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" id="d4ae-1000-0000-0302" hidden="false" primary="true" targetId="3aa2-0f2d-c4eb-172c"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Flamers of Tzeentch" id="d4ae-1000-0000-0311" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0312" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" id="d4ae-1000-0000-0313" hidden="false" primary="true" targetId="ebc5-5615-35fb-bc91"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Pink Horrors of Tzeentch" id="d4ae-1000-0000-0330" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0331" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Troops" id="d4ae-1000-0000-0332" hidden="false" primary="true" targetId="644a-f3d4-2643-0e0b"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Exalted Flamer of Tzeentch" id="d4ae-1000-0000-0360" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0361" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0362" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Burning Chariot of Tzeentch" id="d4ae-1000-0000-0370" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0371" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" id="d4ae-1000-0000-0372" hidden="false" primary="true" targetId="2b42-3a90-e878-d0c5"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Lord of Change" id="d4ae-1000-0000-0390" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0391" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0392" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Kairos Fateweaver" id="d4ae-1000-0000-0400" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0401" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0402" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="The Blue Scribes" id="d4ae-1000-0000-0410" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0411" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0412" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="The Changeling" id="d4ae-1000-0000-0420" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0421" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d4ae-1000-0000-0422" hidden="false" primary="true" targetId="6375-3e5f-be64-925e"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Daemonettes of Slaanesh" id="d4ae-1000-0000-0430" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0431" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Troops" id="d4ae-1000-0000-0432" hidden="false" primary="true" targetId="644a-f3d4-2643-0e0b"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedProfiles>
     <profile name="Collar of Khorne" id="61a0-7ed8-1ced-76fb" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -81,6 +171,129 @@
     <rule name="Mass Contagion" id="792b-a2bc-104c-e614" hidden="false">
       <description>Each time a model is removed as the result of an attack made by this weapon, its unit must immediately pass a Toughness test or suffer an additional Wound with no armour or cover saves allowed.</description>
     </rule>
+    <rule name="Daemonic Instability" id="d4ae-1000-0000-0001" hidden="false">
+      <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning and Morale tests, and cannot choose to fail them. Daemonic Psykers take Daemonic Instability tests instead of suffering Perils of the Warp.
+
+When a unit with this special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase:
+
+1) Take a Leadership test. On double 1, Reality Blinks: restore all Wounds suffered by the unit this phase and return models from this unit removed as casualties this phase, in coherency with a model that has not returned this phase and at least 1&quot; from enemy models unless those enemy models are locked with the returning model&apos;s unit. A returning model in a locked unit Piles In; a model that cannot be placed does not return. On double 6, Banished!: remove the entire unit as casualties; enemy units locked only with it Consolidate.
+
+2) Otherwise, compare the result with the unit&apos;s Leadership, including modifiers. For each point by which the test is failed, the unit suffers one additional Wound with no saves of any kind allowed.</description>
+    </rule>
+    <rule name="Daemon of Nurgle" id="d4ae-1000-0000-0002" hidden="false">
+      <description>Daemons of Nurgle have the Daemon, Hatred (Daemons of Tzeentch), Shrouded and Slow and Purposeful special rules. Units composed entirely of Daemons of Nurgle are treated as having defensive grenades.</description>
+    </rule>
+    <rule name="Daemon of Khorne" id="d4ae-1000-0000-0003" hidden="false">
+      <description>Daemons of Khorne have the Daemon, Furious Charge (1) and Hatred (Daemons of Slaanesh) special rules. Chariots with this rule resolve their Hammer of Wrath hits at Strength 7.</description>
+    </rule>
+    <rule name="Daemon of Tzeentch" id="d4ae-1000-0000-0160" hidden="false">
+      <description>Daemons of Tzeentch have the Daemon and Hatred (Daemons of Nurgle) special rules. They add 3 to their Leadership when manifesting psychic powers and re-roll saving throw results of 1.</description>
+    </rule>
+    <rule name="Daemon of Slaanesh" id="d4ae-1000-0000-0445" hidden="false">
+      <description>Daemons of Slaanesh have the Daemon, Fleet, Hatred (Daemons of Khorne) and Rending special rules. Units composed entirely of Daemons of Slaanesh Run an additional 3&quot;; all-Cavalry units Run an additional 6&quot;; non-Walker Vehicles move an additional 3&quot; when moving Flat Out.</description>
+    </rule>
+    <rule name="Warpflame" id="d4ae-1000-0000-0161" hidden="false">
+      <description>At the end of each phase, a unit that suffered one or more unsaved Wounds from this weapon or model must take a Toughness test. If failed, it suffers D3 Wounds with no armour or cover saves allowed. If passed, all models in that unit gain Feel No Pain (6+) for the rest of the game; models that already have Feel No Pain improve it by 1.</description>
+    </rule>
+    <rule name="Lesser Locus of Transmogrification" id="d4ae-1000-0000-0162" hidden="false">
+      <description>When a Pink Horror in this model&apos;s unit is slain, place D3 Blue Horror counters beside the unit instead of one.</description>
+    </rule>
+    <rule name="Greater Locus of Change" id="d4ae-1000-0000-0163" hidden="false">
+      <description>At the beginning of each turn, roll a D6. This model and all models in its unit substitute their Strength with that result for the turn.</description>
+    </rule>
+    <rule name="Exalted Locus of Conjuration" id="d4ae-1000-0000-0164" hidden="false">
+      <description>This model and all models in its unit add 1 to the Strength of all hits caused by psychic powers they manifest.</description>
+    </rule>
+    <rule name="Bloodletter Crew" id="d4ae-1000-0000-0023" hidden="false">
+      <description>This model makes two additional Strength 4 AP3 attacks in each Assault phase, resolved at Weapon Skill 5 and Initiative 4. On a turn in which it charged, those attacks are Strength 5 instead.</description>
+    </rule>
+    <rule name="Gorefeast" id="d4ae-1000-0000-0024" hidden="false">
+      <description>Whenever this model&apos;s Hammer of Wrath hits cause one or more unsaved Wounds in a single phase, roll a D6. On a 4+, it regains one Hull Point lost earlier in the battle.</description>
+    </rule>
+    <rule name="Dreadskulls" id="d4ae-1000-0000-0025" hidden="false">
+      <description>Place a Dreadskulls marker beside each unit that suffers one or more hits from this weapon. Friendly Daemon units charging a marked unit do not suffer the Initiative penalty for charging through difficult terrain. Remove all Dreadskulls markers at the end of the Assault phase.</description>
+    </rule>
+    <rule name="Greater Locus of Fury" id="d4ae-1000-0000-0033" hidden="false">
+      <description>This model and all models in its unit have the Rage special rule.</description>
+    </rule>
+    <rule name="Prey of the Blood God" id="d4ae-1000-0000-0034" hidden="false">
+      <description>At the start of the battle, before deployment, nominate one enemy Character as Karanak&apos;s quarry. While that model is alive, Karanak re-rolls failed To Hit and To Wound rolls against it and its unit.</description>
+    </rule>
+    <rule name="Lesser Locus of Abjuration" id="d4ae-1000-0000-0043" hidden="false">
+      <description>This model and all models in its unit have the Adamantium Will special rule.</description>
+    </rule>
+    <rule name="Skulls for the Skull Throne!" id="d4ae-1000-0000-0044" hidden="false">
+      <description>Skulltaker must issue a challenge whenever able, and must accept a challenge whenever one is offered.</description>
+    </rule>
+    <rule name="Bellow of Endless Fury" id="d4ae-1000-0000-0053" hidden="false">
+      <description>Skarbrand&apos;s roar is a weapon with the following profile: Template, Strength 5, AP -, Assault 1.</description>
+    </rule>
+    <rule name="Rage Embodied" id="d4ae-1000-0000-0054" hidden="false">
+      <description>Skarbrand and all units, friendly or enemy, within 12&quot; of him have the Rage and Hatred special rules.</description>
+    </rule>
+    <rule name="Death Incarnate" id="d4ae-1000-0000-0060" hidden="false">
+      <description>The Warlord&apos;s melee weapons have the Instant Death special rule.</description>
+    </rule>
+    <rule name="Totem of Endless Bloodletting" id="d4ae-1000-0000-0062" hidden="false">
+      <description>Any Daemon of Khorne in a unit within 6&quot; of a Herald riding a Blood Throne benefits from that Herald&apos;s locus exactly as if it were in the same unit.</description>
+    </rule>
+    <rule name="Exalted Locus of Wrath" id="d4ae-1000-0000-0063" hidden="false">
+      <description>This model and all models in its unit have the Hatred special rule.</description>
+    </rule>
+    <rule name="Decapitating Blow" id="d4ae-1000-0000-0103" hidden="false">
+      <description>Any To Wound rolls of 6 made with this weapon have the Instant Death special rule.</description>
+    </rule>
+    <rule name="Colossal" id="d4ae-1000-0000-0113" hidden="false">
+      <description>A model with this weapon Piles In and fights at Initiative step 1.</description>
+    </rule>
+    <rule name="Tally of Pestilence" id="d4ae-1000-0000-0133" hidden="false">
+      <description>While Epidemius is alive, count all unsaved Wounds caused by the psychic powers, shooting and close-combat attacks of Daemons of Nurgle, friend or foe, including Wounds negated by rules other than saving throws. At the start of each of your turns, all Daemons of Nurgle in units within 6&quot; of Epidemius receive cumulative bonuses based on that tally: 7+ Wounds, +1 Strength; 14+, +1 Toughness; 21+, Poisoned (2+); 28+, Feel No Pain (4+).</description>
+    </rule>
+    <rule name="Nurgling Infestation" id="d4ae-1000-0000-0143" hidden="false">
+      <description>At the start of each of your turns, one Nurgling Swarm within 6&quot; of Ku&apos;gath automatically regains one Wound lost earlier in the battle.</description>
+    </rule>
+    <rule name="Immortal Commander" id="d4ae-1000-0000-0144" hidden="false">
+      <description>Friendly units within 12&quot; of this Warlord may re-roll Daemonic Instability tests.</description>
+    </rule>
+    <rule name="Aura of Change" id="d4ae-1000-0000-0200" hidden="false">
+      <description>Hammer of Wrath attacks made by this model have the Warpflame special rule.</description>
+    </rule>
+    <rule name="Warp Contradiction" id="d4ae-1000-0000-0201" hidden="false">
+      <description>Once per turn, when taking a Psychic check, the bearer may turn each dice rolled to its opposite face (a 1 becomes a 6, a 2 becomes a 5, and so on) before resolving the check.</description>
+    </rule>
+    <rule name="Incorporeal" id="d4ae-1000-0000-0202" hidden="false">
+      <description>This weapon&apos;s AP is equal to the target&apos;s Initiative (AP - against Initiative 7 or higher). Against Vehicles, it has AP 1.</description>
+    </rule>
+    <rule name="Lamprey&apos;s Bite" id="d4ae-1000-0000-0309" hidden="false">
+      <description>A Screamer may replace all normal close combat attacks with one Strength 5 AP 2 Armourbane attack.</description>
+    </rule>
+    <rule name="Slashing Attack" id="d4ae-1000-0000-0310" hidden="false">
+      <description>When Screamers Turbo-boost over an unengaged enemy unit, that unit suffers D3 Strength 4 AP - hits per Screamer that crossed it; Vehicles are hit on side armour.</description>
+    </rule>
+    <rule name="Blue Horrors" id="d4ae-1000-0000-0322" hidden="false">
+      <description>When a Pink Horror is slain in close combat, other than from a failed Daemonic Instability test, place a counter beside its unit. At the end of Initiative step 1, choose an enemy unit it was locked with: it suffers one Strength 2 AP - hit for each counter. Remove all counters after resolving these hits.</description>
+    </rule>
+    <rule name="Magic Made Manifest" id="d4ae-1000-0000-0323" hidden="false">
+      <description>A unit of 11-15 Pink Horrors generates 2 Warp Charge points instead of 1; a unit of 16-20 generates 3 Warp Charge points instead.</description>
+    </rule>
+    <rule name="Brotherhood of Sorcerers" id="d4ae-1000-0000-0326" hidden="false">
+      <description>This unit is a Psyker and resolves its psychic abilities as one unit. It generates one selected psychic ability from the Change discipline.</description>
+    </rule>
+    <rule name="Blue Horror Crew" id="d4ae-1000-0000-0354" hidden="false">
+      <description>Enemy units within 6&quot; of one or more Burning Chariots with Blue Horror Crew suffer -1 Leadership.</description>
+    </rule>
+    <rule name="Oracle of Eternity" id="d4ae-1000-0000-0403" hidden="false">
+      <description>Kairos Fateweaver has a 4+ invulnerable save.</description>
+    </rule>
+    <rule name="The Two Heads of Fate" id="d4ae-1000-0000-0404" hidden="false">
+      <description>At the start of each of your turns, choose Kairos&apos;s left or right head. Until your next turn, he may use only psychic abilities known to that head. Both heads know Change; the right head also knows one selected ability each from Pyromancy and Divination, and the left head one each from Telepathy and Biomancy.</description>
+    </rule>
+    <rule name="Spell Syphon" id="d4ae-1000-0000-0413" hidden="false">
+      <description>Each time an enemy Psyker successfully manifests a psychic power, place a syphon counter beside this model. At the start of your turn, roll a D6 for each counter; for every 6, one friendly Psyker within 12&quot; gains one Warp Charge point. Remove all counters afterwards.</description>
+    </rule>
+    <rule name="Formless Horror" id="d4ae-1000-0000-0423" hidden="false">
+      <description>At the start of each Fight sub-phase, choose one non-vehicle enemy model in base contact. The Changeling may match any or all of its Weapon Skill, Strength, Toughness, Initiative and Attacks until the end of the turn.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Nurglings" id="3cbb-5abf-d9e3-9f71" collective="false" hidden="false" import="true" type="unit">
@@ -90,19 +303,6 @@
       <entryLinks>
         <entryLink name="Daemon of Nurgle" id="cc04-ea20-a24e-86cf" collective="false" hidden="false" import="true" targetId="2e2c-7961-f08e-247e" type="selectionEntry"/>
       </entryLinks>
-      <rules>
-        <rule name="Daemonic Instability" id="ab1a-2c69-66d0-651e" hidden="false" page="0">
-          <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning, and Morale tests.
-
-When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
-
-1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon&apos;s presence fluctuates:
-  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1&quot; from enemy models. If the returning modell&apos;s unit is locked in combat, the model Piles In.
-  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
-
-2) Now, if a double 1 or double 6 wasn&apos;t rolled, compare the roll to the Daemon&apos;s Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Nurglings" id="c176-5cb4-86b9-ffba" collective="false" hidden="false" import="true" type="model">
           <constraints>
@@ -126,7 +326,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Swarms</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Swarms, Infiltrate, Daemon of Nurgle, Daemonic Instability, Deep Strike</characteristic>
               </characteristics>
             </profile>
             <profile name="Diseased Teeth and Claws" id="e809-fecb-6511-974f" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -182,22 +382,6 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
         <infoLink name="Shrouded" id="14cb-1541-fe64-25e9" hidden="false" targetId="a1b0-d78d-3830-c26f" type="rule"/>
         <infoLink name="Defensive Grenades" id="5fa3-0e8b-6671-2703" hidden="false" targetId="fff9-ac50-54c9-01d7" type="rule"/>
       </infoLinks>
-      <rules>
-        <rule name="Daemon of Nurgle" id="d659-edc0-03ce-646a" hidden="false">
-          <description>Daemons of Nurgle have the Daemon, Hatred (Daemons of Tzeentch), Shrouded, and Slow and Purposeful special rules. In addition, units that are composed entirely of Daemons of Nurgle are treated as having defensive grenades.</description>
-        </rule>
-        <rule name="Daemonic Instability" id="738e-0347-970a-b29b" hidden="false" page="0">
-          <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear and Morale tests. Take Daemonic Instability tests instead of suffering Perils of the Warp. 
-
-When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
-
-1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon&apos;s presence fluctuates:
-  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1&quot; from enemy models. If the returning modell&apos;s unit is locked in combat, the model Piles In.
-  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
-
-2) Now, if a double 1 or double 6 wasn&apos;t rolled, compare the roll to the Daemon&apos;s Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
-        </rule>
-      </rules>
     </selectionEntry>
     <selectionEntry name="Plaguebearers" id="1a15-867e-4a1f-58bd" collective="false" hidden="false" import="true" type="unit">
       <costs>
@@ -215,19 +399,6 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
         </entryLink>
         <entryLink name="Daemon of Nurgle" id="b718-ddce-7704-882a" collective="false" hidden="false" import="true" targetId="2e2c-7961-f08e-247e" type="selectionEntry"/>
       </entryLinks>
-      <rules>
-        <rule name="Daemonic Instability" id="ae77-ce61-742c-4ca7" hidden="false" page="0">
-          <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning, and Morale tests.
-
-When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
-
-1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon&apos;s presence fluctuates:
-  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1&quot; from enemy models. If the returning modell&apos;s unit is locked in combat, the model Piles In.
-  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
-
-2) Now, if a double 1 or double 6 wasn&apos;t rolled, compare the roll to the Daemon&apos;s Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Icon of Chaos" id="6695-e956-a555-aaaf" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -296,7 +467,7 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Touch of Rust, Poisoned (4+)</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Touch of Rust, Poisoned (4+), Daemon of Nurgle, Daemonic Instability, Deep Strike</characteristic>
               </characteristics>
             </profile>
             <profile name="Plaguesword" id="e86a-eca2-b023-5010" hidden="false" page="0" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -330,7 +501,7 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Nurgle, Daemonic Instability, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -370,6 +541,39 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry name="Herald of Slaanesh" id="d4ae-1000-0000-0450" collective="false" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="45"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Daemon of Slaanesh" id="d4ae-1000-0000-0451" collective="false" hidden="false" import="true" targetId="1d23-eda4-7525-eedf" type="selectionEntry"/>
+            <entryLink name="Daemonic Rewards" id="d4ae-1000-0000-0452" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+              <constraints>
+                <constraint id="d4ae-1000-0000-0453" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="30"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Herald of Slaanesh" id="d4ae-1000-0000-0454" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">7</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">6</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">7</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Slaanesh, Daemonic Instability, Deep Strike, Independent Character</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Herald Selection:" id="73f5-9750-260a-3292" collective="false" hidden="false" import="true">
           <constraints>
@@ -377,6 +581,204 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
             <constraint id="82d9-a166-7762-e37c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <selectionEntries>
+            <selectionEntry name="Herald of Khorne (DONE)" id="d4ae-1000-0000-0077" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="55"/>
+              </costs>
+              <entryLinks>
+                <entryLink name="Loci of Khorne" id="d4ae-1000-0000-0078" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0070" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0079" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Daemonic Rewards" id="d4ae-1000-0000-0080" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0081" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="30"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <profiles>
+                <profile name="Herald of Khorne" id="d4ae-1000-0000-0082" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+                    <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="9660-0df5-9c5d-3604">7</characteristic>
+                    <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">7</characteristic>
+                    <characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic>
+                    <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                    <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                    <characteristic name="I" typeId="ea41-893b-3f82-5482">6</characteristic>
+                    <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
+                    <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+                    <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+                    <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Khorne, Daemonic Instability, Deep Strike, Independent Character</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Hellblade" id="d4ae-1000-0000-0083" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                    <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+                    <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                    <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry name="Juggernaut of Khorne" id="d4ae-1000-0000-0084" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0085" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="45"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Juggernaut of Khorne" id="d4ae-1000-0000-0086" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+                      <characteristics>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The Herald gains +1 Toughness, +1 Wound and +1 Attack, and becomes Cavalry.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Blood Throne of Khorne" id="d4ae-1000-0000-0087" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0088" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="75"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Blood Throne of Khorne" id="d4ae-1000-0000-0089" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
+                      <characteristics>
+                        <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">0</characteristic>
+                        <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">12</characteristic>
+                        <characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic>
+                        <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
+                        <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
+                        <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Chariot, Open-topped, Transport [Herald of Khorne]), Daemon of Khorne, Deep Strike, Bloodletter Crew, Gorefeast, Totem of Endless Bloodletting</characteristic>
+                        <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Blood Throne of Khorne" id="d4ae-1000-0000-0090" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+                      <characteristics>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The Herald becomes the Blood Throne&apos;s rider and loses Independent Character while mounted.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry name="Herald of Tzeentch" id="d4ae-1000-0000-0180" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="45"/>
+              </costs>
+              <entryLinks>
+                <entryLink name="Loci of Tzeentch" id="d4ae-1000-0000-0181" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0167" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0182" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Daemonic Rewards" id="d4ae-1000-0000-0183" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0184" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="30"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Hellforged Artefacts of Tzeentch" id="d4ae-1000-0000-0203" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0220" type="selectionEntryGroup"/>
+                <entryLink name="Psychic Discipline" id="d4ae-1000-0000-0204" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0230" type="selectionEntryGroup"/>
+              </entryLinks>
+              <profiles>
+                <profile name="Herald of Tzeentch" id="d4ae-1000-0000-0185" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character, Psyker)</characteristic>
+                    <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="9660-0df5-9c5d-3604">3</characteristic>
+                    <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
+                    <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                    <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+                    <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                    <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+                    <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                    <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+                    <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                    <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Tzeentch, Daemonic Instability, Deep Strike, Independent Character</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry name="Disc of Tzeentch" id="d4ae-1000-0000-0186" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0187" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Disc of Tzeentch" id="d4ae-1000-0000-0188" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+                      <characteristics>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The Herald gains +1 Attack and becomes Jetbike.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Blue Fire of Tzeentch" id="d4ae-1000-0000-0266" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0267" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="d4ae-1000-0000-0268" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Blue Fire of Tzeentch" id="d4ae-1000-0000-0269" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
+                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy D3, Warpflame</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Pink Fire of Tzeentch" id="d4ae-1000-0000-0270" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0271" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="d4ae-1000-0000-0272" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Pink Fire of Tzeentch" id="d4ae-1000-0000-0273" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+                        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+                        <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+                        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Torrent, Warpflame</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Burning Chariot of Tzeentch" id="d4ae-1000-0000-0274" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0275" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Burning Chariot of Tzeentch" id="d4ae-1000-0000-0276" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
+                      <characteristics>
+                        <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">3</characteristic>
+                        <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">10</characteristic>
+                        <characteristic name="Side" typeId="678c-ae54-8f51-b1df">10</characteristic>
+                        <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
+                        <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
+                        <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Chariot, Fast, Open-topped, Skimmer; Transport [Herald of Tzeentch]), Daemon of Tzeentch, Deep Strike, Aura of Change</characteristic>
+                        <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Burning Chariot of Tzeentch" id="d4ae-1000-0000-0277" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+                      <characteristics>
+                        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The Herald replaces the Exalted Flamer as the chariot&apos;s rider and loses Independent Character while mounted.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
             <selectionEntry name="Herald of Nurgle" id="eb7b-7abe-5339-318e" collective="false" hidden="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="45"/>
@@ -388,7 +790,11 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                   </constraints>
                 </entryLink>
                 <entryLink name="Loci of Nurgle" id="ae65-3dc4-846b-9559" collective="false" hidden="false" import="true" targetId="40be-a400-18ec-9587" type="selectionEntryGroup"/>
-                <entryLink name="Daemonic Rewards" id="5894-afbd-3428-daf4" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup"/>
+                <entryLink name="Daemonic Rewards" id="5894-afbd-3428-daf4" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint id="d4ae-1000-0000-0120" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="30"/>
+                  </constraints>
+                </entryLink>
                 <entryLink name="Daemon of Nurgle" id="bd4d-28fb-4ebc-587c" collective="false" hidden="false" import="true" targetId="2e2c-7961-f08e-247e" type="selectionEntry"/>
               </entryLinks>
               <profiles>
@@ -405,23 +811,10 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                     <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                     <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
                     <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                    <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+                    <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Nurgle, Daemonic Instability, Deep Strike, Independent Character</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <rules>
-                <rule name="Daemonic Instability" id="e694-c779-e467-1cde" hidden="false" page="0">
-                  <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning, and Morale tests.
-
-When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
-
-1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon&apos;s presence fluctuates:
-  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1&quot; from enemy models. If the returning modell&apos;s unit is locked in combat, the model Piles In.
-  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
-
-2) Now, if a double 1 or double 6 wasn&apos;t rolled, compare the roll to the Daemon&apos;s Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
-                </rule>
-              </rules>
               <selectionEntries>
                 <selectionEntry name="Palanquin of Nurgle" id="2f68-15cf-16b9-67b4" collective="false" hidden="false" import="true" type="upgrade">
                   <constraints>
@@ -432,17 +825,6 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                   </costs>
                   <infoLinks>
                     <infoLink name="Very Bulky" id="c53a-24d9-4c39-35ec" hidden="false" targetId="da98-f5f3-c21f-9234" type="rule"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry name="Show Deepstrike rules" id="58af-f90a-8741-c900" collective="false" hidden="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint id="2943-f29c-2615-d657" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Deep Strike" id="a1e4-8bb2-4405-f280" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Daemonic Psyker" id="d6bc-f0f1-8fd4-d005" collective="false" hidden="false" import="true" type="upgrade">
@@ -603,7 +985,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">5</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">It Will Not Die, Poisoned (4+), Very Bulky, Fleet (2), Attention Seeker, Slime Trail</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">It Will Not Die, Poisoned (4+), Very Bulky, Fleet (2), Attention Seeker, Slime Trail, Daemon of Nurgle, Daemonic Instability, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -643,19 +1025,6 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Daemonic Instability" id="1cd3-a149-5a92-a3d6" hidden="false" page="0">
-          <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning, and Morale tests.
-
-When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
-
-1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon&apos;s presence fluctuates:
-  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1&quot; from enemy models. If the returning modell&apos;s unit is locked in combat, the model Piles In.
-  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
-
-2) Now, if a double 1 or double 6 wasn&apos;t rolled, compare the roll to the Daemon&apos;s Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Death&apos;s Heads" id="23e3-a3d7-db39-1652" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -704,7 +1073,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Very Bulky</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Very Bulky, Daemon of Nurgle, Daemonic Instability, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -733,7 +1102,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">7</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">-</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8"/>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Very Bulky</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Very Bulky, Daemon of Nurgle, Daemonic Instability, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -851,35 +1220,11 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
             <characteristic name="A" typeId="d535-b745-b613-a7ab">5</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Poisoned</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Poisoned (4+), Daemon of Nurgle, Daemonic Instability, Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Daemonic Instability" id="1e9f-7eb4-f723-260e" hidden="false" page="0">
-          <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning, and Morale tests.
-
-When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
-
-1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon&apos;s presence fluctuates:
-  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1&quot; from enemy models. If the returning modell&apos;s unit is locked in combat, the model Piles In.
-  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
-
-2) Now, if a double 1 or double 6 wasn&apos;t rolled, compare the roll to the Daemon&apos;s Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
-        </rule>
-      </rules>
       <selectionEntries>
-        <selectionEntry name="Show Deepstrike rules" id="2bbb-414d-0505-8c32" collective="false" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="adc3-a36a-080c-10cd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Deep Strike" id="e31b-c4a7-f923-a43a" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
-          </infoLinks>
-        </selectionEntry>
         <selectionEntry name="Putrid Vomit" id="9322-f122-27ef-dcd2" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="490f-9682-e6f3-ddc9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1227,6 +1572,22 @@ Enemy units in combat must make a blind test.</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry name="Daemon of Khorne" id="ca11-251e-bb8e-f7f0" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Daemon of Khorne" id="d4ae-1000-0000-0010" hidden="false" targetId="d4ae-1000-0000-0003" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Daemon of Tzeentch" id="d4ae-1000-0000-0165" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Daemon of Tzeentch" id="d4ae-1000-0000-0166" hidden="false" targetId="d4ae-1000-0000-0160" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
     <selectionEntry name="Bloodletters" id="68e1-2df2-70ff-6488" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -1264,7 +1625,7 @@ Enemy units in combat must make a blind test.</characteristic>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">6+</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Khorne, Daemonic Instability, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1297,7 +1658,7 @@ Enemy units in combat must make a blind test.</characteristic>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Khorne, Daemonic Instability, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1353,59 +1714,6 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
-        <selectionEntry name="Show Deepstrike rules" id="783c-2acb-01a5-bef1" collective="false" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="5a28-0d5e-abc6-7e06" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Deep Strike" id="3ed0-360f-3fdb-a164" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry name="Daemon of Khorne" id="ca11-251e-bb8e-f7f0" collective="false" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="5e5c-4eb5-661a-f303" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Hatred" id="3894-e188-f704-45ba" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
-              <modifiers>
-                <modifier field="name" type="set" value="Hatred (Daemons of Slaanesh)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink name="Daemon" id="d551-42ea-3321-c97d" hidden="false" targetId="c74e-51fd-4f2e-6929" type="rule"/>
-            <infoLink name="Fear" id="776d-8cb8-4237-5afa" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
-              <modifiers>
-                <modifier field="name" type="set" value="Fear (1)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink name="Furious Charge" id="6cd6-defd-8fed-a64b" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
-              <modifiers>
-                <modifier field="name" type="set" value="Furious Charge (1)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <rules>
-            <rule name="Daemon of Khorne" id="0c09-337d-22c2-f019" hidden="false">
-              <description>Daemons of Khome have the Daemon, Furious Charge (1) and Hatred (Daemon of Slaanesh) special rules. Chariots with this rule resolve their Hammer of Wrath hits at Strength 7.</description>
-            </rule>
-            <rule name="Daemonic Instability" id="3672-44d6-487a-a1c0" hidden="false" page="0">
-              <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear and Morale tests. Take Daemonic Instability tests instead of suffering Perils of the Warp. 
-
-When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
-
-1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon&apos;s presence fluctuates:
-  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1&quot; from enemy models. If the returning modell&apos;s unit is locked in combat, the model Piles In.
-  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
-
-2) Now, if a double 1 or double 6 wasn&apos;t rolled, compare the roll to the Daemon&apos;s Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
-            </rule>
-          </rules>
-        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry name="Wrath of Khorne Bloodthirster" id="f5c7-d7b6-f2a4-c522" collective="false" hidden="false" import="true" type="upgrade">
@@ -1413,7 +1721,6 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="380"/>
       </costs>
       <entryLinks>
-        <entryLink name="Daemon of Khorne" id="15da-29c1-d579-0bbd" collective="false" hidden="false" import="true" targetId="ca11-251e-bb8e-f7f0" type="selectionEntry"/>
         <entryLink name="Daemonic Rewards" id="9618-94d4-e012-a037" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
           <constraints>
             <constraint id="4e4b-4249-eeed-6855" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="50"/>
@@ -1437,35 +1744,11 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
             <characteristic name="A" typeId="d535-b745-b613-a7ab">6</characteristic>
             <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
             <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+/5++</characteristic>
-            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Adamantium Will (4+), Hatred (Characters), Eternal Warrior, Daemon, Gargantium</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Adamantium Will (4+), Hatred (Characters), Eternal Warrior, Daemon, Gargantium, Daemon of Khorne, Daemonic Instability, Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Daemonic Instability" id="a63b-a980-13f3-f6a3" hidden="false" page="0">
-          <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning, and Morale tests.
-
-When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
-
-1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon&apos;s presence fluctuates:
-  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1&quot; from enemy models. If the returning modell&apos;s unit is locked in combat, the model Piles In.
-  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
-
-2) Now, if a double 1 or double 6 wasn&apos;t rolled, compare the roll to the Daemon&apos;s Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
-        </rule>
-      </rules>
       <selectionEntries>
-        <selectionEntry name="Show Deepstrike rules" id="f9af-18cb-b2d8-7b8d" collective="false" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="a5e8-6e36-97ee-205e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Deep Strike" id="6b27-9c19-3bfc-4052" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
-          </infoLinks>
-        </selectionEntry>
         <selectionEntry name="Weapon" id="1d3d-4c82-c32c-8bdf" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="7af0-b6ca-ca8c-ff1f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1501,6 +1784,186 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry name="Bloodthirster of Unfettered Fury (DONE)" id="d4ae-1000-0000-0101" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="330"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Daemonic Rewards" id="d4ae-1000-0000-0104" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0105" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="50"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Daemonic Wings" id="d4ae-1000-0000-0106" hidden="false" targetId="b2ae-d12d-4a10-1871" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Bloodthirster of Unfettered Fury" id="d4ae-1000-0000-0107" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Daemon, Gargantium, Character</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">8&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">8</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">6</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">6</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">7</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">6</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">6</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+/5++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Eternal Warrior, Daemon, Gargantium, Daemon of Khorne, Daemonic Instability, Deep Strike</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lash of Khorne" id="d4ae-1000-0000-0108" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Axe of Khorne" id="d4ae-1000-0000-0109" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Decapitating Blow, Specialist Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Bloodthirster of Insensate Rage (DONE)" id="d4ae-1000-0000-0111" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="355"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Daemonic Rewards" id="d4ae-1000-0000-0114" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0115" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="50"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Daemonic Wings" id="d4ae-1000-0000-0116" hidden="false" targetId="b2ae-d12d-4a10-1871" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Bloodthirster of Insensate Rage" id="d4ae-1000-0000-0117" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Daemon, Gargantium, Character</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">8&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">8</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">6</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">6</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">7</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">6</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">6</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+/5++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Eternal Warrior, Daemon, Gargantium, Daemon of Khorne, Daemonic Instability, Deep Strike, Rage</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Great Axe of Khorne" id="d4ae-1000-0000-0118" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">D</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Colossal</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Epidemius (DONE)" id="d4ae-1000-0000-0131" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="110"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Lesser Locus of Virulence" id="d4ae-1000-0000-0134" hidden="false" targetId="da7b-2977-9998-9066" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Epidemius" id="d4ae-1000-0000-0135" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">5</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">5</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">4</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Nurgle, Daemonic Instability, Deep Strike, Independent Character, Very Bulky, Lesser Locus of Virulence, Tally of Pestilence</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plaguesword" id="d4ae-1000-0000-0136" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Poisoned (4+), Touch of Rust</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ku&apos;gath Plaguefather (DONE)" id="d4ae-1000-0000-0141" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="295"/>
+      </costs>
+      <profiles>
+        <profile name="Ku&apos;gath Plaguefather" id="d4ae-1000-0000-0147" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Monstrous Creature (Character, Psyker)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">6</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">6</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">7</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">7</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">6</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Nurgle, Daemonic Instability, Deep Strike, Poisoned (4+), Slime Trail, Very Bulky, Nurgling Infestation, Immortal Commander</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Necrotic Missiles" id="d4ae-1000-0000-0148" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">-</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Large Blast, Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Psychic Discipline" id="d4ae-1000-0000-0145" collective="false" hidden="false" import="true">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0146" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Plague" id="d4ae-1000-0000-0149" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink name="Plague" id="d4ae-1000-0000-0150" collective="false" hidden="false" import="true" targetId="7239-7482-e7da-c752" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry name="Daemonology (Summoning)" id="d4ae-1000-0000-0151" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink name="Daemonology (Summoning)" id="d4ae-1000-0000-0152" collective="false" hidden="false" import="true" targetId="9ed2-99e8-d620-978f" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
     <selectionEntry name="Flesh Hounds" id="6e32-e5f5-1ba8-efd2" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
@@ -1515,63 +1978,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
           </modifiers>
         </infoLink>
       </infoLinks>
-      <rules>
-        <rule name="Daemonic Instability" id="bd0a-cf84-65c5-9116" hidden="false" page="0">
-          <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning, and Morale tests.
-
-When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
-
-1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon&apos;s presence fluctuates:
-  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1&quot; from enemy models. If the returning modell&apos;s unit is locked in combat, the model Piles In.
-  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
-
-2) Now, if a double 1 or double 6 wasn&apos;t rolled, compare the roll to the Daemon&apos;s Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
-        </rule>
-      </rules>
       <selectionEntries>
-        <selectionEntry name="Daemon of Khorne" id="9a56-3c97-213a-f96f" collective="false" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="995a-f7d1-8f32-d851" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-            <constraint id="3156-2a3f-3e37-94ee" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Hatred" id="715a-2a85-8985-8cfc" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
-              <modifiers>
-                <modifier field="name" type="set" value="Hatred (Daemons of Slaanesh)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink name="Daemon" id="e54a-a337-8cf8-7fca" hidden="false" targetId="c74e-51fd-4f2e-6929" type="rule"/>
-            <infoLink name="Fear" id="0390-43de-4653-518b" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
-              <modifiers>
-                <modifier field="name" type="set" value="Fear (1)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink name="Furious Charge" id="b7e8-39ff-3388-8439" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
-              <modifiers>
-                <modifier field="name" type="set" value="Furious Charge (1)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <rules>
-            <rule name="Daemon of Khorne" id="ee63-ad3c-d5cb-ddea" hidden="false">
-              <description>Daemons of Khome have the Daemon, Furious Charge (1) and Hatred (Daemons of Slaanesh) special rules. Chariots with this rule resolve their Hammer of Wrath hits at Strength 7.</description>
-            </rule>
-          </rules>
-        </selectionEntry>
-        <selectionEntry name="Show Deepstrike rules" id="f8d1-3bdc-3632-3279" collective="false" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="d187-161a-a455-7227" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Deep Strike" id="9e36-d65c-9ddb-b2d6" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
-          </infoLinks>
-        </selectionEntry>
         <selectionEntry name="Flesh Hounds" id="d6a1-e343-bc6f-ef04" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="3bf2-b6b6-9fe2-e1e5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="5"/>
@@ -1594,7 +2001,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Khorne, Daemonic Instability, Deep Strike, Scout</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1639,52 +2046,7 @@ When a unit with the Daemonic Instability special rule loses an assault, it take
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Daemonic Instability" id="a93a-7bc0-3014-cf7d" hidden="false" page="0">
-          <description>Cannot join (or be joined by) models without this special rule. Automatically pass Fear, Pinning, and Morale tests.
-
-When a unit with the Daemonic Instability special rule loses an assault, it takes a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
-
-1) Take a Leadership test. if the dice roll is a double 1 or double 6, the Daemon&apos;s presence fluctuates:
-  Double 1 - Reality Blinks: All Wounds suffered by the unit this phase are restored. Any models from this unit killed this phase return, in coherency, at least 1&quot; from enemy models. If the returning modell&apos;s unit is locked in combat, the model Piles In.
-  Double 6 - Banished!: Remove the entire unit from play as casualties. If locked in combat, the enemy consolidates. 
-
-2) Now, if a double 1 or double 6 wasn&apos;t rolled, compare the roll to the Daemon&apos;s Leadership, including modifiers. For each point they fail by, the unit sufffers an additional Wound, with no saves of any kind.</description>
-        </rule>
-      </rules>
       <selectionEntries>
-        <selectionEntry name="Daemon of Khorne" id="9b14-0bb5-9a60-67c5" collective="false" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="3cf9-3f2a-2b2c-6d10" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-            <constraint id="ec09-7038-c2dd-35fb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Hatred" id="dd76-396a-1e48-f21a" hidden="false" targetId="a6b0-c95c-c78f-b0ab" type="rule">
-              <modifiers>
-                <modifier field="name" type="set" value="Hatred (Daemons of Slaanesh)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink name="Daemon" id="84f4-7859-04fe-05a7" hidden="false" targetId="c74e-51fd-4f2e-6929" type="rule"/>
-            <infoLink name="Fear" id="97ec-e81d-b5c1-40df" hidden="false" targetId="bbca-34a4-2d3d-8d2a" type="rule">
-              <modifiers>
-                <modifier field="name" type="set" value="Fear (1)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink name="Furious Charge" id="b5e1-f659-4907-9fac" hidden="false" targetId="7ddc-eea7-3935-d6d4" type="rule">
-              <modifiers>
-                <modifier field="name" type="set" value="Furious Charge (1)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <rules>
-            <rule name="Daemon of Khorne" id="eca7-47a2-0f44-2cd7" hidden="false">
-              <description>Daemons of Khome have the Daemon, Furious Charge (1) and Hatred (Daemons of Slaanesh) special rules. Chariots with this rule resolve their Hammer of Wrath hits at Strength 7.</description>
-            </rule>
-          </rules>
-        </selectionEntry>
         <selectionEntry name="Icon of Chaos" id="e6c0-5af2-08a4-ab4b" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="ff79-595c-bad1-5ae2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1736,17 +2098,6 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Show Deepstrike rules" id="e436-e73d-2d5f-6a6b" collective="false" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="0bea-d0d0-5962-a264" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Deep Strike" id="91e3-98c5-9bbc-56f1" hidden="false" targetId="5de7-dbec-8706-f21a" type="rule"/>
-          </infoLinks>
-        </selectionEntry>
         <selectionEntry name="Upgrade one Bloodcrusher to Bloodhunter" id="5540-32ec-bb82-1f93" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="2a73-1179-ec79-7b80" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -1768,7 +2119,7 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Khorne, Daemonic Instability, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1802,12 +2153,160 @@ If there are non-Daemons in either unit, the Icon has no effect.</description>
                 <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
                 <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
                 <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Khorne, Daemonic Instability, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Skull Cannon of Khorne (DONE)" id="d4ae-1000-0000-0021" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="125"/>
+      </costs>
+      <profiles>
+        <profile name="Skull Cannon of Khorne" id="d4ae-1000-0000-0026" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">5</characteristic>
+            <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">12</characteristic>
+            <characteristic name="Side" typeId="678c-ae54-8f51-b1df">12</characteristic>
+            <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
+            <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Chariot, Open-topped), Daemon of Khorne, Deep Strike, Bloodletter Crew, Gorefeast</characteristic>
+            <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Skullcannon" id="d4ae-1000-0000-0027" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Dreadskulls, Ignores Cover, Large Blast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Karanak (DONE)" id="d4ae-1000-0000-0031" collective="false" hidden="false" import="true" type="unit">
+      <constraints>
+        <constraint id="d4ae-1000-0000-0035" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="120"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Brass Collar of Bloody Vengeance" id="d4ae-1000-0000-0036" hidden="false" targetId="61a0-7ed8-1ced-76fb" type="profile">
+          <modifiers>
+            <modifier field="name" type="set" value="Brass Collar of Bloody Vengeance"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Karanak" id="d4ae-1000-0000-0037" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Beast (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">7</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">-</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">3</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">6</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">6+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Khorne, Daemonic Instability, Deep Strike, Hatred, Independent Character, Scout, Greater Locus of Fury, Prey of the Blood God</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Skulltaker (DONE)" id="d4ae-1000-0000-0041" collective="false" hidden="false" import="true" type="unit">
+      <constraints>
+        <constraint id="d4ae-1000-0000-0045" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="100"/>
+      </costs>
+      <profiles>
+        <profile name="Skulltaker" id="d4ae-1000-0000-0046" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">9</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">9</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">9</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">4</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Khorne, Daemonic Instability, Deep Strike, Independent Character, Adamantium Will, Eternal Warrior, Lesser Locus of Abjuration, Skulls for the Skull Throne!</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Slayer Sword" id="d4ae-1000-0000-0047" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Decapitating Blow, Soul Blaze</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cloak of Skulls" id="d4ae-1000-0000-0048" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Grants Skulltaker a 3+ armour save and the Eternal Warrior special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Skarbrand (DONE)" id="d4ae-1000-0000-0051" collective="false" hidden="false" import="true" type="unit">
+      <constraints>
+        <constraint id="d4ae-1000-0000-0055" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="225"/>
+      </costs>
+      <profiles>
+        <profile name="Skarbrand" id="d4ae-1000-0000-0056" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Monstrous Creature (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">10</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">10</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">6</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">6</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">5</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">10</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">6</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Khorne, Daemonic Instability, Deep Strike, Bellow of Endless Fury, Rage Embodied, Death Incarnate</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bellow of Endless Fury" id="d4ae-1000-0000-0057" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Slaughter" id="d4ae-1000-0000-0058" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Fleshbane, Instant Death</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Carnage" id="d4ae-1000-0000-0059" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Armourbane, Instant Death</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry name="Soul Grinder of Chaos" id="e538-8175-2c9b-2249" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
@@ -1996,11 +2495,9 @@ Movement 8&quot;</characteristic>
           <constraints>
             <constraint id="50b1-96f5-fbda-1c64" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
-          <rules>
-            <rule name="Daemon of Slaanesh" id="f9c0-85c3-0153-7f20" hidden="false">
-              <description>Daemons of Slaanesh have the Daemon, Fleet, Hatred (Daemon of Khorne) and Rending special rules. In addition, units composed entirely of Daemons of Slaanesh Run an additional 3&quot;. Units that are entirely composed of Cavalry models instead Run an additional 6&quot;. Vehicles that are not Walkers move an extra 3&quot; whenever they move Flat Out instead.</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink name="Daemon of Slaanesh" id="d4ae-1000-0000-0444" hidden="false" targetId="d4ae-1000-0000-0445" type="rule"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -2154,6 +2651,557 @@ Limitations
           <description>Friendly Units with the Daemon of Nurgle special rule gain +1 to their cover saves.</description>
         </rule>
       </rules>
+    </selectionEntry>
+    <selectionEntry name="Screamers of Tzeentch (DONE)" id="d4ae-1000-0000-0301" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Lamprey&apos;s Bite" id="d4ae-1000-0000-0307" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Armourbane; replaces all normal close combat attacks</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Slashing Attack" id="d4ae-1000-0000-0308" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">When this unit Turbo-boosts over one or more unengaged enemy units, choose one. It suffers D3 Strength 4 AP - hits for each Screamer that moved over it; Vehicles are hit on side armour.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Screamer of Tzeentch" id="d4ae-1000-0000-0303" collective="false" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0304" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="d4ae-1000-0000-0305" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
+          </costs>
+          <profiles>
+            <profile name="Screamer of Tzeentch" id="d4ae-1000-0000-0306" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jetbike</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">3</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">0</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Tzeentch, Daemonic Instability, Deep Strike, Lamprey&apos;s Bite, Slashing Attack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Flamers of Tzeentch" id="d4ae-1000-0000-0312" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry name="Flamer of Tzeentch" id="d4ae-1000-0000-0314" collective="false" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0315" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="d4ae-1000-0000-0316" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="23"/>
+          </costs>
+          <profiles>
+            <profile name="Flamer of Tzeentch" id="d4ae-1000-0000-0317" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jump Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Tzeentch, Daemonic Instability, Deep Strike, Warpflame</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Flames of Tzeentch" id="d4ae-1000-0000-0318" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Warpflame</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Pyrocaster" id="d4ae-1000-0000-0319" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0320" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+          </costs>
+          <profiles>
+            <profile name="Pyrocaster" id="d4ae-1000-0000-0321" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jump Infantry (Character)</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">2</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">5</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Tzeentch, Daemonic Instability, Deep Strike, Warpflame</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Pink Horrors of Tzeentch" id="d4ae-1000-0000-0331" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Daemon of Tzeentch" id="d4ae-1000-0000-0333" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0165" type="selectionEntry"/>
+        <entryLink name="Change" id="d4ae-1000-0000-0334" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0231" type="selectionEntryGroup"/>
+        <entryLink name="Daemonic Rewards" id="d4ae-1000-0000-0335" collective="false" hidden="true" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0336" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
+          </constraints>
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="d4ae-1000-0000-0342" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="d4ae-1000-0000-0331" shared="true" type="equalTo" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry name="Pink Horror" id="d4ae-1000-0000-0337" collective="false" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0338" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="10"/>
+            <constraint id="d4ae-1000-0000-0339" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="9"/>
+          </costs>
+          <profiles>
+            <profile name="Pink Horror" id="d4ae-1000-0000-0340" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Psyker)</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">3</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Brotherhood of Sorcerers, Daemon of Tzeentch, Daemonic Instability, Deep Strike, Blue Horrors, Magic Made Manifest</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Upgrade one Pink Horror to an Iridescent Horror" id="d4ae-1000-0000-0342" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0343" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+          </costs>
+          <profiles>
+            <profile name="Iridescent Horror" id="d4ae-1000-0000-0344" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character, Psyker)</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">3</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Brotherhood of Sorcerers, Daemon of Tzeentch, Daemonic Instability, Deep Strike, Blue Horrors, Magic Made Manifest</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="One Pink Horror may take an Instrument of Chaos" id="d4ae-1000-0000-0345" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0346" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+          </costs>
+          <profiles>
+            <profile name="Instrument of Chaos" id="d4ae-1000-0000-0347" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">If the bearer&apos;s side draws a combat, it counts as winning by one Wound. If both sides have an Instrument of Chaos, the result remains a draw.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="One different Pink Horror may take an Icon of Chaos" id="d4ae-1000-0000-0348" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0349" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+          </costs>
+          <profiles>
+            <profile name="Icon of Chaos" id="d4ae-1000-0000-0350" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Friendly Daemons that Deep Strike close to this Icon use the Icon of Chaos rules.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry name="Upgrade to Blasted Standard" id="d4ae-1000-0000-0351" collective="false" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="d4ae-1000-0000-0352" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+              </costs>
+              <profiles>
+                <profile name="Blasted Standard" id="d4ae-1000-0000-0353" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+                  <characteristics>
+                    <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Once per game, in the Shooting phase, the bearer&apos;s unit may make one shooting attack with a Strength 5 AP 3, Assault 1, Large Blast, Warpflame weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Exalted Flamer of Tzeentch" id="d4ae-1000-0000-0361" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="50"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Daemon of Tzeentch" id="d4ae-1000-0000-0363" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0165" type="selectionEntry"/>
+        <entryLink name="Daemonic Rewards" id="d4ae-1000-0000-0364" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0365" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Exalted Flamer of Tzeentch" id="d4ae-1000-0000-0366" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">3</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Tzeentch, Daemonic Instability, Deep Strike, Independent Character, Warpflame</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blue Fire of Tzeentch" id="d4ae-1000-0000-0367" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy D3, Warpflame</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pink Fire of Tzeentch" id="d4ae-1000-0000-0368" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Torrent, Warpflame</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Burning Chariot of Tzeentch" id="d4ae-1000-0000-0371" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="100"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Daemonic Rewards" id="d4ae-1000-0000-0373" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0374" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Exalted Flamer" id="d4ae-1000-0000-0378" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">3</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">4</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Tzeentch, Daemonic Instability, Deep Strike, Warpflame</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Burning Chariot" id="d4ae-1000-0000-0379" hidden="false" typeId="5d05-b85a-ce8a-a2e5" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="1bb0-95e0-a42a-3545">3</characteristic>
+            <characteristic name="Front" typeId="4bfa-429f-5871-ec8b">10</characteristic>
+            <characteristic name="Side" typeId="678c-ae54-8f51-b1df">10</characteristic>
+            <characteristic name="Rear" typeId="ba30-3821-8b66-5ba0">10</characteristic>
+            <characteristic name="HP" typeId="5e13-b98b-8be5-0dd9">3</characteristic>
+            <characteristic name="Type" typeId="bea4-6273-1ca3-52cf">Vehicle (Chariot, Fast, Open-topped, Skimmer; Transport [Exalted Flamer or Herald of Tzeentch]), Daemon of Tzeentch, Deep Strike, Aura of Change</characteristic>
+            <characteristic name="Movement" typeId="8f2e-a02c-1f7b-55d4">12&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blue Fire of Tzeentch" id="d4ae-1000-0000-0380" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy D3, Warpflame</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pink Fire of Tzeentch" id="d4ae-1000-0000-0381" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Template</characteristic>
+            <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+            <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
+            <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Torrent, Warpflame</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Blue Horror Crew" id="d4ae-1000-0000-0375" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0376" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Blue Horror Crew" id="d4ae-1000-0000-0377" hidden="false" targetId="d4ae-1000-0000-0354" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Lord of Change" id="d4ae-1000-0000-0391" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="230"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Daemon of Tzeentch" id="d4ae-1000-0000-0393" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0165" type="selectionEntry"/>
+        <entryLink name="Daemonic Rewards" id="d4ae-1000-0000-0394" collective="false" hidden="false" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0395" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="50"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Psychic Discipline" id="d4ae-1000-0000-0396" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0230" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Lord of Change" id="d4ae-1000-0000-0397" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Flying Monstrous Creature (Character, Psyker)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">6</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">6</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">6</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">6</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">5</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">6</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">5</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Tzeentch, Daemonic Instability, Deep Strike, Lord of Fate</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lord of Fate" id="d4ae-1000-0000-0398" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Daemon Princes with Daemon of Tzeentch are Heavy Support choices in a detachment that includes this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Kairos Fateweaver" id="d4ae-1000-0000-0401" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="300"/>
+      </costs>
+      <profiles>
+        <profile name="Kairos Fateweaver" id="d4ae-1000-0000-0405" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Flying Monstrous Creature (Character, Psyker)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">1</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">6</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">5</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">5</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">5</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">5</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">9</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">4++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Tzeentch, Daemonic Instability, Deep Strike, Oracle of Eternity, The Two Heads of Fate, Lord of Unreality</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Staff of Tomorrow" id="d4ae-1000-0000-0406" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Once per turn, re-roll a single D6 of your choice. Declare this before the re-roll; when it is one die of a multi-die roll, the other dice in that batch cannot be re-rolled.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Blue Scribes" id="d4ae-1000-0000-0411" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="81"/>
+      </costs>
+      <profiles>
+        <profile name="The Blue Scribes" id="d4ae-1000-0000-0414" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Jetbike (Character)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">3</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">3</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">4</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Tzeentch, Daemonic Instability, Deep Strike, Spell Syphon</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Scrolls of Sorcery" id="d4ae-1000-0000-0415" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">At the start of each friendly Psychic phase, choose a Psychic Discipline and roll a D6. This model automatically manifests that power this turn without a psychic test; it cannot choose the primaris power.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="The Changeling" id="d4ae-1000-0000-0421" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="75"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Change" id="d4ae-1000-0000-0424" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0231" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile name="The Changeling" id="d4ae-1000-0000-0425" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character, Psyker)</characteristic>
+            <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+            <characteristic name="WS" typeId="9660-0df5-9c5d-3604">3</characteristic>
+            <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
+            <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+            <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+            <characteristic name="W" typeId="a763-cbc8-2080-a4fb">2</characteristic>
+            <characteristic name="I" typeId="ea41-893b-3f82-5482">3</characteristic>
+            <characteristic name="A" typeId="d535-b745-b613-a7ab">1</characteristic>
+            <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">8</characteristic>
+            <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+            <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Tzeentch, Daemonic Instability, Deep Strike, Independent Character, Formless Horror, Lesser Locus of Transmogrification</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Daemonettes of Slaanesh" id="d4ae-1000-0000-0431" collective="false" hidden="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Daemon of Slaanesh" id="d4ae-1000-0000-0433" collective="false" hidden="false" import="true" targetId="1d23-eda4-7525-eedf" type="selectionEntry"/>
+        <entryLink name="Daemonic Rewards" id="d4ae-1000-0000-0434" collective="false" hidden="true" import="true" targetId="cd76-5043-44cb-bd9f" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0435" field="e7de-8dcf-403a-b76a" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
+          </constraints>
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="d4ae-1000-0000-0441" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="d4ae-1000-0000-0431" shared="true" type="equalTo" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry name="Daemonette" id="d4ae-1000-0000-0436" collective="false" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0437" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="10"/>
+            <constraint id="d4ae-1000-0000-0438" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="9"/>
+          </costs>
+          <profiles>
+            <profile name="Daemonette" id="d4ae-1000-0000-0439" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">5</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">5</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Slaanesh, Daemonic Instability, Deep Strike</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Upgrade one Daemonette to an Alluress" id="d4ae-1000-0000-0441" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0442" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="5"/>
+          </costs>
+          <profiles>
+            <profile name="Alluress" id="d4ae-1000-0000-0443" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Infantry (Character)</characteristic>
+                <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">6&quot;</characteristic>
+                <characteristic name="WS" typeId="9660-0df5-9c5d-3604">5</characteristic>
+                <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">4</characteristic>
+                <characteristic name="S" typeId="23ae-6026-aebd-abc3">3</characteristic>
+                <characteristic name="T" typeId="f6db-a6a5-71d2-71c5">3</characteristic>
+                <characteristic name="W" typeId="a763-cbc8-2080-a4fb">1</characteristic>
+                <characteristic name="I" typeId="ea41-893b-3f82-5482">5</characteristic>
+                <characteristic name="A" typeId="d535-b745-b613-a7ab">3</characteristic>
+                <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">7</characteristic>
+                <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
+                <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75">Daemon of Slaanesh, Daemonic Instability, Deep Strike</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2672,6 +3720,283 @@ Once all of a character&apos;s rewards are determined, he  can choose to swap a 
               <description>After resolving the bearer’s close combat attacks, add 1 model to a friendly unit of Plaguebearers of Nurgle within 12&quot; of the bearer for each enemy model that was slain. The model must be placed within unit coherency, more than 1&quot; from any enemy models. Any models that cannot be placed in this manner are lost.</description>
             </rule>
           </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Loci of Khorne" id="d4ae-1000-0000-0070" collective="false" hidden="false" import="true">
+      <constraints>
+        <constraint id="d4ae-1000-0000-0061" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="Lesser Locus of Abjuration" id="d4ae-1000-0000-0071" collective="false" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Lesser Locus of Abjuration" id="d4ae-1000-0000-0072" hidden="false" targetId="d4ae-1000-0000-0043" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="Greater Locus of Fury" id="d4ae-1000-0000-0073" collective="false" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Greater Locus of Fury" id="d4ae-1000-0000-0074" hidden="false" targetId="d4ae-1000-0000-0033" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="Exalted Locus of Wrath" id="d4ae-1000-0000-0075" collective="false" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Exalted Locus of Wrath" id="d4ae-1000-0000-0076" hidden="false" targetId="d4ae-1000-0000-0063" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Loci of Tzeentch" id="d4ae-1000-0000-0167" collective="false" hidden="false" import="true">
+      <selectionEntries>
+        <selectionEntry name="Lesser Locus of Transmogrification" id="d4ae-1000-0000-0168" collective="false" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Lesser Locus of Transmogrification" id="d4ae-1000-0000-0169" hidden="false" targetId="d4ae-1000-0000-0162" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="Greater Locus of Change" id="d4ae-1000-0000-0170" collective="false" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Greater Locus of Change" id="d4ae-1000-0000-0171" hidden="false" targetId="d4ae-1000-0000-0163" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="Exalted Locus of Conjuration" id="d4ae-1000-0000-0172" collective="false" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Exalted Locus of Conjuration" id="d4ae-1000-0000-0173" hidden="false" targetId="d4ae-1000-0000-0164" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Change" id="d4ae-1000-0000-0231" collective="false" hidden="false" import="true">
+      <constraints>
+        <constraint id="d4ae-1000-0000-0232" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="d4ae-1000-0000-0233" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="Flickering Fire of Tzeentch" id="d4ae-1000-0000-0234" collective="false" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Flickering Fire of Tzeentch" id="d4ae-1000-0000-0235" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2D6, Soul Blaze, Warpflame; Warp Charge 1-3 (+D6 shots per additional Warp Charge)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Tzeentch&apos;s Firestorm" id="d4ae-1000-0000-0236" collective="false" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Tzeentch&apos;s Firestorm" id="d4ae-1000-0000-0237" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">D6+1</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast, Warpflame; Warp Charge 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Bolt of Change" id="d4ae-1000-0000-0238" collective="false" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Bolt of Change" id="d4ae-1000-0000-0239" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">D6+4</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Beam, Warpflame; Warp Charge 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Tzeentch&apos;s Warpflare" id="d4ae-1000-0000-0240" collective="false" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Tzeentch&apos;s Warpflare" id="d4ae-1000-0000-0241" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">9&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">D6</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2D6, Nova, Ignores Cover, Warpflame; Warp Charge 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Boon of Flame" id="d4ae-1000-0000-0242" collective="false" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Boon of Flame" id="d4ae-1000-0000-0243" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
+              <characteristics>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Conjuration, range 12&quot;. At Warp Charge 2, create one Exalted Flamer of Tzeentch. At Warp Charge 3, create either three Flamers of Tzeentch or one Burning Chariot of Tzeentch.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Infernal Gateway" id="d4ae-1000-0000-0244" collective="false" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Infernal Gateway" id="d4ae-1000-0000-0245" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">D6+4</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast, Warpflame; Warp Charge 2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Prismatic Gaze" id="d4ae-1000-0000-0246" collective="false" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Prismatic Gaze" id="d4ae-1000-0000-0247" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">D</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Beam; Warp Charge 3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Tzeentch Psychic Disciplines" id="d4ae-1000-0000-0230" collective="false" hidden="false" import="true">
+      <constraints>
+        <constraint id="d4ae-1000-0000-0248" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="d4ae-1000-0000-0249" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Change" id="d4ae-1000-0000-0250" collective="false" hidden="false" import="true" targetId="d4ae-1000-0000-0231" type="selectionEntryGroup"/>
+        <entryLink name="Divination" id="d4ae-1000-0000-0251" collective="false" hidden="false" import="true" targetId="7ea5-9df4-33f4-83c3" type="selectionEntryGroup">
+          <modifiers>
+            <modifier field="f37f-6505-d819-be52" type="set" value="1"/>
+            <modifier field="f92b-145e-8081-2f7b" type="set" value="1"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Hellforged Artefacts of Tzeentch" id="d4ae-1000-0000-0220" collective="false" hidden="false" import="true">
+      <constraints>
+        <constraint id="d4ae-1000-0000-0221" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="Paradox" id="d4ae-1000-0000-0222" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0223" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Warp Contradiction" id="d4ae-1000-0000-0224" hidden="false" targetId="d4ae-1000-0000-0201" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Paradox" id="d4ae-1000-0000-0225" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Concussive, Warp Contradiction</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="The Endless Grimoire" id="d4ae-1000-0000-0226" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0227" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="35"/>
+          </costs>
+          <profiles>
+            <profile name="The Endless Grimoire" id="d4ae-1000-0000-0228" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">If the bearer generates all of its powers from Change, it knows every Change power.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Soul Bane" id="d4ae-1000-0000-0229" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0252" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Incorporeal" id="d4ae-1000-0000-0253" hidden="false" targetId="d4ae-1000-0000-0202" type="rule"/>
+            <infoLink name="Fleshbane" id="d4ae-1000-0000-0254" hidden="false" targetId="baa6-0397-f31a-1db7" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Soul Bane" id="d4ae-1000-0000-0255" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">*</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Incorporeal, Fleshbane</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="The Oracular Dais" id="d4ae-1000-0000-0256" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0257" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+            <constraint id="d4ae-1000-0000-0258" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="35"/>
+          </costs>
+          <profiles>
+            <profile name="The Oracular Dais" id="d4ae-1000-0000-0259" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Disc of Tzeentch only. At the start of each of your turns, one friendly Chaos Daemons unit in Reserve automatically passes its Reserve Roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="The Impossible Robe" id="d4ae-1000-0000-0260" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0261" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="25"/>
+          </costs>
+          <profiles>
+            <profile name="The Impossible Robe" id="d4ae-1000-0000-0262" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The bearer has a 3++ save. Each time it suffers an unsaved Wound, it must pass a Leadership test or be removed from play.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="The Everstave" id="d4ae-1000-0000-0263" collective="false" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d4ae-1000-0000-0264" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="20"/>
+          </costs>
+          <profiles>
+            <profile name="The Everstave" id="d4ae-1000-0000-0265" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">- / Template</characteristic>
+                <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User / 5</characteristic>
+                <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4 / 3</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Soul Blaze, Warpflame / Heavy 1, Soul Blaze, Warpflame</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

@@ -314,7 +314,7 @@ The shooting model is INFANTRY and its unit Remained Stationary in your previous
           <modifiers>
             <modifier field="e7de-8dcf-403a-b76a" type="increment" value="2">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="6caf-0626-35d9-d475" shared="true" value="1"/>
+                <repeat childId="56ae-d5d2-6fcc-e15e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="6caf-0626-35d9-d475" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>

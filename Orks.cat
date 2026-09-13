@@ -255,6 +255,10 @@ single Mekaniak Kult to apply to the detachment, chosen from the following:
     <rule name="Waaagh! Energy" id="bda9-f2e9-c45a-e758" hidden="false">
       <description>A Weirdboy may increase his Leadership by 1 for the purpose of Psychic Tests if there are ten or more models with the &apos;Ere We Go! special rule in his unit.</description>
     </rule>
+    <rule name="Biggest and Best" id="3ca7-6b3a-bf91-1a8e" hidden="false">
+      <description>An army must be at least 2,000 points in size to include a model with the Biggest and Best special rule. In addition, an army may only include a maximum of one model with the Biggest and Best special rule. This counts across all Detachments of an army. A model with the Biggest and Best special rule must be the Warlord. An army that contains a model with the Biggest and Best special rule as its Warlord may use the
+Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not been removed as a casualty.</description>
+    </rule>
   </rules>
   <sharedProfiles>
     <profile name="Choppa" id="8d2e-59ca-9155-7112" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1371,7 +1375,7 @@ Snakebite combat drugs.
                 <condition childId="any" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
               </conditions>
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="7399-b01e-2e13-6602" shared="true" value="10"/>
+                <repeat childId="36d9-3b3c-d1b2-91ea" field="selections" repeats="1" roundUp="false" scope="7399-b01e-2e13-6602" shared="true" value="10"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -1670,12 +1674,12 @@ Snakebite combat drugs.
           <modifiers>
             <modifier field="6e9e-1c05-086c-5738" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="f47b-16e6-fe7b-bc04" shared="true" value="10"/>
+                <repeat childId="63f8-3e28-de67-0dbe" field="selections" repeats="1" roundUp="false" scope="f47b-16e6-fe7b-bc04" shared="true" value="10"/>
               </repeats>
             </modifier>
             <modifier field="d5e2-c312-f47b-3ac5" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="f47b-16e6-fe7b-bc04" shared="true" value="10"/>
+                <repeat childId="63f8-3e28-de67-0dbe" field="selections" repeats="1" roundUp="false" scope="f47b-16e6-fe7b-bc04" shared="true" value="10"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -1798,12 +1802,6 @@ Snakebite combat drugs.
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Biggest and Best" id="3ca7-6b3a-bf91-1a8e" hidden="false">
-          <description>An army must be at least 2,000 points in size to include a model with the Biggest and Best special rule. In addition, an army may only include a maximum of one model with the Biggest and Best special rule. This counts across all Detachments of an army. A model with the Biggest and Best special rule must be the Warlord. An army that contains a model with the Biggest and Best special rule as its Warlord may use the
-Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not been removed as a casualty.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Cybork body" id="8dec-9659-c000-0f71" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -2194,7 +2192,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not been�
           <modifiers>
             <modifier field="e7de-8dcf-403a-b76a" type="increment" value="5">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="9d6a-785a-7296-2344" shared="true" value="1"/>
+                <repeat childId="b1c4-5f0b-17b6-1a00" field="selections" repeats="1" roundUp="false" scope="9d6a-785a-7296-2344" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="hidden" type="set" value="false">
@@ -2492,7 +2490,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not been�
           <modifiers>
             <modifier field="e7de-8dcf-403a-b76a" type="increment" value="2">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="6f8b-2eee-bc17-29a1" shared="true" value="1"/>
+                <repeat childId="a6b9-a73c-20dc-a65d" field="selections" repeats="1" roundUp="false" scope="6f8b-2eee-bc17-29a1" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -2976,7 +2974,7 @@ Waaagh! Advanced Reaction twice per battle, as long as the Warlord has not been�
                 <condition childId="any" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
               </conditions>
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="50e3-6e06-ccd2-aee3" shared="true" value="10"/>
+                <repeat childId="813e-a662-51c4-aa5e" field="selections" repeats="1" roundUp="false" scope="50e3-6e06-ccd2-aee3" shared="true" value="10"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -3442,17 +3440,20 @@ Limitations
           <modifiers>
             <modifier field="7020-1853-3ca5-6b06" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="1eca-f247-b6e7-000c" shared="true" value="1"/>
+                <repeat childId="105f-7b5e-5b88-1599" field="selections" repeats="1" roundUp="false" scope="1eca-f247-b6e7-000c" shared="true" value="1"/>
+                <repeat childId="e5b4-c24d-2911-815b" field="selections" repeats="1" roundUp="false" scope="1eca-f247-b6e7-000c" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="17c4-bd90-627a-db37" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="1eca-f247-b6e7-000c" shared="true" value="1"/>
+                <repeat childId="105f-7b5e-5b88-1599" field="selections" repeats="1" roundUp="false" scope="1eca-f247-b6e7-000c" shared="true" value="1"/>
+                <repeat childId="e5b4-c24d-2911-815b" field="selections" repeats="1" roundUp="false" scope="1eca-f247-b6e7-000c" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="e7de-8dcf-403a-b76a" type="increment" value="3">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="1eca-f247-b6e7-000c" shared="true" value="1"/>
+                <repeat childId="105f-7b5e-5b88-1599" field="selections" repeats="1" roundUp="false" scope="1eca-f247-b6e7-000c" shared="true" value="1"/>
+                <repeat childId="e5b4-c24d-2911-815b" field="selections" repeats="1" roundUp="false" scope="1eca-f247-b6e7-000c" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -3820,7 +3821,7 @@ Limitations
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="2">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="o200-1001-0001-0001" shared="true" value="1"/>
+                    <repeat childId="o200-4001-0001-0001" field="selections" repeats="1" roundUp="false" scope="o200-1001-0001-0001" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -3829,7 +3830,7 @@ Limitations
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="5">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="o200-1001-0001-0001" shared="true" value="1"/>
+                    <repeat childId="o200-4001-0001-0001" field="selections" repeats="1" roundUp="false" scope="o200-1001-0001-0001" shared="true" value="1"/>
                   </repeats>
                 </modifier>
                 <modifier field="hidden" type="set" value="false">
@@ -4215,7 +4216,7 @@ Limitations
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="2">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="o200-1003-0001-0001" shared="true" value="1"/>
+                    <repeat childId="o200-4003-0001-0001" field="selections" repeats="1" roundUp="false" scope="o200-1003-0001-0001" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -4227,7 +4228,7 @@ Limitations
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="2">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="o200-1003-0001-0001" shared="true" value="1"/>
+                    <repeat childId="o200-4003-0001-0001" field="selections" repeats="1" roundUp="false" scope="o200-1003-0001-0001" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -6127,7 +6128,7 @@ Limitations
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="2">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="o200-1001-0001-0002" shared="true" value="1"/>
+                    <repeat childId="o200-4001-0001-0002" field="selections" repeats="1" roundUp="false" scope="o200-1001-0001-0002" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -6241,7 +6242,7 @@ Limitations
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="2">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="o200-1001-0001-0003" shared="true" value="1"/>
+                    <repeat childId="o200-4001-0001-0003" field="selections" repeats="1" roundUp="false" scope="o200-1001-0001-0003" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -6253,7 +6254,7 @@ Limitations
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="2">
                   <repeats>
-                    <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="o200-1001-0001-0003" shared="true" value="1"/>
+                    <repeat childId="o200-4001-0001-0003" field="selections" repeats="1" roundUp="false" scope="o200-1001-0001-0003" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>

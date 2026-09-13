@@ -179,7 +179,7 @@
                 <condition childId="d6a5-bc44-6705-0951" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1"/>
               </conditions>
             </modifier>
-            <modifier field="category" type="remove" value="ebc5-5615-35fb-bc91">
+            <modifier field="category" type="remove" value="3aa2-0f2d-c4eb-172c">
               <conditions>
                 <condition childId="d6a5-bc44-6705-0951" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1"/>
               </conditions>
@@ -322,7 +322,11 @@
         <categoryLink name="Elites" id="9cb6-d28e-704c-ceb9" primary="true" targetId="ebc5-5615-35fb-bc91"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Ferrum Infernus Chaos Dreadnought Talon" id="9105-efc2-096e-b531" hidden="false" import="true" targetId="d591-bec5-5adb-cf29" type="selectionEntry"/>
+    <entryLink name="Ferrum Infernus Chaos Dreadnought Talon" id="9105-efc2-096e-b531" hidden="false" import="true" targetId="d591-bec5-5adb-cf29" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" id="332c-1e88-0eb0-a5bb" hidden="false" primary="false" targetId="ebc5-5615-35fb-bc91"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink name="Possessed" id="c100-0001-0001-0001" hidden="false" import="true" targetId="c100-1001-0001-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="c100-2001-0001-0001" primary="true" targetId="ebc5-5615-35fb-bc91"/>
@@ -8871,7 +8875,7 @@ A model with Resplendent Wings may still Run if it would normally be able to Run
             <characteristic name="WS" typeId="ffe9-2a7f-bd4e-66cc">5</characteristic>
             <characteristic name="BS" typeId="0ddb-0fe2-6393-7c9e">5</characteristic>
             <characteristic name="S" typeId="860b-ab05-e422-b9db">6</characteristic>
-            <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">5</characteristic>
+            <characteristic name="T" typeId="8fc3-a8c7-c14d-9e62">6</characteristic>
             <characteristic name="W" typeId="7e98-a40e-cf96-4a4b">6</characteristic>
             <characteristic name="I" typeId="f7c5-664d-a82a-946f">3</characteristic>
             <characteristic name="A" typeId="b53b-1fc5-02c8-e69b">3</characteristic>

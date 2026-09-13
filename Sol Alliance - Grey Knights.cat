@@ -2684,12 +2684,12 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
           <modifiers>
             <modifier field="4862-d709-4685-0153" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="7069-9406-f09a-5847" shared="true" value="1"/>
+                <repeat childId="0105-470c-1b9e-815e" field="selections" repeats="1" roundUp="false" scope="7069-9406-f09a-5847" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="c7fa-d998-a3ef-8d2e" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="7069-9406-f09a-5847" shared="true" value="1"/>
+                <repeat childId="0105-470c-1b9e-815e" field="selections" repeats="1" roundUp="false" scope="7069-9406-f09a-5847" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -2779,12 +2779,12 @@ A Storm Bolter, Hurricane Bolter, Heavy Bolter or Assault Cannon armed with Psyb
           <modifiers>
             <modifier field="5555-fa9b-8b5d-0656" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="7069-9406-f09a-5847" shared="true" value="1"/>
+                <repeat childId="0105-470c-1b9e-815e" field="selections" repeats="1" roundUp="false" scope="7069-9406-f09a-5847" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="b8c0-3760-1801-0550" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" repeats="1" roundUp="false" scope="7069-9406-f09a-5847" shared="true" value="1"/>
+                <repeat childId="0105-470c-1b9e-815e" field="selections" repeats="1" roundUp="false" scope="7069-9406-f09a-5847" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>

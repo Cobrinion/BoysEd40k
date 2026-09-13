@@ -822,12 +822,12 @@ When rolling to Hit while Engaged with a Nemesis unit, a model with this special
           <modifiers>
             <modifier field="dcfb-d252-e1ca-9007" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="eaa0-4311-0ec7-5435" shared="true" value="1"/>
+                <repeat childId="c7b4-be2b-0c09-cc6c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="eaa0-4311-0ec7-5435" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="2fde-90f7-d444-b7b2" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="eaa0-4311-0ec7-5435" shared="true" value="1"/>
+                <repeat childId="c7b4-be2b-0c09-cc6c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="eaa0-4311-0ec7-5435" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="dcfb-d252-e1ca-9007" type="decrement" value="3"/>
@@ -1061,12 +1061,12 @@ When rolling to Hit while Engaged with a Nemesis unit, a model with this special
           <modifiers>
             <modifier field="febf-9742-a715-fd4d" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="8a09-a245-865b-d03c" shared="true" value="1"/>
+                <repeat childId="8df2-c304-e722-f0a9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="8a09-a245-865b-d03c" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="641e-f3b9-03c9-e762" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="8a09-a245-865b-d03c" shared="true" value="1"/>
+                <repeat childId="8df2-c304-e722-f0a9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="8a09-a245-865b-d03c" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="febf-9742-a715-fd4d" type="decrement" value="3"/>
@@ -1115,7 +1115,7 @@ When rolling to Hit while Engaged with a Nemesis unit, a model with this special
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="15">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="8a09-a245-865b-d03c" shared="true" value="1"/>
+                    <repeat childId="8df2-c304-e722-f0a9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="8a09-a245-865b-d03c" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1133,7 +1133,7 @@ When rolling to Hit while Engaged with a Nemesis unit, a model with this special
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="5">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="8a09-a245-865b-d03c" shared="true" value="1"/>
+                    <repeat childId="8df2-c304-e722-f0a9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="8a09-a245-865b-d03c" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1151,7 +1151,7 @@ When rolling to Hit while Engaged with a Nemesis unit, a model with this special
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="5">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="8a09-a245-865b-d03c" shared="true" value="1"/>
+                    <repeat childId="8df2-c304-e722-f0a9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="8a09-a245-865b-d03c" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1508,7 +1508,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="15">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="44d1-eed3-573c-ff1b" shared="true" value="1"/>
+                    <repeat childId="6e0f-01b8-64a1-df20" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="44d1-eed3-573c-ff1b" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1526,7 +1526,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="5">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="44d1-eed3-573c-ff1b" shared="true" value="1"/>
+                    <repeat childId="6e0f-01b8-64a1-df20" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="44d1-eed3-573c-ff1b" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1544,7 +1544,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="5">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="44d1-eed3-573c-ff1b" shared="true" value="1"/>
+                    <repeat childId="6e0f-01b8-64a1-df20" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="44d1-eed3-573c-ff1b" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1562,7 +1562,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="15">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="44d1-eed3-573c-ff1b" shared="true" value="1"/>
+                    <repeat childId="6e0f-01b8-64a1-df20" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="44d1-eed3-573c-ff1b" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1826,7 +1826,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="15">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="07fc-af15-a40f-58be" shared="true" value="1"/>
+                    <repeat childId="be87-4002-3c19-3b36" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="07fc-af15-a40f-58be" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1844,7 +1844,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="5">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="07fc-af15-a40f-58be" shared="true" value="1"/>
+                    <repeat childId="be87-4002-3c19-3b36" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="07fc-af15-a40f-58be" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -1859,12 +1859,12 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
           <modifiers>
             <modifier field="a219-7712-1a8c-709c" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="07fc-af15-a40f-58be" shared="true" value="1"/>
+                <repeat childId="be87-4002-3c19-3b36" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="07fc-af15-a40f-58be" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="8065-ddac-3d7f-9438" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="07fc-af15-a40f-58be" shared="true" value="1"/>
+                <repeat childId="be87-4002-3c19-3b36" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="07fc-af15-a40f-58be" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="a219-7712-1a8c-709c" type="decrement" value="3"/>
@@ -2693,12 +2693,12 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
             <modifier field="7ddc-4107-78f8-d7af" type="decrement" value="3"/>
             <modifier field="d58b-c4b9-b570-82b3" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
+                <repeat childId="09df-7789-1def-8adb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="7ddc-4107-78f8-d7af" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
+                <repeat childId="09df-7789-1def-8adb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -2752,12 +2752,12 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
           <modifiers>
             <modifier field="0440-4fc1-604a-eaaa" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
+                <repeat childId="09df-7789-1def-8adb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="b99c-bc7e-e31d-af6b" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
+                <repeat childId="09df-7789-1def-8adb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="b99c-bc7e-e31d-af6b" type="decrement" value="3"/>
@@ -2810,7 +2810,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="15">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
+                    <repeat childId="09df-7789-1def-8adb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -2828,7 +2828,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
               <modifiers>
                 <modifier field="e7de-8dcf-403a-b76a" type="increment" value="5">
                   <repeats>
-                    <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
+                    <repeat childId="09df-7789-1def-8adb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="a683-2b0c-99c1-f3da" shared="true" value="1"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -2888,12 +2888,12 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
           <modifiers>
             <modifier field="cab4-bdc7-9cf0-9336" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="5293-b592-fdbe-8bdd" shared="true" value="1"/>
+                <repeat childId="b671-077b-5081-a4ff" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="5293-b592-fdbe-8bdd" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="9d5b-6f6f-9eb8-85d9" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="5293-b592-fdbe-8bdd" shared="true" value="1"/>
+                <repeat childId="b671-077b-5081-a4ff" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="5293-b592-fdbe-8bdd" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="cab4-bdc7-9cf0-9336" type="decrement" value="3"/>
@@ -3239,7 +3239,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Venerable Contemptor Dreadnought (DONE)" id="c102-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Venerable Contemptor Dreadnought" id="c102-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="200"/>
       </costs>
@@ -3294,13 +3294,13 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Venerable Land Raider (DONE)" id="c101-1001-0001-0001" hidden="false" import="true" type="unit">
+    <selectionEntry name="Venerable Land Raider" id="c101-1001-0001-0001" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="275"/>
       </costs>
       <infoLinks>
-        <infoLink name="Twin-Linked Heavy Bolter" id="c101-4001-0001-0001" hidden="false" targetId="ca4f-7c64-abdd-819d" type="profile"/>
-        <infoLink name="Two Twin-Linked Lascannons" id="c101-4001-0001-0003" hidden="false" targetId="6789-a19c-72d5-41b3" type="profile"/>
+        <infoLink name="Heavy Bolter" id="c101-4001-0001-0001" hidden="false" targetId="ca4f-7c64-abdd-819d" type="profile"/>
+        <infoLink name="Lascannon" id="c101-4001-0001-0003" hidden="false" targetId="6789-a19c-72d5-41b3" type="profile"/>
         <infoLink name="Searchlights" id="c101-4001-0001-0004" hidden="false" targetId="c50c-3005-7846-a79e" type="profile"/>
         <infoLink name="Smoke Launchers" id="c101-4001-0001-0005" hidden="false" targetId="7ff5-cd30-5c53-c8aa" type="profile"/>
       </infoLinks>
@@ -3360,7 +3360,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Custodian Venatari Squad (DONE)" id="c103-1001-0001-0001" hidden="false" import="true" type="unit">
+    <selectionEntry name="Custodian Venatari Squad" id="c103-1001-0001-0001" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="15"/>
       </costs>
@@ -3409,12 +3409,12 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
           <modifiers>
             <modifier field="c103-8001-0001-0001" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="c103-1001-0001-0001" shared="true" value="1"/>
+                <repeat childId="c103-3001-0001-0001" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="c103-1001-0001-0001" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="c103-8001-0001-0002" type="increment" value="1">
               <repeats>
-                <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="c103-1001-0001-0001" shared="true" value="1"/>
+                <repeat childId="c103-3001-0001-0001" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="c103-1001-0001-0001" shared="true" value="1"/>
               </repeats>
             </modifier>
             <modifier field="c103-8001-0001-0001" type="decrement" value="3"/>
@@ -3446,7 +3446,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Orion Assault Dropship (DONE)" id="c104-1001-0001-0001" hidden="false" import="true" type="unit">
+    <selectionEntry name="Orion Assault Dropship" id="c104-1001-0001-0001" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="600"/>
       </costs>
@@ -3476,7 +3476,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Ares Gunship (DONE)" id="c105-1001-0001-0001" hidden="false" import="true" type="unit">
+    <selectionEntry name="Ares Gunship" id="c105-1001-0001-0001" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="650"/>
       </costs>
@@ -3501,7 +3501,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Custodian Grav-Raider Carrier (DONE)" id="d106-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Custodian Grav-Raider Carrier" id="d106-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="325"/>
       </costs>
@@ -3548,7 +3548,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Custodian Land Raider Spartan Assault Tank (DONE)" id="d107-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Custodian Land Raider Spartan Assault Tank" id="d107-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="415"/>
       </costs>
@@ -3606,7 +3606,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Custodian Grav-Spartan Assault Tank (DONE)" id="d108-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Custodian Grav-Spartan Assault Tank" id="d108-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="450"/>
       </costs>
@@ -3653,7 +3653,7 @@ In addition, a model with a Praesidium shield cannot claim bonus attacks for hav
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Contemptor-Moritax Dreadnought Talon (DONE)" id="d110-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Contemptor-Moritax Dreadnought Talon" id="d110-1001-0001-0001" collective="false" hidden="false" import="true" type="unit">
       <infoLinks>
         <infoLink name="Atomantic Deflector" id="d110-9001-0001-0009" hidden="false" targetId="cd7c-46f6-7711-85b3" type="profile"/>
       </infoLinks>
