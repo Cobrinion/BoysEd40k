@@ -1,5 +1,9 @@
 # Primaris Outrider Squad review
 
+## Current correction — 14 September 2026 (Primaris17 / GST43)
+
+Both Outrider and Sergeant are now T5/W1. Removed the unsupported extra bike Wound; Captain bike likewise retains his innate W3. Devastating Charge was previously removed in favour of native Hammer of Wrath (2). Squad now costs30/model,90 total; Captain bike+30. Existing bolt weapons and other rules unchanged. Earlier W2/Devastating Charge/135-point statements below are historical and superseded. See PRIMARIS_BIKE_WOUND_AND_POINTS_REVIEW.md for the repository comparator assessment and caveats.
+
 ## Completed pass
 
 - Added the missing Fast Attack unit as the source's fixed three-bike squad: two Outriders and one Sergeant.

@@ -1,68 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<gameSystem name="Warhammer 40k: Emperor Edition" id="d74c-5ac5-fbf4-56c3" authorName="Cobrinion" battleScribeVersion="2.03" revision="38" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem name="Warhammer 40k: Emperor Edition" id="d74c-5ac5-fbf4-56c3" authorName="Cobrinion" battleScribeVersion="2.03" revision="43" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
-    <categoryEntry name="Elites" id="ebc5-5615-35fb-bc91" hidden="false" />
-    <categoryEntry name="Fast Attack" id="3aa2-0f2d-c4eb-172c" hidden="false" />
-    <categoryEntry name="HQ" id="6375-3e5f-be64-925e" hidden="false" />
-    <categoryEntry name="Flyer" id="19d9-45e7-5d5a-b7db" hidden="false" />
-    <categoryEntry name="Troops" id="644a-f3d4-2643-0e0b" hidden="false" />
-    <categoryEntry name="Transport" id="9ec8-042a-a605-4622" hidden="false" />
-    <categoryEntry name="Heavy Support" id="2b42-3a90-e878-d0c5" hidden="false" />
-    <categoryEntry name="Lords of War" id="c120-40b0-a111-9001" hidden="false" />
+    <categoryEntry name="Elites" id="ebc5-5615-35fb-bc91" hidden="false"/>
+    <categoryEntry name="Fast Attack" id="3aa2-0f2d-c4eb-172c" hidden="false"/>
+    <categoryEntry name="HQ" id="6375-3e5f-be64-925e" hidden="false"/>
+    <categoryEntry name="Flyer" id="19d9-45e7-5d5a-b7db" hidden="false"/>
+    <categoryEntry name="Troops" id="644a-f3d4-2643-0e0b" hidden="false"/>
+    <categoryEntry name="Transport" id="9ec8-042a-a605-4622" hidden="false"/>
+    <categoryEntry name="Heavy Support" id="2b42-3a90-e878-d0c5" hidden="false"/>
+    <categoryEntry name="Lords of War" id="c120-40b0-a111-9001" hidden="false"/>
     <categoryEntry name="Relics" id="6093-06d4-ef01-5a0b" hidden="false">
       <constraints>
-        <constraint id="72d4-6a1c-47ae-f794" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="true" scope="1fd7-0abc-0802-6a78" shared="true" type="max" value="25" />
+        <constraint id="72d4-6a1c-47ae-f794" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="true" scope="1fd7-0abc-0802-6a78" shared="true" type="max" value="25"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry name="Legion" id="bcf1-3cff-891b-b052" hidden="false" />
-    <categoryEntry name="Formation Rites" id="3e97-e234-290d-0c10" hidden="false" />
+    <categoryEntry name="Legion" id="bcf1-3cff-891b-b052" hidden="false"/>
+    <categoryEntry name="Formation Rites" id="3e97-e234-290d-0c10" hidden="false"/>
   </categoryEntries>
   <costTypes>
-    <costType name="pts" id="e7de-8dcf-403a-b76a" defaultCostLimit="0" hidden="false" />
+    <costType name="pts" id="e7de-8dcf-403a-b76a" defaultCostLimit="0" hidden="false"/>
   </costTypes>
   <forceEntries>
     <forceEntry name="Strike Force" id="1fd7-0abc-0802-6a78" hidden="false">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="4e25-60bc-fac9-faef" hidden="false" primary="false" targetId="2b42-3a90-e878-d0c5">
           <constraints>
-            <constraint id="9ad3-5620-b7ee-5001" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
+            <constraint id="9ad3-5620-b7ee-5001" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Lords of War" id="c120-40b0-a111-9002" hidden="false" primary="false" targetId="c120-40b0-a111-9001" />
+        <categoryLink name="Lords of War" id="c120-40b0-a111-9002" hidden="false" primary="false" targetId="c120-40b0-a111-9001"/>
         <categoryLink name="HQ" id="483f-2d0f-edc5-0c42" hidden="false" primary="false" targetId="6375-3e5f-be64-925e">
           <constraints>
-            <constraint id="0171-411f-66a3-d3b3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
-            <constraint id="5434-97c1-f628-b57e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
+            <constraint id="0171-411f-66a3-d3b3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5434-97c1-f628-b57e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Troops" id="d4ee-c500-29d8-9e34" hidden="false" primary="false" targetId="644a-f3d4-2643-0e0b">
           <constraints>
-            <constraint id="ff78-0141-584b-0cd0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2" />
-            <constraint id="eed8-4a4e-6c53-9110" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="6" />
+            <constraint id="ff78-0141-584b-0cd0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="eed8-4a4e-6c53-9110" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="6"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Fast Attack" id="87c9-732f-cf9e-ec8c" hidden="false" primary="false" targetId="3aa2-0f2d-c4eb-172c">
           <constraints>
-            <constraint id="7568-696b-dfe9-e49e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
+            <constraint id="7568-696b-dfe9-e49e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Elites" id="463d-dfcc-35ac-9b73" hidden="false" primary="false" targetId="ebc5-5615-35fb-bc91">
           <constraints>
-            <constraint id="0345-2d01-d614-bc86" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="4" />
+            <constraint id="0345-2d01-d614-bc86" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="4"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Flyer" id="2bf0-e519-0ba9-0ac7" hidden="false" primary="false" targetId="19d9-45e7-5d5a-b7db" />
+        <categoryLink name="Flyer" id="2bf0-e519-0ba9-0ac7" hidden="false" primary="false" targetId="19d9-45e7-5d5a-b7db"/>
         <categoryLink name="Transport" id="62d8-203e-0d6c-f8fa" hidden="false" primary="false" targetId="9ec8-042a-a605-4622">
           <constraints>
-            <constraint id="57a2-680f-933d-c7db" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="6" />
+            <constraint id="57a2-680f-933d-c7db" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="6"/>
           </constraints>
           <infoLinks>
-            <infoLink name="Unshakeable Nerve" id="58ce-7ae3-ce75-806c" hidden="false" targetId="ed59-75b9-546f-c5df" type="rule" />
+            <infoLink name="Unshakeable Nerve" id="58ce-7ae3-ce75-806c" hidden="false" targetId="ed59-75b9-546f-c5df" type="rule"/>
           </infoLinks>
         </categoryLink>
         <categoryLink name="Formation Rites" id="70f4-40d0-8542-bdff" hidden="false" primary="false" targetId="3e97-e234-290d-0c10">
           <constraints>
-            <constraint id="41fd-d3b0-742f-ca60" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
+            <constraint id="41fd-d3b0-742f-ca60" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -71,108 +71,113 @@
   <profileTypes>
     <profileType name="Unit" id="35bb-3fdd-dd9d-1fc8">
       <characteristicTypes>
-        <characteristicType name="Unit Type" id="2ba2-3a82-dfb7-7849" />
-        <characteristicType name="M" id="e8fa-a6b3-0e8c-18aa" />
-        <characteristicType name="WS" id="9660-0df5-9c5d-3604" />
-        <characteristicType name="BS" id="565d-bf36-9e7e-29b5" />
-        <characteristicType name="S" id="23ae-6026-aebd-abc3" />
-        <characteristicType name="T" id="f6db-a6a5-71d2-71c5" />
-        <characteristicType name="W" id="a763-cbc8-2080-a4fb" />
-        <characteristicType name="I" id="ea41-893b-3f82-5482" />
-        <characteristicType name="A" id="d535-b745-b613-a7ab" />
-        <characteristicType name="Ld" id="3b5e-ab67-ed36-a88f" />
-        <characteristicType name="Save" id="d33e-1fdc-0c00-8cb8" />
-        <characteristicType name="Special Rules" id="3df9-f556-8725-fe75" />
+        <characteristicType name="Unit Type" id="2ba2-3a82-dfb7-7849"/>
+        <characteristicType name="M" id="e8fa-a6b3-0e8c-18aa"/>
+        <characteristicType name="WS" id="9660-0df5-9c5d-3604"/>
+        <characteristicType name="BS" id="565d-bf36-9e7e-29b5"/>
+        <characteristicType name="S" id="23ae-6026-aebd-abc3"/>
+        <characteristicType name="T" id="f6db-a6a5-71d2-71c5"/>
+        <characteristicType name="W" id="a763-cbc8-2080-a4fb"/>
+        <characteristicType name="I" id="ea41-893b-3f82-5482"/>
+        <characteristicType name="A" id="d535-b745-b613-a7ab"/>
+        <characteristicType name="Ld" id="3b5e-ab67-ed36-a88f"/>
+        <characteristicType name="Save" id="d33e-1fdc-0c00-8cb8"/>
+        <characteristicType name="Special Rules" id="3df9-f556-8725-fe75"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Flyer" id="8f83-a815-e805-d466">
       <characteristicTypes>
-        <characteristicType name="BS" id="323c-4b52-c089-85ea" />
-        <characteristicType name="Front" id="d90c-5e7c-622c-dad3" />
-        <characteristicType name="Side" id="2f0d-836c-0bf6-0012" />
-        <characteristicType name="Rear" id="c2d6-6c8c-3ebc-3551" />
-        <characteristicType name="HP" id="8f79-ed08-7765-37cc" />
-        <characteristicType name="Type" id="ea94-b590-00e6-c2b5" />
+        <characteristicType name="BS" id="323c-4b52-c089-85ea"/>
+        <characteristicType name="Front" id="d90c-5e7c-622c-dad3"/>
+        <characteristicType name="Side" id="2f0d-836c-0bf6-0012"/>
+        <characteristicType name="Rear" id="c2d6-6c8c-3ebc-3551"/>
+        <characteristicType name="HP" id="8f79-ed08-7765-37cc"/>
+        <characteristicType name="Type" id="ea94-b590-00e6-c2b5"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Vehicle" id="5d05-b85a-ce8a-a2e5">
       <characteristicTypes>
-        <characteristicType name="BS" id="1bb0-95e0-a42a-3545" />
-        <characteristicType name="Front" id="4bfa-429f-5871-ec8b" />
-        <characteristicType name="Side" id="678c-ae54-8f51-b1df" />
-        <characteristicType name="Rear" id="ba30-3821-8b66-5ba0" />
-        <characteristicType name="HP" id="5e13-b98b-8be5-0dd9" />
-        <characteristicType name="Type" id="bea4-6273-1ca3-52cf" />
-        <characteristicType name="Movement" id="8f2e-a02c-1f7b-55d4" />
+        <characteristicType name="BS" id="1bb0-95e0-a42a-3545"/>
+        <characteristicType name="Front" id="4bfa-429f-5871-ec8b"/>
+        <characteristicType name="Side" id="678c-ae54-8f51-b1df"/>
+        <characteristicType name="Rear" id="ba30-3821-8b66-5ba0"/>
+        <characteristicType name="HP" id="5e13-b98b-8be5-0dd9"/>
+        <characteristicType name="Type" id="bea4-6273-1ca3-52cf"/>
+        <characteristicType name="Movement" id="8f2e-a02c-1f7b-55d4"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Walker" id="9a52-fe67-f5f9-1831">
       <characteristicTypes>
-        <characteristicType name="WS" id="cfaf-5452-e6f9-284e" />
-        <characteristicType name="BS" id="d6fe-13c0-18e7-8391" />
-        <characteristicType name="S" id="b1d9-e094-2c04-c9cb" />
-        <characteristicType name="Front" id="5dac-1dc7-b519-cc63" />
-        <characteristicType name="Side" id="af8e-d39b-4db2-4f0b" />
-        <characteristicType name="Rear" id="9ecb-93b9-1852-d41d" />
-        <characteristicType name="I" id="cb51-50a0-82c0-4056" />
-        <characteristicType name="A" id="d4b1-6383-7ccc-d81a" />
-        <characteristicType name="HP" id="6967-3e70-e642-0a3f" />
-        <characteristicType name="Type" id="d348-b701-d4cb-2291" />
+        <characteristicType name="WS" id="cfaf-5452-e6f9-284e"/>
+        <characteristicType name="BS" id="d6fe-13c0-18e7-8391"/>
+        <characteristicType name="S" id="b1d9-e094-2c04-c9cb"/>
+        <characteristicType name="Front" id="5dac-1dc7-b519-cc63"/>
+        <characteristicType name="Side" id="af8e-d39b-4db2-4f0b"/>
+        <characteristicType name="Rear" id="9ecb-93b9-1852-d41d"/>
+        <characteristicType name="I" id="cb51-50a0-82c0-4056"/>
+        <characteristicType name="A" id="d4b1-6383-7ccc-d81a"/>
+        <characteristicType name="HP" id="6967-3e70-e642-0a3f"/>
+        <characteristicType name="Type" id="d348-b701-d4cb-2291"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Transport" id="e117-4193-8756-1465">
       <characteristicTypes>
-        <characteristicType name="Capacity" id="0d1f-94e8-8176-5482" />
-        <characteristicType name="Fire Points" id="80f0-dbea-cb89-3528" />
-        <characteristicType name="Access Points" id="65ec-159a-b517-6f9e" />
+        <characteristicType name="Capacity" id="0d1f-94e8-8176-5482"/>
+        <characteristicType name="Fire Points" id="80f0-dbea-cb89-3528"/>
+        <characteristicType name="Access Points" id="65ec-159a-b517-6f9e"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Wargear Item" id="d4b8-6c36-8bad-c884">
       <characteristicTypes>
-        <characteristicType name="Description" id="a1cc-ea5e-6a1d-d78e" />
+        <characteristicType name="Description" id="a1cc-ea5e-6a1d-d78e"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Weapon" id="66fe-f217-d00c-847a">
       <characteristicTypes>
-        <characteristicType name="Range" id="1fc0-83ca-e978-5a16" />
-        <characteristicType name="Strength" id="cb5e-ad7f-f63b-41cd" />
-        <characteristicType name="AP" id="1544-3a5e-d421-edf9" />
-        <characteristicType name="Type" id="79ff-eaa1-5809-53f3" />
+        <characteristicType name="Range" id="1fc0-83ca-e978-5a16"/>
+        <characteristicType name="Strength" id="cb5e-ad7f-f63b-41cd"/>
+        <characteristicType name="AP" id="1544-3a5e-d421-edf9"/>
+        <characteristicType name="Type" id="79ff-eaa1-5809-53f3"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Psychic Ability" id="479e-e1a8-1cd4-f3be">
       <characteristicTypes>
-        <characteristicType name="Effect" id="e234-f7ad-e292-5d62" />
+        <characteristicType name="Effect" id="e234-f7ad-e292-5d62"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Dreadnought" id="17f0-d093-bacf-886d">
       <characteristicTypes>
-        <characteristicType name="M" id="8fac-a846-de69-9178" />
-        <characteristicType name="WS" id="ffe9-2a7f-bd4e-66cc" />
-        <characteristicType name="BS" id="0ddb-0fe2-6393-7c9e" />
-        <characteristicType name="S" id="860b-ab05-e422-b9db" />
-        <characteristicType name="T" id="8fc3-a8c7-c14d-9e62" />
-        <characteristicType name="W" id="7e98-a40e-cf96-4a4b" />
-        <characteristicType name="I" id="f7c5-664d-a82a-946f" />
-        <characteristicType name="A" id="b53b-1fc5-02c8-e69b" />
-        <characteristicType name="Ld" id="3886-1fbc-9ba4-cb2c" />
-        <characteristicType name="Save" id="ab97-0508-cfbe-db94" />
-        <characteristicType name="Special Rules" id="c5fa-39b7-33f9-cb47" />
+        <characteristicType name="M" id="8fac-a846-de69-9178"/>
+        <characteristicType name="WS" id="ffe9-2a7f-bd4e-66cc"/>
+        <characteristicType name="BS" id="0ddb-0fe2-6393-7c9e"/>
+        <characteristicType name="S" id="860b-ab05-e422-b9db"/>
+        <characteristicType name="T" id="8fc3-a8c7-c14d-9e62"/>
+        <characteristicType name="W" id="7e98-a40e-cf96-4a4b"/>
+        <characteristicType name="I" id="f7c5-664d-a82a-946f"/>
+        <characteristicType name="A" id="b53b-1fc5-02c8-e69b"/>
+        <characteristicType name="Ld" id="3886-1fbc-9ba4-cb2c"/>
+        <characteristicType name="Save" id="ab97-0508-cfbe-db94"/>
+        <characteristicType name="Special Rules" id="c5fa-39b7-33f9-cb47"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Psychic Weapon" id="8102-1874-edb1-4860">
       <characteristicTypes>
-        <characteristicType name="Type" id="cff3-dee8-de48-e5f8" />
-        <characteristicType name="AP" id="b200-d274-a6c8-1dbd" />
-        <characteristicType name="S" id="38b9-aa50-1a98-e7ff" />
-        <characteristicType name="Effect" id="0ab5-732c-2c6c-c62a" />
+        <characteristicType name="Type" id="cff3-dee8-de48-e5f8"/>
+        <characteristicType name="AP" id="b200-d274-a6c8-1dbd"/>
+        <characteristicType name="S" id="38b9-aa50-1a98-e7ff"/>
+        <characteristicType name="Effect" id="0ab5-732c-2c6c-c62a"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
   <publications>
-    <publication name="Github" id="3ff9-2058-b559-545b" publisherUrl="Cobrinion/40kEmperor" />
+    <publication name="Github" id="3ff9-2058-b559-545b" publisherUrl="Cobrinion/40kEmperor"/>
   </publications>
   <sharedProfiles>
+    <profile name="Outrider Bike" id="pri-shared-outrider-bike" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">The rider gains the Bike type, Movement 14 inches, +1 Toughness, Bulky (3), Firing Protocols (2), Hammer of Wrath (2), Jink and Relentless, and a Twin Bolt Rifle. The Movement and Toughness changes are already included on the rider&apos;s displayed profile when selected; do not apply them again. This bike does not grant additional Wounds. Firing Protocols (2) permits up to two different weapons per Shooting Attack. Hammer of Wrath (2) replaces the Bike type&apos;s Hammer of Wrath (1); these values do not stack.</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Jump Pack" id="9af7-7731-8e0e-4d1b" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
       <characteristics>
         <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Jump Packs make a unit a Jump unit and have the Bulky (2) and Deep Strike special rules.</characteristic>
@@ -180,7 +185,7 @@
     </profile>
     <profile name="Bolt Pistol" id="2cb8-e71e-1b53-17fc" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol</characteristic>
@@ -264,7 +269,7 @@
     </profile>
     <profile name="Boltgun" id="9420-4cc8-cd07-bc52" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire</characteristic>
@@ -280,7 +285,7 @@
     </profile>
     <profile name="Combi-Grav" id="e0e5-fb38-7714-8177" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">*</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Salvo 2/3, Concussive, Graviton, One Use Only</characteristic>
@@ -288,7 +293,7 @@
     </profile>
     <profile name="Combi-Melta (Secondary)" id="60ce-118c-f84a-c085" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Armourbane (Melta), One Shot</characteristic>
@@ -296,7 +301,7 @@
     </profile>
     <profile name="Combi-Plasma (Secondary)" id="c9b7-e39a-07fd-0409" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Gets Hot, One Shot</characteristic>
@@ -304,7 +309,7 @@
     </profile>
     <profile name="Grav-Pistol" id="6ea1-ef59-f4e9-04b8" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">*</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol, Concussive, Graviton</characteristic>
@@ -312,7 +317,7 @@
     </profile>
     <profile name="Plasma Pistol" id="6d14-059d-0f3b-1472" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol, Gets Hot</characteristic>
@@ -320,7 +325,7 @@
     </profile>
     <profile name="Storm Bolter" id="a144-5691-6fd0-a068" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2</characteristic>
@@ -333,7 +338,7 @@
     </profile>
     <profile name="Archaeotech Pistol" id="49e1-2741-ae4e-9e3c" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol, Master Crafted</characteristic>
@@ -351,8 +356,8 @@
       <characteristics>
         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">User</characteristic>
-        <characteristic name="AP" typeId="1544-3a5e-d421-edf9" />
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Rending, Duelist's Edge</characteristic>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9"/>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Melee, Rending, Duelist&apos;s Edge</characteristic>
       </characteristics>
     </profile>
     <profile name="Heavy Chainsword" id="957b-88c2-4855-2288" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -388,7 +393,7 @@
     </profile>
     <profile name="Combi-Bolter" id="cfb1-8542-6a8c-a2ca" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Twin Linked</characteristic>
@@ -412,7 +417,7 @@
     </profile>
     <profile name="Grav-gun" id="85d1-93e5-56b3-0792" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">*</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Salvo 2/3, Concussive, Graviton</characteristic>
@@ -420,7 +425,7 @@
     </profile>
     <profile name="Meltagun" id="15cf-000e-a434-a3ad" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Armourbane (Melta)</characteristic>
@@ -428,7 +433,7 @@
     </profile>
     <profile name="Plasma Gun" id="da38-b09b-1ae5-a286" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire, Gets Hot</characteristic>
@@ -436,7 +441,7 @@
     </profile>
     <profile name="Assault Cannon" id="64c8-fb7b-b876-b5d6" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 4, Rending</characteristic>
@@ -444,7 +449,7 @@
     </profile>
     <profile name="Cyclone Missle Launcher (Frag Missle)" id="d5d2-e2b2-d750-a505" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Blast</characteristic>
@@ -452,7 +457,7 @@
     </profile>
     <profile name="Cyclone Missle Launcher (Krak Missle)" id="6a46-13b8-76d2-3f90" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2</characteristic>
@@ -473,7 +478,7 @@
     </profile>
     <profile name="Heavy Bolter" id="ca4f-7c64-abdd-819d" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3</characteristic>
@@ -481,7 +486,7 @@
     </profile>
     <profile name="Reaper Autocannon" id="5098-7bea-5b37-74a3" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Twin-Linked</characteristic>
@@ -489,7 +494,7 @@
     </profile>
     <profile name="Grav-cannon" id="8f19-3c41-6d48-1c55" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">*</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Salvo 3/5, Concussive, Graviton</characteristic>
@@ -502,7 +507,7 @@
     </profile>
     <profile name="Autocannon" id="bafe-36b0-c13b-9124" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2</characteristic>
@@ -510,7 +515,7 @@
     </profile>
     <profile name="Lascannon" id="6789-a19c-72d5-41b3" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1</characteristic>
@@ -518,7 +523,7 @@
     </profile>
     <profile name="Missile Launcher (Frag)" id="3f8e-6573-74c1-bd2b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Blast</characteristic>
@@ -526,7 +531,7 @@
     </profile>
     <profile name="Missile Launcher (Krak)" id="4bfc-e9e2-f183-1f5a" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1,</characteristic>
@@ -534,7 +539,7 @@
     </profile>
     <profile name="Multi-melta" id="c031-bf66-238d-35b6" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Armourbane (Melta), Twin-Linked</characteristic>
@@ -542,16 +547,16 @@
     </profile>
     <profile name="Plasma Cannon" id="625b-a2bf-eff1-e29a" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Blast (3"), Gets Hot</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Blast (3&quot;), Gets Hot</characteristic>
       </characteristics>
     </profile>
     <profile name="Augury Scanner" id="3a3d-130d-614c-7821" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Models cannot be deployed using the Infilitate Special rule within 18" of a model with an augury scanner, regardless of line of sight.
- At the end of the enemy movement phase, if a friendly unit contains at least one model equipped with an augury scanner, that unit may choose to make a "Return Fire" attack against any one enemy unit that has arrived from reserve within 18" and within line of sight even if they were not targeted by a shooting attack and regardless of if they had previously fired this turn.</characteristic>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Models cannot be deployed using the Infilitate Special rule within 18&quot; of a model with an augury scanner, regardless of line of sight.
+ At the end of the enemy movement phase, if a friendly unit contains at least one model equipped with an augury scanner, that unit may choose to make a &quot;Return Fire&quot; attack against any one enemy unit that has arrived from reserve within 18&quot; and within line of sight even if they were not targeted by a shooting attack and regardless of if they had previously fired this turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Armourium Cherub" id="ed38-0d9d-115f-8a05" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -561,7 +566,7 @@
     </profile>
     <profile name="Volkite Culverin" id="2841-2b46-627d-41ae" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">45"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">45&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 4, Deflagrate</characteristic>
@@ -569,7 +574,7 @@
     </profile>
     <profile name="Volkite Caliver" id="113d-8a42-0b64-fe07" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Deflagrate</characteristic>
@@ -577,7 +582,7 @@
     </profile>
     <profile name="Volkite Charger" id="625e-e1e9-2088-d537" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">15"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">15&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Deflagrate</characteristic>
@@ -585,7 +590,7 @@
     </profile>
     <profile name="Volkite Serpenta" id="49d2-612a-c230-3ae3" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">10"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">10&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol, Deflagrate</characteristic>
@@ -601,7 +606,7 @@
     </profile>
     <profile name="Daemonic Wings" id="b2ae-d12d-4a10-1871" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">At the start of the controlling player’s Movement phase, or when deployed as part of a Ruinstorm Incursion, a model with Daemonic Wings may set its Movement Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ this special rule). This allows a model with Daemonic Wings to move up to 14", regardless of the Movement Characteristic shown on their profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, models with Daemonic Wings that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their Movement in Dangerous Terrain. A model with Daemonic Wings that have been activated treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1" away from any model from another unit.
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">At the start of the controlling player’s Movement phase, or when deployed as part of a Ruinstorm Incursion, a model with Daemonic Wings may set its Movement Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ this special rule). This allows a model with Daemonic Wings to move up to 14&quot;, regardless of the Movement Characteristic shown on their profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, models with Daemonic Wings that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their Movement in Dangerous Terrain. A model with Daemonic Wings that have been activated treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1&quot; away from any model from another unit.
 
 A model with Daemonic Wings may still Run if it would normally be able to Run (this does not allow units that include any models with the Heavy Sub-type to Run). When making a Run move for a model with activated Daemonic Wings, add the Initiative Characteristic of the model to 14 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with Daemonic Wings as previously noted, but may not make Shooting Attacks or declare a Charge in the same turn in which it has Run as per the normal rules for Running.
 Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Deep Strike special rules – if it already has the Bulky (2) special rule, it gains the Bulky (3) special rule instead. Any models with Daemonic Wings deployed as part of a Ruinstorm Incursion may activate their Daemonic Wings in the Movement Phase of the turn in which they enter play.</characteristic>
@@ -609,7 +614,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Psyk-Out Grenade" id="752f-7fe3-165d-f833" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast, Psi-Shock</characteristic>
@@ -625,7 +630,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Plasma Grenades" id="2a6b-c103-a03c-028f" hidden="false" publicationId="3ff9-2058-b559-545b" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast</characteristic>
@@ -664,23 +669,23 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Havoc Launcher" id="f75f-4879-62c9-0247" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Blast (3"), Twin-linked</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Blast (3&quot;), Twin-linked</characteristic>
       </characteristics>
     </profile>
     <profile name="Grenade Launcher (Frag)" id="da54-c5bd-0d32-55e1" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3"), Pinning</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3&quot;), Pinning</characteristic>
       </characteristics>
     </profile>
     <profile name="Grenade Launcher (Krak)" id="4358-0ce8-ae2e-4b2a" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1</characteristic>
@@ -688,7 +693,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Lascannon Array" id="69a0-595b-8e14-7aeb" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Twin-Linked</characteristic>
@@ -696,7 +701,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Laser Destroyer" id="b929-0989-96ce-131b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Ordnance 2, Twin-Linked, Exoshock (6+)</characteristic>
@@ -717,7 +722,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Laspistol" id="09ec-bc93-f090-4037" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol</characteristic>
@@ -725,7 +730,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Lasgun" id="a1f7-230c-eb1d-08bb" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire</characteristic>
@@ -733,7 +738,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Hot-Shot Laspistol" id="3c49-3308-eda8-2a65" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">6"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">6&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol</characteristic>
@@ -741,7 +746,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Hot-Shot Lasgun" id="1ca2-1c28-f72c-e147" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire</characteristic>
@@ -762,7 +767,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Haywire Grenade" id="8b49-3ad4-03b0-82fe" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">2</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Haywire</characteristic>
@@ -778,7 +783,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Heavy Stubber" id="2f99-7a46-2a42-8b9f" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3</characteristic>
@@ -786,7 +791,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Psychic Hood" id="465b-9126-2731-ffc9" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Each time a unit (or model) is targeted by an enemy psychic power and is within 12" of a friendly model with a psychic hood, reduce the leadership value of the enemy unit by -2 for the purpose of psychic checks.</characteristic>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">Each time a unit (or model) is targeted by an enemy psychic power and is within 12&quot; of a friendly model with a psychic hood, reduce the leadership value of the enemy unit by -2 for the purpose of psychic checks.</characteristic>
       </characteristics>
     </profile>
     <profile name="Force Axe" id="041d-5d07-71fe-da76" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -828,12 +833,12 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Nuncio-Vox" id="7da4-0c37-a5e9-33e9" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">If one of the controlling player’s units wishes to arrive on the battlefield via Deep Strike and chooses to do so within 6" of a unit equipped with a nuncio-vox, then it will not scatter. When barrage weapons are being used by the controlling player, line of sight may be drawn from any model in their force equipped with a nuncio-vox as well as the firing model itself (range is still drawn from the firing model, etc). Note that the nuncio-vox model must already be on the table at the start of the turn for it to be used (and cannot be used from inside a vehicle).</characteristic>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">If one of the controlling player’s units wishes to arrive on the battlefield via Deep Strike and chooses to do so within 6&quot; of a unit equipped with a nuncio-vox, then it will not scatter. When barrage weapons are being used by the controlling player, line of sight may be drawn from any model in their force equipped with a nuncio-vox as well as the firing model itself (range is still drawn from the firing model, etc). Note that the nuncio-vox model must already be on the table at the start of the turn for it to be used (and cannot be used from inside a vehicle).</characteristic>
       </characteristics>
     </profile>
     <profile name="Multi-Laser" id="dd12-fa9f-c59d-b4d5" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3</characteristic>
@@ -841,15 +846,15 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Demolisher Cannon" id="25b6-f36b-4344-93d3" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">10</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Ordnance 1, Large Blast (5")</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Ordnance 1, Large Blast (5&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile name="Exterminator Autocannon" id="a542-2e42-ef88-a0e5" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3, Rending (6+), Twin-Linked</characteristic>
@@ -857,7 +862,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Vanquisher Battle Cannon" id="c604-7f9d-d2a4-10cd" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy, Sunder</characteristic>
@@ -865,7 +870,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Executioner Plasma Destroyer" id="ba28-7479-744c-5f01" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">60"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">60&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3, Large Blast</characteristic>
@@ -873,7 +878,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Eradicator Nova Cannon" id="b5ba-f2e9-440c-f7b3" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Large Blast, Ignores Cover</characteristic>
@@ -881,7 +886,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Shotgun" id="43ec-5d27-9257-f744" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2</characteristic>
@@ -894,10 +899,10 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Lobba" id="76da-0df7-6600-d789" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Barrage, Blast (3")</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Barrage, Blast (3&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile name="Spatha Attack Bike" id="bcab-4a50-414b-687f" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -907,7 +912,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Twin-linked Lascannon" id="0d66-2d65-80f6-5f42" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Twin-Linked</characteristic>
@@ -915,7 +920,7 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Predator Cannon" id="9dd7-e106-3cc9-abed" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 4</characteristic>
@@ -928,18 +933,18 @@ Any model with a jump pack also gains the Bulky (2), Hammer of Wrath (1) and Dee
     </profile>
     <profile name="Dozer Blade" id="41a6-b451-c647-13a6" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16" />
-        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd" />
-        <characteristic name="AP" typeId="1544-3a5e-d421-edf9" />
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3" />
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16"/>
+        <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd"/>
+        <characteristic name="AP" typeId="1544-3a5e-d421-edf9"/>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3"/>
       </characteristics>
     </profile>
     <profile name="Searchlights" id="c50c-3005-7846-a79e" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A model with searchlights ignores the 24" limit to line of sight imposed by the Night Fighting rules when making Shooting Attacks, however enemy units also ignore that same restriction when making Shooting Attacks that target a model with searchlights.
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A model with searchlights ignores the 24&quot; limit to line of sight imposed by the Night Fighting rules when making Shooting Attacks, however enemy units also ignore that same restriction when making Shooting Attacks that target a model with searchlights.
 
 
-In addition, any unit that has been the target of a Shooting Attack made by a unit with searchlights (regardless of whether any Hits were inflicted or not) may be freely targeted for Shooting Attacks by any other unit in the same Shooting phase, ignoring the 24" restriction to line of sight imposed by the Night Fighting rules.
+In addition, any unit that has been the target of a Shooting Attack made by a unit with searchlights (regardless of whether any Hits were inflicted or not) may be freely targeted for Shooting Attacks by any other unit in the same Shooting phase, ignoring the 24&quot; restriction to line of sight imposed by the Night Fighting rules.
 
 
 Searchlights do not count as weapons and may not be targeted by the Weapon Destroyed result on the Vehicle Damage table.</characteristic>
@@ -947,12 +952,12 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Dozer Blade" id="adc5-51c4-322b-39d1" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A model with a dozer blade may re-roll all failed Dangerous Terrain tests made for it. In addition it treats it's front armour as one higher than normal when ramming.</characteristic>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A model with a dozer blade may re-roll all failed Dangerous Terrain tests made for it. In addition it treats it&apos;s front armour as one higher than normal when ramming.</characteristic>
       </characteristics>
     </profile>
     <profile name="Hunter-Killer Missile" id="f5aa-454d-e0cd-863e" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, One Shot</characteristic>
@@ -960,7 +965,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Long las" id="7174-7db4-b3da-e936" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sunder, Pinning, Sniper</characteristic>
@@ -968,7 +973,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Sniper Rifle" id="1425-9cc6-6275-3f09" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Rending (5+), Sniper, Pinning</characteristic>
@@ -976,7 +981,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Autorifle" id="3db1-b155-b1dd-a03f" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Rapid Fire</characteristic>
@@ -984,7 +989,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Lascarbine" id="228f-f683-9b47-8e08" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2</characteristic>
@@ -992,7 +997,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Laslock" id="77d3-bb8e-ae07-5f3b" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1</characteristic>
@@ -1008,7 +1013,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Stubcarbine" id="db62-9416-1bf1-44bd" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 3</characteristic>
@@ -1024,7 +1029,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Astartes Shotgun" id="8589-7312-5401-6028" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Concussive (1)</characteristic>
@@ -1037,7 +1042,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Tempest Rocket" id="c37e-6561-dba7-4922" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">60"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">60&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sunder, One Shot</characteristic>
@@ -1045,7 +1050,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Vengeance Launcher" id="a936-4aa8-04e2-50b9" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2, Large Blast</characteristic>
@@ -1053,7 +1058,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Heavy Bolter Batteries" id="1d90-059a-63c6-4cb4" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 8, Twin-Linked</characteristic>
@@ -1061,7 +1066,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Autocannon Batteries" id="d829-35a7-28cb-2e35" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 4, Rending (6+), Twin-Linked</characteristic>
@@ -1069,7 +1074,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Hellstrike Missiles" id="c62e-a945-2357-ee6d" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sunder, One-Shot</characteristic>
@@ -1077,7 +1082,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Twin-Linked Avenger Bolt Cannon" id="87cf-947b-280a-1a37" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 7, Twin-Linked</characteristic>
@@ -1090,7 +1095,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Sunfury Heavy Missiles" id="d9a4-cec6-3250-c6cf" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Missile, Large Blast, Blind, Gets Hot, One Use</characteristic>
@@ -1098,7 +1103,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Kraken Penetrator Missiles" id="6b37-0a9f-e994-f31a" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">1</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Missile, Armourbane, One Use</characteristic>
@@ -1106,7 +1111,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Phosphex Bombs" id="f9dd-6863-b734-412a" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">6"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">6&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, One Use, Small Blast, Poisoned (3+), Crawling Fire, Lingering Death</characteristic>
@@ -1114,7 +1119,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Plasma Incinerator" id="d610-92c3-bee0-bec0" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy D3+4, Ignores Cover, Plasma Flame</characteristic>
@@ -1127,7 +1132,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Missile Launcher (Stasis Missiles)" id="ca48-bcc8-9a4f-c8fc" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Small Blast, Concussive (1)</characteristic>
@@ -1135,7 +1140,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Missile Launcher (Rad Missiles" id="73f8-83f7-d5c9-75c3" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Small Blast, Fleshbane, Rad-Phage</characteristic>
@@ -1143,7 +1148,7 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="Blight Grenade" id="2990-2cc6-6dd1-bf9d" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Small Blast</characteristic>
@@ -1151,18 +1156,18 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
     </profile>
     <profile name="New Profile" id="571d-724d-dfbd-c7f6" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
       <characteristics>
-        <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849" />
-        <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa" />
-        <characteristic name="WS" typeId="9660-0df5-9c5d-3604" />
-        <characteristic name="BS" typeId="565d-bf36-9e7e-29b5" />
-        <characteristic name="S" typeId="23ae-6026-aebd-abc3" />
-        <characteristic name="T" typeId="f6db-a6a5-71d2-71c5" />
-        <characteristic name="W" typeId="a763-cbc8-2080-a4fb" />
-        <characteristic name="I" typeId="ea41-893b-3f82-5482" />
-        <characteristic name="A" typeId="d535-b745-b613-a7ab" />
-        <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f" />
-        <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8" />
-        <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75" />
+        <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849"/>
+        <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa"/>
+        <characteristic name="WS" typeId="9660-0df5-9c5d-3604"/>
+        <characteristic name="BS" typeId="565d-bf36-9e7e-29b5"/>
+        <characteristic name="S" typeId="23ae-6026-aebd-abc3"/>
+        <characteristic name="T" typeId="f6db-a6a5-71d2-71c5"/>
+        <characteristic name="W" typeId="a763-cbc8-2080-a4fb"/>
+        <characteristic name="I" typeId="ea41-893b-3f82-5482"/>
+        <characteristic name="A" typeId="d535-b745-b613-a7ab"/>
+        <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f"/>
+        <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8"/>
+        <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
       </characteristics>
     </profile>
     <profile name="Scimitar Jetbike" id="b0ea-7898-7feb-9eb2" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -1175,7 +1180,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Nemesis Bolter" id="2b86-31dd-4da6-499d" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">5</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Rending (5+), Sniper, Pinning</characteristic>
@@ -1183,23 +1188,23 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Assault Grenades" id="f8d1-f5cf-f49e-27cb" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3")</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile name="Defensive Grenades" id="327a-d1aa-92f3-309d" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">1</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3"), Blind</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3&quot;), Blind</characteristic>
       </characteristics>
     </profile>
     <profile name="Krak Grenade" id="29fd-2cdb-ea04-b56a" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1</characteristic>
@@ -1207,7 +1212,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Avenger Bolt Cannon" id="7906-8de6-69e3-55e5" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 7</characteristic>
@@ -1215,7 +1220,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Earthshaker Cannon" id="935d-b1b6-f421-30dd" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36-240"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36-240&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Ordnance, Barrage, Large Blast</characteristic>
@@ -1223,7 +1228,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Medusa Siege Gun" id="83ad-a893-bace-1bc1" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">10</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Ordnance, Barrage, Large Blast</characteristic>
@@ -1231,7 +1236,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Grenade Harness" id="39a2-7613-e1fc-15e6" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">8&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 2, Blast, One Use</characteristic>
@@ -1239,7 +1244,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Autopistol" id="d660-38fe-9058-a1b9" hidden="false" page="176" publicationId="ca571888--pubN106502" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol</characteristic>
@@ -1247,7 +1252,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Battlecannon" id="0b97-3b0c-81c1-b958" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">72&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Ordnance 1, Large Blast</characteristic>
@@ -1268,7 +1273,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Grenadier Gauntlet" id="c0f9-dac5-43d7-4994" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast</characteristic>
@@ -1286,7 +1291,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Rippa Gun" id="8287-d35f-f458-c0fb" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 3</characteristic>
@@ -1294,7 +1299,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Flakk Missile" id="4858-d25a-2f50-f89a" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Skyfire</characteristic>
@@ -1302,7 +1307,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Hellfire Shell" id="f100-9001-0001-0001" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">1</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">-</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Blast, Poisoned (2+)</characteristic>
@@ -1315,7 +1320,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Auxiliary Drive" id="c484-c3bb-a5ef-8bc5" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A vehicle with an auxiliary drive may repair Immobilised results it suffers on a D6 roll of 4+ at the start of the controlling player's Movement phase.</characteristic>
+        <characteristic name="Description" typeId="a1cc-ea5e-6a1d-d78e">A vehicle with an auxiliary drive may repair Immobilised results it suffers on a D6 roll of 4+ at the start of the controlling player&apos;s Movement phase.</characteristic>
       </characteristics>
     </profile>
     <profile name="Cognis-Signum" id="18d5-5c59-8b05-83fd" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -1346,7 +1351,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Heavy Onslaught Gatling Cannon" id="pri-shared-heavy-onslaught" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">30&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 8</characteristic>
@@ -1354,7 +1359,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Onslaught Gatling Cannon" id="pri-shared-onslaught" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 6</characteristic>
@@ -1362,7 +1367,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Icarus Ironhail Heavy Stubber" id="pri-shared-icarus-stubber" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 3, Skyfire</characteristic>
@@ -1370,7 +1375,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Icarus Rocket Pod" id="pri-shared-icarus-rocket" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy D3, Skyfire</characteristic>
@@ -1378,7 +1383,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Las-talon" id="pri-shared-las-talon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 2</characteristic>
@@ -1386,7 +1391,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Krakstorm Grenade Launcher" id="pri-shared-krakstorm" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1</characteristic>
@@ -1394,7 +1399,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Hunter-slayer Missile" id="pri-shared-hunter-slayer" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">10</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">3</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, One Shot, Homing</characteristic>
@@ -1402,10 +1407,10 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Fragstorm Grenade Launcher" id="pri-aggressor-fragstorm-profile" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3")</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Blast (3&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile name="Shield Dome" id="pri-shared-shield-dome" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -1425,7 +1430,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Bellicatus Missile Array (Icarus)" id="pri-shared-bellicatus-icarus" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">48&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">7</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy D3, Skyfire</characteristic>
@@ -1433,7 +1438,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Ironhail Skytalon Array" id="pri-shared-skytalon" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">4</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">6</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 6, Skyfire</characteristic>
@@ -1441,18 +1446,18 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Macro Plasma Incinerator (Standard)" id="pri-shared-macro-plasma-standard" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Large Blast (5")</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Large Blast (5&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile name="Macro Plasma Incinerator (Supercharge)" id="pri-shared-macro-plasma-super" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">36&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Large Blast (5"), Gets Hot</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Large Blast (5&quot;), Gets Hot</characteristic>
       </characteristics>
     </profile>
     <profile name="Macro Plasma firing modes" id="pri-shared-macro-plasma-modes" hidden="false" typeId="d4b8-6c36-8bad-c884" typeName="Wargear Item">
@@ -1465,7 +1470,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
         <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">Unlimited</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">9</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
-        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Ordnance 1, Barrage, Large Blast (5"), One Shot</characteristic>
+        <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Ordnance 1, Barrage, Large Blast (5&quot;), One Shot</characteristic>
       </characteristics>
     </profile>
     <profile name="Crozius Arcanum" id="53cf-5240-e8aa-9652" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -1478,7 +1483,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Absolvor Bolt Pistol" id="pri-shared-absolvor-pistol" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Pistol</characteristic>
@@ -1491,7 +1496,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
     </profile>
     <profile name="Forge Bolter" id="pri-shared-forge-bolter" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+        <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
         <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">5</characteristic>
         <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
         <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 3</characteristic>
@@ -1518,10 +1523,16 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
       <description>Instead of following the normal rules for Rapid Fire weapons, models in this unit shooting Rapid Fire bolt weapons make double the number of attacks if either the target is within half the weapon’s range, or the shooting model is Infantry and its unit Remained Stationary in its previous Movement phase.</description>
     </rule>
     <rule name="The Codex Astartes" id="1505-222b-29c5-1a3a" hidden="false">
-      <description>Primaris Space Marines automatically pass Fear and Regroup tests. When regrouping, Primaris units do not make a 3" Regroup move, but can instead move, shoot, run or declare charges normally that turn. Primaris units caught by a Sweeping Advance are not destroyed; they instead remain locked in combat. Primaris Marines also benefit from Combat Doctrines and Chapter Tactics unique to their Chapter.</description>
+      <description>Primaris Space Marines automatically pass Fear and Regroup tests. When regrouping, Primaris units do not make a 3&quot; Regroup move, but can instead move, shoot, run or declare charges normally that turn. Primaris units caught by a Sweeping Advance are not destroyed; they instead remain locked in combat. Primaris Marines also benefit from Combat Doctrines and Chapter Tactics unique to their Chapter.</description>
     </rule>
     <rule name="Combat Doctrines" id="50b4-1c75-3d64-6d70" hidden="false">
-      <description>At the beginning of each turn, a Strike Team containing only Primaris units may choose one Combat Doctrine for that turn. The same Doctrine cannot be used twice in a row. Devastator Doctrine: affected models re-roll To Hit rolls of 1 in the Shooting phase; Aggressor and Eradicator Squads instead re-roll failed To Hit rolls of 1 or 2. Tactical Doctrine: affected models re-roll To Hit rolls of 1 in the Shooting and Assault phases; Intercessor and Heavy Intercessor Squads instead re-roll failed To Hit rolls of 1 or 2. Assault Doctrine: affected models re-roll To Hit rolls of 1 in the Assault phase; Intercessor Assault and Outrider Squads instead re-roll failed To Hit rolls of 1 or 2.</description>
+      <description>At the beginning of each turn, a Strike Team containing only Primaris units may choose one Combat Doctrine for that turn. The same Doctrine cannot be used twice in a row.
+
+Devastator Doctrine: affected models re-roll To Hit rolls of 1 in the Shooting phase; Aggressor and Eradicator Squads instead re-roll failed To Hit rolls of 1 or 2.
+
+Tactical Doctrine: affected models re-roll To Hit rolls of 1 in the Shooting and Assault phases; Intercessor and Heavy Intercessor Squads instead re-roll failed To Hit rolls of 1 or 2.
+
+Assault Doctrine: affected models re-roll To Hit rolls of 1 in the Assault phase; Intercessor Assault and Outrider Squads instead re-roll failed To Hit rolls of 1 or 2.</description>
     </rule>
     <rule name="Calculating Swordsman" id="1ccb-d557-e0e6-428f" hidden="false">
       <description>When fighting in a Challenge, Roboute Guilliman may re-roll all failed To Hit rolls of 1 on the second and all subsequent rounds of the Challenge.</description>
@@ -1530,7 +1541,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
       <description>Any attacks with this weapon with a To Hit roll of 6 are resolved at Strength D rather than Strength 10.</description>
     </rule>
     <rule name="Whirling Flame" id="7998-d669-7000-3e54" hidden="false">
-      <description>In the Fight sub-phase, rather than making attacks normally, Guilliman can make a number of attacks with this weapon against each enemy unit engaged in his combat equal to the number of models from that unit within 1" of him.</description>
+      <description>In the Fight sub-phase, rather than making attacks normally, Guilliman can make a number of attacks with this weapon against each enemy unit engaged in his combat equal to the number of models from that unit within 1&quot; of him.</description>
     </rule>
     <rule name="Lord Commander of Imperium Secundus" id="02ba-1770-e7b2-5904" hidden="false">
       <description>Friendly Imperium Secundus units re-roll failed Morale checks, Fear tests and Pinning tests while Guilliman is on the battlefield.</description>
@@ -1545,13 +1556,13 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
       <description>Add 1 to the Leadership characteristic of Ultramarines models. If an enemy unit is targeted by a ranged weapon from an Ultramarines unit, subsequent Ultramarines ranged attacks against that target this turn gain +1 To Hit.</description>
     </rule>
     <rule name="Tactical Precision" id="pri-tactical-precision" hidden="false">
-      <description>Friendly Primaris units within 6" of a model with this special rule may re-roll To Wound rolls of 1.</description>
+      <description>Friendly Primaris units within 6&quot; of a model with this special rule may re-roll To Wound rolls of 1.</description>
     </rule>
     <rule name="Combat Restoratives" id="pri-combat-restoratives" hidden="false">
-      <description>At the end of its controlling player's Movement phase, this model may restore D3 lost Wounds to one friendly Infantry or Bike model within 3". A model may only be restored this way once per turn.</description>
+      <description>At the end of its controlling player&apos;s Movement phase, this model may restore D3 lost Wounds to one friendly Infantry or Bike model within 3&quot;. A model may only be restored this way once per turn.</description>
     </rule>
     <rule name="Astartes Banner" id="pri-astartes-banner" hidden="false">
-      <description>Friendly Primaris units within 6" gain +1 Leadership. When a model in such a unit is slain by an enemy attack, roll a D6; on a 4+, it may immediately make one Shooting attack or one melee attack before it is removed.</description>
+      <description>Friendly Primaris units within 6&quot; gain +1 Leadership. When a model in such a unit is slain by an enemy attack, roll a D6; on a 4+, it may immediately make one Shooting attack or one melee attack before it is removed.</description>
     </rule>
     <rule name="Duty Eternal" id="pri-duty-eternal" hidden="false">
       <description>When rolling on the Vehicle Damage table for this model, subtract 1 from the result (to a minimum of 1).</description>
@@ -1560,9 +1571,9 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
       <description>This model has a 4+ invulnerable save against melee attacks.</description>
     </rule>
     <rule name="Tempormortis" id="pri-tempormortis" hidden="false">
-      <description>At the start of the Fight sub-phase, select one enemy unit within 3" of this model. That unit cannot fight until every eligible unit from this model's army has fought this sub-phase.</description>
+      <description>At the start of the Fight sub-phase, select one enemy unit within 3&quot; of this model. That unit cannot fight until every eligible unit from this model&apos;s army has fought this sub-phase.</description>
     </rule>
-    <rule name="Executioner's Strike" id="pri-executioners-strike" hidden="false">
+    <rule name="Executioner&apos;s Strike" id="pri-executioners-strike" hidden="false">
       <description>Each To Wound roll of 6 made with this weapon inflicts one Mortal Wound on the target in addition to its normal effects.</description>
     </rule>
     <rule name="Firstborn Astartes" id="8ea7-5bf6-33c6-0b41" hidden="false" page="168" publicationId="3ff9-2058-b559-545b">
@@ -1591,7 +1602,7 @@ Armourbane (Melta): A model or weapon with this Armourbane special rule only gai
 
 Arriving by Deep Strike
 Roll for the arrival of all Deep Striking units as specified in the rules for Reserves and then deploy them as follows:
-First, place one model from the unit anywhere on the table but not within 3" of an enemy model,in the position where you would like it to arrive, and roll for scatter to determine the model’s final position. If a Vehicle scatters when arriving via Deep Strike, do not change its facing – it must continue to face the same direction as it did before you rolled for scatter. Next, the unit’s remaining models are arranged around the first one. Models must be placed in base contact with the first model and begin to form a circle around it. When the first circle is complete, a further concentric circle must be placed with each model touching the circle inside it. Each circle must include as many models as will fit. Models deploying via Deep Strike treat all difficult terrain as dangerous terrain.
+First, place one model from the unit anywhere on the table but not within 3&quot; of an enemy model,in the position where you would like it to arrive, and roll for scatter to determine the model’s final position. If a Vehicle scatters when arriving via Deep Strike, do not change its facing – it must continue to face the same direction as it did before you rolled for scatter. Next, the unit’s remaining models are arranged around the first one. Models must be placed in base contact with the first model and begin to form a circle around it. When the first circle is complete, a further concentric circle must be placed with each model touching the circle inside it. Each circle must include as many models as will fit. Models deploying via Deep Strike treat all difficult terrain as dangerous terrain.
 
 
 In the Movement phase during which they arrive, Deep Striking units may not move any further, other than to disembark from a Deep Striking Transport Vehicle if they are in one. Units Deep Striking into ruins are placed on the ground floor. Deep Striking units count non-ruined buildings (except for their battlements) as impassable terrain.
@@ -1607,12 +1618,12 @@ Units do not confer the Deep Strike special rule onto a Transport vehicle they a
 
 
 Flyers and Deep Strike
-As well as arriving via the usual Reserves method, some Flyers also have the ability to deploy via Deep Strike, representing a vertical ‘dive’ onto the battlefield. If the Flyer in question has the Hover mode special rule, the controlling player must declare before the Deep Strike is attempted whether the Flyer is Zooming or being treated as a Fast Skimmer. If using Hover Mode, the rules for Deep Strike apply as standard. If using a Zooming Deep Strike, Flyers deployed via Deep Strike count as making a Zoom move and having moved at Cruising Speed (18") on the turn they arrive, but are not moved any further in the turn in which they are deployed. They cannot evade, go Flat Out, drop bombs or deploy transported units in the turn in which they arrive. On subsequent turns, the Flyer is free to operate as normal. This is a risky proposition for an aircraft and a test of the pilot’s skill, and so the usual rules for Deep Strike Mishaps apply even though the Flyer is notionally at a higher altitude than is normally the case for models subject to the Deep Strike Mishaps rules.
+As well as arriving via the usual Reserves method, some Flyers also have the ability to deploy via Deep Strike, representing a vertical ‘dive’ onto the battlefield. If the Flyer in question has the Hover mode special rule, the controlling player must declare before the Deep Strike is attempted whether the Flyer is Zooming or being treated as a Fast Skimmer. If using Hover Mode, the rules for Deep Strike apply as standard. If using a Zooming Deep Strike, Flyers deployed via Deep Strike count as making a Zoom move and having moved at Cruising Speed (18&quot;) on the turn they arrive, but are not moved any further in the turn in which they are deployed. They cannot evade, go Flat Out, drop bombs or deploy transported units in the turn in which they arrive. On subsequent turns, the Flyer is free to operate as normal. This is a risky proposition for an aircraft and a test of the pilot’s skill, and so the usual rules for Deep Strike Mishaps apply even though the Flyer is notionally at a higher altitude than is normally the case for models subject to the Deep Strike Mishaps rules.
 
 
 Deep Strike Mishaps
 Deep Striking onto a crowded battlefield can be dangerous, as one may miss the intended objective or even materialise inside
-solid rock. If any of the models in a Deep Striking unit cannot be deployed, because at least one model would land partially or fully off the table, in impassable terrain, on top of a friendly model, or on top of or within 3" of an enemy model, something has gone wrong. The controlling player must roll on the Deep Strike Mishap table and apply the results. If the unfortunate unit is also a Transport, the Deep Strike Mishap result applies to both the unit and anything embarked within it.
+solid rock. If any of the models in a Deep Striking unit cannot be deployed, because at least one model would land partially or fully off the table, in impassable terrain, on top of a friendly model, or on top of or within 3&quot; of an enemy model, something has gone wrong. The controlling player must roll on the Deep Strike Mishap table and apply the results. If the unfortunate unit is also a Transport, the Deep Strike Mishap result applies to both the unit and anything embarked within it.
 
 
 DEEPSTRIKE MISHAP TABLE
@@ -1677,7 +1688,7 @@ If a model has the ability to re-roll its rolls To Hit (including because of BS 
 Similarly, if a model makes a shooting attack with a weapon that has the Rending special rule, a To Wound roll of 6 Wounds automatically, regardless of Toughness, and is resolved at AP2.
 In either case, against vehicles, each armour penetration roll of 6 allows a further D3 to be rolled, with the result added to the total. These hits are not resolved at AP2, but are instead resolved using the model/weapon’s AP value.</description>
     </rule>
-    <rule name="Duelist's Edge" id="5ea7-cc60-0984-3cc0" hidden="false" page="163" publicationId="3ff9-2058-b559-545b">
+    <rule name="Duelist&apos;s Edge" id="5ea7-cc60-0984-3cc0" hidden="false" page="163" publicationId="3ff9-2058-b559-545b">
       <description>When fighting in a Challenge, the user of this weapon gains a bonus to their Initiative value equal to the value in brackets after the rule when making attacks with this weapon. If there is no value in brackets after a given instance of this special rule, then assume the value is 1 (thus adding +1 Initiative to that model).</description>
     </rule>
     <rule name="Murderous Strike" id="3868-1cb3-eb8e-88f4" hidden="false" page="168" publicationId="3ff9-2058-b559-545b">
@@ -1695,30 +1706,27 @@ Twin-linked Blast Weapons may re-roll a missed scatter dice. To do so, they must
 Twin-linked template weapons just fire like a single weapon, but must re-roll failed wound and armour penetration rolls.</description>
     </rule>
     <rule name="Hammer of Wrath" id="a4d3-4e19-13d9-508e" hidden="false">
-      <description>If a model with this special rule ends its Charge Move in base or hull contact with an enemy model, it makes a number of additional attacks equal to the value in brackets listed as part of this special rule.These attacks hit automatically and are resolved at the models unmodified Strength with AP-. These attacks do not benefit from any of the model's special rules (such as Furious Charge, Rending, etc.).These attacks are resolved during the Fight sub-phase at Initiative step 10 but do not grant the model an additional Pile-in Move.
+      <description>If a model with this special rule ends its Charge Move in base or hull contact with an enemy model, it makes a number of additional attacks equal to the value in brackets listed as part of this special rule.These attacks hit automatically and are resolved at the models unmodified Strength with AP-. These attacks do not benefit from any of the model&apos;s special rules (such as Furious Charge, Rending, etc.).These attacks are resolved during the Fight sub-phase at Initiative step 10 but do not grant the model an additional Pile-in Move.
 
 If a model with this special rule Charges a Vehicle of any kind or a Building, the hits are resolved against the Armour Value of the Facing the charging model is touching. If the model is in contact with two or more Facings, the player controlling the target model chooses a Facing upon which the attacks are resolved. If a model with this special rule Charges a Building or Vehicle that is a Transport, the hits are resolved against the Building or Vehicle, not the unit Embarked within the Building or Vehicle.</description>
     </rule>
-    <rule name="Devastating Charge" id="pri-devastating-charge" hidden="false">
-      <description>Each time a unit with this special rule fights, if it made a successful Charge this turn, add 2 to the Attacks characteristic of its models until that fight is resolved.</description>
-    </rule>
     <rule name="Rites of Battle" id="pri-rites-of-battle" hidden="false">
-      <description>Friendly units with the same Chapter Faction within 6" of a model with this special rule may re-roll To Hit rolls of 1.</description>
+      <description>Friendly units with the same Chapter Faction within 6&quot; of a model with this special rule may re-roll To Hit rolls of 1.</description>
     </rule>
     <rule name="Auto-wound" id="pri-auto-wound" hidden="false">
       <description>A successful To Hit roll equal to the value shown automatically wounds the target.</description>
     </rule>
     <rule name="Concealed Positions" id="pri-concealed-positions" hidden="false">
-      <description>During deployment, this unit may be deployed anywhere more than 9" from enemy models and the enemy deployment zone.</description>
+      <description>During deployment, this unit may be deployed anywhere more than 9&quot; from enemy models and the enemy deployment zone.</description>
     </rule>
     <rule name="Omni-scrambler" id="pri-omni-scrambler" hidden="false">
-      <description>Enemy units arriving from Reserves cannot be deployed within 12" of a unit with this special rule.</description>
+      <description>Enemy units arriving from Reserves cannot be deployed within 12&quot; of a unit with this special rule.</description>
     </rule>
     <rule name="Multi-spectrum Array" id="pri-multi-spectrum-array" hidden="false">
       <description>Models in this unit ignore modifiers to their Ballistic Skill and To Hit rolls when making ranged attacks.</description>
     </rule>
     <rule name="Terror Troops" id="pri-terror-troops" hidden="false">
-      <description>Enemy units within 3" of a unit with this special rule suffer -2 Leadership.</description>
+      <description>Enemy units within 3&quot; of a unit with this special rule suffer -2 Leadership.</description>
     </rule>
     <rule name="Suppressing Fire" id="pri-suppressing-fire" hidden="false">
       <description>Each time a model with this rule scores a hit against an enemy Infantry unit with an accelerator autocannon, that enemy unit cannot fire Overwatch for the remainder of the turn.</description>
@@ -1726,7 +1734,7 @@ If a model with this special rule Charges a Vehicle of any kind or a Building, t
     <rule name="Total Obliteration" id="pri-total-obliteration" hidden="false">
       <description>In its own Shooting phase, a unit with this rule that has not Run that turn may make two Shooting attacks. All attacks made by the unit that phase must target the same eligible enemy unit. This does not apply to Reactions or Overwatch, permit firing both a rifle and its multi-melta replacement, or allow more than two Shooting attacks through repeated use of this rule. Normal weapon firing and movement restrictions still apply.</description>
     </rule>
-    <rule name="Repair" id="d8d5-0da7-b5d3-960d" hidden="false" />
+    <rule name="Repair" id="d8d5-0da7-b5d3-960d" hidden="false"/>
     <rule name="Unshakeable Nerve" id="ed59-75b9-546f-c5df" hidden="false">
       <description>Units embarked upon transports have the Fearless special rule while they are embarked.</description>
     </rule>
@@ -1744,7 +1752,7 @@ If a model with this special rule Charges a Vehicle of any kind or a Building, t
 If, when Charged, the unit was already locked in combat or has made the Hold the Line Reaction, the Counterattack special rule has no effect.</description>
     </rule>
     <rule name="Furious Charge" id="7ddc-eea7-3935-d6d4" hidden="false">
-      <description>In a turn in which a model with this special rule Charges into combat, it adds a bonus to its Strength Characteristic until the end of the Assault phase.The bonus added to the model's Strength is equal to the value in brackets after the special rule, for example a model with Furious Charge (2) adds a bonus of +2 to its Strength.
+      <description>In a turn in which a model with this special rule Charges into combat, it adds a bonus to its Strength Characteristic until the end of the Assault phase.The bonus added to the model&apos;s Strength is equal to the value in brackets after the special rule, for example a model with Furious Charge (2) adds a bonus of +2 to its Strength.
 A model that has made a Disordered Charge that turn receives no benefit from Furious Charge.</description>
     </rule>
     <rule name="Soul Blaze" id="e4f5-738e-169e-6dc5" hidden="false">
@@ -1772,7 +1780,7 @@ No model that is not also of the Daemon Unit Type may join a unit that includes 
       <description>If this model is slain in melee, he can immediately make one close combat attack agaunst a model in base contact.</description>
     </rule>
     <rule name="The Aegis" id="ec14-3ec0-ef54-4901" hidden="false">
-      <description>This model's unit reduces the leadership value of enemy units for the purpose of enemy psychic tests within 8" by -2. In addition, models with this special rule gain +1 to their Invulnurable save, to a maxiumum of 2+ when they suffer Perils of the Warp. These modifiers are not cummalative.</description>
+      <description>This model&apos;s unit reduces the leadership value of enemy units for the purpose of enemy psychic tests within 8&quot; by -2. In addition, models with this special rule gain +1 to their Invulnurable save, to a maxiumum of 2+ when they suffer Perils of the Warp. These modifiers are not cummalative.</description>
     </rule>
     <rule name="Purity of Spirit" id="463b-fdc7-1835-58ea" hidden="false">
       <description>Models with this special rule gain +1 leadership for the purpose of psychic tests.</description>
@@ -1784,7 +1792,7 @@ No model that is not also of the Daemon Unit Type may join a unit that includes 
       <description>While Sanctic Force is in effect, re-roll To Wound and Armour Penetration against models with Daemon rule.</description>
     </rule>
     <rule name="Teleport Homer" id="de1f-3fe5-b948-b108" hidden="false">
-      <description>Friendly units composed entirely of models in Terminator armour  and/or models with a personal teleporter do not scatter when arriving from Deep Strike Reserve, so long as the first model is placed within 6" of the teleport homer’s bearer. For this to work, the bearer must have been on the battlefield at the start of the turn.</description>
+      <description>Friendly units composed entirely of models in Terminator armour  and/or models with a personal teleporter do not scatter when arriving from Deep Strike Reserve, so long as the first model is placed within 6&quot; of the teleport homer’s bearer. For this to work, the bearer must have been on the battlefield at the start of the turn.</description>
     </rule>
     <rule name="Digital Weapons" id="d77f-7c72-6661-6bfa" hidden="false">
       <description>Digital Weapons provide +1 attack in close combat.</description>
@@ -1798,7 +1806,7 @@ Roll a D6 each time an unsaved wound is suffered. On a 4 or less, you must take 
       <description>weapon with this special rule is treated like any other Template weapon, but when firing it in the Shooting phase, place the template so that the narrow end is placed within a number of inches equal to the value in brackets listed as part of this special rule. The wide end must then be aligned so that it is no closer to the firing model than the narrow end. If no value is listed, treat it as Torrent (12)
 
 
-For example, a weapon with the Torrent (18) special rule must place the narrow end of the template at a point within 18" and the wide end no closer to the firing model than the narrow end.</description>
+For example, a weapon with the Torrent (18) special rule must place the narrow end of the template at a point within 18&quot; and the wide end no closer to the firing model than the narrow end.</description>
     </rule>
     <rule name="Crusader" id="9e9f-d95e-6c06-ff3b" hidden="false">
       <description>A unit that contains at least one model with this special rule rolls an extra dice when making Sweeping Advances and discards the lowest scoring dice before determining the result.</description>
@@ -1821,7 +1829,7 @@ The effects of this special rule only apply when a unit that has it begins an As
       <description>You may choose to deploy units that contain at least one model with this special rule last, after all other units (friend and foe) have been deployed. If both players have such units and choose to do so, the players roll off and the winner decides who goes first, then alternate deploying these units.
 
 
-Units that Infiltrate in this way can be set up anywhere on the battlefield that is more than 9" from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a Building (see page 224), as long as the Building is more than 9" from any enemy unit. Alternatively, they can be set up anywhere on the battlefield more than 12" from any enemy unit, even in plain sight.If a unit with Infiltrate deploys inside a Dedicated Transport, the same rules apply when deploying their Transport.
+Units that Infiltrate in this way can be set up anywhere on the battlefield that is more than 9&quot; from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a Building (see page 224), as long as the Building is more than 9&quot; from any enemy unit. Alternatively, they can be set up anywhere on the battlefield more than 12&quot; from any enemy unit, even in plain sight.If a unit with Infiltrate deploys inside a Dedicated Transport, the same rules apply when deploying their Transport.
 
 A unit that deploys using these rules cannot Charge in their first turn.Having Infiltrate also confers the Outflank special rule to units of Infiltrators that are kept as Reserves (see page 309).
 
@@ -1880,9 +1888,9 @@ A model that has made a Disordered Charge that turn receives no benefit from Ram
       <description>Very Bulky models count as three models for the purpose of transport capacity.</description>
     </rule>
     <rule name="Attention Seeker" id="1bda-b33d-7d39-9e7c" hidden="false">
-      <description>At the end of any enemy Charge sub-phase in which one or more of your units has been the target of a successful enemy charge, choose a friendly unengaged unit composed entirely of Beasts of Nurgle that is within 12" of at least one enemy unit that has successfully completed a charge this phase. The Beasts of Nurgle unit must immediately declare and resolve a charge against that enemy unit, even though it's the enemy Charge sub-phase!
+      <description>At the end of any enemy Charge sub-phase in which one or more of your units has been the target of a successful enemy charge, choose a friendly unengaged unit composed entirely of Beasts of Nurgle that is within 12&quot; of at least one enemy unit that has successfully completed a charge this phase. The Beasts of Nurgle unit must immediately declare and resolve a charge against that enemy unit, even though it&apos;s the enemy Charge sub-phase!
 
-Note that this special counter-charge can only be done in the enemy Charge sub-phase. If the Beasts of Nurgle unit is within 12" of two or more enemy units that have successfully completed a charge this turn, you may choose which of these units the Beast of Nurgle attempt to charge (you may not decalre a multiple charge). In either event, next choose another friendly unit entirely composed of Beasts of Nurgle (if there is one) and repeat the process.</description>
+Note that this special counter-charge can only be done in the enemy Charge sub-phase. If the Beasts of Nurgle unit is within 12&quot; of two or more enemy units that have successfully completed a charge this turn, you may choose which of these units the Beast of Nurgle attempt to charge (you may not decalre a multiple charge). In either event, next choose another friendly unit entirely composed of Beasts of Nurgle (if there is one) and repeat the process.</description>
     </rule>
     <rule name="Slime Trail" id="8bf1-fdf1-61fe-0d70" hidden="false">
       <description>A successful charge against units with this special rule is always a disordered charge.</description>
@@ -1915,7 +1923,7 @@ Wounds from Precision Strikes are allocated against a model (or models) of the a
       <description>When a unit that contains at least one model with this special rule takes Morale checks or Pinning tests, they ignore any negative Leadership modifiers. If a unit is both Fearless and Stubborn, it uses the rules for Fearless instead.</description>
     </rule>
     <rule name="Scout" id="702b-def9-b05b-e7b1" hidden="false" page="171" publicationId="3ff9-2058-b559-545b">
-      <description>After both sides have deployed (including Infiltrators), but before the first player begins their first turn, a unit containing at least one model with this special rule can choose to redeploy. If the unit is Infantry, Artillery, Dreadnought or Automata, each model can redeploy anywhere entirely within 6" of its current position. If it is any other Unit Type, each model can instead redeploy anywhere entirely within 12" of its current position. During this redeployment, Scouts can move outside the owning player’s Deployment Zone, but must remain more than 9" away from any enemy unit. A unit that makes a Scout redeployment cannot Charge in the first Game Turn. A unit cannot Embark or Disembark as part of a Scout redeployment.
+      <description>After both sides have deployed (including Infiltrators), but before the first player begins their first turn, a unit containing at least one model with this special rule can choose to redeploy. If the unit is Infantry, Artillery, Dreadnought or Automata, each model can redeploy anywhere entirely within 6&quot; of its current position. If it is any other Unit Type, each model can instead redeploy anywhere entirely within 12&quot; of its current position. During this redeployment, Scouts can move outside the owning player’s Deployment Zone, but must remain more than 9&quot; away from any enemy unit. A unit that makes a Scout redeployment cannot Charge in the first Game Turn. A unit cannot Embark or Disembark as part of a Scout redeployment.
 
 
 If both sides have Scouts, roll off; the winner decides who redeploys first. Then alternate redeploying Scout units one at a time. If a unit with this special rule is deployed inside a Dedicated Transport, it confers the Scout special rule to the Transport (though a Disembarkation cannot be performed as part of the redeployment). Note that a Transport with this special rule does not lose it if a unit without this special rule is Embarked upon it. Having Scout also confers the Outflank special rule to units of Scouts that are kept as Reserves.
@@ -1935,7 +1943,7 @@ If a unit has both the Infiltrate and Scout special rules, that unit can deploy 
     </rule>
     <rule name="Barrage" id="f4af-44ef-cff6-0c1d" hidden="false" page="232" publicationId="3ff9-2058-b559-545b">
       <description>All Barrage weapons use Blast markers and consequently use the rules for Blast weapons, as indicated by their profile, with the following exceptions:
-Barrage weapons can fire indirectly. This means they can fire at a target that they do not have line of sight to, as long as the target is beyond their Minimum Range (if applicable). When firing indirectly, the Ballistic Skill of the firer is not subtracted from the scatter distance; unless a Hit is rolled on the Scatter dice, the Blast marker always scatters a full 2D6". If a Barrage weapon has line of sight to its target it can fire directly, even if the target is within its Minimum Range.
+Barrage weapons can fire indirectly. This means they can fire at a target that they do not have line of sight to, as long as the target is beyond their Minimum Range (if applicable). When firing indirectly, the Ballistic Skill of the firer is not subtracted from the scatter distance; unless a Hit is rolled on the Scatter dice, the Blast marker always scatters a full 2D6&quot;. If a Barrage weapon has line of sight to its target it can fire directly, even if the target is within its Minimum Range.
 Note that any Hits inflicted upon Vehicles by an Attack using the Barrage special rule are always resolved against the Vehicle’s Side Armour Value.
 
 Multiple Barrages
@@ -2025,7 +2033,7 @@ D6 Result
 MOVEMENT
 Cavalry cannot be pinned. Cavalry are not slowed down by difficult terrain (even when charging). However, Cavalry models treat all difficult terrain as dangerous terrain instead.
 FALL BACK MOVES
-Cavalry make Fall Back moves just like Infantry, except that they move 3D6".
+Cavalry make Fall Back moves just like Infantry, except that they move 3D6&quot;.
 SPECIAL RULES
 Cavalry can only join a unit that includes a Cavalry model.</description>
     </rule>
@@ -2078,8 +2086,8 @@ If a weapon has the Sniper special rule, or is fired by a model with the Sniper 
 Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
     </rule>
     <rule name="Hit and Run" id="9360-66c3-05ca-9d88" hidden="false">
-      <description>A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test. If the test is failed, nothing happens and the models remain locked in the fight. If the test is passed, choose a direction – then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1" away from all of the enemy units they are locked in combat
-with, the unit breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 3D6 result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6". A Hit &amp; Run move is not slowed by difficult terrain, but take  Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1" away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
+      <description>A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test. If the test is failed, nothing happens and the models remain locked in the fight. If the test is passed, choose a direction – then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1&quot; away from all of the enemy units they are locked in combat
+with, the unit breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 3D6 result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6&quot;. A Hit &amp; Run move is not slowed by difficult terrain, but take  Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1&quot; away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
     </rule>
     <rule name="Monster Hunter" id="b543-811c-fe12-dacb" hidden="false">
       <description>A unit that contains at least one model with this special rule re-rolls all failed To Wound rolls against Dreadnoughts, Automata and Primarch models as well as any unit with the Monstrous sub-type.</description>
@@ -2110,11 +2118,11 @@ at least one model with this special rule re-rolls failed To Hit and To Wound ro
       <description>Any model which suffers an unsaved Wound or Hull Point loss from a weapon with this special rule instead suffers
 D6 unsaved Wounds or Hull Points of damage. In addition, if the target of this attack is a model with the Knight, Titan, Super-heavy Vehicle, or Building or Fortification Unit Type, or the Monstrous Unit Sub-type, increase the number of Wounds suffered or Hull Points lost to 2D6</description>
     </rule>
-    <rule name="Don't Press Dat!" id="49fc-b6ad-4974-0e5e" hidden="false">
+    <rule name="Don&apos;t Press Dat!" id="49fc-b6ad-4974-0e5e" hidden="false">
       <description>Roll a D6 for each Vehicle with this special rule at the start of their Movement phase. On a roll of 1, the Vehicle must move directly forwards as far as possible. This may mean any passengers may not disembark this turn</description>
     </rule>
     <rule name="Effigy" id="db9f-89f4-181c-797e" hidden="false">
-      <description>A model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack’s Strength value. In addition, all friendly units with the ‘Ere We Go! special rule and at least one model within 24" of a model with this special rule gain the Fearless special rule</description>
+      <description>A model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack’s Strength value. In addition, all friendly units with the ‘Ere We Go! special rule and at least one model within 24&quot; of a model with this special rule gain the Fearless special rule</description>
     </rule>
     <rule name="Engine Damage" id="c3c8-afe3-fd92-3f62" hidden="false">
       <description>When a Vehicle with the Super-heavy Sub-type and this special rule suffers an Explodes result on the Vehicle Damage table, roll a D6. On the score of a 4+, it is Immobilised (as per the entry on the Vehicle Damage
@@ -2125,7 +2133,7 @@ table) as well as suffering the effects of any other damage inflicted upon it. 
 Damage table, roll a D6. On the score of a 4+, it is Immobilised (as per the entry on the Vehicle Damage table) as well as suffering the effects of any other damage inflicted upon it. This ignores the normal immunity to such damage granted by the Super-heavy Sub-type.</description>
     </rule>
     <rule name="Kaboom" id="8053-b0cb-724e-6548" hidden="false">
-      <description>When a model with this special rule loses its last Wound, but before it is removed as a casualty, all models both friendly and enemy within D6" suffer an automatic Hit at the Strength of the model with this special rule and AP -</description>
+      <description>When a model with this special rule loses its last Wound, but before it is removed as a casualty, all models both friendly and enemy within D6&quot; suffer an automatic Hit at the Strength of the model with this special rule and AP -</description>
     </rule>
     <rule name="Lifta-Droppa" id="e026-c48a-1e12-d501" hidden="false">
       <description>This weapon may only target models with the Vehicle Unit type that began the game with no more than 4 hull
@@ -2137,16 +2145,16 @@ Vehicle firing the lifta-droppa suffers a Glancing
 hit.
 
 
-2-5: The target Vehicle is thrown D6" in a random
+2-5: The target Vehicle is thrown D6&quot; in a random
 direction (roll a Scatter dice, re-rolling any Hit
-results), stopping if it moves to within 1" away
+results), stopping if it moves to within 1&quot; away
 from any other model, and takes D3 Glancing
 hits as it is flung about by the lifta-droppa beam.
 
 
-6:The target vehicle is thrown 2D6" in a random
+6:The target vehicle is thrown 2D6&quot; in a random
 direction (roll a Scatter dice, re-rolling any Hit
-results), stopping if it moves to within 1" away
+results), stopping if it moves to within 1&quot; away
 from any other model, and suffers an Explodes!
 result on the Vehicle Damage table.</description>
     </rule>
@@ -2158,7 +2166,7 @@ units</description>
     </rule>
     <rule name="Orkish War Beast" id="90fd-1267-09c5-0072" hidden="false">
       <description>As long as a model with this special rule is transporting at least five friendly models with the ‘Ere We Go! special
-rule, or is within 3" of at least five friendly models with the ‘Ere We Go! special rule, it gains the Fearless special rule</description>
+rule, or is within 3&quot; of at least five friendly models with the ‘Ere We Go! special rule, it gains the Fearless special rule</description>
     </rule>
     <rule name="Measured Strike" id="1f63-20b5-afa7-80b7" hidden="false">
       <description>A model attacking with a weapon or profile that has this special rule may only make a single attack, regardless of the value of its Attacks Characteristic, any other special rules or whether it has Charged or is wielding more than one weapon</description>
@@ -2180,7 +2188,7 @@ Ordnance, Destroyer, or Armourbane (X) special rules or types</description>
     <rule name="Rumbler" id="7899-3f82-7da2-f9e5" hidden="false">
       <description>A Vehicle with this special rule may re-roll failed Difficult and Dangerous Terrain tests as long as it is moving at combat speed.</description>
     </rule>
-    <rule name="Screamin' Descent" id="ef95-57da-13a1-7ef9" hidden="false">
+    <rule name="Screamin&apos; Descent" id="ef95-57da-13a1-7ef9" hidden="false">
       <description>When making a Bombing Run attack with a weapon with this special rule, roll 2D6 and refer to the table below. The roll is made after the Blast marker is placed but before it scatters.
 
 
@@ -2192,11 +2200,11 @@ Flyer, centre the Blast marker on the position
 occupied by the target model.
 
 
-3:Clipped 'im!:
+3:Clipped &apos;im!:
 No bomb is dropped. The Flyer
 making the attack and its target each suffer a
 single Strength 9 AP2 hit. All hits on Vehicles
-strike the Vehicle's side facing.
+strike the Vehicle&apos;s side facing.
 
 
 4-9: Just like dis!:
@@ -2208,8 +2216,8 @@ normally.
 Execute the Bombing
 Run attack normally. In addition, the Flyer
 making the attack may shoot any of its assault
-weapons at the target model's unit. All hits on
-Vehicles strike the Vehicle's rear facing. Any
+weapons at the target model&apos;s unit. All hits on
+Vehicles strike the Vehicle&apos;s rear facing. Any
 unit that suffers one or more unsaved Wounds
 from any of the attacks must take a Pinning
 test. Note that the Flyer may shoot its assault
@@ -2257,8 +2265,8 @@ When resolving this attack, the weapon has the Vortex special rule</description
       <description>When fighting in a challenge, a model with this special
 rule or attacking with a weapon with this special rule reduces the Attacks Characteristic of their opponent by the number listed in brackets associated with the specific rule (to a minimum of 1)</description>
     </rule>
-    <rule name="Choppin'" id="4c2c-f352-a694-8d3c" hidden="false">
-      <description>When rolling To Wound for a model that has the Choppin' (X) special rule, or is attacking with a weapon that has the Choppin' (X) special rule, for each To Wound roll equal to or higher than the value listed in brackets, the controlling player must resolve these wounds at AP 3
+    <rule name="Choppin&apos;" id="4c2c-f352-a694-8d3c" hidden="false">
+      <description>When rolling To Wound for a model that has the Choppin&apos; (X) special rule, or is attacking with a weapon that has the Choppin&apos; (X) special rule, for each To Wound roll equal to or higher than the value listed in brackets, the controlling player must resolve these wounds at AP 3
 instead of the weapon’s normal AP value (unless the weapon’s normal AP value is better). This rule only affects models that have the Infantry or Cavalry Unit Types</description>
     </rule>
     <rule name="Unstable Field" id="fca7-7615-7619-2a58" hidden="false">
@@ -2273,7 +2281,7 @@ For example, if you rolled a 3 for an Unstable Field shot, the shot would be re
 The marker for a Vortex weapon is not removed from play after damage has been resolved. Leave it in play on the tabletop. The marker is impassable terrain as long as it remains in play.
 
 
-At the beginning of every subsequent player turn, the marker scatters 2D6" (use the little arrow if you roll a Hit!). If a double is rolled, the marker is removed from play instead. Any unit under the marker’s new location is hit. Apply damage as described above.</description>
+At the beginning of every subsequent player turn, the marker scatters 2D6&quot; (use the little arrow if you roll a Hit!). If a double is rolled, the marker is removed from play instead. Any unit under the marker’s new location is hit. Apply damage as described above.</description>
     </rule>
     <rule name="Waaagh! Plane" id="4de1-4c3b-811a-141a" hidden="false">
       <description>A unit or model with this special rule may be placed into Combat Air Patrol at the beginning of the battle, before any models are deployed onto the table. Models assigned to Combat Air Patrol are not deployed onto the battlefield and remain in Reserves – however, no Reserves rolls are made for these models. Instead, the controlling player gains access to the Combat Air Patrol Advanced Reaction: 
@@ -2293,7 +2301,7 @@ This Advanced Reaction may be played whenever any enemy model that has the Vehi
       <description>If the Strength result rolled for a weapon with this specialrule is above 10, the weapon Gets Hot on any roll of a 1, 2 or 3.</description>
     </rule>
     <rule name="Crawling Fire" id="d688-4498-b0b2-7d06" hidden="false">
-      <description>After the Blast marker for a weapon with this special rule is placed, the attacking unit’s controlling player may move the marker up to 2" in any direction so long as this would cover more models than it previously would have.</description>
+      <description>After the Blast marker for a weapon with this special rule is placed, the attacking unit’s controlling player may move the marker up to 2&quot; in any direction so long as this would cover more models than it previously would have.</description>
     </rule>
     <rule name="Lingering Death" id="4722-5be1-9cff-1e38" hidden="false">
       <description>When a Blast weapon with this rule is used, after the attack is resolved leave the Blast marker in play for the rest of the game and mark it with a counter of some kind. This area is now treated as Dangerous Terrain for all models with a Toughness value and open-topped vehicles.</description>
@@ -2319,10 +2327,10 @@ When rolling for Reserve, roll a single D6 for all of the units assigned to the 
 
 
 Performing a Flanking Assault
-Once a Reserve roll for the units assigned to the Flanking Assault has succeeded and the units are to be brought into play, the controlling player must roll a D6. On the roll of a ‘1’, the Flanking Assault is Disordered and the enemy player may move the Flanking marker up to 24" in either direction along the edge of the battlefield. If the roll is a ‘2’ or higher then the player making the Flanking Assault may move the Flanking marker up to 6" in either direction along the edge of the battlefield. Once the Flanking marker’s final position has been determined, the Flanking Assault unit’s controlling player may move the Flanking Assault units onto the battlefield, measuring from the point marked by the Flanking marker, one at a time in an order of their choice. These units may move up to their Movement Characteristic, follow all the normal rules for Movement and may choose to Run. If there is not enough room for all the units taking part in the Flanking Assault to move onto the battlefield, then those that cannot fit must remain in Reserve and move onto the battlefield in their controlling player’s next turn.
+Once a Reserve roll for the units assigned to the Flanking Assault has succeeded and the units are to be brought into play, the controlling player must roll a D6. On the roll of a ‘1’, the Flanking Assault is Disordered and the enemy player may move the Flanking marker up to 24&quot; in either direction along the edge of the battlefield. If the roll is a ‘2’ or higher then the player making the Flanking Assault may move the Flanking marker up to 6&quot; in either direction along the edge of the battlefield. Once the Flanking marker’s final position has been determined, the Flanking Assault unit’s controlling player may move the Flanking Assault units onto the battlefield, measuring from the point marked by the Flanking marker, one at a time in an order of their choice. These units may move up to their Movement Characteristic, follow all the normal rules for Movement and may choose to Run. If there is not enough room for all the units taking part in the Flanking Assault to move onto the battlefield, then those that cannot fit must remain in Reserve and move onto the battlefield in their controlling player’s next turn.
 
 
-Once all Flanking Assault units have moved onto the battlefield, any enemy units that have one or more models within 6" of any unit deployed as part of the Flanking Assault must make an immediate Pinning test. Once all Pinning tests are resolved, any enemy units that are neither Pinned nor Falling Back and are within line of sight may choose to make the Interceptor Reaction targeting any one of the units deployed as part of the Flanking Assault. Units that were unable to deploy in the initial Flanking deployment and were forced to remain in Reserve do not generate Pinning tests when they move onto the battlefield, but may be targeted by Interceptor Reactions.
+Once all Flanking Assault units have moved onto the battlefield, any enemy units that have one or more models within 6&quot; of any unit deployed as part of the Flanking Assault must make an immediate Pinning test. Once all Pinning tests are resolved, any enemy units that are neither Pinned nor Falling Back and are within line of sight may choose to make the Interceptor Reaction targeting any one of the units deployed as part of the Flanking Assault. Units that were unable to deploy in the initial Flanking deployment and were forced to remain in Reserve do not generate Pinning tests when they move onto the battlefield, but may be targeted by Interceptor Reactions.
 
 
 Once all units from the Flanking Assault have moved onto the battlefield and any Interceptor Reactions have been resolved, the turn proceeds as normal. Units that have moved onto the battlefield as part of a Flanking Assault may not move or Run again in the current Movement phase, but may Shoot and Assault as normal.</description>
@@ -2353,7 +2361,7 @@ For example, a unit that is forced to take a Pinning test by an attack made usin
 
 
 Wall of Death
-Template weapons can fire Snap Shots at any non-Flyer target. If a Template weapon fires as a Snap Shot, it automatically inflicts D3 Hits on the target unit, resolved at its normal Strength and AP value, as long as the target unit either has at least one model within 8" or if the target unit is resolving a Charge against the unit making the Shooting Attack. If the weapon is also a Hellstorm weapon then it instead inflicts D6 Hits.
+Template weapons can fire Snap Shots at any non-Flyer target. If a Template weapon fires as a Snap Shot, it automatically inflicts D3 Hits on the target unit, resolved at its normal Strength and AP value, as long as the target unit either has at least one model within 8&quot; or if the target unit is resolving a Charge against the unit making the Shooting Attack. If the weapon is also a Hellstorm weapon then it instead inflicts D6 Hits.
 
 
 Hellstorm Weapons
@@ -2385,7 +2393,7 @@ Ordnance weapons hit with such force that when you roll to penetrate a Vehicle�
 
 
 Bombing Runs
-To make a Bombing Run, a Flyer must be Zooming. Move the model that is making the Bombing Run, and then nominate one model that it passed over. Place the Blast marker for the Bomb so that the central hole on the marker is over the target model, and roll a Scatter dice. If a Hit is rolled, the attack is on target and the marker is not moved. If an arrow is rolled, move the marker D6" in that direction. Once the final position has been determined, resolve the effects as described in the Bomb’s profile.</description>
+To make a Bombing Run, a Flyer must be Zooming. Move the model that is making the Bombing Run, and then nominate one model that it passed over. Place the Blast marker for the Bomb so that the central hole on the marker is over the target model, and roll a Scatter dice. If a Hit is rolled, the attack is on target and the marker is not moved. If an arrow is rolled, move the marker D6&quot; in that direction. Once the final position has been determined, resolve the effects as described in the Bomb’s profile.</description>
     </rule>
     <rule name="Pistol" id="3580-2d9f-aadc-f88d" hidden="false">
       <description>A model attacking with a Pistol weapon makes the number of Attacks indicated on its profile regardless of whether the bearer has moved or not. A model carrying a Pistol weapon can make a Shooting Attack with it in the Shooting phase and still Charge in the Assault phase. A Pistol weapon also counts as a close combat weapon in the Assault phase. In addition, all models with two Pistol type weapons can attack with both in the same Shooting phase. This follows the normal rules for shooting.</description>
@@ -2439,7 +2447,7 @@ No model that is not also of the Dreadnought Unit Type may join a unit that incl
       <description>The following rules apply to all models with the Skirmish
 Sub-type:
 •A unit that includes only models with the Skirmish Sub-
-type has a unit coherency range of 3" rather than 2".
+type has a unit coherency range of 3&quot; rather than 2&quot;.
 •A unit that includes only models with the Skirmish Sub-
 type increases all Cover Saves granted by terrain by one
 (i.e., from 6+ to 5+). This only increases existing Cover
@@ -2473,7 +2481,7 @@ Models are Embarking or Disembarking from the Flyer, in which case the base of t
 
 
 Flyers and other Models
-Models that physically fit under a Flyer model can move beneath it. Likewise, a Flyer can end its move over such models. However, when moving this way, enemy models must still remain 1" away from the base of the Flyer, and the Flyer cannot end its move with its base within 1" of enemy models.
+Models that physically fit under a Flyer model can move beneath it. Likewise, a Flyer can end its move over such models. However, when moving this way, enemy models must still remain 1&quot; away from the base of the Flyer, and the Flyer cannot end its move with its base within 1&quot; of enemy models.
 
 
 Zoom
@@ -2490,7 +2498,7 @@ A Zooming Flyer can move over intervening units and Impassable Terrain exactly a
 
 
 Zoom and Ramming
-Zooming Flyers cannot Ram, nor can they be Rammed. If a Ramming Vehicle would end up beneath a Zooming Flyer, move the Ramming Vehicle by the shortest distance so that it is 1" away from the base of the Flyer.
+Zooming Flyers cannot Ram, nor can they be Rammed. If a Ramming Vehicle would end up beneath a Zooming Flyer, move the Ramming Vehicle by the shortest distance so that it is 1&quot; away from the base of the Flyer.
 
 
 Zooming and Shooting
@@ -2530,33 +2538,33 @@ In addition, Bikes cannot Go to Ground and cannot be Pinned.
 BIKES AND TERRAIN
 Bikes are not slowed down by difficult terrain, even when charging. However, Bikes treat all difficult terrain as dangerous terrain instead.
 FALL BACK MOVES
-Bikes move 3D6" when Falling Back, rather than 2D6".
+Bikes move 3D6&quot; when Falling Back, rather than 2D6&quot;.
 SHOOTING
 Each Bike in a unit can fire with one weapon for each rider on the Bike. Thus a Legion Space Marine Sky Hunter with a single rider can only fire a single weapon.
 SPECIAL RULES
 Bikes have the Hammer of Wrath (1), Jink, Relentless and Bulky (3) special rules.
 TURBO-BOOST
-Bikes cannot Run, but can make a special Turbo-boost move instead of firing in their Shooting phase. Turbo-boosting Bikes move up to 18". Bikes cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.</description>
+Bikes cannot Run, but can make a special Turbo-boost move instead of firing in their Shooting phase. Turbo-boosting Bikes move up to 18&quot;. Bikes cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.</description>
     </rule>
     <rule name="Jetbike" id="5d53-e918-1cd3-9c84" hidden="false">
       <description>Jetbike riders benefit from an increase to their Toughness characteristic by 1. If the Jetbike is part of the model’s 
 standard wargear, the bonus is already included on its profile.
 In addition, Jetbikes cannot Go to Ground and cannot be Pinned.
 MOVEMENT
-Jetbikes can move up to 12" in the Movement phase.
+Jetbikes can move up to 12&quot; in the Movement phase.
 BIKES AND TERRAIN
 Jetbikes are not slowed down by difficult terrain, even when charging. 
 JETBIKES, MODELS AND TERRAIN
 Jetbikes can move over all other models and terrain freely. However, if a moving Jetbike begins or ends its move in difficult terrain, it must take a Dangerous Terrain test. Jetbikes cannot end their move over other models or impassable terrain, except that they can end their move on top of impassable terrain if it is actually possible to place the models on top of it. If they do so, they treat the impassable terrain as dangerous terrain.
 FALL BACK MOVES
-Jetbikes move 3D6" when Falling Back, rather than 2D6".
+Jetbikes move 3D6&quot; when Falling Back, rather than 2D6&quot;.
 SHOOTING
 Each Jetbike in a unit can fire with one weapon for each rider on the Bike. Thus a Legion Space Marine Sky Hunter with a single rider can only fire a single weapon.
 SPECIAL RULES
 etbikes have the Hammer of Wrath, Jink, Relentless and Bulky (3) special rules.
 TURBO-BOOST
 etbikes cannot Run, but can make a special Turbo-boost move instead of firing in their Shooting phase.
-Turbo-boosting Jetbikes move up to 24". Jetbikes cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.</description>
+Turbo-boosting Jetbikes move up to 24&quot;. Jetbikes cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.</description>
     </rule>
     <rule name="Artillery" id="ff97-884f-7dbb-5cf8" hidden="false">
       <description>ARTILLERY
@@ -2564,7 +2572,7 @@ If all of the crew models are killed, the guns are immediately removed as well. 
 MOVEMENT PHASE
 Artillery units need at least one crewman per gun in order for the unit to move. If an Artillery unit does not have at least one crewman per gun, then it may not move.
 SHOOTING WITH ARTILLERY
-One crewman that is within 2" of a gun in the Shooting phase can fire it. The crewmen firing the gun cannot fire any weapons they are carrying, while the other crew members (and any 
+One crewman that is within 2&quot; of a gun in the Shooting phase can fire it. The crewmen firing the gun cannot fire any weapons they are carrying, while the other crew members (and any 
 Independent Characters in the unit) are free to fire their side arms, provided the whole unit shoots at the same target. When firing the guns, there must be a line of sight to the target from both the gun model and the crewman firing it (unless they are firing Barrage weapons). Ranges are measured from the barrel on the gun model.
 SHOOTING AT ARTILLERY
 If shooting at an Artillery unit, the Toughness of the guns is always used whilst at least 
@@ -2589,12 +2597,12 @@ When using its jump pack (whether moving, charging or Falling Back), a model can
 Jump models cannot end their move on top of other models and
 can only end their move on top of impassable terrain if it is actually possible to place the models on top of it. If they do this, however, they treat the impassable terrain as dangerous terrain.
 MOVEMENT PHASE
-If a Jump model uses its jump pack (or equivalent) in the Movement phase, it can move up to 12".
+If a Jump model uses its jump pack (or equivalent) in the Movement phase, it can move up to 12&quot;.
 ASSAULT PHASE
 If a Jump model uses its jump pack (or equivalent) to charge into 
 assault, it can re-roll its charge distance. Furthermore, a model that uses its jump pack to charge gains the Hammer of Wrath special rule for the remainder of the turn.
 FALL BACK MOVES
-Jump units always use their jump packs when Falling Back, and their Fall Back moves are 3D6", even if they already used their jump pack to move that turn.
+Jump units always use their jump packs when Falling Back, and their Fall Back moves are 3D6&quot;, even if they already used their jump pack to move that turn.
 SPECIAL RULES
 Jump units have the Bulky (2) and Deep Strike special rules.</description>
     </rule>
@@ -2605,7 +2613,7 @@ SKYBORNE
 When using its jet pack (whether moving or making a Thrust move), a model can move over all other models and terrain freely. However, if the model begins or ends its move in difficult terrain, it must take a Dangerous Terrain test.
 Jet Pack models cannot end their move on top of other models and can only end their move on top of impassable terrain if it is actually possible to place the models on top of it. If they do this, however, they treat the impassable terrain as dangerous terrain.
 THRUST MOVE
-A Jet Pack unit that is not locked in combat or charging can move up to 2D6" in the Assault phase, even if they have shot or Run in 
+A Jet Pack unit that is not locked in combat or charging can move up to 2D6&quot; in the Assault phase, even if they have shot or Run in 
 the preceding Shooting phase or arrived by Deep Strike that turn. When Jet Pack units move in the Assault phase and do not charge, they move just as they would when using their jet packs in the Movement phase.
 SPECIAL RULES
 Jet Pack units have the Bulky, Deep Strike and Relentless special rules.</description>
@@ -2615,7 +2623,7 @@ Jet Pack units have the Bulky, Deep Strike and Relentless special rules.</descri
 MOVEMENT
 Beasts are not slowed by difficult terrain (even when charging) and automatically pass Dangerous Terrain tests.
 FALL BACK MOVES
-Beasts make Fall Back moves just like Infantry, except that they move 3D6".
+Beasts make Fall Back moves just like Infantry, except that they move 3D6&quot;.
 SPECIAL RULES
 Beasts have the Fleet (2) special rule.</description>
     </rule>
@@ -2644,12 +2652,12 @@ GLIDING
 If a Flying Monstrous Creature is Gliding, it moves, Runs and charges exactly like a Jump Monstrous Creature.
 SWOOPING
 If a Flying Monstrous Creature is Swooping, it moves exactly like a Jump Monstrous Creature, with the following exceptions:
-It must move at least 12" and can move up to 24".
+It must move at least 12&quot; and can move up to 24&quot;.
 Due to its limited manoeuvrability, a Flying Monstrous Creature that is Swooping can make a single pivot on the spot of up to 90˚ before it moves. Thereafter it must move directly forwards in a straight line. As many Flying Monstrous Creatures are mounted on circular or oval bases, it is not always clear which way is forward. If in doubt, make sure to use the same point on the base as the ‘front’ for the entire game.
 A Flying Monstrous Creature that is Swooping can move over intervening units and impassable terrain exactly as a Jump 
 Monstrous Creature. In addition, a Flying Monstrous Creature that is Swooping does not take Dangerous Terrain tests.
 Models that physically fit under a Swooping Flying Monstrous Creature can move beneath it. Likewise, a Swooping Flying 
-Monstrous Creature can end its move over such models. However, when moving this way, enemy models must still remain 1" away from the base of the Swooping Flying Monstrous Creature, and it cannot end its move with its base within 1" of other enemy models. A Flying Monstrous Creature that elects to Run can move up to 2D6" straight forwards if Swooping.
+Monstrous Creature can end its move over such models. However, when moving this way, enemy models must still remain 1&quot; away from the base of the Swooping Flying Monstrous Creature, and it cannot end its move with its base within 1&quot; of other enemy models. A Flying Monstrous Creature that elects to Run can move up to 2D6&quot; straight forwards if Swooping.
 A Flying Monstrous Creature cannot charge or be charged whilstit is Swooping.
 A Swooping Flying Monstrous Creature can never Fall Back.
 Hard to Hit
@@ -2663,13 +2671,13 @@ If a 1 or 2 is rolled, the beast comes crashing down to the ground – it suffer
 is treated as if it is in Gliding mode with immediate effect, and can therefore be charged in the following Assault phase. Furthermore, a Grounded model automatically loses any saving throw granted by the Jink special rule (if it had one) until the start of its next Movement phase and cannot Jink for the rest of the current turn. A Grounded model can revert to Swooping mode again in its next turn.
 Note that if a Flying Monstrous Creature is Grounded during the enemy’s turn, it will start its own Movement phase in Gliding mode and so can declare a charge during its turn if it chooses to do so, unless it chooses to change flight modes.
 Swooping Flying Monstrous Creatures and Tank Shock
-Due to their high altitude and manoeuvrability, a vehicle cannot Tank Shock a Swooping Flying Monstrous Creature (see page 88) – if the vehicle would end up beneath a Swooping Flying Monstrous Creature, move the vehicle by the shortest distance so that it is 1" away from the base of the Flying Monstrous Creature.</description>
+Due to their high altitude and manoeuvrability, a vehicle cannot Tank Shock a Swooping Flying Monstrous Creature (see page 88) – if the vehicle would end up beneath a Swooping Flying Monstrous Creature, move the vehicle by the shortest distance so that it is 1&quot; away from the base of the Flying Monstrous Creature.</description>
     </rule>
     <rule name="Gargantuan Creatures" id="c712-3809-a317-f160" hidden="false">
       <description>Gargantuan Creatures are Monstrous Creatures (see page 67)
 that have the additional rules and exceptions given below. Flying Gargantuan Creatures are Flying Monstrous Creatures (see previous page) that have the additional rules and exceptions given below:
 MOVEMENT
-Gargantuan Creatures can move 12" in the Movement phase unless specified otherwise. Apart from this, they obey the movement
+Gargantuan Creatures can move 12&quot; in the Movement phase unless specified otherwise. Apart from this, they obey the movement
 rules for Monstrous Creatures. Flying Gargantuan Creatures follow the movement rules for Flying Monstrous Creatures without
 any modification.
 SHOOTING
@@ -2710,19 +2718,19 @@ Ramming
 When moving a Vehicle, the controlling player may declare that the Vehicle will attempt to Ram instead of moving normally. A Ram Attack allows a Vehicle to use its sheer bulk as a weapon, crushing infantry and battering even the most heavily-armoured war machines. The Vehicle attempting a Ram Attack, and any Em-
 barked troops, may only fire Snap Shots in that turn’s Shooting phase.
 To perform a Ram Attack, first turn the Vehicle on the spot to face the direction you intend to move it in, and, after measuring, declare how many inches the Vehicle is going to move, up to a maximum of its Movement Characteristic. If, due to the size of the Vehicle modelmaking the Ram, pivoting the model brings it into contact 
-with an enemy unit then move the Ramming Vehicle the minimum distance required to keep it 1" away from any other model before beginning the Ram. Once the Vehicle has been ‘aimed’ and the intended distance declared, move the Vehicle 
+with an enemy unit then move the Ramming Vehicle the minimum distance required to keep it 1&quot; away from any other model before beginning the Ram. Once the Vehicle has been ‘aimed’ and the intended distance declared, move the Vehicle 
 straight forwards until it comes into contact with a unit, enemy or friendly, or it reaches the distance declared – no other changes of direction are allowed during a Ram.
 Note that a Vehicle conducting a Ram may not contact a unit that is locked in combat. If its movement would bring it into contact with a unit that is locked in combat then
-it must halt its movement 1" away from that unit, ending the Ram.
+it must halt its movement 1&quot; away from that unit, ending the Ram.
 If a non-Vehicle unit is reached then that unit suffers D6 automatic Hits. These hits are resolved at a Strength equal to half the Front Armour Value of the Ramming Vehicle, rounding up, and with an AP of -. If the Ramming Vehicle is a Super-
 heavy Vehicle then the Strength of the attack is always 10, and the number of Hits is increased to 2D6.Once all Hits sustained from the Ram have been resolved, the 
-unit that has been rammed must take a Morale check and immediately Fall Back if it fails. Regardless of the result of the check, the Vehicle stops moving 1" away from any other models and does not move any further this turn. If the Ramming Vehicle comes into contact with an enemy Vehicle or Building, then all Vehicles or Buildings immediately inflict a Hit against any Armour Facing that is in contact with another Vehicle. The Strength of Hits inflicted on all Vehicles will be equal to the Armour Value, rounding up, on the facing that is in contact with an enemy Vehicle or Building.
+unit that has been rammed must take a Morale check and immediately Fall Back if it fails. Regardless of the result of the check, the Vehicle stops moving 1&quot; away from any other models and does not move any further this turn. If the Ramming Vehicle comes into contact with an enemy Vehicle or Building, then all Vehicles or Buildings immediately inflict a Hit against any Armour Facing that is in contact with another Vehicle. The Strength of Hits inflicted on all Vehicles will be equal to the Armour Value, rounding up, on the facing that is in contact with an enemy Vehicle or Building.
 If the Ramming Vehicle has more starting Hull Points than any Vehicle or Building it is in contact with, add +1 to the Strength of the Hit, and if the Ramming Vehicle
 has the Slow or Super-heavy type, or is a Building, add +4 Strength, to a maximum value of 10. Both players roll for armour penetration against any of their opponent’s Vehicles or Building involved in the Ramming Attack, and any results are immediately applied. Regardless of the damage dealt to any Vehicles or Buildings involved
-in the Ram Attack, once the Ram Attack is resolved the Ramming Vehicle halts 1" away from any other models and does not move further this turn.
+in the Ram Attack, once the Ram Attack is resolved the Ramming Vehicle halts 1&quot; away from any other models and does not move further this turn.
 If, at any point in its move, the Vehicle would enter into con-
 tact with Impassable Terrain or a battlefield edge, or if it 
-passes within 1" of units in combat or friendly units, it immediately stops moving 1" away from any other model. Units already Falling Back. If a unit that is Falling Back is Rammed, the unit that is Falling Back automatically fails its Morale check. This also applies if a unit Falls Back from a Ramming Attack and the Vehicle’s remaining move brings it into contact with them a second time. Ramming from Reserve A Vehicle that moves onto the battlefield from Reserve may attempt a Ram. This must be declared before the Vehicle moves onto the battlefield.
+passes within 1&quot; of units in combat or friendly units, it immediately stops moving 1&quot; away from any other model. Units already Falling Back. If a unit that is Falling Back is Rammed, the unit that is Falling Back automatically fails its Morale check. This also applies if a unit Falls Back from a Ramming Attack and the Vehicle’s remaining move brings it into contact with them a second time. Ramming from Reserve A Vehicle that moves onto the battlefield from Reserve may attempt a Ram. This must be declared before the Vehicle moves onto the battlefield.
 
 Ramming Restrictions
 Units cannot Embark onto or Disembark from a Transport Vehicle in the same Movement phase in which it has already performed a Ram. Likewise, a Transport Vehicle from which a unit has Embarked or Disembarked that Phase cannot perform a Ram in that Movement phase. A Vehicle that has performed a Ram during the Movement  phase may still make Shooting Attacks in the following Shooting phase, but may only make Snap Shots.</description>
@@ -2742,12 +2750,12 @@ Units embarked upon transports have the Fearless special rule while they are emb
 
 Disembarking
 A unit that begins its Movement phase embarked upon a vehicle can disembark either before or after the vehicle has moved 
-(including pivoting on the spot, etc) so long as the vehicle has not moved more than 6".
+(including pivoting on the spot, etc) so long as the vehicle has not moved more than 6&quot;.
 If the vehicle had not moved before the unit disembarked, the
 vehicle can then move normally. If the vehicle had already moved 
 before the unit disembarked, the vehicle cannot move further that turn (including pivoting on the spot, moving Flat Out, Running or charging). In addition, a vehicle cannot Tank Shock or Ram on a turn that a unit disembarks from it.
 Placing Disembarked Models
-When a unit disembarks, place the models one at a time, using the following method: place the first model in base contact with one of the vehicle’s Access Points (including its flying base, if it has one). A disembarking model’s base cannot be placed within 1" of an enemy model or within impassable terrain.The model can then make a normal move – Difficult Terrain tests and Dangerous Terrain tests should be taken as normal, but it must end its move wholly within 6" of the Access Point it disembarked from. Repeat this process for each model in the unit. At the end of the unit’s move, all models must be in unit coherency.
+When a unit disembarks, place the models one at a time, using the following method: place the first model in base contact with one of the vehicle’s Access Points (including its flying base, if it has one). A disembarking model’s base cannot be placed within 1&quot; of an enemy model or within impassable terrain.The model can then make a normal move – Difficult Terrain tests and Dangerous Terrain tests should be taken as normal, but it must end its move wholly within 6&quot; of the Access Point it disembarked from. Repeat this process for each model in the unit. At the end of the unit’s move, all models must be in unit coherency.
 Disembarkation Restrictions
 After disembarking, models can manifest their psychic powers and either shoot or Run in their subsequent Shooting phase, counting as having moved that turn, but they cannot declare a charge in their subsequent Assault phase. If a unit disembarks from a destroyed vehicle during the enemy turn, it cannot charge in the Assault phase of its own turn unless the destroyed vehicle had the Assault Vehicle special rule (see page 157).
 Emergency Disembarkation
@@ -2781,7 +2789,7 @@ For the purposes of determining which weapons a Heavy vehicle can fire (and at w
     </rule>
     <rule name="Fast" id="95b9-04c2-04c9-1c9e" hidden="false">
       <description>MOVING FAST VEHICLES
-Fast vehicles can move up to 12" when moving Flat Out.
+Fast vehicles can move up to 12&quot; when moving Flat Out.
 SHOOTING WITH FAST VEHICLES
 Fast vehicles that moved at Combat Speed in the preceding 
 Movement phase can fire all of their weapons, just like other types of vehicles that have remained Stationary. Fast vehicles that moved at Cruising Speed can fire up to two weapons using their full Ballistic Skill – other weapons can only make Snap Shots.</description>
@@ -2795,7 +2803,7 @@ Skimmers can move over friendly and enemy models, but they cannot end their mov
 Skimmers can move over all terrain, ignoring all penalties for 
 Difficult Terrain and Dangerous Terrain tests. However, if a moving Skimmer starts or ends its move in difficult terrain or dangerous terrain, it must take a Dangerous Terrain test. A Skimmer can even end its move over impassable terrain if it is possible to actually place the model on top of it, but if it does so it must take a Dangerous Terrain test. If a Skimmer is forced to end its move over friendly or enemy models, move the Skimmer the minimum distance so that no models are left underneath it.
 FAST SKIMMERS
-If a vehicle is both Fast (see previous page) and a Skimmer, it can move up to 18" when moving Flat Out.
+If a vehicle is both Fast (see previous page) and a Skimmer, it can move up to 18&quot; when moving Flat Out.
 SKIMMERS AND DAMAGE RESULTS
 If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If this is not possible (the base might have been glued in place, for example), then leave the base in place. Note that it is not otherwise permitted to remove the flying base, as Skimmers cannot land in battle conditions.
 SPECIAL RULES
@@ -2806,8 +2814,8 @@ Skimmers that are not also Heavy vehicles or are Immobilised have the Jink speci
 moving normally.
 TANK SHOCK
 To perform a Tank Shock, first turn the vehicle on the spot to face the direction you intend to move it in, and, after pre-measuring, declare how many inches the vehicle is going to move, up to its maximum speed. Note that, because pivoting on the spot does not count as moving, this is not enough for a Tank Shock. Once the Tank has been ‘aimed’ and the intended distance declared, move the Tank straight forwards until it comes into contact with an enemy unit or it reaches the distance declared – no other changes of direction are allowed in a Tank Shock. A Tank Shock is an exception to the rule that enemy models cannot be moved through. Remember, though, that friendly models still cannot be moved through, so the Tank’s movement will be stopped if any friendly models are in the way. A Tank Shock cannot be attempted against enemies that are locked in combat.
-If an enemy unit other than another vehicle is reached, that enemy unit must take a Morale check and immediately Fall Back if it fails. If the test is passed, the unit simply lets the tank pass through, as if it was not there. Regardless of the result of the test, the Tank keeps moving straight on, possibly Tank Shocking more enemy units until it reaches its final position. If the Tank would move into contact with a friendly model, enemy vehicle, impassable terrain or a board edge, it immediately stops moving 1" away.
-If some enemy models in the enemy unit would end up underneath the vehicle when it reaches its final position (it makes no difference whether the unit is Falling Back or not), these models must be moved out of the way by the shortest distance, leaving at least 1" between them and the vehicle whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.
+If an enemy unit other than another vehicle is reached, that enemy unit must take a Morale check and immediately Fall Back if it fails. If the test is passed, the unit simply lets the tank pass through, as if it was not there. Regardless of the result of the test, the Tank keeps moving straight on, possibly Tank Shocking more enemy units until it reaches its final position. If the Tank would move into contact with a friendly model, enemy vehicle, impassable terrain or a board edge, it immediately stops moving 1&quot; away.
+If some enemy models in the enemy unit would end up underneath the vehicle when it reaches its final position (it makes no difference whether the unit is Falling Back or not), these models must be moved out of the way by the shortest distance, leaving at least 1&quot; between them and the vehicle whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.
 
 Units already Falling Back
 If a unit that is Falling Back is Tank Shocked, the unit automatically fails its Morale check. This also applies if a unit Falls Back from a Tank Shock and the Tank’s remaining move brings it into contact with them a second time.
@@ -2822,7 +2830,7 @@ Tank Shock Restrictions
 A vehicle that has performed a Tank Shock cannot move Flat Out later in the turn. Units cannot embark onto or disembark from a Transport vehicle in a turn in which it has already performed a Tank Shock. Likewise, a Transport vehicle from which a unit has embarked or disembarked that phase cannot perform a Tank Shock later in the turn. A Flyer cannot perform a Tank Shock – even if it is also a Tank.
 
 Death or Glory
-If a unit that has been attacked by Tank Shock passes its Morale check, one of its models in the vehicle’s path can stand and attempt to destroy it rather than move out of the way. The nominated model makes a single attack against the oncoming Tank. Even if the weapon used is Assault 3, for example, or the model is normally allowed more than one attack, only one attack is ever resolved in this case. The attack can either be a shot from a weapon carried by the model, or a single close combat attack using any weapon carried, including grenades. Whatever form it takes, the attack hits automatically. Resolve the hit against the vehicle’s Front armour (even if using a close combat attack), and immediately apply any damage results. Cover saves cannot be taken against a Death or Glory attack. If the model successfully manages to wreck the vehicle, or inflict a Crew Stunned, Immobilised or Explodes! result, the vehicle halts 1" away from the model. If the attack fails to stop the vehicle, then the Tank Shock continues as normal, except that the model is crushed by the oncoming vehicle and is immediately removed as a casualty. Artillery units may attempt a Death or Glory attack with either a crewman (as normal) or a gun model. If a gun model does this and fails to stop the tank, both the gun and one crewman are removed.
+If a unit that has been attacked by Tank Shock passes its Morale check, one of its models in the vehicle’s path can stand and attempt to destroy it rather than move out of the way. The nominated model makes a single attack against the oncoming Tank. Even if the weapon used is Assault 3, for example, or the model is normally allowed more than one attack, only one attack is ever resolved in this case. The attack can either be a shot from a weapon carried by the model, or a single close combat attack using any weapon carried, including grenades. Whatever form it takes, the attack hits automatically. Resolve the hit against the vehicle’s Front armour (even if using a close combat attack), and immediately apply any damage results. Cover saves cannot be taken against a Death or Glory attack. If the model successfully manages to wreck the vehicle, or inflict a Crew Stunned, Immobilised or Explodes! result, the vehicle halts 1&quot; away from the model. If the attack fails to stop the vehicle, then the Tank Shock continues as normal, except that the model is crushed by the oncoming vehicle and is immediately removed as a casualty. Artillery units may attempt a Death or Glory attack with either a crewman (as normal) or a gun model. If a gun model does this and fails to stop the tank, both the gun and one crewman are removed.
 
 
 RAMMING
@@ -2834,7 +2842,7 @@ Excessive mass: If the vehicle has the Heavy or Super-heavy type, or is a buildi
 
 
 Both players roll for armour penetration against their opponent’s vehicle and any results are immediately applied. If the vehicle that is Rammed is not removed, the Rammer halts. However, if the Rammed vehicle is removed because it suffers an 
-Explodes! damage result, the Rammer continues its move until it reaches the declared distance, moves to within 1" of impassable 
+Explodes! damage result, the Rammer continues its move until it reaches the declared distance, moves to within 1&quot; of impassable 
 terrain or friendly troops (at which point it stops immediately) or contacts another enemy unit (which it will Tank Shock or Ram again)
 Ramming Restrictions
 A vehicle making a Ram manoeuvre is subject to the same restrictions as a Tank Shock.</description>
@@ -2886,18 +2894,18 @@ the Tank Shock or Ram as described on page 88 or page 89.</description>
     </rule>
     <rule name="Character" id="febd-e9cc-2253-20b3" hidden="false">
       <description>LOOK OUT, SIR AND SHOOTING
-When a wound is allocated to one of your non-vehicle characters, and there is another model from the same unit within 6", they are allowed a Look Out, Sir attempt. This represents the character falling back into the unit or being pushed aside by an ally. If no model is in range, then you cannot make a Look Our, Sir attempt.
+When a wound is allocated to one of your non-vehicle characters, and there is another model from the same unit within 6&quot;, they are allowed a Look Out, Sir attempt. This represents the character falling back into the unit or being pushed aside by an ally. If no model is in range, then you cannot make a Look Our, Sir attempt.
 To make a Look Out, Sir attempt, roll a D6.
 On a roll of 3 or less, the Look Out, Sir attempt fails.
 On a roll of 4+, the Look Out, Sir attempt is successful. 
 
 
 Determine which model in the unit is closest to the character, and allocate the wound to that model instead. This can
-even be a model that is out of range or line of sight of the shooting attack.If the unit only consists of characters, a Look Out, Sir attempt can still be made, with the closest character within 6" taking the place of the original target if the roll is passed. Only one Look Out, Sir attempt can be made per wound allocated – once the wound has been transferred (or not), no further attempts to reallocate it can be made.
+even be a model that is out of range or line of sight of the shooting attack.If the unit only consists of characters, a Look Out, Sir attempt can still be made, with the closest character within 6&quot; taking the place of the original target if the roll is passed. Only one Look Out, Sir attempt can be made per wound allocated – once the wound has been transferred (or not), no further attempts to reallocate it can be made.
 
 
 LOOK OUT, SIR AND ASSAULTS
-As with shooting attacks, if a non-vehicle character has a wound allocated to them, and there is another model from the same unit within 6", that model may make a Look Out, Sir attempt. This works exactly the same way as for shooting attacks. However,
+As with shooting attacks, if a non-vehicle character has a wound allocated to them, and there is another model from the same unit within 6&quot;, that model may make a Look Out, Sir attempt. This works exactly the same way as for shooting attacks. However,
 a character who is fighting in a challenge (see opposite) cannot attempt to make a Look Out, Sir attempt.</description>
     </rule>
     <rule name="Acute Senses" id="3db5-c897-7813-709a" hidden="false">
@@ -2912,7 +2920,7 @@ crew and each gun must be destroyed normally before it is removed. Automated Art
     </rule>
     <rule name="Barrage" id="6729-a069-dfde-b0e5" hidden="false">
       <description>All Barrage weapons use Blast markers and consequently use the rules for Blast weapons, as indicated by their profile, with the following exceptions:
-Barrage weapons can fire indirectly. This means they can fire at a target that they do not have line of sight to, as long as the target is beyond their minimum range (if applicable). When firing indirectly, the Ballistic Skill of the firer is not subtracted from the scatter distance; unless a Hit! is rolled on the Scatter dice, the Blast marker always scatters a full 2D6". If a Barrage weapon has line of sight to its target it can fire directly, even if the target is within its minimum range.
+Barrage weapons can fire indirectly. This means they can fire at a target that they do not have line of sight to, as long as the target is beyond their minimum range (if applicable). When firing indirectly, the Ballistic Skill of the firer is not subtracted from the scatter distance; unless a Hit! is rolled on the Scatter dice, the Blast marker always scatters a full 2D6&quot;. If a Barrage weapon has line of sight to its target it can fire directly, even if the target is within its minimum range.
 
 
 To determine whether a unit wounded by a Barrage weapon is allowed a cover save, and when determining wound  allocation, always assume the shot is coming from the centre of the Blast marker, instead of from the firing model. Hits against vehicles are always resolved against their Side armour
@@ -2963,7 +2971,7 @@ Interceptor special rule can be fired at any one unit that has arrived from Rese
       <description>When a building with this special rule suffers a penetrating hit, there is a -1 modifier to the roll on the Building Damage table.</description>
     </rule>
     <rule name="Missile Lock" id="96a3-abae-2d40-29cf" hidden="false">
-      <description>A model with this special rule re-rolls failed To Hit rolls when shooting any weapon that has the One Use special rule. If a model with this special rule is shooting a weapon that has both the One Use and Blast special rules, that shot will instead scatter D6" rather than 2D6".</description>
+      <description>A model with this special rule re-rolls failed To Hit rolls when shooting any weapon that has the One Use special rule. If a model with this special rule is shooting a weapon that has both the One Use and Blast special rules, that shot will instead scatter D6&quot; rather than 2D6&quot;.</description>
     </rule>
     <rule name="Repel the Enemy" id="447d-5c38-faf2-f462" hidden="false">
       <description>Models disembarking from Access Points on a building can charge on the turn they do so, even on a turn the building was destroyed. Models using an escape hatch (see page 106) may not make use of this special rule.</description>
@@ -2972,11 +2980,11 @@ Interceptor special rule can be fired at any one unit that has arrived from Rese
       <description>A building with this special rule can use automated fire against enemy units, even if it is unoccupied. In addition, enemy units can shoot at and charge a building with this special rule, even if it is unoccupied.</description>
     </rule>
     <rule name="Scout" id="e69e-e401-0753-5781" hidden="false">
-      <description>After both sides have deployed (including Infiltrators), but before the first player begins their first turn, a unit containing at least one model with this special rule can choose to redeploy. If the unit is Infantry, Artillery, a Walker or a Monstrous Creature, each model can redeploy anywhere entirely within 6" of its current position.
+      <description>After both sides have deployed (including Infiltrators), but before the first player begins their first turn, a unit containing at least one model with this special rule can choose to redeploy. If the unit is Infantry, Artillery, a Walker or a Monstrous Creature, each model can redeploy anywhere entirely within 6&quot; of its current position.
 If it is any other unit type, each model can instead redeploy 
-anywhere entirely within 12" of its current position. During this 
+anywhere entirely within 12&quot; of its current position. During this 
 redeployment, Scouts can move outside the owning player’s 
-deployment zone, but must remain more than 12" away from any enemy unit. A unit that makes a Scout redeployment cannot charge in the first game turn. A unit cannot embark or disembark as part of a Scout redeployment.
+deployment zone, but must remain more than 12&quot; away from any enemy unit. A unit that makes a Scout redeployment cannot charge in the first game turn. A unit cannot embark or disembark as part of a Scout redeployment.
 
 
 If both sides have Scouts, roll-off; the winner decides who redeploys first. Then alternate redeploying Scout units.
@@ -2997,7 +3005,7 @@ If a unit has both the Infiltrate and Scout special rule, that unit can deploy a
       <description>Any non-vehicle model that suffers one or more unsaved wounds or passes one or more saving throws against an attack with the Strikedown special rule moves as if it is in difficult terrain until the end of its next turn. It is a good idea to mark affected models with counters or coins so that you remember.</description>
     </rule>
     <rule name="Supersonic" id="5191-4077-69be-3f8f" hidden="false">
-      <description>A Supersonic vehicle that moves Flat Out must move at least 18" and can move up to 36".</description>
+      <description>A Supersonic vehicle that moves Flat Out must move at least 18&quot; and can move up to 36&quot;.</description>
     </rule>
     <rule name="Support Squad" id="bc7f-6c24-74cd-4b87" hidden="false">
       <description>A squad with this special rule may not be chosen as a compulsory choice for the army as part of the Force Organisation chart.</description>
@@ -3118,7 +3126,7 @@ The model ignores effects that would cause it to be Stunned, Shaken, or Pinned f
 The model gains the Rage (2) special rule for this turn.
 
 
-The model must move it's full movement characteristic towards the closest enemy target this turn.
+The model must move it&apos;s full movement characteristic towards the closest enemy target this turn.
 
 
 3 – Blood Rage
@@ -3142,7 +3150,7 @@ If within maximum Charge range, it must declare a Charge against the nearest ene
 The model may not make Shooting attacks this turn.</description>
     </rule>
     <rule name="Pyromantic Desolation" id="3e1b-caae-7ca4-2bb7" hidden="false">
-      <description>In addition to attacking normally in the Assault Phase, at the beginning of the Initiative Step at which the model using this Psychic Weapon would normally attack, but before any Pile-in moves or attacks are made, place a Blast (3") marker centred on the attacking model. All other models wholly or partially under the marker, friendly or enemy, suffer an automatic Hit with the profile shown. These Hits are resolved immediately and do not count for the purpose of resolving the winner of an assault. Once they are resolved, the attacking model may Pile-in and make any other attacks as normal.</description>
+      <description>In addition to attacking normally in the Assault Phase, at the beginning of the Initiative Step at which the model using this Psychic Weapon would normally attack, but before any Pile-in moves or attacks are made, place a Blast (3&quot;) marker centred on the attacking model. All other models wholly or partially under the marker, friendly or enemy, suffer an automatic Hit with the profile shown. These Hits are resolved immediately and do not count for the purpose of resolving the winner of an assault. Once they are resolved, the attacking model may Pile-in and make any other attacks as normal.</description>
     </rule>
     <rule name="Hallucinations" id="a58b-4de5-05a5-e6cc" hidden="false">
       <description>A unit that suffers one or more Hits from a Weapon with this special rule must make an immediate Pinning test, adding one to the result of the roll for each Hit scored by this attack before the result is decided. For example, if a Psyker attacks an enemy unit that has a Leadership of 8, scoring 3 Hits with Telepathic Hallucinations, then that unit must make an immediate Pinning test and add 3 to the result rolled before determining the result.</description>
@@ -3177,73 +3185,73 @@ may join a unit that includes an Automata model.</description>
   <sharedSelectionEntries>
     <selectionEntry name="Elite" id="919f-c720-0c7b-5215" collective="false" hidden="true" import="true" type="upgrade">
       <constraints>
-        <constraint id="2fef-a103-7671-28c0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
+        <constraint id="2fef-a103-7671-28c0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry name="Fast Attack" id="9eb9-2937-3960-21c2" collective="false" hidden="true" import="true" type="upgrade">
       <constraints>
-        <constraint id="2bd3-7a0c-e5cd-7c88" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
+        <constraint id="2bd3-7a0c-e5cd-7c88" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry name="HQ" id="6ca2-4e32-bbb6-68a3" collective="false" hidden="true" import="true" type="upgrade">
       <constraints>
-        <constraint id="37c7-8f1e-8642-ed65" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
+        <constraint id="37c7-8f1e-8642-ed65" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry name="Troops" id="02d8-c20d-cddf-953f" collective="false" hidden="true" import="true" type="upgrade">
       <constraints>
-        <constraint id="25f3-cb55-2c86-8b8b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
+        <constraint id="25f3-cb55-2c86-8b8b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry name="Heavy Support" id="192e-3100-5d92-e3bc" collective="false" hidden="false" import="true" type="upgrade">
       <constraints>
-        <constraint id="fdc7-8b33-e55b-ffa7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
+        <constraint id="fdc7-8b33-e55b-ffa7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+        <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Captain Melee Weapons" id="80a8-69e1-c94b-cce6" collective="false" hidden="false" import="true" />
+    <selectionEntryGroup name="Captain Melee Weapons" id="80a8-69e1-c94b-cce6" collective="false" hidden="false" import="true"/>
     <selectionEntryGroup name="Psychic Discipline" id="c901-7d0e-1a44-9b02" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="c902-7d0e-1a44-9b02" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2" />
+        <constraint id="c902-7d0e-1a44-9b02" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Biomancy" id="c903-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="840e-c496-0441-ba25" type="selectionEntryGroup" />
-        <entryLink name="Divination" id="c904-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="7ea5-9df4-33f4-83c3" type="selectionEntryGroup" />
-        <entryLink name="Pyromancy" id="c905-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="9cde-c840-2f53-e2d5" type="selectionEntryGroup" />
-        <entryLink name="Sanctus" id="c906-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup" />
-        <entryLink name="Telekinesis" id="c907-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="0185-eb3b-e34b-a776" type="selectionEntryGroup" />
-        <entryLink name="Telepathy" id="c908-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="9f4a-8f38-08b0-a669" type="selectionEntryGroup" />
+        <entryLink name="Biomancy" id="c903-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="840e-c496-0441-ba25" type="selectionEntryGroup"/>
+        <entryLink name="Divination" id="c904-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="7ea5-9df4-33f4-83c3" type="selectionEntryGroup"/>
+        <entryLink name="Pyromancy" id="c905-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="9cde-c840-2f53-e2d5" type="selectionEntryGroup"/>
+        <entryLink name="Sanctus" id="c906-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
+        <entryLink name="Telekinesis" id="c907-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="0185-eb3b-e34b-a776" type="selectionEntryGroup"/>
+        <entryLink name="Telepathy" id="c908-7d0e-1a44-9b02" collective="false" hidden="false" import="true" targetId="9f4a-8f38-08b0-a669" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Sanctus" id="be72-9e20-115e-68d8" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="d0c1-5d0d-4a81-39b5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
-        <constraint id="350d-8135-5033-1ad6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3" />
+        <constraint id="d0c1-5d0d-4a81-39b5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+        <constraint id="350d-8135-5033-1ad6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
       </constraints>
       <selectionEntries>
         <selectionEntry name="Cleansing Flame" id="43d0-ebf2-1f0e-f1a2" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="2a12-9941-18f4-a8ef" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="4281-e8d9-00c1-c20d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="2a12-9941-18f4-a8ef" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="4281-e8d9-00c1-c20d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Cleansing Flame" id="7684-addb-0aa9-89bd" hidden="false" typeId="8102-1874-edb1-4860" typeName="Psychic Weapon">
@@ -3251,39 +3259,39 @@ may join a unit that includes an Automata model.</description>
                 <characteristic name="Type" typeId="cff3-dee8-de48-e5f8">Assault 6, Force, Ignore Cover, Soul Blaze</characteristic>
                 <characteristic name="AP" typeId="b200-d274-a6c8-1dbd">4</characteristic>
                 <characteristic name="S" typeId="38b9-aa50-1a98-e7ff">3</characteristic>
-                <characteristic name="Effect" typeId="0ab5-732c-2c6c-c62a">At the start of the shooting phase, instead of making a shooting attack, a psyker with this ability may make a psychic test. If succesful, all enemy units within 9" of the casting unit are hit with a Cleansing Flame. If the test fails, the casting unit as well as any friendly models within 9" with the Psyker keyword instead suffers Perils of the Warp.</characteristic>
+                <characteristic name="Effect" typeId="0ab5-732c-2c6c-c62a">At the start of the shooting phase, instead of making a shooting attack, a psyker with this ability may make a psychic test. If succesful, all enemy units within 9&quot; of the casting unit are hit with a Cleansing Flame. If the test fails, the casting unit as well as any friendly models within 9&quot; with the Psyker keyword instead suffers Perils of the Warp.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
         <selectionEntry name="Sanctuary" id="8dd4-f234-2bde-c6da" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="733b-b432-5905-bd62" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="46fc-b3be-4741-faf9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="733b-b432-5905-bd62" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="46fc-b3be-4741-faf9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Sanctuary" id="5808-d151-8492-022b" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of moving during the movement phase, a Psyker with this power may instead activate this power. All friendly models within 8" recieve +1 to their Invulnurable Saves (models without an Invulnurable Save instead gain a 6+ Invulnurable Save). In addition, any Daemons within 8" reduce their Invulnerable Save by 1 and treat all terrain within 8" of the casting unit as Dangerous Terrain. This ability lasts until the start of the controlling players next movement phase. A unit that casts this abiltity may not move or react for any reason whilst this ability is active.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of moving during the movement phase, a Psyker with this power may instead activate this power. All friendly models within 8&quot; recieve +1 to their Invulnurable Saves (models without an Invulnurable Save instead gain a 6+ Invulnurable Save). In addition, any Daemons within 8&quot; reduce their Invulnerable Save by 1 and treat all terrain within 8&quot; of the casting unit as Dangerous Terrain. This ability lasts until the start of the controlling players next movement phase. A unit that casts this abiltity may not move or react for any reason whilst this ability is active.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
         <selectionEntry name="Aetheric Lightning" id="65a7-b72c-e8fe-ce2c" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="3ca8-b747-8cfc-53f8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="3189-af03-2cca-3138" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3ca8-b747-8cfc-53f8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="3189-af03-2cca-3138" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Aetheric Lightning" id="1ec0-5b4b-2cc6-9e74" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
                 <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Force</characteristic>
@@ -3301,39 +3309,39 @@ containing the model that failed its test. If the Psyker survives Perils of the 
     </selectionEntryGroup>
     <selectionEntryGroup name="Biomancy" id="840e-c496-0441-ba25" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="49f1-6a9f-0ae7-115c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
-        <constraint id="2d57-a73c-96b7-c9f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3" />
+        <constraint id="49f1-6a9f-0ae7-115c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+        <constraint id="2d57-a73c-96b7-c9f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Aetheric Lightning" id="5003-330a-0fe1-bebc" collective="false" hidden="false" import="true" targetId="65a7-b72c-e8fe-ce2c" type="selectionEntry" />
+        <entryLink name="Aetheric Lightning" id="5003-330a-0fe1-bebc" collective="false" hidden="false" import="true" targetId="65a7-b72c-e8fe-ce2c" type="selectionEntry"/>
       </entryLinks>
       <selectionEntries>
         <selectionEntry name="Biomantic Augmentation" id="dcca-77cb-b362-18a8" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="ca6d-f682-b06b-edb6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="ba93-d5a7-201a-29ca" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ca6d-f682-b06b-edb6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="ba93-d5a7-201a-29ca" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Biomantic Augmentation" id="7c93-9a79-2baf-64b7" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit within 6", that unit increases its Strength by +1 for the duration  of the current player turn. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then both Strength and Toughness are increased by +1 for the duration of  the current player turn. If the Check is failed, then the  target unit gains no benefit and the Psyker suffers Perils of the Warp.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit within 6&quot;, that unit increases its Strength by +1 for the duration  of the current player turn. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then both Strength and Toughness are increased by +1 for the duration of  the current player turn. If the Check is failed, then the  target unit gains no benefit and the Psyker suffers Perils of the Warp.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Biomancer's Rage" id="ef53-41f2-4b80-ef00" collective="false" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Biomancer&apos;s Rage" id="ef53-41f2-4b80-ef00" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="af1b-3842-a810-d4b6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="0377-f579-7448-4c15" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="af1b-3842-a810-d4b6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="0377-f579-7448-4c15" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
-            <profile name="Biomancer's Rage" id="22b5-2f5f-11bc-8ceb" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+            <profile name="Biomancer&apos;s Rage" id="22b5-2f5f-11bc-8ceb" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">-</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">10</characteristic>
@@ -3347,22 +3355,22 @@ containing the model that failed its test. If the Psyker survives Perils of the 
     </selectionEntryGroup>
     <selectionEntryGroup name="Plague" id="7239-7482-e7da-c752" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="84b5-dbea-10be-d1da" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
-        <constraint id="45b4-cf36-85b8-cdfb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3" />
+        <constraint id="84b5-dbea-10be-d1da" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+        <constraint id="45b4-cf36-85b8-cdfb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
       </constraints>
       <selectionEntries>
         <selectionEntry name="Plague Wind" id="3c4f-cd14-626d-7218" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="b559-4ee5-56eb-1e5e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="6f5d-ed14-7bb7-3d6c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="b559-4ee5-56eb-1e5e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="6f5d-ed14-7bb7-3d6c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Plague Wind" id="eda6-4fdf-20bc-6a8c" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">2</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
                 <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Poisoned (4+), Large Blast, No effect on Vehicles.</characteristic>
@@ -3372,32 +3380,32 @@ containing the model that failed its test. If the Psyker survives Perils of the 
         </selectionEntry>
         <selectionEntry name="Putrescent Vitality" id="e028-d297-1d29-707d" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="4603-8fae-3838-7668" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="5aad-3c81-a831-6479" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="4603-8fae-3838-7668" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="5aad-3c81-a831-6479" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Putrescent Vitality" id="116c-4bd8-53d1-a538" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">The Psyker may choose to cast this psychic ability in either the movement or shooting phase instead of completing any other action in that phase. Target a single friendly unit with the Daemon of Nurgle special rule within 24". That unit adds +1 to their toughness characteristic. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the target unit instead gains +2 to their toughness characteristic. If the Check is failed then no additional benefit is gained and the Psyker suffers Perils of the Warp. Any effects applied by this power last until the beginning of the controlling player’s next turn.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">The Psyker may choose to cast this psychic ability in either the movement or shooting phase instead of completing any other action in that phase. Target a single friendly unit with the Daemon of Nurgle special rule within 24&quot;. That unit adds +1 to their toughness characteristic. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the target unit instead gains +2 to their toughness characteristic. If the Check is failed then no additional benefit is gained and the Psyker suffers Perils of the Warp. Any effects applied by this power last until the beginning of the controlling player’s next turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
         <selectionEntry name="Final Decomposition" id="72ae-4b5f-b572-c020" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="0eff-4cd2-4b76-53b7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
-            <constraint id="a5e9-db2b-480e-ce2b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
+            <constraint id="0eff-4cd2-4b76-53b7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="a5e9-db2b-480e-ce2b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Final Decomposition" id="cdf6-b01b-85e2-0a7d" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12"</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">12&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">*</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
                 <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Ignores Cover, Internal Liquifaction</characteristic>
@@ -3414,8 +3422,8 @@ containing the model that failed its test. If the Psyker survives Perils of the 
     </selectionEntryGroup>
     <selectionEntryGroup name="Daemonology (Summoning)" id="9ed2-99e8-d620-978f" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="96e8-cec8-4894-7c87" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
-        <constraint id="6db4-9736-9b70-d3af" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3" />
+        <constraint id="96e8-cec8-4894-7c87" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+        <constraint id="6db4-9736-9b70-d3af" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
       </constraints>
       <rules>
         <rule name="Daemonology (Summoning)" id="2d71-39f7-6cb2-8073" hidden="false">
@@ -3425,48 +3433,48 @@ containing the model that failed its test. If the Psyker survives Perils of the 
       <selectionEntries>
         <selectionEntry name="0-Summoning" id="48a5-f3a8-8299-824d" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="61ec-7321-a120-7907" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="3e18-dd59-b521-9af4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="61ec-7321-a120-7907" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="3e18-dd59-b521-9af4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Summoning" id="1671-f2b8-57bf-6c09" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">This psychic ability can only be cast if the selected psyker has not moved in the movement phase and costs three Warpstorm Points. This Psychic ability is cast in the shooting phase, instead of firing a weapon. Summoning is a conjuration with a range of 12" that creates one of the following units (your choice): 10 Bloodletters of Khorne, 10 Pink Horrors of Tzeentch, 10 Plaguebearers of Nurgle, 10 Daemonettes of Slaanesh, 5 Flesh Hounds of Khorne, 3 Flamers of Tzeentch, 3 Nurgling swarms or 5 Seekers of Slaanesh. When using this power, the controlling player take a Psychic check. If the Check passed, the conjuraction is summoned. If the check is failed, the summon was unsuccesful and the Psyker immediatly suffers Perils of the Warp.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">This psychic ability can only be cast if the selected psyker has not moved in the movement phase and costs three Warpstorm Points. This Psychic ability is cast in the shooting phase, instead of firing a weapon. Summoning is a conjuration with a range of 12&quot; that creates one of the following units (your choice): 10 Bloodletters of Khorne, 10 Pink Horrors of Tzeentch, 10 Plaguebearers of Nurgle, 10 Daemonettes of Slaanesh, 5 Flesh Hounds of Khorne, 3 Flamers of Tzeentch, 3 Nurgling swarms or 5 Seekers of Slaanesh. When using this power, the controlling player take a Psychic check. If the Check passed, the conjuraction is summoned. If the check is failed, the summon was unsuccesful and the Psyker immediatly suffers Perils of the Warp.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
         <selectionEntry name="Incursion" id="976c-7acb-04a7-c257" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="c01f-4204-46cb-cb0e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="867c-5823-b88a-b8aa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="c01f-4204-46cb-cb0e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="867c-5823-b88a-b8aa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Incursion" id="1278-22a1-2a67-22ac" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">This psychic ability can only be cast if the selected psyker has not moved in the movement phase. and costs four Warpstorm Points. This Psychic ability is cast in the shooting phase, instead of firing a weapon. Incursion is a conjuration with a range of 12" that creates one of the following units (your choice): 3 Bloodcrushers of Khorne, 3 Screamers of Tzeentch, 3 Plague Drones of Nurgle or 3 Fiends of Slaanesh.  When using this power, the controlling player must take a Psychic check. If the Check passed, the conjuraction is summoned. If the check is failed, the summon was unsuccesful and the Psyker immediatly suffers Perils of the Warp.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">This psychic ability can only be cast if the selected psyker has not moved in the movement phase. and costs four Warpstorm Points. This Psychic ability is cast in the shooting phase, instead of firing a weapon. Incursion is a conjuration with a range of 12&quot; that creates one of the following units (your choice): 3 Bloodcrushers of Khorne, 3 Screamers of Tzeentch, 3 Plague Drones of Nurgle or 3 Fiends of Slaanesh.  When using this power, the controlling player must take a Psychic check. If the Check passed, the conjuraction is summoned. If the check is failed, the summon was unsuccesful and the Psyker immediatly suffers Perils of the Warp.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
         <selectionEntry name="Possession" id="14ce-6def-cbdc-f036" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="88fd-c097-9fcc-d82a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="65b6-eb6f-8b54-3fea" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="88fd-c097-9fcc-d82a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="65b6-eb6f-8b54-3fea" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Possession" id="9635-4e8a-588c-242d" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">This psychic ability can only be cast if the selected psyker has not moved in the movement phase and costs six Warpstorm Points. This Psychic ability is cast in the shooting phase, instead of firing a weapon. The selected Psyker attempts to conjure a Greater Daemon from it's selected Pantheon (Nurgle, Slaanesh, Khorne, Tzeentch). When using this power, the controlling player must take a Psychic check. If the Check is passed than Greater Daemon is succesfully summoned within 6" of the casting model's position and the caster is removed from play. If the check is failed, the Psyker is immedietly removed from play with no saves of any kind allowed, having been unable to contain the Greater Daemons power.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">This psychic ability can only be cast if the selected psyker has not moved in the movement phase and costs six Warpstorm Points. This Psychic ability is cast in the shooting phase, instead of firing a weapon. The selected Psyker attempts to conjure a Greater Daemon from it&apos;s selected Pantheon (Nurgle, Slaanesh, Khorne, Tzeentch). When using this power, the controlling player must take a Psychic check. If the Check is passed than Greater Daemon is succesfully summoned within 6&quot; of the casting model&apos;s position and the caster is removed from play. If the check is failed, the Psyker is immedietly removed from play with no saves of any kind allowed, having been unable to contain the Greater Daemons power.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3475,22 +3483,22 @@ containing the model that failed its test. If the Psyker survives Perils of the 
     </selectionEntryGroup>
     <selectionEntryGroup name="Pyromancy" id="9cde-c840-2f53-e2d5" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="1264-48a4-9905-f43e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
-        <constraint id="3832-eee3-cffe-434b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3" />
+        <constraint id="1264-48a4-9905-f43e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+        <constraint id="3832-eee3-cffe-434b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
       </constraints>
       <selectionEntries>
         <selectionEntry name="Aetheric Lightning" id="334e-9810-2837-7444" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="8568-2689-b2f2-f5ac" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="e560-5005-2c1a-3827" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="8568-2689-b2f2-f5ac" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="e560-5005-2c1a-3827" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Aetheric Lightning" id="1e1c-2274-5457-0198" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
                 <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Force</characteristic>
@@ -3506,8 +3514,8 @@ containing the model that failed its test. If the Psyker survives Perils of the 
         </selectionEntry>
         <selectionEntry name="Pyromantic Desolation" id="24b1-e8bd-f908-0d35" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="91db-7e69-a46a-5906" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="a2f3-e44b-1288-35f8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="91db-7e69-a46a-5906" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="a2f3-e44b-1288-35f8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <profiles>
             <profile name="Pyromantic Desolation" id="ec48-f6df-b68b-b82f" hidden="false" typeId="8102-1874-edb1-4860" typeName="Psychic Weapon">
@@ -3522,13 +3530,13 @@ containing the model that failed its test. If the Psyker survives Perils of the 
         </selectionEntry>
         <selectionEntry name="Pyromantic Combustion" id="c5f0-2274-8893-c6ae" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="ce42-17fb-f07c-e55f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="f2d6-c87b-44d6-9e54" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="ce42-17fb-f07c-e55f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="f2d6-c87b-44d6-9e54" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <profiles>
             <profile name="Pyromantic Combustion" id="7faa-4111-1e7e-c1ea" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of making a Shooting Attack, a Psyker with this Psychic Power can place a Large Blast (5") marker anywhere on the battlefield that is entirely within 18" and within line of sight of the Psyker. Once placed, scatter the marker D6" to determine its final position and then leave it in place until the beginning of the controlling player’s next Shooting phase. The area under the marker counts as Difficult Terrain and any model, friendly or enemy, under the marker’s final position, or that moves onto or through the marker, suffers a Strength 6, AP 4 Hit. When using this Psychic Power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the Psyker’s controlling player may place and scatter up to three Large Blast (5") markers instead of just one. Any model under more than one Blast marker placed using this Psychic Power suffers 1 Hit for each Blast marker it is under. If the Check is failed then the power fails completely, no markers are placed and the Psyker suffers Perils of the Warp.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of making a Shooting Attack, a Psyker with this Psychic Power can place a Large Blast (5&quot;) marker anywhere on the battlefield that is entirely within 18&quot; and within line of sight of the Psyker. Once placed, scatter the marker D6&quot; to determine its final position and then leave it in place until the beginning of the controlling player’s next Shooting phase. The area under the marker counts as Difficult Terrain and any model, friendly or enemy, under the marker’s final position, or that moves onto or through the marker, suffers a Strength 6, AP 4 Hit. When using this Psychic Power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the Psyker’s controlling player may place and scatter up to three Large Blast (5&quot;) markers instead of just one. Any model under more than one Blast marker placed using this Psychic Power suffers 1 Hit for each Blast marker it is under. If the Check is failed then the power fails completely, no markers are placed and the Psyker suffers Perils of the Warp.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3537,22 +3545,22 @@ containing the model that failed its test. If the Psyker survives Perils of the 
     </selectionEntryGroup>
     <selectionEntryGroup name="Telepathy" id="9f4a-8f38-08b0-a669" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="f1c7-97fc-f21a-8554" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
-        <constraint id="435e-333d-14a1-181d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3" />
+        <constraint id="f1c7-97fc-f21a-8554" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+        <constraint id="435e-333d-14a1-181d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
       </constraints>
       <selectionEntries>
         <selectionEntry name="Aetheric Lightning" id="04cf-2351-0a0b-a8c4" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="e2df-72cd-1e07-e33e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="5ebf-0f9f-6370-341d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="e2df-72cd-1e07-e33e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="5ebf-0f9f-6370-341d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Aetheric Lightning" id="76ac-3ec4-0b91-4992" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
                 <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Force</characteristic>
@@ -3568,26 +3576,26 @@ containing the model that failed its test. If the Psyker survives Perils of the 
         </selectionEntry>
         <selectionEntry name="Telepathic Fugue" id="59ad-82a0-b444-491a" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="5b2a-7279-eb4d-d096" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="6939-7945-ca22-5a9a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="5b2a-7279-eb4d-d096" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="6939-7945-ca22-5a9a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <profiles>
             <profile name="Telepathic Fugue" id="ebc7-30b3-7e49-5210" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Once per turn, at the start of any Phase, the Psyker with this Psychic Power’s controlling player may select a single enemy unit within 24" and line of sight of the Psyker and take a Psychic check. If that Check is passed then the target unit may not make any Overwatch or Return Fire actions for until the end of the turn. If the Check is failed then the Psyker suffers Perils of the Warp.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Once per turn, at the start of any Phase, the Psyker with this Psychic Power’s controlling player may select a single enemy unit within 24&quot; and line of sight of the Psyker and take a Psychic check. If that Check is passed then the target unit may not make any Overwatch or Return Fire actions for until the end of the turn. If the Check is failed then the Psyker suffers Perils of the Warp.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
         <selectionEntry name="Telepathic Hallucinations" id="4b2b-500a-f532-906e" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="a4b7-b189-a475-5e9b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="bcd8-2c35-1edc-830b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="a4b7-b189-a475-5e9b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="bcd8-2c35-1edc-830b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <profiles>
             <profile name="Telepathic Hallucinations" id="a589-be25-b2d9-dfe0" hidden="false" typeId="8102-1874-edb1-4860" typeName="Psychic Weapon">
               <characteristics>
-                <characteristic name="Type" typeId="cff3-dee8-de48-e5f8">Ranged (36")</characteristic>
+                <characteristic name="Type" typeId="cff3-dee8-de48-e5f8">Ranged (36&quot;)</characteristic>
                 <characteristic name="AP" typeId="b200-d274-a6c8-1dbd">-</characteristic>
                 <characteristic name="S" typeId="38b9-aa50-1a98-e7ff">-</characteristic>
                 <characteristic name="Effect" typeId="0ab5-732c-2c6c-c62a">Assault 6, Hallucinations, Psychic Focus</characteristic>
@@ -3601,54 +3609,54 @@ containing the model that failed its test. If the Psyker survives Perils of the 
       <selectionEntries>
         <selectionEntry name="0-Sensory Overload (Add Blind&amp;Pinning)" id="40bd-7f6c-8e75-de4a" collective="false" hidden="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Concussive" id="dd38-36bf-fdfb-5668" hidden="false" targetId="f3f1-f153-dabd-995f" type="rule" />
+            <infoLink name="Concussive" id="dd38-36bf-fdfb-5668" hidden="false" targetId="f3f1-f153-dabd-995f" type="rule"/>
           </infoLinks>
           <profiles>
             <profile name="0-Sensory Overload" id="c683-6827-9dfb-f98a" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62" />
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62"/>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
         <selectionEntry name="1-2-Hysterical Frenzy" id="1873-38cf-772a-91e4" collective="false" hidden="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry name="3-4. Symphony of Pain" id="28c9-f2ae-4072-c881" collective="false" hidden="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry name="5-6.Ecstatic Seizures" id="0ae0-2e98-9f41-9356" collective="false" hidden="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Divination" id="7ea5-9df4-33f4-83c3" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="f92b-145e-8081-2f7b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
-        <constraint id="f37f-6505-d819-be52" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3" />
+        <constraint id="f92b-145e-8081-2f7b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+        <constraint id="f37f-6505-d819-be52" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
       </constraints>
       <selectionEntries>
         <selectionEntry name="Aetheric Lightning" id="3c6c-0379-0fa2-25d2" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="c4fd-9859-f29a-5e7f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="37cd-dc20-9b45-81c8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="c4fd-9859-f29a-5e7f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="37cd-dc20-9b45-81c8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Aetheric Lightning" id="5ee7-43cf-9f04-bb26" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
                 <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Force</characteristic>
@@ -3664,32 +3672,32 @@ containing the model that failed its test. If the Psyker survives Perils of the 
         </selectionEntry>
         <selectionEntry name="Divinatory Aegis" id="ebd1-adb0-8bd6-a2cd" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="267c-dfc5-a53c-026f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="9789-1676-fca4-50de" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="267c-dfc5-a53c-026f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="9789-1676-fca4-50de" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Divinatory Aegis" id="70d4-e2a9-0965-5e5f" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit within 12". The target unit gains the Precision Strikes (6+) and Precision Shots (6+) special rules for the duration of the current player turn. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the target unit instead gains the Precision Strikes (5+) and Precision Shots (5+) special rules for the duration of the current player turn. If the Check is failed then no additional benefit is gained and the Psyker suffers Perils of the Warp. Any effects applied by this power last until the beginning of the controlling player’s next turn.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit within 12&quot;. The target unit gains the Precision Strikes (6+) and Precision Shots (6+) special rules for the duration of the current player turn. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the target unit instead gains the Precision Strikes (5+) and Precision Shots (5+) special rules for the duration of the current player turn. If the Check is failed then no additional benefit is gained and the Psyker suffers Perils of the Warp. Any effects applied by this power last until the beginning of the controlling player’s next turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Diviner's Dart" id="6bf8-7592-8f36-1ecb" collective="false" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Diviner&apos;s Dart" id="6bf8-7592-8f36-1ecb" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="3730-8e25-c6eb-3556" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="113f-3135-8dec-f832" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3730-8e25-c6eb-3556" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="113f-3135-8dec-f832" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
-            <profile name="Diviner's Dart" id="82ce-adca-64cf-406e" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+            <profile name="Diviner&apos;s Dart" id="82ce-adca-64cf-406e" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">6</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
                 <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Sniper, Guided Fire, Psychic Focus</characteristic>
@@ -3701,22 +3709,22 @@ containing the model that failed its test. If the Psyker survives Perils of the 
     </selectionEntryGroup>
     <selectionEntryGroup name="Telekinesis" id="0185-eb3b-e34b-a776" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="b78c-9252-005d-fd35" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
-        <constraint id="adc6-2114-7580-cd6f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3" />
+        <constraint id="b78c-9252-005d-fd35" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+        <constraint id="adc6-2114-7580-cd6f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
       </constraints>
       <selectionEntries>
         <selectionEntry name="Aetheric Lightning" id="2ba9-fafa-bd59-04f8" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="bda7-f7a1-a7e1-acd0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="b216-4ee9-a280-9dab" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="bda7-f7a1-a7e1-acd0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="b216-4ee9-a280-9dab" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Aetheric Lightning" id="85df-88e7-d636-d308" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">3</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
                 <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 4, Force</characteristic>
@@ -3730,37 +3738,37 @@ containing the model that failed its test. If the Psyker survives Perils of the 
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Telekine's Focus" id="2d16-d899-018f-a3ef" collective="false" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Telekine&apos;s Focus" id="2d16-d899-018f-a3ef" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="072d-ec47-7190-daa7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="b89a-c633-c3ae-e8af" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="072d-ec47-7190-daa7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="b89a-c633-c3ae-e8af" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
-            <profile name="Telekine's Focus" id="ff41-2a6a-55c1-3e83" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
+            <profile name="Telekine&apos;s Focus" id="ff41-2a6a-55c1-3e83" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24"</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">24&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">4</characteristic>
-                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sunder, Blast (3"), Psychic Focus</characteristic>
+                <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Heavy 1, Sunder, Blast (3&quot;), Psychic Focus</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
         <selectionEntry name="Telekine Dome" id="3666-a3aa-d1ce-2256" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="d7a1-1fba-62fa-52ff" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="ed03-4956-b275-c5ad" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="d7a1-1fba-62fa-52ff" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="ed03-4956-b275-c5ad" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Telekine Dome" id="d706-134d-d6ef-917d" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. All models, friendly and enemy, that are within 8"of the Psyker gain a 6+ Invulnerable Save when targeted by any model that is not also within 8" of the Psyker. If the Psyker moves, makes a Shooting Attack, Charges or is successfully Charged by an enemy unit, then the Psychic Power ends, otherwise it remains in effect indefinitely. When initially using the Psychic Power, or at the start of any of the controlling player’s subsequent Movement phase while it is in effect, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then models affected by this Psychic Power gain a 4+ Invulnerable Save insteadof a 6+ Invulnerable Save. If the Check is failed then the Psyker suffers Perils of the Warp and the Psychic Power immediately ends.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. All models, friendly and enemy, that are within 8&quot;of the Psyker gain a 6+ Invulnerable Save when targeted by any model that is not also within 8&quot; of the Psyker. If the Psyker moves, makes a Shooting Attack, Charges or is successfully Charged by an enemy unit, then the Psychic Power ends, otherwise it remains in effect indefinitely. When initially using the Psychic Power, or at the start of any of the controlling player’s subsequent Movement phase while it is in effect, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then models affected by this Psychic Power gain a 4+ Invulnerable Save insteadof a 6+ Invulnerable Save. If the Check is failed then the Psyker suffers Perils of the Warp and the Psychic Power immediately ends.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3769,20 +3777,20 @@ containing the model that failed its test. If the Psyker survives Perils of the 
     </selectionEntryGroup>
     <selectionEntryGroup name="Tempestas" id="823b-4583-d190-9ad4" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="ffb9-3b38-6c7c-2dab" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
-        <constraint id="4d43-dced-4cd5-df94" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3" />
+        <constraint id="ffb9-3b38-6c7c-2dab" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+        <constraint id="4d43-dced-4cd5-df94" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
       </constraints>
       <selectionEntries>
         <selectionEntry name="Storm Caller" id="0074-1d2b-0dd1-3558" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="3083-5872-6c71-80bd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="cba5-38be-183f-8d69" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="3083-5872-6c71-80bd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="cba5-38be-183f-8d69" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Shrouded" id="106e-cdf0-5233-e79c" hidden="false" targetId="a1b0-d78d-3830-c26f" type="rule" />
+            <infoLink name="Shrouded" id="106e-cdf0-5233-e79c" hidden="false" targetId="a1b0-d78d-3830-c26f" type="rule"/>
           </infoLinks>
           <profiles>
             <profile name="Storm Caller" id="27d6-0b8e-b44c-9b68" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
@@ -3794,15 +3802,15 @@ containing the model that failed its test. If the Psyker survives Perils of the 
         </selectionEntry>
         <selectionEntry name="Jaws of the World Wolf" id="91d1-23ae-c99b-1bfc" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="9241-6229-69f0-e5bb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="a213-b70f-bec4-9563" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="9241-6229-69f0-e5bb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="a213-b70f-bec4-9563" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Psychic Focus" id="fc8f-5f0d-6657-6351" hidden="false" targetId="6825-f0c9-1ea7-42a1" type="rule" />
-            <infoLink name="Instant Death" id="aea8-e146-9482-4883" hidden="false" targetId="e503-b27c-8c99-fa84" type="rule" />
+            <infoLink name="Psychic Focus" id="fc8f-5f0d-6657-6351" hidden="false" targetId="6825-f0c9-1ea7-42a1" type="rule"/>
+            <infoLink name="Instant Death" id="aea8-e146-9482-4883" hidden="false" targetId="e503-b27c-8c99-fa84" type="rule"/>
           </infoLinks>
           <profiles>
             <profile name="Jaws of the World Wolf" id="6313-1fe0-079e-212f" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
@@ -3817,33 +3825,33 @@ containing the model that failed its test. If the Psyker survives Perils of the 
         </selectionEntry>
         <selectionEntry name="The Wolf Spirits" id="ab89-0d6f-ccc0-f64b" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="37ae-abd6-91ac-9ea3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="3106-b76d-88fd-0dcd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="37ae-abd6-91ac-9ea3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="3106-b76d-88fd-0dcd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="The Wolf Spirits" id="007c-ac46-6f28-dcc6" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. The psyker must make a Psychic Focus check, if succesful, the Psyker summons two Fenrisian Wolves, attached to the Psyker's unit up to a maximum of four. Fenrisian Wolves summoned in this manner have a 5+ Invulnurable save.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. The psyker must make a Psychic Focus check, if succesful, the Psyker summons two Fenrisian Wolves, attached to the Psyker&apos;s unit up to a maximum of four. Fenrisian Wolves summoned in this manner have a 5+ Invulnurable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <selectionEntries>
             <selectionEntry name="Fenrisian Wolf Spirit" id="0c3b-3ab7-f999-3a9e" collective="false" hidden="false" import="true" type="model">
               <constraints>
-                <constraint id="459a-d759-80e9-a0a8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-                <constraint id="e971-6d7c-072d-fb14" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+                <constraint id="459a-d759-80e9-a0a8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="e971-6d7c-072d-fb14" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+                <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
               </costs>
               <profiles>
                 <profile name="Fenrisian Wolf Spirit" id="9d53-e6dc-db66-79d8" hidden="false" typeId="35bb-3fdd-dd9d-1fc8" typeName="Unit">
                   <characteristics>
                     <characteristic name="Unit Type" typeId="2ba2-3a82-dfb7-7849">Beast</characteristic>
-                    <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12"</characteristic>
+                    <characteristic name="M" typeId="e8fa-a6b3-0e8c-18aa">12&quot;</characteristic>
                     <characteristic name="WS" typeId="9660-0df5-9c5d-3604">4</characteristic>
                     <characteristic name="BS" typeId="565d-bf36-9e7e-29b5">-</characteristic>
                     <characteristic name="S" typeId="23ae-6026-aebd-abc3">4</characteristic>
@@ -3853,7 +3861,7 @@ containing the model that failed its test. If the Psyker survives Perils of the 
                     <characteristic name="A" typeId="d535-b745-b613-a7ab">2</characteristic>
                     <characteristic name="Ld" typeId="3b5e-ab67-ed36-a88f">5</characteristic>
                     <characteristic name="Save" typeId="d33e-1fdc-0c00-8cb8">5++</characteristic>
-                    <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75" />
+                    <characteristic name="Special Rules" typeId="3df9-f556-8725-fe75"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3864,57 +3872,57 @@ containing the model that failed its test. If the Psyker survives Perils of the 
     </selectionEntryGroup>
     <selectionEntryGroup name="Sanguinary" id="c41d-c744-36d1-7f1e" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="344e-8d62-6f35-72b9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3" />
-        <constraint id="1f5c-bd23-2aad-da7b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3" />
+        <constraint id="344e-8d62-6f35-72b9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+        <constraint id="1f5c-bd23-2aad-da7b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
       </constraints>
       <selectionEntries>
         <selectionEntry name="Wings of Sanguinius" id="4795-3c7b-cb72-8140" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="0243-609b-14ca-4b04" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="c624-0ab1-c06c-53bf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="0243-609b-14ca-4b04" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="c624-0ab1-c06c-53bf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Wings of Sanguinius" id="67ba-5cb7-715f-37be" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Cast this Psychic Ability in your Movement Phase. The Psyker gains +6 to its Movement characteristic and may ignore terrain whilst moving and charging until the end of this phase. The psyker may choose to make a Psychic Focus check, if succesful they may increase their movement by a further 6". If the check is failed, the Psyker instead immediatly suffers Perils of the Warp.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Cast this Psychic Ability in your Movement Phase. The Psyker gains +6 to its Movement characteristic and may ignore terrain whilst moving and charging until the end of this phase. The psyker may choose to make a Psychic Focus check, if succesful they may increase their movement by a further 6&quot;. If the check is failed, the Psyker instead immediatly suffers Perils of the Warp.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
         <selectionEntry name="Unleash Rage" id="7faf-a9fd-9997-3079" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="a3f1-49fb-81ec-1dd5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="73a8-c153-49f1-8310" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="a3f1-49fb-81ec-1dd5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="73a8-c153-49f1-8310" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Rage" id="b987-a7ae-58c2-c26b" hidden="false" targetId="8c0c-8856-f1ab-923d" type="rule" />
+            <infoLink name="Rage" id="b987-a7ae-58c2-c26b" hidden="false" targetId="8c0c-8856-f1ab-923d" type="rule"/>
           </infoLinks>
           <profiles>
             <profile name="Unleash Rage" id="a660-8f1a-d22b-44c3" hidden="false" typeId="479e-e1a8-1cd4-f3be" typeName="Psychic Ability">
               <characteristics>
-                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. Target a single friendly unit within 12", that unit gains the Rage (1) special rule for the duration of the current player turn. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the target unit instead gains the Rage (2)  special rule for the duration of the current player turn. If the Check is failed then no additional benefit is gained and the Psyker suffers Perils of the Warp. Any effects applied by this power last until the beginning of the controlling player’s next turn.</characteristic>
+                <characteristic name="Effect" typeId="e234-f7ad-e292-5d62">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. Target a single friendly unit within 12&quot;, that unit gains the Rage (1) special rule for the duration of the current player turn. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the target unit instead gains the Rage (2)  special rule for the duration of the current player turn. If the Check is failed then no additional benefit is gained and the Psyker suffers Perils of the Warp. Any effects applied by this power last until the beginning of the controlling player’s next turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
         <selectionEntry name="Blood Lance" id="8329-78f0-d6f8-ccaa" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="de4b-b5fb-ecbf-dbf2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1" />
-            <constraint id="fea5-f0f3-238c-09f9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1" />
+            <constraint id="de4b-b5fb-ecbf-dbf2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="fea5-f0f3-238c-09f9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0" />
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
           </costs>
           <profiles>
             <profile name="Blood Lance" id="abd4-f6b8-da4a-94cc" hidden="false" typeId="66fe-f217-d00c-847a" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18"</characteristic>
+                <characteristic name="Range" typeId="1fc0-83ca-e978-5a16">18&quot;</characteristic>
                 <characteristic name="Strength" typeId="cb5e-ad7f-f63b-41cd">8</characteristic>
                 <characteristic name="AP" typeId="1544-3a5e-d421-edf9">2</characteristic>
                 <characteristic name="Type" typeId="79ff-eaa1-5809-53f3">Assault 1, Sunder</characteristic>
@@ -3926,16 +3934,77 @@ containing the model that failed its test. If the Psyker survives Perils of the 
     </selectionEntryGroup>
     <selectionEntryGroup name="Astartes Psychic Disciplines" id="pri-shared-astartes-disciplines" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="pri-shared-astartes-disciplines-max" field="selections" scope="parent" shared="true" type="max" value="2" includeChildForces="false" includeChildSelections="false" percentValue="false" />
+        <constraint id="pri-shared-astartes-disciplines-max" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="pri-shared-astartes-disciplines-min" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
       </constraints>
-      <entryLinks>
-        <entryLink name="Biomancy" id="pri-shared-disciplines-biomancy" hidden="false" import="true" targetId="840e-c496-0441-ba25" type="selectionEntryGroup" />
-        <entryLink name="Divination" id="pri-shared-disciplines-divination" hidden="false" import="true" targetId="7ea5-9df4-33f4-83c3" type="selectionEntryGroup" />
-        <entryLink name="Pyromancy" id="pri-shared-disciplines-pyromancy" hidden="false" import="true" targetId="9cde-c840-2f53-e2d5" type="selectionEntryGroup" />
-        <entryLink name="Sanctus" id="pri-shared-disciplines-sanctus" hidden="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup" />
-        <entryLink name="Telekinesis" id="pri-shared-disciplines-telekinesis" hidden="false" import="true" targetId="0185-eb3b-e34b-a776" type="selectionEntryGroup" />
-        <entryLink name="Telepathy" id="pri-shared-disciplines-telepathy" hidden="false" import="true" targetId="9f4a-8f38-08b0-a669" type="selectionEntryGroup" />
-      </entryLinks>
+      <selectionEntries>
+        <selectionEntry name="Biomancy" id="pri-shared-disciplines-biomancy" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="pri-shared-disciplines-biomancy-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Biomancy" id="pri-shared-disciplines-biomancy-powers" hidden="false" import="true" targetId="840e-c496-0441-ba25" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry name="Divination" id="pri-shared-disciplines-divination" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="pri-shared-disciplines-divination-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Divination" id="pri-shared-disciplines-divination-powers" hidden="false" import="true" targetId="7ea5-9df4-33f4-83c3" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry name="Pyromancy" id="pri-shared-disciplines-pyromancy" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="pri-shared-disciplines-pyromancy-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Pyromancy" id="pri-shared-disciplines-pyromancy-powers" hidden="false" import="true" targetId="9cde-c840-2f53-e2d5" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry name="Sanctus" id="pri-shared-disciplines-sanctus" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="pri-shared-disciplines-sanctus-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Sanctus" id="pri-shared-disciplines-sanctus-powers" hidden="false" import="true" targetId="be72-9e20-115e-68d8" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry name="Telekinesis" id="pri-shared-disciplines-telekinesis" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="pri-shared-disciplines-telekinesis-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Telekinesis" id="pri-shared-disciplines-telekinesis-powers" hidden="false" import="true" targetId="0185-eb3b-e34b-a776" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry name="Telepathy" id="pri-shared-disciplines-telepathy" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="pri-shared-disciplines-telepathy-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="e7de-8dcf-403a-b76a" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Telepathy" id="pri-shared-disciplines-telepathy-powers" hidden="false" import="true" targetId="9f4a-8f38-08b0-a669" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </gameSystem>

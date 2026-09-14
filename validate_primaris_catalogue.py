@@ -167,6 +167,6 @@ for uid in ('pri-apothecary', 'pri-judiciar'):
 assert not [p for p in children(cat, './/b:profile') if p.get('name') in ('Multi-melta','Absolvor Bolt Pistol','Absolver Bolt Pistol')]
 print('PASS: roster-wide raw-unit-rule check; Eradicator and two HQ pistols use shared profiles.')
 for link in children(cat, './b:entryLinks/b:entryLink'):
-    if link.get('targetId') != 'e860-840e-d08e-9589':
+    if link.get('targetId') != 'e860-840e-d08e-9589' and (link.get('name') or '').strip() != 'Formations':
         assert nodes[link.get('targetId')].get('type') == 'unit', f'Root roster entry not a unit: {link.get("name")}'
-print(f'PASS: all {len(children(cat, "./b:entryLinks/b:entryLink"))-1} root roster choices classified as units; Chapter remains an upgrade.')
+print('PASS: root unit choices classified as units; Chapter and user-authored Formations selectors retained.')
